@@ -1,0 +1,177 @@
+﻿<Page x:Class="ALegal.Usuario"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+         xmlns:gl="clr-namespace:System.Globalization;assembly=mscorlib"
+        xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d"
+	Title=""  Width="auto" Loaded="MetroWindow_Loaded">
+
+
+    <GroupBox Grid.Row="0" Header="Retales" Margin="0" Height="auto">
+        <GroupBox.HeaderTemplate>
+            <DataTemplate>
+                <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                    <Label Content="Usuarios" Foreground="White" FontWeight="Bold" FontSize="16" Margin="5,0"
+                               HorizontalAlignment="Left" VerticalContentAlignment="Center"/>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                        
+
+                    </StackPanel>
+                </Grid>
+
+            </DataTemplate>
+        </GroupBox.HeaderTemplate>
+        <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+            <Grid Margin="0,0,0,0" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Height="auto">
+                
+                <Label Content="*Cédula:" HorizontalAlignment="Left" Margin="15,21,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="26" Width="56"/>
+                <ComboBox x:Name="cmbNac" HorizontalAlignment="Left" Margin="78,21,0,0" VerticalAlignment="Top" Width="56" LostFocus="cmbNac_LostFocus"/>
+                <TextBox x:Name="txtCedUsr" HorizontalAlignment="Left" Height="26" Margin="134,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143" LostFocus="txtCedUsr_LostFocus"/>
+
+                <Label Content="*Nombre:" Margin="372,21,713,0" VerticalAlignment="Top" FontWeight="Bold" Height="26"/>
+                <TextBox x:Name="txtNomUsr" HorizontalAlignment="Left" Height="26" Margin="437,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="184"/>
+
+                <Label Content="Apellido:" Margin="644,18,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="26" HorizontalAlignment="Left" Width="60"/>
+                <TextBox x:Name="txtApeUsr" HorizontalAlignment="Left" Height="26" Margin="709,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="153"/>
+
+                <Label Content="E-mail:" Margin="906,17,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="26" HorizontalAlignment="Left" Width="54"/>
+                <TextBox x:Name="txtEmailUsr" HorizontalAlignment="Left" Height="26" Margin="960,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="167"/>
+
+                <Label Content="*Perfil:" Margin="24,68,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="24" HorizontalAlignment="Left" Width="49"/>
+                <ComboBox x:Name="cmbPerfilUsr" HorizontalAlignment="Left" Margin="78,68,0,0" VerticalAlignment="Top" Width="275"/>
+
+                <Label Content="*Login:" Margin="382,68,718,0" VerticalAlignment="Top" FontWeight="Bold" Height="26" RenderTransformOrigin="1.957,0.5"/>
+                <TextBox x:Name="txtLgnUsr" HorizontalAlignment="Left" Height="26" Margin="437,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="184" LostFocus="txtLgnUsr_LostFocus"/>
+
+                <Label Content="*Clave:" Margin="655,68,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="26" HorizontalAlignment="Left" Width="54"/>
+                <PasswordBox x:Name="txtClvUsr" HorizontalAlignment="Left" Height="26" Margin="709,68,0,0"  VerticalAlignment="Top" Width="153"/>
+
+                <Label Content="*Rep. Clave:" Margin="877,68,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="26" HorizontalAlignment="Left" Width="78"/>
+                <PasswordBox x:Name="txtClv2Usr" HorizontalAlignment="Left" Height="26" Margin="960,68,0,0"  VerticalAlignment="Top" Width="167"/>
+
+                <Label Content="Búsqueda:" HorizontalAlignment="Left" Margin="5,207,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="26" Width="68" RenderTransformOrigin="0.484,0.462"/>
+                <TextBox x:Name="txtBsqUsu" HorizontalAlignment="Left" Height="26" Margin="78,207,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" KeyUp="txtBsqUsu_KeyUp"/>
+
+
+                <Label Content="*Estatus:" Margin="15,116,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="24" HorizontalAlignment="Left" Width="63" RenderTransformOrigin="0.8,0.583"/>
+                <ComboBox x:Name="cmbEst" HorizontalAlignment="Left" Margin="78,116,0,0" VerticalAlignment="Top" Width="102"/>
+
+
+                <Button ToolTip="Guardar" x:Name="btnGuardaUsr" Content="" HorizontalAlignment="Left" Margin="1050,134,0,0" VerticalAlignment="Top" Width="51" Height="45" Grid.Column="0" RenderTransformOrigin="0.5,0.76" Click="btnGuardaUsr_Click">
+                    <Button.Background>
+                        <ImageBrush ImageSource="Images/1353183085_save.png" Stretch="Uniform"/>
+                    </Button.Background>
+                </Button>
+
+                <Button ToolTip="Nuevo" x:Name="btnNuevoUsr" Content="" HorizontalAlignment="Left" Margin="980,134,0,0" VerticalAlignment="Top" Width="55" Height="45" Grid.Column="0" RenderTransformOrigin="0.5,0.76" Click="btnNuevoUsr_Click">
+                    <Button.Background>
+                        <ImageBrush ImageSource="Images/add.png" Stretch="Uniform"/>
+                    </Button.Background>
+                </Button>
+
+
+                <DataGrid x:Name="dtgUsr" HorizontalAlignment="Left" Margin="10,253,0,0" VerticalAlignment="Top" Width="1132" Height="243" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" MouseDoubleClick="dtgUsr_MouseDoubleClick">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Visibility="Hidden" Binding="{Binding id, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="id">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+
+                        <DataGridTextColumn Visibility="Hidden" Binding="{Binding idnivel, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="idperfil">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+
+                        <DataGridTextColumn Visibility="Hidden" Binding="{Binding idestatus, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="idestatus">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+
+                        <DataGridTextColumn Visibility="Hidden" Binding="{Binding clave, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="clave">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+
+
+
+                        <DataGridTextColumn Width="120" Binding="{Binding cedula, Mode=TwoWay}"  CanUserResize="False" IsReadOnly="True" Header="Cédula">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+
+                        <DataGridTextColumn Width="180" Binding="{Binding nombres, Mode=TwoWay}"  CanUserResize="False" IsReadOnly="True" Header="Nombre">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn Width="180" Binding="{Binding apellidos, Mode=TwoWay}"  CanUserResize="False" IsReadOnly="True" Header="Apellido">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn Width="230" Binding="{Binding email, Mode=TwoWay}"  CanUserResize="False" IsReadOnly="True" Header="e-mail">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+
+                        <DataGridTextColumn Width="120" Binding="{Binding login, Mode=TwoWay}"  CanUserResize="False" IsReadOnly="True" Header="LOgin">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn Width="150" Binding="{Binding strnivel, Mode=TwoWay}"  CanUserResize="False" IsReadOnly="True" Header="perfil">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn Binding="{Binding strestatus, Mode=TwoWay}"  CanUserResize="False" IsReadOnly="True" Header="Estatus">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+                
+                
+            </Grid>
+        </ScrollViewer>
+
+
+
+
+    </GroupBox>
+
+
+
+
+
+</Page>

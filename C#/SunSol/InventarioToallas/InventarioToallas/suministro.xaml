@@ -1,0 +1,150 @@
+﻿<Page x:Class="InventarioToallas.suministro"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:gl="clr-namespace:System.Globalization;assembly=mscorlib"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+     xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+      mc:Ignorable="d"
+	Title="Suministros" Width="auto" Height="auto" Loaded="Page_Loaded" d:DesignHeight="550">
+
+    <Grid Margin="0,0,0,42">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="405*"/>
+            <RowDefinition Height="13*"/>
+        </Grid.RowDefinitions>
+
+        <GroupBox Grid.Row="0" Header="Retales" Margin="0,-5,10,14">
+            <GroupBox.HeaderTemplate>
+                <DataTemplate>
+                    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="36">
+                        <Label Content="Suministros" Foreground="White" FontWeight="Bold" FontSize="16" Margin="5,0,0,0"
+                			HorizontalAlignment="Left" VerticalContentAlignment="Center"/>
+                    </Grid>
+
+                </DataTemplate>
+            </GroupBox.HeaderTemplate>
+        </GroupBox>
+        <Grid Margin="27,10,-3,-25" HorizontalAlignment="Left" Width="501" Grid.RowSpan="2">
+            <Button Cursor="Hand" Name="BtnNvSum" BorderBrush="Green"  Style="{StaticResource AccentedSquareButtonStyle}" Margin="0,40,0,0" Click="BtnNvSum_Click" HorizontalAlignment="Left" Width="48" Height="48" VerticalAlignment="Top" ToolTip="Nuevo Suministro">
+                <Button.Background>
+                    <ImageBrush ImageSource="imagenes/nuevo.png" Stretch="None"/>
+                </Button.Background>
+            </Button>
+            <TextBox x:Name="txtBuscarSum" Margin="73,50,0,0" Height="38"
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Buscar"
+            			IsEnabled="true" Text="" FontSize="11" Width="150" HorizontalAlignment="Left" VerticalAlignment="Top" KeyUp="txtBuscarSum_KeyUp"/>
+            <DataGrid Margin="0,90,34,163" x:Name="dtgrdsum"  ItemsSource="{Binding}" AutoGenerateColumns="false" AlternationCount="1" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserAddRows="False" CanUserResizeRows="False" CanUserSortColumns="False" ToolTip="Doble click para modificar un suministro" HorizontalScrollBarVisibility="Disabled" HorizontalContentAlignment="Center" MouseDoubleClick="dtgrdsum_MouseDoubleClick" ScrollViewer.CanContentScroll="True" 
+      ScrollViewer.VerticalScrollBarVisibility="Auto"
+      ScrollViewer.HorizontalScrollBarVisibility="Auto">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding Mode=OneWay,Path=descripcion}"  CanUserResize="False" IsReadOnly="True" Header="Nombre">
+                        <DataGridTextColumn.CellStyle>
+                            <Style>
+                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                            </Style>
+                        </DataGridTextColumn.CellStyle>
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Binding="{Binding Mode=OneWay,Path=observacion}"  CanUserResize="False" IsReadOnly="True" Header="Observación">
+                        <DataGridTextColumn.CellStyle>
+                            <Style>
+                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                            </Style>
+                        </DataGridTextColumn.CellStyle>
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Binding="{Binding Mode=OneWay,Path=cantidad}"  CanUserResize="False" IsReadOnly="True" Header="Cantidad por Hab.">
+                        <DataGridTextColumn.CellStyle>
+                            <Style>
+                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                            </Style>
+                        </DataGridTextColumn.CellStyle>
+                    </DataGridTextColumn>
+
+                    <DataGridTextColumn Visibility="Hidden" Binding="{Binding Mode=OneWay,Path=idSuministro}"  CanUserResize="False" IsReadOnly="True" Header="Id">
+                        <DataGridTextColumn.CellStyle>
+                            <Style>
+                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                            </Style>
+                        </DataGridTextColumn.CellStyle>
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Visibility="Hidden" Binding="{Binding Mode=OneWay,Path=tipo}"  CanUserResize="False" IsReadOnly="True" Header="tipo">
+                        <DataGridTextColumn.CellStyle>
+                            <Style>
+                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                            </Style>
+                        </DataGridTextColumn.CellStyle>
+                    </DataGridTextColumn>
+
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <Controls:Flyout Header="Nuevo Suministro" Position="Left" Margin="-22,40,-11,108" x:Name="flNuevoSum" Theme="Light" RenderTransformOrigin="0.5,0.5" BorderBrush="{DynamicResource {x:Static SystemColors.HotTrackBrushKey}}">
+                <Controls:Flyout.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleX="-0.28"/>
+                        <RotateTransform/>
+                        <TranslateTransform X="-1.495"/>
+                    </TransformGroup>
+                </Controls:Flyout.RenderTransform>
+                <Grid Height="267" Width="auto" HorizontalAlignment="Right" Margin="0,0,-38,0">
+
+                    <TextBox x:Name="txtIdSum" Visibility="Hidden"
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Nombre"
+            			IsEnabled="true" Text="" FontSize="11" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+
+                    <TextBox x:Name="txtNombreSum" Margin="14,7,0,0" Height="38"
+            			
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Nombre"
+            			IsEnabled="true" Text="" FontSize="11" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top" LostFocus="txtNombreSum_LostFocus"/>
+                    <TextBox x:Name="txtDescSum" Margin="14,45,0,0" Height="38"
+            		
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Descripción"
+            			IsEnabled="true" Text="" FontSize="11" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top" LostFocus="txtDescSum_LostFocus"/>
+
+                    <TextBox x:Name="txtCEstSum" Margin="14,83,0,0" Height="38"
+            		
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Cantidad por Habitación"
+            			IsEnabled="true" Text="" FontSize="11" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top" KeyUp="txtCEstSum_KeyUp" RenderTransformOrigin="0.495,1.553" KeyDown="txtCEstSum_KeyDown"/>
+
+
+                    <ComboBox x:Name="cmbTipSum" Width="500" Height="38"
+            			Controls:TextBoxHelper.Watermark="Tipo"
+            			Controls:TextBoxHelper.UseFloatingWatermark="True" Margin="14,122,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="11"
+            			/>
+                    
+                    <Controls:Tile x:Name="tlGuardarSum" Cursor="Hand"  Height="52" Margin="456,205,0,0" Width="58" HorizontalAlignment="Left" ToolTip="Guardar" Click="tlGuardarSum_Click" VerticalAlignment="Top" RenderTransformOrigin="0.451,1.962" >
+                        <Controls:Tile.Effect>
+                            <DropShadowEffect BlurRadius="8" Opacity="0.95" ShadowDepth="9"/>
+                        </Controls:Tile.Effect>
+                        <Image Source="imagenes/guardar.png" Width="48" RenderTransformOrigin="0.555,3.229"/>
+                    </Controls:Tile>
+                    <Controls:Tile x:Name="tlCancelarSum" Cursor="Hand"  Height="52" Margin="0,205,135,0" Width="58" HorizontalAlignment="Right" RenderTransformOrigin="0.431,-1.538" Click="tlCancelarSum_Click" VerticalAlignment="Top" >
+                        <Controls:Tile.Effect>
+                            <DropShadowEffect Opacity="0.95" ShadowDepth="9" BlurRadius="8"/>
+                        </Controls:Tile.Effect>
+                        <Image Source="imagenes/Cancel.png" Width="48" RenderTransformOrigin="0.697,2.396"/>
+                    </Controls:Tile>
+
+
+                    <Label Content="(*)" HorizontalAlignment="Left" Margin="550,17,0,0" VerticalAlignment="Top" Foreground="#FFF30C0C"/>
+                    <Label Content="(*)" HorizontalAlignment="Left" Margin="550,87,0,0" VerticalAlignment="Top" Foreground="#FFF30C0C"/>
+                    <Label Content="(*)" HorizontalAlignment="Left" Margin="550,125,0,0" VerticalAlignment="Top" Foreground="#FFF30C0C"/>
+                    <Label Content="(*) Campos obligatorios" HorizontalAlignment="Left" Margin="202,212,0,0" VerticalAlignment="Top" Foreground="#FFF30C0C" RenderTransformOrigin="0.519,2.692"/>
+
+                </Grid>
+            </Controls:Flyout>
+
+
+
+        </Grid>
+
+
+    </Grid>
+</Page>

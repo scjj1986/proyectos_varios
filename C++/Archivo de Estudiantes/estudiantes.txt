@@ -1,0 +1,4 @@
+Cedula: 16336213 || Nombre: JESSICA || Apellido: SALAZAR || Edad: 29 || Sexo: F || Promedio: 18
+Cedula: 17655152 || Nombre: ESPARTACO || Apellido: ROMANO || Edad: 26 || Sexo: M || Promedio: 11
+Cedula: 20534219 || Nombre: CAROLINA || Apellido: BOUGRAT || Edad: 23 || Sexo: F || Promedio: 14
+Cedula: 15000000 || Nombre: PEDRO || Apellido: MAITA || Edad: 22 || Sexo: M || Promedio: 13

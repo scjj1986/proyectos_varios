@@ -1,0 +1,9 @@
+NuevoFuncionario = 15, 20, 894, 531, , 0, -17, 879, 620, C
+ListadoFuncionario = 50, 50, 929, 485, I, 16, -18, 895, 594, C
+AgregarExpediente = 161, -1, 1040, 434, , 23, -22, 902, 635, C
+EditarFuncionario = 45, 61, 924, 496, , -1, -18, 878, 633, C
+ListadoExpedientesF = 170, 72, 1049, 507, , 39, -19, 918, 635, C
+EditarExpediente = 158, 39, 1037, 474, , 24, -14, 903, 635, C
+ExpedienteMes = 200, 200, 1079, 635, , 175, 175, 1054, 610, C
+Principal = 50, 50, 929, 485, , 143, 158, 1022, 593, C
+Inicio = 51, 102, 930, 537, C, 12, -13, 891, 635, C

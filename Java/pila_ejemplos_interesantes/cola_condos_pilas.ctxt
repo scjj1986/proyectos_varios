@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=int\ tama\u00F1o()
+comment1.target=boolean\ esVacio()
+comment2.params=elemento
+comment2.target=void\ Encolar(Elemento)
+comment3.target=Elemento\ decolar()
+comment4.target=Elemento\ peek()
+numComments=5

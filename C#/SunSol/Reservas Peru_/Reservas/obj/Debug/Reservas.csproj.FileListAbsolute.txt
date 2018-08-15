@@ -1,0 +1,1067 @@
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\bin\Debug\Reservas.exe.config
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\obj\Debug\Reservas.exe
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\obj\Debug\Reservas.pdb
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\bin\Debug\Reservas.exe
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\bin\Debug\Reservas.pdb
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\bin\Debug\librerias.dll
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\bin\Debug\MahApps.Metro.dll
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\bin\Debug\RibbonControlsLibrary.dll
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\bin\Debug\System.Windows.Controls.Ribbon.dll
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\bin\Debug\librerias.pdb
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\bin\Debug\MahApps.Metro.pdb
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\bin\Debug\MahApps.Metro.xml
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\obj\Debug\Reservas.csprojResolveAssemblyReference.cache
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\obj\Debug\estilo.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\obj\Debug\menu.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\obj\Debug\nuevareserva.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\obj\Debug\primera.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\obj\Debug\inicio.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\obj\Debug\Resources\Icons.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\obj\Debug\App.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\obj\Debug\menu.g.cs
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\obj\Debug\nuevareserva.g.cs
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\obj\Debug\primera.g.cs
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\obj\Debug\inicio.g.cs
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\obj\Debug\Resources\Icons.g.cs
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\obj\Debug\App.g.cs
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\obj\Debug\Reservas_MarkupCompile.cache
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\obj\Debug\Reservas.g.resources
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\obj\Debug\Reservas.Properties.Resources.resources
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\obj\Debug\Reservas.csproj.GenerateResource.Cache
+F:\Reservas\Reservas\bin\Debug\Reservas.exe.config
+F:\Reservas\Reservas\obj\Debug\Reservas.exe
+F:\Reservas\Reservas\obj\Debug\Reservas.pdb
+F:\Reservas\Reservas\bin\Debug\Reservas.exe
+F:\Reservas\Reservas\bin\Debug\Reservas.pdb
+F:\Reservas\Reservas\bin\Debug\librerias.dll
+F:\Reservas\Reservas\bin\Debug\MahApps.Metro.dll
+F:\Reservas\Reservas\bin\Debug\RibbonControlsLibrary.dll
+F:\Reservas\Reservas\bin\Debug\System.Windows.Controls.Ribbon.dll
+F:\Reservas\Reservas\bin\Debug\System.Windows.Interactivity.dll
+F:\Reservas\Reservas\bin\Debug\librerias.pdb
+F:\Reservas\Reservas\bin\Debug\MahApps.Metro.pdb
+F:\Reservas\Reservas\bin\Debug\MahApps.Metro.xml
+F:\Reservas\Reservas\obj\Debug\Reservas.csprojResolveAssemblyReference.cache
+F:\Reservas\Reservas\obj\Debug\estilo.baml
+F:\Reservas\Reservas\obj\Debug\menu.baml
+F:\Reservas\Reservas\obj\Debug\nuevareserva.baml
+F:\Reservas\Reservas\obj\Debug\primera.baml
+F:\Reservas\Reservas\obj\Debug\inicio.baml
+F:\Reservas\Reservas\obj\Debug\Resources\Icons.baml
+F:\Reservas\Reservas\obj\Debug\App.baml
+F:\Reservas\Reservas\obj\Debug\menu.g.cs
+F:\Reservas\Reservas\obj\Debug\nuevareserva.g.cs
+F:\Reservas\Reservas\obj\Debug\primera.g.cs
+F:\Reservas\Reservas\obj\Debug\inicio.g.cs
+F:\Reservas\Reservas\obj\Debug\Resources\Icons.g.cs
+F:\Reservas\Reservas\obj\Debug\App.g.cs
+F:\Reservas\Reservas\obj\Debug\Reservas_MarkupCompile.cache
+F:\Reservas\Reservas\obj\Debug\Reservas.g.resources
+F:\Reservas\Reservas\obj\Debug\Reservas.Properties.Resources.resources
+F:\Reservas\Reservas\obj\Debug\Reservas.csproj.GenerateResource.Cache
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\obj\Debug\modificareserva.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\obj\Debug\modificareserva.g.cs
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\obj\Debug\cotizacion.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\obj\Debug\cotizacion.g.cs
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\obj\Debug\RdlCompile.cache
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\obj\Debug\RdlCompile.compiled
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\obj\Debug\configuracion.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\obj\Debug\pagos.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\obj\Debug\configuracion.g.cs
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\obj\Debug\pagos.g.cs
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\bin\Debug\Reservas.exe.config
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\Reservas.exe
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\Reservas.pdb
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\bin\Debug\Reservas.exe
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\bin\Debug\Reservas.pdb
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\bin\Debug\librerias.dll
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\bin\Debug\MahApps.Metro.dll
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\bin\Debug\RibbonControlsLibrary.dll
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\bin\Debug\System.Windows.Controls.Ribbon.dll
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\bin\Debug\librerias.pdb
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\bin\Debug\MahApps.Metro.pdb
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\bin\Debug\MahApps.Metro.xml
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\Reservas.csprojResolveAssemblyReference.cache
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\configuracion.baml
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\cotizacion.baml
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\estilo.baml
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\menu.baml
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\modificareserva.baml
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\nuevareserva.baml
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\pagos.baml
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\primera.baml
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\inicio.baml
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\Resources\Icons.baml
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\App.baml
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\configuracion.g.cs
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\cotizacion.g.cs
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\menu.g.cs
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\modificareserva.g.cs
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\nuevareserva.g.cs
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\pagos.g.cs
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\primera.g.cs
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\inicio.g.cs
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\Resources\Icons.g.cs
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\App.g.cs
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\Reservas_MarkupCompile.cache
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\Reservas.g.resources
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\Reservas.Properties.Resources.resources
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\Reservas.csproj.GenerateResource.Cache
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\RdlCompile.cache
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\RdlCompile.compiled
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\bin\Debug\Reservas.exe.config
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\bin\Debug\Reservas.exe
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\bin\Debug\Reservas.pdb
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\bin\Debug\librerias.dll
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\bin\Debug\MahApps.Metro.dll
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\bin\Debug\RibbonControlsLibrary.dll
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\bin\Debug\System.Windows.Controls.Ribbon.dll
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\bin\Debug\librerias.pdb
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\bin\Debug\MahApps.Metro.pdb
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\bin\Debug\MahApps.Metro.xml
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\Reservas.csprojResolveAssemblyReference.cache
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\configuracion.baml
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\cotizacion.baml
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\estilo.baml
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\localizador.baml
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\menu.baml
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\modificareserva.baml
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\nuevareserva.baml
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\pagos.baml
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\primera.baml
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\inicio.baml
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\Resources\Icons.baml
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\App.baml
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\configuracion.g.cs
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\cotizacion.g.cs
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\localizador.g.cs
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\menu.g.cs
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\modificareserva.g.cs
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\nuevareserva.g.cs
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\pagos.g.cs
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\primera.g.cs
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\inicio.g.cs
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\Resources\Icons.g.cs
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\App.g.cs
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\Reservas_MarkupCompile.cache
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\Reservas.g.resources
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\Reservas.Properties.Resources.resources
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\Reservas.csproj.GenerateResource.Cache
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\RdlCompile.cache
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\RdlCompile.compiled
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\Reservas.exe
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\Reservas\obj\Debug\Reservas.pdb
+I:\Reservas\Reservas\bin\Debug\Reservas.exe.config
+I:\Reservas\Reservas\bin\Debug\Reservas.exe
+I:\Reservas\Reservas\bin\Debug\Reservas.pdb
+I:\Reservas\Reservas\bin\Debug\librerias.dll
+I:\Reservas\Reservas\bin\Debug\MahApps.Metro.dll
+I:\Reservas\Reservas\bin\Debug\RibbonControlsLibrary.dll
+I:\Reservas\Reservas\bin\Debug\System.Windows.Controls.Ribbon.dll
+I:\Reservas\Reservas\bin\Debug\System.Windows.Interactivity.dll
+I:\Reservas\Reservas\bin\Debug\librerias.pdb
+I:\Reservas\Reservas\bin\Debug\MahApps.Metro.pdb
+I:\Reservas\Reservas\bin\Debug\MahApps.Metro.xml
+I:\Reservas\Reservas\obj\Debug\Reservas.csprojResolveAssemblyReference.cache
+I:\Reservas\Reservas\obj\Debug\configuracion.baml
+I:\Reservas\Reservas\obj\Debug\cotizacion.baml
+I:\Reservas\Reservas\obj\Debug\estilo.baml
+I:\Reservas\Reservas\obj\Debug\localizador.baml
+I:\Reservas\Reservas\obj\Debug\menu.baml
+I:\Reservas\Reservas\obj\Debug\modificareserva.baml
+I:\Reservas\Reservas\obj\Debug\nuevareserva.baml
+I:\Reservas\Reservas\obj\Debug\pagos.baml
+I:\Reservas\Reservas\obj\Debug\primera.baml
+I:\Reservas\Reservas\obj\Debug\inicio.baml
+I:\Reservas\Reservas\obj\Debug\Resources\Icons.baml
+I:\Reservas\Reservas\obj\Debug\App.baml
+I:\Reservas\Reservas\obj\Debug\configuracion.g.cs
+I:\Reservas\Reservas\obj\Debug\cotizacion.g.cs
+I:\Reservas\Reservas\obj\Debug\localizador.g.cs
+I:\Reservas\Reservas\obj\Debug\menu.g.cs
+I:\Reservas\Reservas\obj\Debug\modificareserva.g.cs
+I:\Reservas\Reservas\obj\Debug\nuevareserva.g.cs
+I:\Reservas\Reservas\obj\Debug\pagos.g.cs
+I:\Reservas\Reservas\obj\Debug\primera.g.cs
+I:\Reservas\Reservas\obj\Debug\inicio.g.cs
+I:\Reservas\Reservas\obj\Debug\Resources\Icons.g.cs
+I:\Reservas\Reservas\obj\Debug\App.g.cs
+I:\Reservas\Reservas\obj\Debug\Reservas_MarkupCompile.cache
+I:\Reservas\Reservas\obj\Debug\Reservas.g.resources
+I:\Reservas\Reservas\obj\Debug\Reservas.Properties.Resources.resources
+I:\Reservas\Reservas\obj\Debug\Reservas.csproj.GenerateResource.Cache
+I:\Reservas\Reservas\obj\Debug\RdlCompile.cache
+I:\Reservas\Reservas\obj\Debug\RdlCompile.compiled
+I:\Reservas\Reservas\obj\Debug\Reservas.exe
+I:\Reservas\Reservas\obj\Debug\Reservas.pdb
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\bin\Debug\Reservas.exe.config
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\obj\Debug\Reservas.exe
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\obj\Debug\Reservas.pdb
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\bin\Debug\Reservas.exe
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\bin\Debug\Reservas.pdb
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\bin\Debug\librerias.dll
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\bin\Debug\MahApps.Metro.dll
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\bin\Debug\RibbonControlsLibrary.dll
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\bin\Debug\System.Windows.Controls.Ribbon.dll
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\bin\Debug\librerias.pdb
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\bin\Debug\MahApps.Metro.pdb
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\bin\Debug\MahApps.Metro.xml
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\obj\Debug\Reservas.csprojResolveAssemblyReference.cache
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\obj\Debug\configuracion.baml
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\obj\Debug\cotizacion.baml
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\obj\Debug\estilo.baml
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\obj\Debug\localizador.baml
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\obj\Debug\menu.baml
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\obj\Debug\modificareserva.baml
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\obj\Debug\nuevareserva.baml
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\obj\Debug\pagos.baml
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\obj\Debug\primera.baml
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\obj\Debug\inicio.baml
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\obj\Debug\Resources\Icons.baml
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\obj\Debug\App.baml
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\obj\Debug\configuracion.g.cs
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\obj\Debug\cotizacion.g.cs
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\obj\Debug\localizador.g.cs
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\obj\Debug\menu.g.cs
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\obj\Debug\modificareserva.g.cs
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\obj\Debug\nuevareserva.g.cs
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\obj\Debug\pagos.g.cs
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\obj\Debug\primera.g.cs
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\obj\Debug\inicio.g.cs
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\obj\Debug\Resources\Icons.g.cs
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\obj\Debug\App.g.cs
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\obj\Debug\Reservas_MarkupCompile.cache
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\obj\Debug\Reservas.g.resources
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\obj\Debug\Reservas.Properties.Resources.resources
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\obj\Debug\Reservas.csproj.GenerateResource.Cache
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\obj\Debug\RdlCompile.cache
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\obj\Debug\RdlCompile.compiled
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\obj\Debug\localizador.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\obj\Debug\localizador.g.cs
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\obj\Debug\estadoCuenta.baml
+C:\Users\josmer.martinez\Desktop\Reservas\Reservas\obj\Debug\estadoCuenta.g.cs
+I:\Reservas\Reservas\obj\Debug\estadoCuenta.baml
+I:\Reservas\Reservas\obj\Debug\estadoCuenta.g.cs
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\obj\Debug\estadoCuenta.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas\Reservas\obj\Debug\estadoCuenta.g.cs
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\bin\Debug\Reservas.exe
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\bin\Debug\MahApps.Metro.dll
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\bin\Debug\Reservas.exe.config
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\bin\Debug\librerias.dll
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\bin\Debug\RibbonControlsLibrary.dll
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\bin\Debug\System.Windows.Controls.Ribbon.dll
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\bin\Debug\librerias.pdb
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\bin\Debug\MahApps.Metro.pdb
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\bin\Debug\MahApps.Metro.xml
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\obj\Debug\Reservas.csprojResolveAssemblyReference.cache
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\obj\Debug\configuracion.baml
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\obj\Debug\cotizacion.baml
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\obj\Debug\estadoCuenta.baml
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\obj\Debug\estilo.baml
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\obj\Debug\localizador.baml
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\obj\Debug\menu.baml
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\obj\Debug\modificareserva.baml
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\obj\Debug\nuevareserva.baml
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\obj\Debug\pagos.baml
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\obj\Debug\primera.baml
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\obj\Debug\inicio.baml
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\obj\Debug\Resources\Icons.baml
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\obj\Debug\App.baml
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\obj\Debug\configuracion.g.cs
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\obj\Debug\cotizacion.g.cs
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\obj\Debug\estadoCuenta.g.cs
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\obj\Debug\localizador.g.cs
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\obj\Debug\menu.g.cs
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\obj\Debug\modificareserva.g.cs
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\obj\Debug\nuevareserva.g.cs
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\obj\Debug\pagos.g.cs
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\obj\Debug\primera.g.cs
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\obj\Debug\inicio.g.cs
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\obj\Debug\Resources\Icons.g.cs
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\obj\Debug\App.g.cs
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\obj\Debug\Reservas_MarkupCompile.cache
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\obj\Debug\Reservas.g.resources
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\obj\Debug\Reservas.Properties.Resources.resources
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\obj\Debug\Reservas.csproj.GenerateResource.Cache
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\obj\Debug\RdlCompile.cache
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\obj\Debug\RdlCompile.compiled
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\obj\Debug\Reservas.exe
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\obj\Debug\Reservas.pdb
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\Reservas\bin\Debug\Reservas.pdb
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\bin\Debug\Reservas.exe.config
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\bin\Debug\Reservas.exe
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\bin\Debug\Reservas.pdb
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\bin\Debug\librerias.dll
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\bin\Debug\MahApps.Metro.dll
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\bin\Debug\RibbonControlsLibrary.dll
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\bin\Debug\System.Windows.Controls.Ribbon.dll
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\bin\Debug\librerias.pdb
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\bin\Debug\MahApps.Metro.pdb
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\bin\Debug\MahApps.Metro.xml
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\obj\Debug\Reservas.csprojResolveAssemblyReference.cache
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\obj\Debug\configuracion.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\obj\Debug\cotizacion.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\obj\Debug\estadoCuenta.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\obj\Debug\estilo.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\obj\Debug\localizador.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\obj\Debug\menu.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\obj\Debug\modificareserva.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\obj\Debug\nuevareserva.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\obj\Debug\pagos.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\obj\Debug\primera.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\obj\Debug\inicio.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\obj\Debug\Resources\Icons.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\obj\Debug\App.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\obj\Debug\configuracion.g.cs
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\obj\Debug\cotizacion.g.cs
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\obj\Debug\estadoCuenta.g.cs
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\obj\Debug\localizador.g.cs
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\obj\Debug\menu.g.cs
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\obj\Debug\modificareserva.g.cs
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\obj\Debug\nuevareserva.g.cs
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\obj\Debug\pagos.g.cs
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\obj\Debug\primera.g.cs
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\obj\Debug\inicio.g.cs
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\obj\Debug\Resources\Icons.g.cs
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\obj\Debug\App.g.cs
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\obj\Debug\Reservas_MarkupCompile.cache
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\obj\Debug\Reservas.g.resources
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\obj\Debug\Reservas.Properties.Resources.resources
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\obj\Debug\Reservas.csproj.GenerateResource.Cache
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\obj\Debug\RdlCompile.cache
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\obj\Debug\RdlCompile.compiled
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\obj\Debug\Reservas.exe
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\obj\Debug\Reservas.pdb
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\bin\Debug\Reservas.exe
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\bin\Debug\MahApps.Metro.dll
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\bin\Debug\Reservas.exe.config
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\bin\Debug\librerias.dll
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\bin\Debug\RibbonControlsLibrary.dll
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\bin\Debug\System.Windows.Controls.Ribbon.dll
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\bin\Debug\librerias.pdb
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\bin\Debug\MahApps.Metro.pdb
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\bin\Debug\MahApps.Metro.xml
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\obj\Debug\Reservas.csprojResolveAssemblyReference.cache
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\obj\Debug\configuracion.baml
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\obj\Debug\cotizacion.baml
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\obj\Debug\estadoCuenta.baml
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\obj\Debug\estilo.baml
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\obj\Debug\localizador.baml
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\obj\Debug\menu.baml
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\obj\Debug\modificareserva.baml
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\obj\Debug\nuevareserva.baml
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\obj\Debug\pagos.baml
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\obj\Debug\primera.baml
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\obj\Debug\inicio.baml
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\obj\Debug\reporteCobros.baml
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\obj\Debug\reporteReserva.baml
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\obj\Debug\Resources\Icons.baml
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\obj\Debug\App.baml
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\obj\Debug\configuracion.g.cs
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\obj\Debug\cotizacion.g.cs
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\obj\Debug\estadoCuenta.g.cs
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\obj\Debug\localizador.g.cs
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\obj\Debug\menu.g.cs
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\obj\Debug\modificareserva.g.cs
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\obj\Debug\nuevareserva.g.cs
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\obj\Debug\pagos.g.cs
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\obj\Debug\primera.g.cs
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\obj\Debug\inicio.g.cs
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\obj\Debug\reporteCobros.g.cs
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\obj\Debug\reporteReserva.g.cs
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\obj\Debug\Resources\Icons.g.cs
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\obj\Debug\App.g.cs
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\obj\Debug\Reservas_MarkupCompile.cache
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\obj\Debug\Reservas.g.resources
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\obj\Debug\Reservas.Properties.Resources.resources
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\obj\Debug\Reservas.csproj.GenerateResource.Cache
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\obj\Debug\RdlCompile.cache
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\obj\Debug\RdlCompile.compiled
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\obj\Debug\Reservas.exe
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\obj\Debug\Reservas.pdb
+C:\Users\carlos.marval\Desktop\Reservas v1.1\Reservas\bin\Debug\Reservas.pdb
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\obj\Debug\reporteCobros.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\obj\Debug\reporteReserva.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\obj\Debug\reporteCobros.g.cs
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\Reservas\obj\Debug\reporteReserva.g.cs
+C:\Users\carlos.marval\Desktop\Reservas v1.1.2\Reservas\bin\Debug\Reservas.exe
+C:\Users\carlos.marval\Desktop\Reservas v1.1.2\Reservas\bin\Debug\MahApps.Metro.dll
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\bin\Debug\Reservas.exe.config
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\bin\Debug\Reservas.exe
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\bin\Debug\Reservas.pdb
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\bin\Debug\librerias.dll
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\bin\Debug\MahApps.Metro.dll
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\bin\Debug\RibbonControlsLibrary.dll
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\bin\Debug\System.Windows.Controls.Ribbon.dll
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\bin\Debug\librerias.pdb
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\bin\Debug\MahApps.Metro.pdb
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\bin\Debug\MahApps.Metro.xml
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\Reservas.csprojResolveAssemblyReference.cache
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\ayuda.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\configuracion.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\cotizacion.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\estadoCuenta.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\estilo.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\localizador.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\menu.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\modificareserva.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\nuevareserva.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\pagos.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\primera.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\inicio.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\PuntosDisponibles.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\reporteCobros.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\reporteReserva.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\Resources\Icons.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\App.baml
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\ayuda.g.cs
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\configuracion.g.cs
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\cotizacion.g.cs
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\estadoCuenta.g.cs
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\localizador.g.cs
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\menu.g.cs
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\modificareserva.g.cs
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\nuevareserva.g.cs
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\pagos.g.cs
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\primera.g.cs
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\inicio.g.cs
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\PuntosDisponibles.g.cs
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\reporteCobros.g.cs
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\reporteReserva.g.cs
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\Resources\Icons.g.cs
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\App.g.cs
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\Reservas_MarkupCompile.cache
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\Reservas.g.resources
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\Reservas.Properties.Resources.resources
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\Reservas.csproj.GenerateResource.Cache
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\RdlCompile.cache
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\RdlCompile.compiled
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\Reservas.exe
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\Reservas\obj\Debug\Reservas.pdb
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\bin\Debug\Reservas.exe.config
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\bin\Debug\librerias.dll
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\bin\Debug\RibbonControlsLibrary.dll
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\bin\Debug\System.Windows.Controls.Ribbon.dll
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\bin\Debug\librerias.pdb
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\bin\Debug\MahApps.Metro.pdb
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\bin\Debug\MahApps.Metro.xml
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\Reservas.csprojResolveAssemblyReference.cache
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\ayuda.baml
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\configuracion.baml
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\cotizacion.baml
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\estadoCuenta.baml
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\estilo.baml
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\localizador.baml
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\menu.baml
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\modificareserva.baml
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\nuevareserva.baml
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\pagos.baml
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\primera.baml
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\inicio.baml
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\PuntosDisponibles.baml
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\reporteCobros.baml
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\reporteReserva.baml
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\Resources\Icons.baml
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\App.baml
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\ayuda.g.cs
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\configuracion.g.cs
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\cotizacion.g.cs
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\estadoCuenta.g.cs
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\localizador.g.cs
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\menu.g.cs
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\modificareserva.g.cs
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\nuevareserva.g.cs
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\pagos.g.cs
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\primera.g.cs
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\inicio.g.cs
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\PuntosDisponibles.g.cs
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\reporteCobros.g.cs
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\reporteReserva.g.cs
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\Resources\Icons.g.cs
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\App.g.cs
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\Reservas_MarkupCompile.cache
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\Reservas.g.resources
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\Reservas.Properties.Resources.resources
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\Reservas.csproj.GenerateResource.Cache
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\RdlCompile.cache
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\RdlCompile.compiled
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\Reservas.exe
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\obj\Debug\Reservas.pdb
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\Reservas\bin\Debug\Reservas.pdb
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\bin\Debug\Reservas.exe.config
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\Reservas.exe
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\Reservas.pdb
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\bin\Debug\Reservas.exe
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\bin\Debug\Reservas.pdb
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\bin\Debug\librerias.dll
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\bin\Debug\MahApps.Metro.dll
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\bin\Debug\RibbonControlsLibrary.dll
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\bin\Debug\System.Windows.Controls.Ribbon.dll
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\bin\Debug\librerias.pdb
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\bin\Debug\MahApps.Metro.pdb
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\bin\Debug\MahApps.Metro.xml
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\Reservas.csprojResolveAssemblyReference.cache
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\ayuda.baml
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\configuracion.baml
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\cotizacion.baml
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\estadoCuenta.baml
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\estilo.baml
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\localizador.baml
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\menu.baml
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\modificareserva.baml
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\nuevareserva.baml
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\pagos.baml
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\primera.baml
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\inicio.baml
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\PuntosDisponibles.baml
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\reporteCobros.baml
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\reporteReserva.baml
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\Resources\Icons.baml
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\App.baml
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\ayuda.g.cs
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\configuracion.g.cs
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\cotizacion.g.cs
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\estadoCuenta.g.cs
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\localizador.g.cs
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\menu.g.cs
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\modificareserva.g.cs
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\nuevareserva.g.cs
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\pagos.g.cs
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\primera.g.cs
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\inicio.g.cs
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\PuntosDisponibles.g.cs
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\reporteCobros.g.cs
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\reporteReserva.g.cs
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\Resources\Icons.g.cs
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\App.g.cs
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\Reservas_MarkupCompile.cache
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\Reservas.g.resources
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\Reservas.Properties.Resources.resources
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\Reservas.csproj.GenerateResource.Cache
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\RdlCompile.cache
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\RdlCompile.compiled
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\trasladaPagos.baml
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\trasladaPagos.g.cs
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\bin\Debug\Reservas.exe.config
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\Reservas.exe
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\Reservas.pdb
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\bin\Debug\Reservas.exe
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\bin\Debug\Reservas.pdb
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\bin\Debug\librerias.dll
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\bin\Debug\MahApps.Metro.dll
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\bin\Debug\RibbonControlsLibrary.dll
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\bin\Debug\System.Windows.Controls.Ribbon.dll
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\bin\Debug\librerias.pdb
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\bin\Debug\MahApps.Metro.pdb
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\bin\Debug\MahApps.Metro.xml
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\Reservas.csprojResolveAssemblyReference.cache
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\ayuda.baml
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\configuracion.baml
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\cotizacion.baml
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\estadoCuenta.baml
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\estilo.baml
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\localizador.baml
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\menu.baml
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\modificareserva.baml
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\nuevareserva.baml
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\pagos.baml
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\primera.baml
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\inicio.baml
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\PuntosDisponibles.baml
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\reporteCobros.baml
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\reporteReserva.baml
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\Resources\Icons.baml
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\trasladaPagos.baml
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\App.baml
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\ayuda.g.cs
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\configuracion.g.cs
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\cotizacion.g.cs
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\estadoCuenta.g.cs
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\localizador.g.cs
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\menu.g.cs
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\modificareserva.g.cs
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\nuevareserva.g.cs
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\pagos.g.cs
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\primera.g.cs
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\inicio.g.cs
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\PuntosDisponibles.g.cs
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\reporteCobros.g.cs
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\reporteReserva.g.cs
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\Resources\Icons.g.cs
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\trasladaPagos.g.cs
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\App.g.cs
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\Reservas_MarkupCompile.cache
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\Reservas.g.resources
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\Reservas.Properties.Resources.resources
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\Reservas.csproj.GenerateResource.Cache
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\RdlCompile.cache
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\Reservas\obj\Debug\RdlCompile.compiled
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\bin\Debug\Reservas.exe.config
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\Reservas.exe
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\Reservas.pdb
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\bin\Debug\Reservas.exe
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\bin\Debug\Reservas.pdb
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\bin\Debug\librerias.dll
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\bin\Debug\MahApps.Metro.dll
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\bin\Debug\RibbonControlsLibrary.dll
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\bin\Debug\System.Windows.Controls.Ribbon.dll
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\bin\Debug\librerias.pdb
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\bin\Debug\MahApps.Metro.pdb
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\bin\Debug\MahApps.Metro.xml
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\Reservas.csprojResolveAssemblyReference.cache
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\ayuda.baml
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\configuracion.baml
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\cotizacion.baml
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\estadoCuenta.baml
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\estilo.baml
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\localizador.baml
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\menu.baml
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\modificareserva.baml
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\nuevareserva.baml
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\pagos.baml
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\primera.baml
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\inicio.baml
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\PuntosDisponibles.baml
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\reporteCobros.baml
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\reporteReserva.baml
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\Resources\Icons.baml
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\trasladaPagos.baml
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\App.baml
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\ayuda.g.cs
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\configuracion.g.cs
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\cotizacion.g.cs
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\estadoCuenta.g.cs
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\localizador.g.cs
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\menu.g.cs
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\modificareserva.g.cs
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\nuevareserva.g.cs
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\pagos.g.cs
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\primera.g.cs
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\inicio.g.cs
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\PuntosDisponibles.g.cs
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\reporteCobros.g.cs
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\reporteReserva.g.cs
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\Resources\Icons.g.cs
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\trasladaPagos.g.cs
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\App.g.cs
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\Reservas_MarkupCompile.cache
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\Reservas.g.resources
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\Reservas.Properties.Resources.resources
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\Reservas.csproj.GenerateResource.Cache
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\RdlCompile.cache
+C:\Users\Consultoria\Desktop\Reservas v2.0\Reservas\obj\Debug\RdlCompile.compiled
+C:\Users\Suns0lH0t\Desktop\Reservaciones\Reservas\bin\Debug\Reservas.exe.config
+C:\Users\Suns0lH0t\Desktop\Reservaciones\Reservas\obj\Debug\Reservas.exe
+C:\Users\Suns0lH0t\Desktop\Reservaciones\Reservas\obj\Debug\Reservas.pdb
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\bin\Debug\Reservas.exe.config
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\bin\Debug\Reservas.exe
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\bin\Debug\Reservas.pdb
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\bin\Debug\librerias.dll
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\bin\Debug\MahApps.Metro.dll
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\bin\Debug\RibbonControlsLibrary.dll
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\bin\Debug\System.Windows.Controls.Ribbon.dll
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\bin\Debug\librerias.pdb
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\bin\Debug\MahApps.Metro.pdb
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\bin\Debug\MahApps.Metro.xml
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\Reservas.csprojResolveAssemblyReference.cache
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\ayuda.baml
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\configuracion.baml
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\cotizacion.baml
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\estadoCuenta.baml
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\estilo.baml
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\localizador.baml
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\menu.baml
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\modificareserva.baml
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\nuevareserva.baml
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\pagos.baml
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\primera.baml
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\inicio.baml
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\PuntosDisponibles.baml
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\reporteCobros.baml
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\reporteReserva.baml
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\Resources\Icons.baml
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\trasladaPagos.baml
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\App.baml
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\ayuda.g.cs
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\configuracion.g.cs
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\cotizacion.g.cs
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\estadoCuenta.g.cs
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\localizador.g.cs
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\menu.g.cs
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\modificareserva.g.cs
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\nuevareserva.g.cs
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\pagos.g.cs
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\primera.g.cs
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\inicio.g.cs
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\PuntosDisponibles.g.cs
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\reporteCobros.g.cs
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\reporteReserva.g.cs
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\Resources\Icons.g.cs
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\trasladaPagos.g.cs
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\App.g.cs
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\Reservas_MarkupCompile.cache
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\Reservas.g.resources
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\Reservas.Properties.Resources.resources
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\Reservas.csproj.GenerateResource.Cache
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\RdlCompile.cache
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\RdlCompile.compiled
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\Reservas.exe
+C:\Users\consultoria\Desktop\Reservaciones\Reservas\obj\Debug\Reservas.pdb
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\bin\Debug\Reservas.exe.config
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\Reservas.exe
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\Reservas.pdb
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\bin\Debug\Reservas.exe
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\bin\Debug\Reservas.pdb
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\bin\Debug\librerias.dll
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\bin\Debug\MahApps.Metro.dll
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\bin\Debug\RibbonControlsLibrary.dll
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\bin\Debug\System.Windows.Controls.Ribbon.dll
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\bin\Debug\librerias.pdb
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\bin\Debug\MahApps.Metro.pdb
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\bin\Debug\MahApps.Metro.xml
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\Reservas.csprojResolveAssemblyReference.cache
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\ayuda.baml
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\configuracion.baml
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\cotizacion.baml
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\estadoCuenta.baml
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\estilo.baml
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\localizador.baml
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\menu.baml
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\modificareserva.baml
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\nuevareserva.baml
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\pagos.baml
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\primera.baml
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\inicio.baml
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\PuntosDisponibles.baml
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\reporteCobros.baml
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\reporteReserva.baml
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\Resources\Icons.baml
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\trasladaPagos.baml
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\App.baml
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\ayuda.g.cs
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\configuracion.g.cs
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\cotizacion.g.cs
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\estadoCuenta.g.cs
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\localizador.g.cs
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\menu.g.cs
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\modificareserva.g.cs
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\nuevareserva.g.cs
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\pagos.g.cs
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\primera.g.cs
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\inicio.g.cs
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\PuntosDisponibles.g.cs
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\reporteCobros.g.cs
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\reporteReserva.g.cs
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\Resources\Icons.g.cs
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\trasladaPagos.g.cs
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\App.g.cs
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\Reservas_MarkupCompile.cache
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\Reservas.g.resources
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\Reservas.Properties.Resources.resources
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\Reservas.csproj.GenerateResource.Cache
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\RdlCompile.cache
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\RdlCompile.compiled
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\reporteEdoCtaCliCon.baml
+C:\Users\juan.salazar\Documents\Reservaciones michel\Reservas\obj\Debug\reporteEdoCtaCliCon.g.cs
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\bin\Debug\Reservas.exe
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\bin\Debug\MahApps.Metro.dll
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\bin\Debug\Reservas.exe.config
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\bin\Debug\librerias.dll
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\bin\Debug\RibbonControlsLibrary.dll
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\bin\Debug\System.Windows.Controls.Ribbon.dll
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\bin\Debug\librerias.pdb
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\bin\Debug\MahApps.Metro.pdb
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\bin\Debug\MahApps.Metro.xml
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\Reservas.csprojResolveAssemblyReference.cache
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\ayuda.baml
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\configuracion.baml
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\cotizacion.baml
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\estadoCuenta.baml
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\estilo.baml
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\localizador.baml
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\menu.baml
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\modificareserva.baml
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\nuevareserva.baml
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\pagos.baml
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\primera.baml
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\inicio.baml
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\PuntosDisponibles.baml
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\reporteCobros.baml
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\reporteEdoCtaCliCon.baml
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\reporteReserva.baml
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\Resources\Icons.baml
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\trasladaPagos.baml
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\App.baml
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\ayuda.g.cs
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\configuracion.g.cs
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\cotizacion.g.cs
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\estadoCuenta.g.cs
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\localizador.g.cs
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\menu.g.cs
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\modificareserva.g.cs
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\nuevareserva.g.cs
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\pagos.g.cs
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\primera.g.cs
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\inicio.g.cs
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\PuntosDisponibles.g.cs
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\reporteCobros.g.cs
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\reporteEdoCtaCliCon.g.cs
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\reporteReserva.g.cs
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\Resources\Icons.g.cs
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\trasladaPagos.g.cs
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\App.g.cs
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\Reservas_MarkupCompile.cache
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\Reservas.g.resources
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\Reservas.Properties.Resources.resources
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\Reservas.csproj.GenerateResource.Cache
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\RdlCompile.cache
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\RdlCompile.compiled
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\Reservas.exe
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\obj\Debug\Reservas.pdb
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\Reservas\bin\Debug\Reservas.pdb
+C:\Users\consultoria\Desktop\Reservas\Reservas\bin\Debug\Reservas.exe.config
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\Reservas.exe
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\Reservas.pdb
+C:\Users\consultoria\Desktop\Reservas\Reservas\bin\Debug\Reservas.exe
+C:\Users\consultoria\Desktop\Reservas\Reservas\bin\Debug\Reservas.pdb
+C:\Users\consultoria\Desktop\Reservas\Reservas\bin\Debug\librerias.dll
+C:\Users\consultoria\Desktop\Reservas\Reservas\bin\Debug\MahApps.Metro.dll
+C:\Users\consultoria\Desktop\Reservas\Reservas\bin\Debug\RibbonControlsLibrary.dll
+C:\Users\consultoria\Desktop\Reservas\Reservas\bin\Debug\System.Windows.Controls.Ribbon.dll
+C:\Users\consultoria\Desktop\Reservas\Reservas\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\consultoria\Desktop\Reservas\Reservas\bin\Debug\librerias.pdb
+C:\Users\consultoria\Desktop\Reservas\Reservas\bin\Debug\MahApps.Metro.pdb
+C:\Users\consultoria\Desktop\Reservas\Reservas\bin\Debug\MahApps.Metro.xml
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\Reservas.csprojResolveAssemblyReference.cache
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\ayuda.baml
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\configuracion.baml
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\cotizacion.baml
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\estadoCuenta.baml
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\estilo.baml
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\localizador.baml
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\menu.baml
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\modificareserva.baml
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\nuevareserva.baml
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\pagos.baml
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\primera.baml
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\inicio.baml
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\PuntosDisponibles.baml
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\reporteCobros.baml
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\reporteEdoCtaCliCon.baml
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\reporteReserva.baml
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\Resources\Icons.baml
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\trasladaPagos.baml
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\App.baml
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\ayuda.g.cs
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\configuracion.g.cs
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\cotizacion.g.cs
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\estadoCuenta.g.cs
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\localizador.g.cs
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\menu.g.cs
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\modificareserva.g.cs
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\nuevareserva.g.cs
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\pagos.g.cs
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\primera.g.cs
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\inicio.g.cs
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\PuntosDisponibles.g.cs
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\reporteCobros.g.cs
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\reporteEdoCtaCliCon.g.cs
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\reporteReserva.g.cs
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\Resources\Icons.g.cs
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\trasladaPagos.g.cs
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\App.g.cs
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\Reservas_MarkupCompile.cache
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\Reservas.g.resources
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\Reservas.Properties.Resources.resources
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\Reservas.csproj.GenerateResource.Cache
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\RdlCompile.cache
+C:\Users\consultoria\Desktop\Reservas\Reservas\obj\Debug\RdlCompile.compiled
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\bin\Debug\Reservas.exe.config
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\bin\Debug\Reservas.exe
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\bin\Debug\Reservas.pdb
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\bin\Debug\librerias.dll
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\bin\Debug\MahApps.Metro.dll
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\bin\Debug\RibbonControlsLibrary.dll
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\bin\Debug\System.Windows.Controls.Ribbon.dll
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\bin\Debug\librerias.pdb
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\bin\Debug\MahApps.Metro.pdb
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\bin\Debug\MahApps.Metro.xml
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\Reservas.csprojResolveAssemblyReference.cache
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\ayuda.baml
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\configuracion.baml
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\cotizacion.baml
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\estadoCuenta.baml
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\estilo.baml
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\localizador.baml
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\menu.baml
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\modificareserva.baml
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\nuevareserva.baml
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\pagos.baml
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\primera.baml
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\inicio.baml
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\PuntosDisponibles.baml
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\reporteCobros.baml
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\reporteEdoCtaCliCon.baml
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\reporteReserva.baml
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\Resources\Icons.baml
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\trasladaPagos.baml
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\App.baml
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\ayuda.g.cs
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\configuracion.g.cs
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\cotizacion.g.cs
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\estadoCuenta.g.cs
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\localizador.g.cs
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\menu.g.cs
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\modificareserva.g.cs
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\nuevareserva.g.cs
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\pagos.g.cs
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\primera.g.cs
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\inicio.g.cs
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\PuntosDisponibles.g.cs
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\reporteCobros.g.cs
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\reporteEdoCtaCliCon.g.cs
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\reporteReserva.g.cs
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\Resources\Icons.g.cs
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\trasladaPagos.g.cs
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\App.g.cs
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\Reservas_MarkupCompile.cache
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\Reservas.g.resources
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\Reservas.Properties.Resources.resources
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\Reservas.csproj.GenerateResource.Cache
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\RdlCompile.cache
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\RdlCompile.compiled
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\Reservas.exe
+C:\Users\consultoria\Desktop\Reservas Peru\Reservas\obj\Debug\Reservas.pdb
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\bin\Debug\Reservas.exe.config
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\bin\Debug\Reservas.exe
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\bin\Debug\Reservas.pdb
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\bin\Debug\librerias.dll
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\bin\Debug\MahApps.Metro.dll
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\bin\Debug\RibbonControlsLibrary.dll
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\bin\Debug\System.Windows.Controls.Ribbon.dll
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\bin\Debug\System.Windows.Interactivity.dll
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\bin\Debug\librerias.pdb
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\bin\Debug\MahApps.Metro.pdb
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\bin\Debug\MahApps.Metro.xml
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\Reservas.csprojResolveAssemblyReference.cache
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\ayuda.baml
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\configuracion.baml
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\cotizacion.baml
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\estadoCuenta.baml
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\estilo.baml
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\localizador.baml
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\menu.baml
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\modificareserva.baml
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\nuevareserva.baml
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\pagos.baml
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\primera.baml
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\inicio.baml
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\PuntosDisponibles.baml
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\reporteCobros.baml
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\reporteEdoCtaCliCon.baml
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\reporteReserva.baml
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\Resources\Icons.baml
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\trasladaPagos.baml
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\App.baml
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\ayuda.g.cs
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\configuracion.g.cs
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\cotizacion.g.cs
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\estadoCuenta.g.cs
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\localizador.g.cs
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\menu.g.cs
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\modificareserva.g.cs
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\nuevareserva.g.cs
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\pagos.g.cs
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\primera.g.cs
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\inicio.g.cs
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\PuntosDisponibles.g.cs
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\reporteCobros.g.cs
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\reporteEdoCtaCliCon.g.cs
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\reporteReserva.g.cs
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\Resources\Icons.g.cs
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\trasladaPagos.g.cs
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\App.g.cs
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\Reservas_MarkupCompile.cache
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\Reservas.g.resources
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\Reservas.Properties.Resources.resources
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\Reservas.csproj.GenerateResource.Cache
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\RdlCompile.cache
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\RdlCompile.compiled
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\Reservas.exe
+\\sunsolcarapp08\Desarrollo\Reservas Peru\Reservas\obj\Debug\Reservas.pdb
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\bin\Debug\Reservas.exe
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\bin\Debug\MahApps.Metro.dll
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\bin\Debug\Reservas.exe.config
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\bin\Debug\Reservas.pdb
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\bin\Debug\librerias.dll
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\bin\Debug\RibbonControlsLibrary.dll
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\bin\Debug\System.Windows.Controls.Ribbon.dll
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\bin\Debug\librerias.pdb
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\bin\Debug\MahApps.Metro.pdb
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\bin\Debug\MahApps.Metro.xml
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\Reservas.csprojResolveAssemblyReference.cache
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\ayuda.baml
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\configuracion.baml
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\cotizacion.baml
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\estadoCuenta.baml
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\estilo.baml
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\localizador.baml
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\menu.baml
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\modificareserva.baml
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\nuevareserva.baml
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\pagos.baml
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\primera.baml
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\inicio.baml
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\PuntosDisponibles.baml
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\reporteCobros.baml
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\reporteEdoCtaCliCon.baml
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\reporteReserva.baml
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\Resources\Icons.baml
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\trasladaPagos.baml
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\App.baml
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\ayuda.g.cs
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\configuracion.g.cs
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\cotizacion.g.cs
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\estadoCuenta.g.cs
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\localizador.g.cs
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\menu.g.cs
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\modificareserva.g.cs
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\nuevareserva.g.cs
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\pagos.g.cs
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\primera.g.cs
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\inicio.g.cs
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\PuntosDisponibles.g.cs
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\reporteCobros.g.cs
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\reporteEdoCtaCliCon.g.cs
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\reporteReserva.g.cs
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\Resources\Icons.g.cs
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\trasladaPagos.g.cs
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\App.g.cs
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\Reservas_MarkupCompile.cache
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\Reservas.g.resources
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\Reservas.Properties.Resources.resources
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\Reservas.csproj.GenerateResource.Cache
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\RdlCompile.cache
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\RdlCompile.compiled
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\Reservas.exe
+C:\Users\juan.salazar\Documents\Reservas Peru\Reservas\obj\Debug\Reservas.pdb
+C:\Users\juan.salazar\Documents\Reservas Peru_\Reservas\bin\Debug\Reservas.exe.config
+C:\Users\juan.salazar\Documents\Reservas Peru_\Reservas\obj\Debug\Reservas.exe
+C:\Users\juan.salazar\Documents\Reservas Peru_\Reservas\obj\Debug\Reservas.pdb

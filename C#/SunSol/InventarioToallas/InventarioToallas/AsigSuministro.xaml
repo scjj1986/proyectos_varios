@@ -1,0 +1,402 @@
+﻿<Page x:Class="InventarioToallas.AsigSuministro"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+       xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+      mc:Ignorable="d" 
+      d:DesignHeight="865" d:DesignWidth="1295"
+	Title="AsigSuministro" Loaded="Page_Loaded">
+    <ScrollViewer>
+        <Grid>
+            <GroupBox Grid.Row="0" Margin="0,0,10,10" RenderTransformOrigin="0.604,0.372"  Grid.RowSpan="2">
+                <GroupBox.HeaderTemplate>
+                    <DataTemplate>
+                        <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="14">
+                            <Label Content="Suministros de Habitación" Foreground="White" FontWeight="Bold" FontSize="11" Margin="5,0,0,-9"
+                			HorizontalAlignment="Left" VerticalContentAlignment="Center"/>
+                        </Grid>
+                    </DataTemplate>
+                </GroupBox.HeaderTemplate>
+
+
+            </GroupBox>
+
+            <Grid RenderTransformOrigin="0.61,0.508" Margin="0,0,0,10">
+                <TextBox x:Name="txtBuscarCam" Margin="39,42,0,0"
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Buscar Camarera" Text="" FontSize="11" KeyUp="txtBuscarCam_KeyUp" HorizontalAlignment="Left" Width="307" Height="38" VerticalAlignment="Top"/>
+                <DataGrid x:Name="dtgrdcam" Margin="39,85,0,0"  ItemsSource="{Binding}" AutoGenerateColumns="false" AlternationCount="1" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserAddRows="False" CanUserResizeRows="False" CanUserSortColumns="False"  HorizontalContentAlignment="Center" ScrollViewer.CanContentScroll="True" 
+    
+      SelectionChanged="dtgrdcam_SelectionChanged" FontSize="10"  VerticalScrollBarVisibility="Visible" Height="115" VerticalAlignment="Top" HorizontalAlignment="Left" Width="742">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Binding="{Binding Mode=OneWay,Path=cedula}"  CanUserResize="False" IsReadOnly="True" Header="Cédula">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn Binding="{Binding Mode=OneWay,Path=nombre}"  CanUserResize="False" IsReadOnly="True" Header="Nombre">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn Binding="{Binding Mode=OneWay,Path=apellido}"  CanUserResize="False" IsReadOnly="True" Header="Apellido">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+
+                        <DataGridTextColumn Binding="{Binding Mode=OneWay,Path=nombresup}"  CanUserResize="False" IsReadOnly="True" Header="Nombre Supervisor">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+
+
+                        <DataGridTextColumn Binding="{Binding Mode=OneWay,Path=nhab}"  CanUserResize="False" IsReadOnly="True" Header="N° hab.">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+
+
+
+                        <DataGridTextColumn Visibility="Hidden" Binding="{Binding Mode=OneWay,Path=idSupervisor}"  CanUserResize="False" IsReadOnly="True" Header="Id">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn Visibility="Hidden" Binding="{Binding Mode=OneWay,Path=idCamarera}"  CanUserResize="False" IsReadOnly="True" Header="Id">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn Visibility="Hidden" Binding="{Binding Mode=OneWay,Path=nac}"  CanUserResize="False" IsReadOnly="True" Header="estado">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn Visibility="Hidden" Binding="{Binding Mode=OneWay,Path=documento}"  CanUserResize="False" IsReadOnly="True" Header="estado">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+
+
+
+
+                    </DataGrid.Columns>
+                </DataGrid>
+
+                <Label Content="HABITACIONES ASIGNADAS" HorizontalAlignment="Left" Margin="39,239,0,0" Width="173" FontWeight="Bold" RenderTransformOrigin="0.497,0.931" Height="26" VerticalAlignment="Top"/>
+
+
+                <DataGrid x:Name="dtgrdhabsel" Margin="39,270,0,0"  ItemsSource="{Binding}" AutoGenerateColumns="false" AlternationCount="1" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserAddRows="False" CanUserResizeRows="False" CanUserSortColumns="True" HorizontalScrollBarVisibility="Disabled" HorizontalContentAlignment="Center" ScrollViewer.CanContentScroll="True" 
+      ScrollViewer.VerticalScrollBarVisibility="Auto"
+      ScrollViewer.HorizontalScrollBarVisibility="Auto"  RenderTransformOrigin="0.5,0.5" IsEnabled="True" CanUserDeleteRows="False" SelectionChanged="dtgrdhabsel_MouseDoubleClick" FontSize="10" Height="450" VerticalAlignment="Top" HorizontalAlignment="Left" Width="406" >
+
+                    <DataGrid.Columns>
+
+                        <DataGridTextColumn Binding="{Binding Mode=OneWay,Path=RoomNo}"  CanUserResize="False" IsReadOnly="True" Header="N Habitación" CanUserSort="True">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding  Mode=OneWay,Path=llegada}" Value="1">
+                                            <Setter Property="TextBlock.FontWeight" Value="Bold" />
+                                        </DataTrigger>
+                                        <DataTrigger Binding="{Binding  Mode=OneWay,Path=salida}" Value="1">
+                                            <Setter Property="Canvas.Background" Value="LightGray" />
+                                        </DataTrigger>
+
+                                    </Style.Triggers>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+
+
+                        <DataGridTextColumn  Binding="{Binding Mode=OneWay,Path=RoomTypeShortName}"  CanUserResize="False" IsReadOnly="True" Header="tipo" CanUserSort="False">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+
+                        <DataGridTextColumn Binding="{Binding Mode=OneWay,Path=HSKGSName}"  CanUserResize="False" IsReadOnly="True" Header="Módulo" CanUserSort="False">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+
+                        <DataGridTextColumn  Binding="{Binding Mode=OneWay,Path=Building}"  CanUserResize="False" IsReadOnly="True" Header="edif." CanUserSort="False">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+
+                        <DataGridTextColumn Binding="{Binding Mode=OneWay,Path=GuestTotal}"  CanUserResize="False" IsReadOnly="True" Header="pax" CanUserSort="False">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+
+
+                        <DataGridTextColumn  Binding="{Binding Mode=OneWay,Path=status}"  CanUserResize="False" IsReadOnly="True" Header="status" CanUserSort="False">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+
+
+
+
+
+
+
+
+                        <DataGridTextColumn Visibility="Hidden" Binding="{Binding Mode=OneWay,Path=ID_Room}"  CanUserResize="False" IsReadOnly="True" Header="Id">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+
+                        <DataGridTextColumn Visibility="Hidden" Binding="{Binding Mode=OneWay,Path=modulo}"  CanUserResize="False" IsReadOnly="True" Header="mod">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+
+                        <DataGridTextColumn Visibility="Hidden" Binding="{Binding Mode=OneWay,Path=FloorName}"  CanUserResize="False" IsReadOnly="True" Header="mod">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+
+                        <DataGridTextColumn Visibility="Hidden" Binding="{Binding Mode=OneWay,Path=ID_Floor}"  CanUserResize="False" IsReadOnly="True" Header="Id">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+
+                        <DataGridTextColumn Visibility="Hidden" Binding="{Binding Mode=OneWay,Path=Section}"  CanUserResize="False" IsReadOnly="True" Header="Id">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+
+
+                    </DataGrid.Columns>
+
+
+
+
+
+
+
+
+                </DataGrid>
+
+
+
+
+                <Controls:Tile x:Name="tlGuardar" Cursor="Hand" Height="50" Margin="1158,770,0,0" Width="58" ToolTip="Guardar" RenderTransformOrigin="-0.052,4.654" Click="tlGuardar_Click" VerticalAlignment="Top" HorizontalAlignment="Left">
+                    <Controls:Tile.Effect>
+                        <DropShadowEffect BlurRadius="8" Opacity="0.95" ShadowDepth="9"/>
+                    </Controls:Tile.Effect>
+                    <Image Source="imagenes/guardar.png" Width="48"/>
+                </Controls:Tile>
+                <Controls:Tile x:Name="tlCancelar" Cursor="Hand"  Height="50" Margin="1095,770,0,0" Width="58" RenderTransformOrigin="0.431,-1.538" Click="tlCancelar_Click" HorizontalAlignment="Left" VerticalAlignment="Top">
+                    <Controls:Tile.Effect>
+                        <DropShadowEffect Opacity="0.95" ShadowDepth="9" BlurRadius="8"/>
+                    </Controls:Tile.Effect>
+                    <Image Source="imagenes/Cancel.png" Width="48"/>
+                </Controls:Tile>
+
+
+
+
+                <DataGrid x:Name="dtgrdsumcamb" Margin="511,265,0,0"  ItemsSource="{Binding}" AutoGenerateColumns="false" AlternationCount="1" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserAddRows="False" CanUserResizeRows="False" CanUserSortColumns="False" HorizontalScrollBarVisibility="Disabled" HorizontalContentAlignment="Center" ScrollViewer.CanContentScroll="True" 
+            	ScrollViewer.VerticalScrollBarVisibility="Auto"
+            	ScrollViewer.HorizontalScrollBarVisibility="Auto" IsEnabled="True" RenderTransformOrigin="0.983,0.303" CanUserDeleteRows="False" FontSize="10" HorizontalAlignment="Left" Width="659" Height="185" VerticalAlignment="Top">
+                    <DataGrid.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform AngleX="0.076"/>
+                            <RotateTransform/>
+                            <TranslateTransform X="0.075"/>
+                        </TransformGroup>
+                    </DataGrid.RenderTransform>
+
+                    <DataGrid.Columns>
+
+                        <DataGridTextColumn Binding="{Binding descripcion, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="Suministro" Width="150">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+
+                        <DataGridTextColumn Binding="{Binding suciaEstimada, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="S. est." Width="50">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+
+                        <DataGridTemplateColumn   CanUserResize="False" IsReadOnly="False" Header="S. exist." Width="70">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBox Text="{Binding suciaReal, Mode=TwoWay}" MaxLength="2" Name="tBoxValue1" FontSize="10" KeyUp="tBoxValue_KeyUp" LostFocus="tBoxValue_LostFocus"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+
+
+                        <DataGridTemplateColumn  IsReadOnly="False">
+                            <DataGridTemplateColumn.Header>
+                                <CheckBox FontSize="10" Content="SELEC. TODO" x:Name="chkSelectAll1" RenderTransformOrigin="0.165,-2.058" Checked="chkSelectAll1_Checked" Unchecked="chkSelectAll1_Unchecked" />
+                            </DataGridTemplateColumn.Header>
+
+
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <CheckBox HorizontalAlignment="Center" x:Name="chkSucCamb" IsChecked="{Binding IsSelected2, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Click="chkSucCamb_Click"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+
+
+                        </DataGridTemplateColumn>
+
+
+                        <DataGridTextColumn Binding="{Binding cantidadEstimada, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="Cant. Est." Width="80">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+
+
+
+
+                        <DataGridTemplateColumn   CanUserResize="False" IsReadOnly="False" Header="Cant. entr." Width="90">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBox Text="{Binding cantidadSal, Mode=TwoWay}" MaxLength="2" FontSize="10" Name="tBoxValue" KeyUp="tBoxValue_KeyUp" LostFocus="tBoxValue_LostFocus"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+
+
+
+
+                        <DataGridTemplateColumn  IsReadOnly="False">
+                            <DataGridTemplateColumn.Header>
+                                <CheckBox Content="SELEC. TODO" FontSize="10" x:Name="chkSelectAll" RenderTransformOrigin="0.165,-2.058" Checked="chkSelectAll_Checked" Unchecked="chkSelectAll_Unchecked" />
+                            </DataGridTemplateColumn.Header>
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <CheckBox HorizontalAlignment="Center" x:Name="chkEntrCamb" IsChecked="{Binding IsSelected, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Click="chkEntrCamb_Click" />
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+
+
+                    </DataGrid.Columns>
+                </DataGrid>
+
+
+
+
+                <Label Content="SUMINISTROS DE CAMBIO" Margin="510,235,0,0" RenderTransformOrigin="0.763,0.64" FontWeight="Bold" HorizontalAlignment="Left" Width="215" Height="26" VerticalAlignment="Top"/>
+
+                <DataGrid x:Name="dtgrdsumrep" Margin="510,520,0,0"  ItemsSource="{Binding}" AutoGenerateColumns="false" AlternationCount="1" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserAddRows="False" CanUserResizeRows="False" CanUserSortColumns="False" HorizontalScrollBarVisibility="Disabled" HorizontalContentAlignment="Center" ScrollViewer.CanContentScroll="True" 
+            	ScrollViewer.VerticalScrollBarVisibility="Auto"
+            	ScrollViewer.HorizontalScrollBarVisibility="Auto" IsEnabled="True" RenderTransformOrigin="0.483,0.833" CanUserDeleteRows="False" FontSize="10" HorizontalAlignment="Left" Width="660" Height="200" VerticalAlignment="Top">
+
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Binding="{Binding descripcion, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="Suministro" Width="150">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn Binding="{Binding cantidadEstimada, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="Cant. Est." Width="80">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+
+                        <DataGridTemplateColumn  CanUserResize="False" IsReadOnly="False" Header="Cant. entr." Width="90">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBox Text="{Binding cantidadSal, Mode=TwoWay}" MaxLength="2" FontSize="10" Name="tBoxValue2" Height="20" KeyUp="tBoxValue2_KeyUp" LostFocus="tBoxValue2_LostFocus"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+
+                        <DataGridTemplateColumn  IsReadOnly="False">
+                            <DataGridTemplateColumn.Header>
+                                <CheckBox Content="SELEC. TODO" x:Name="chkSelectAll2" FontSize="10" RenderTransformOrigin="0.165,-2.058" Checked="chkSelectAll2_Checked" Unchecked="chkSelectAll2_Unchecked" />
+                            </DataGridTemplateColumn.Header>
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <CheckBox HorizontalAlignment="Center" x:Name="chkEntrRep" IsChecked="{Binding IsSelected, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Click="chkEntrRep_Click" />
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+
+
+                    </DataGrid.Columns>
+                </DataGrid>
+
+                <Label Content="SUMINISTROS DE REPOSICIÓN" Margin="510,485,0,0" RenderTransformOrigin="0.763,0.64" FontWeight="Bold" HorizontalAlignment="Left" Width="215" Height="30" VerticalAlignment="Top"/>
+
+
+
+            </Grid>
+
+        </Grid>
+    </ScrollViewer>
+</Page>

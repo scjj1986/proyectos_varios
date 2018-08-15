@@ -1,0 +1,257 @@
+c:\users\josmer.martinez\documents\visual studio 2010\Projects\Reportes\Reportes\bin\Debug\Reportes.exe
+c:\users\josmer.martinez\documents\visual studio 2010\Projects\Reportes\Reportes\bin\Debug\Reportes.pdb
+c:\users\josmer.martinez\documents\visual studio 2010\Projects\Reportes\Reportes\obj\x86\Debug\MainWindow.baml
+c:\users\josmer.martinez\documents\visual studio 2010\Projects\Reportes\Reportes\obj\x86\Debug\MainWindow.g.cs
+c:\users\josmer.martinez\documents\visual studio 2010\Projects\Reportes\Reportes\obj\x86\Debug\App.g.cs
+c:\users\josmer.martinez\documents\visual studio 2010\Projects\Reportes\Reportes\obj\x86\Debug\Reportes_MarkupCompile.cache
+c:\users\josmer.martinez\documents\visual studio 2010\Projects\Reportes\Reportes\obj\x86\Debug\Reportes.g.resources
+c:\users\josmer.martinez\documents\visual studio 2010\Projects\Reportes\Reportes\obj\x86\Debug\Reportes.Properties.Resources.resources
+c:\users\josmer.martinez\documents\visual studio 2010\Projects\Reportes\Reportes\obj\x86\Debug\Reportes.csproj.GenerateResource.Cache
+c:\users\josmer.martinez\documents\visual studio 2010\Projects\Reportes\Reportes\obj\x86\Debug\Reportes.exe
+c:\users\josmer.martinez\documents\visual studio 2010\Projects\Reportes\Reportes\obj\x86\Debug\Reportes.pdb
+C:\Users\rafael.rodriguez\Desktop\Reportes\Reportes\bin\Debug\Reportes.exe.config
+C:\Users\rafael.rodriguez\Desktop\Reportes\Reportes\obj\x86\Debug\Reportes.exe
+C:\Users\rafael.rodriguez\Desktop\Reportes\Reportes\obj\x86\Debug\Reportes.pdb
+C:\Users\rafael.rodriguez\Desktop\Reportes\Reportes\bin\Debug\Reportes.exe
+C:\Users\rafael.rodriguez\Desktop\Reportes\Reportes\bin\Debug\Reportes.pdb
+C:\Users\rafael.rodriguez\Desktop\Reportes\Reportes\bin\Debug\Librerias.dll
+C:\Users\rafael.rodriguez\Desktop\Reportes\Reportes\obj\x86\Debug\Reportes.csprojResolveAssemblyReference.cache
+C:\Users\rafael.rodriguez\Desktop\Reportes\Reportes\obj\x86\Debug\MainWindow.baml
+C:\Users\rafael.rodriguez\Desktop\Reportes\Reportes\obj\x86\Debug\MainWindow.g.cs
+C:\Users\rafael.rodriguez\Desktop\Reportes\Reportes\obj\x86\Debug\App.g.cs
+C:\Users\rafael.rodriguez\Desktop\Reportes\Reportes\obj\x86\Debug\Reportes_MarkupCompile.cache
+C:\Users\rafael.rodriguez\Desktop\Reportes\Reportes\obj\x86\Debug\Reportes.g.resources
+C:\Users\rafael.rodriguez\Desktop\Reportes\Reportes\obj\x86\Debug\Reportes.Properties.Resources.resources
+C:\Users\rafael.rodriguez\Desktop\Reportes\Reportes\obj\x86\Debug\Reportes.csproj.GenerateResource.Cache
+C:\Users\rafael.rodriguez\Desktop\Reportes\Reportes\obj\x86\Debug\RdlCompile.cache
+C:\Users\rafael.rodriguez\Desktop\Reportes\Reportes\obj\x86\Debug\RdlCompile.compiled
+C:\Users\josmer.martinez\Documents\Reportes\Reportes\bin\Debug\Reportes.exe.config
+C:\Users\josmer.martinez\Documents\Reportes\Reportes\obj\x86\Debug\Reportes.exe
+C:\Users\josmer.martinez\Documents\Reportes\Reportes\obj\x86\Debug\Reportes.pdb
+C:\Users\josmer.martinez\Documents\Reportes\Reportes\bin\Debug\Reportes.exe
+C:\Users\josmer.martinez\Documents\Reportes\Reportes\bin\Debug\Reportes.pdb
+C:\Users\josmer.martinez\Documents\Reportes\Reportes\obj\x86\Debug\Reportes.csprojResolveAssemblyReference.cache
+C:\Users\josmer.martinez\Documents\Reportes\Reportes\obj\x86\Debug\FrmReportePolicial.baml
+C:\Users\josmer.martinez\Documents\Reportes\Reportes\obj\x86\Debug\FrmReportePolicial.g.cs
+C:\Users\josmer.martinez\Documents\Reportes\Reportes\obj\x86\Debug\App.g.cs
+C:\Users\josmer.martinez\Documents\Reportes\Reportes\obj\x86\Debug\Reportes_MarkupCompile.cache
+C:\Users\josmer.martinez\Documents\Reportes\Reportes\obj\x86\Debug\Reportes.g.resources
+C:\Users\josmer.martinez\Documents\Reportes\Reportes\obj\x86\Debug\Reportes.Properties.Resources.resources
+C:\Users\josmer.martinez\Documents\Reportes\Reportes\obj\x86\Debug\Reportes.csproj.GenerateResource.Cache
+C:\Users\josmer.martinez\Documents\Reportes\Reportes\obj\x86\Debug\RdlCompile.cache
+C:\Users\josmer.martinez\Documents\Reportes\Reportes\obj\x86\Debug\RdlCompile.compiled
+C:\Users\josmer.martinez\Desktop\Reportes\Reportes\bin\Debug\Reportes.exe.config
+C:\Users\josmer.martinez\Desktop\Reportes\Reportes\obj\x86\Debug\Reportes.exe
+C:\Users\josmer.martinez\Desktop\Reportes\Reportes\obj\x86\Debug\Reportes.pdb
+C:\Users\josmer.martinez\Desktop\Reportes\Reportes\bin\Debug\Reportes.exe
+C:\Users\josmer.martinez\Desktop\Reportes\Reportes\bin\Debug\Reportes.pdb
+C:\Users\josmer.martinez\Desktop\Reportes\Reportes\obj\x86\Debug\Reportes.csprojResolveAssemblyReference.cache
+C:\Users\josmer.martinez\Desktop\Reportes\Reportes\obj\x86\Debug\FrmReportePolicial.baml
+C:\Users\josmer.martinez\Desktop\Reportes\Reportes\obj\x86\Debug\FrmReportePolicial.g.cs
+C:\Users\josmer.martinez\Desktop\Reportes\Reportes\obj\x86\Debug\App.g.cs
+C:\Users\josmer.martinez\Desktop\Reportes\Reportes\obj\x86\Debug\Reportes_MarkupCompile.cache
+C:\Users\josmer.martinez\Desktop\Reportes\Reportes\obj\x86\Debug\Reportes.g.resources
+C:\Users\josmer.martinez\Desktop\Reportes\Reportes\obj\x86\Debug\Reportes.Properties.Resources.resources
+C:\Users\josmer.martinez\Desktop\Reportes\Reportes\obj\x86\Debug\Reportes.csproj.GenerateResource.Cache
+C:\Users\josmer.martinez\Desktop\Reportes\Reportes\obj\x86\Debug\RdlCompile.cache
+C:\Users\josmer.martinez\Desktop\Reportes\Reportes\obj\x86\Debug\RdlCompile.compiled
+C:\Users\josmer.martinez\Desktop\Reportes\Reportes\obj\x86\Debug\Acercade.baml
+C:\Users\josmer.martinez\Desktop\Reportes\Reportes\obj\x86\Debug\Acercade.g.cs
+\\sunsolcarvs04\Sistemas\BackUps Aplicaciones Desarrollo\Calidad\Reportes\Reportes\bin\Debug\Reportes.exe.config
+\\sunsolcarvs04\Sistemas\BackUps Aplicaciones Desarrollo\Calidad\Reportes\Reportes\obj\x86\Debug\Reportes.exe
+\\sunsolcarvs04\Sistemas\BackUps Aplicaciones Desarrollo\Calidad\Reportes\Reportes\obj\x86\Debug\Reportes.pdb
+\\sunsolcarvs04\Sistemas\BackUps Aplicaciones Desarrollo\Calidad\Reportes\Reportes\bin\Debug\Reportes.exe
+\\sunsolcarvs04\Sistemas\BackUps Aplicaciones Desarrollo\Calidad\Reportes\Reportes\bin\Debug\Reportes.pdb
+\\sunsolcarvs04\Sistemas\BackUps Aplicaciones Desarrollo\Calidad\Reportes\Reportes\obj\x86\Debug\Reportes.csprojResolveAssemblyReference.cache
+\\sunsolcarvs04\Sistemas\BackUps Aplicaciones Desarrollo\Calidad\Reportes\Reportes\obj\x86\Debug\Acercade.baml
+\\sunsolcarvs04\Sistemas\BackUps Aplicaciones Desarrollo\Calidad\Reportes\Reportes\obj\x86\Debug\FrmReportePolicial.baml
+\\sunsolcarvs04\Sistemas\BackUps Aplicaciones Desarrollo\Calidad\Reportes\Reportes\obj\x86\Debug\Acercade.g.cs
+\\sunsolcarvs04\Sistemas\BackUps Aplicaciones Desarrollo\Calidad\Reportes\Reportes\obj\x86\Debug\FrmReportePolicial.g.cs
+\\sunsolcarvs04\Sistemas\BackUps Aplicaciones Desarrollo\Calidad\Reportes\Reportes\obj\x86\Debug\App.g.cs
+\\sunsolcarvs04\Sistemas\BackUps Aplicaciones Desarrollo\Calidad\Reportes\Reportes\obj\x86\Debug\Reportes_MarkupCompile.cache
+\\sunsolcarvs04\Sistemas\BackUps Aplicaciones Desarrollo\Calidad\Reportes\Reportes\obj\x86\Debug\Reportes.g.resources
+\\sunsolcarvs04\Sistemas\BackUps Aplicaciones Desarrollo\Calidad\Reportes\Reportes\obj\x86\Debug\Reportes.Properties.Resources.resources
+\\sunsolcarvs04\Sistemas\BackUps Aplicaciones Desarrollo\Calidad\Reportes\Reportes\obj\x86\Debug\Reportes.csproj.GenerateResource.Cache
+\\sunsolcarvs04\Sistemas\BackUps Aplicaciones Desarrollo\Calidad\Reportes\Reportes\obj\x86\Debug\RdlCompile.cache
+\\sunsolcarvs04\Sistemas\BackUps Aplicaciones Desarrollo\Calidad\Reportes\Reportes\obj\x86\Debug\RdlCompile.compiled
+Z:\BackUps Aplicaciones Desarrollo\Reportes (Mail Client 1.0)\Reportes\bin\Debug\Reportes.exe.config
+Z:\BackUps Aplicaciones Desarrollo\Reportes (Mail Client 1.0)\Reportes\obj\x86\Debug\Reportes.exe
+Z:\BackUps Aplicaciones Desarrollo\Reportes (Mail Client 1.0)\Reportes\obj\x86\Debug\Reportes.pdb
+Z:\BackUps Aplicaciones Desarrollo\Reportes (Mail Client 1.0)\Reportes\bin\Debug\Reportes.exe
+Z:\BackUps Aplicaciones Desarrollo\Reportes (Mail Client 1.0)\Reportes\bin\Debug\Reportes.pdb
+Z:\BackUps Aplicaciones Desarrollo\Reportes (Mail Client 1.0)\Reportes\obj\x86\Debug\Reportes.csprojResolveAssemblyReference.cache
+Z:\BackUps Aplicaciones Desarrollo\Reportes (Mail Client 1.0)\Reportes\obj\x86\Debug\Acercade.baml
+Z:\BackUps Aplicaciones Desarrollo\Reportes (Mail Client 1.0)\Reportes\obj\x86\Debug\FrmReportePolicial.baml
+Z:\BackUps Aplicaciones Desarrollo\Reportes (Mail Client 1.0)\Reportes\obj\x86\Debug\Acercade.g.cs
+Z:\BackUps Aplicaciones Desarrollo\Reportes (Mail Client 1.0)\Reportes\obj\x86\Debug\FrmReportePolicial.g.cs
+Z:\BackUps Aplicaciones Desarrollo\Reportes (Mail Client 1.0)\Reportes\obj\x86\Debug\App.g.cs
+Z:\BackUps Aplicaciones Desarrollo\Reportes (Mail Client 1.0)\Reportes\obj\x86\Debug\Reportes_MarkupCompile.cache
+Z:\BackUps Aplicaciones Desarrollo\Reportes (Mail Client 1.0)\Reportes\obj\x86\Debug\Reportes.g.resources
+Z:\BackUps Aplicaciones Desarrollo\Reportes (Mail Client 1.0)\Reportes\obj\x86\Debug\Reportes.Properties.Resources.resources
+Z:\BackUps Aplicaciones Desarrollo\Reportes (Mail Client 1.0)\Reportes\obj\x86\Debug\Reportes.csproj.GenerateResource.Cache
+Z:\BackUps Aplicaciones Desarrollo\Reportes (Mail Client 1.0)\Reportes\obj\x86\Debug\RdlCompile.cache
+Z:\BackUps Aplicaciones Desarrollo\Reportes (Mail Client 1.0)\Reportes\obj\x86\Debug\RdlCompile.compiled
+C:\Reportes (Mail Client 1.0)\Reportes\bin\Debug\Reportes.exe.config
+C:\Reportes (Mail Client 1.0)\Reportes\obj\x86\Debug\Reportes.exe
+C:\Reportes (Mail Client 1.0)\Reportes\obj\x86\Debug\Reportes.pdb
+C:\Reportes (Mail Client 1.0)\Reportes\bin\Debug\Reportes.exe
+C:\Reportes (Mail Client 1.0)\Reportes\bin\Debug\Reportes.pdb
+C:\Reportes (Mail Client 1.0)\Reportes\obj\x86\Debug\Reportes.csprojResolveAssemblyReference.cache
+C:\Reportes (Mail Client 1.0)\Reportes\obj\x86\Debug\Acercade.baml
+C:\Reportes (Mail Client 1.0)\Reportes\obj\x86\Debug\FrmReportePolicial.baml
+C:\Reportes (Mail Client 1.0)\Reportes\obj\x86\Debug\Acercade.g.cs
+C:\Reportes (Mail Client 1.0)\Reportes\obj\x86\Debug\FrmReportePolicial.g.cs
+C:\Reportes (Mail Client 1.0)\Reportes\obj\x86\Debug\App.g.cs
+C:\Reportes (Mail Client 1.0)\Reportes\obj\x86\Debug\Reportes_MarkupCompile.cache
+C:\Reportes (Mail Client 1.0)\Reportes\obj\x86\Debug\Reportes.g.resources
+C:\Reportes (Mail Client 1.0)\Reportes\obj\x86\Debug\Reportes.Properties.Resources.resources
+C:\Reportes (Mail Client 1.0)\Reportes\obj\x86\Debug\Reportes.csproj.GenerateResource.Cache
+C:\Reportes (Mail Client 1.0)\Reportes\obj\x86\Debug\RdlCompile.cache
+C:\Reportes (Mail Client 1.0)\Reportes\obj\x86\Debug\RdlCompile.compiled
+Z:\BackUps Aplicaciones Desarrollo\Reportes (Mail Client 1.3)\Reportes\bin\Debug\Reportes.exe.config
+Z:\BackUps Aplicaciones Desarrollo\Reportes (Mail Client 1.3)\Reportes\obj\x86\Debug\Reportes.exe
+Z:\BackUps Aplicaciones Desarrollo\Reportes (Mail Client 1.3)\Reportes\obj\x86\Debug\Reportes.pdb
+Z:\BackUps Aplicaciones Desarrollo\Reportes (Mail Client 1.3)\Reportes\bin\Debug\Reportes.exe
+Z:\BackUps Aplicaciones Desarrollo\Reportes (Mail Client 1.3)\Reportes\bin\Debug\Reportes.pdb
+Z:\BackUps Aplicaciones Desarrollo\Reportes (Mail Client 1.3)\Reportes\obj\x86\Debug\Reportes.csprojResolveAssemblyReference.cache
+Z:\BackUps Aplicaciones Desarrollo\Reportes (Mail Client 1.3)\Reportes\obj\x86\Debug\Acercade.baml
+Z:\BackUps Aplicaciones Desarrollo\Reportes (Mail Client 1.3)\Reportes\obj\x86\Debug\FrmReportePolicial.baml
+Z:\BackUps Aplicaciones Desarrollo\Reportes (Mail Client 1.3)\Reportes\obj\x86\Debug\Acercade.g.cs
+Z:\BackUps Aplicaciones Desarrollo\Reportes (Mail Client 1.3)\Reportes\obj\x86\Debug\FrmReportePolicial.g.cs
+Z:\BackUps Aplicaciones Desarrollo\Reportes (Mail Client 1.3)\Reportes\obj\x86\Debug\App.g.cs
+Z:\BackUps Aplicaciones Desarrollo\Reportes (Mail Client 1.3)\Reportes\obj\x86\Debug\Reportes_MarkupCompile.cache
+Z:\BackUps Aplicaciones Desarrollo\Reportes (Mail Client 1.3)\Reportes\obj\x86\Debug\Reportes.g.resources
+Z:\BackUps Aplicaciones Desarrollo\Reportes (Mail Client 1.3)\Reportes\obj\x86\Debug\Reportes.Properties.Resources.resources
+Z:\BackUps Aplicaciones Desarrollo\Reportes (Mail Client 1.3)\Reportes\obj\x86\Debug\Reportes.csproj.GenerateResource.Cache
+Z:\BackUps Aplicaciones Desarrollo\Reportes (Mail Client 1.3)\Reportes\obj\x86\Debug\RdlCompile.cache
+Z:\BackUps Aplicaciones Desarrollo\Reportes (Mail Client 1.3)\Reportes\obj\x86\Debug\RdlCompile.compiled
+\\sunsolcarapp08\Desarrollo\Reportes (Mail Client 1.3)\Reportes\bin\Debug\Reportes.exe.config
+\\sunsolcarapp08\Desarrollo\Reportes (Mail Client 1.3)\Reportes\obj\x86\Debug\Reportes.exe
+\\sunsolcarapp08\Desarrollo\Reportes (Mail Client 1.3)\Reportes\obj\x86\Debug\Reportes.pdb
+C:\Reportes (Mail Client 1.3)\Reportes\bin\Debug\Reportes.exe.config
+C:\Reportes (Mail Client 1.3)\Reportes\bin\Debug\Reportes.exe
+C:\Reportes (Mail Client 1.3)\Reportes\bin\Debug\Reportes.pdb
+C:\Reportes (Mail Client 1.3)\Reportes\obj\x86\Debug\Acercade.baml
+C:\Reportes (Mail Client 1.3)\Reportes\obj\x86\Debug\FrmReportePolicial.baml
+C:\Reportes (Mail Client 1.3)\Reportes\obj\x86\Debug\Acercade.g.cs
+C:\Reportes (Mail Client 1.3)\Reportes\obj\x86\Debug\FrmReportePolicial.g.cs
+C:\Reportes (Mail Client 1.3)\Reportes\obj\x86\Debug\App.g.cs
+C:\Reportes (Mail Client 1.3)\Reportes\obj\x86\Debug\Reportes_MarkupCompile.cache
+C:\Reportes (Mail Client 1.3)\Reportes\obj\x86\Debug\Reportes.g.resources
+C:\Reportes (Mail Client 1.3)\Reportes\obj\x86\Debug\Reportes.Properties.Resources.resources
+C:\Reportes (Mail Client 1.3)\Reportes\obj\x86\Debug\Reportes.csproj.GenerateResource.Cache
+C:\Reportes (Mail Client 1.3)\Reportes\obj\x86\Debug\RdlCompile.cache
+C:\Reportes (Mail Client 1.3)\Reportes\obj\x86\Debug\RdlCompile.compiled
+C:\Reportes (Mail Client 1.3)\Reportes\obj\x86\Debug\Reportes.exe
+C:\Reportes (Mail Client 1.3)\Reportes\obj\x86\Debug\Reportes.pdb
+C:\Reportes (Mail Client 1.3)\Reportes\obj\x86\Debug\Reportes.csprojResolveAssemblyReference.cache
+C:\Reportes Eficiencia\Reportes\bin\Debug\Reportes.exe.config
+C:\Reportes Eficiencia\Reportes\obj\x86\Debug\Reportes.exe
+C:\Reportes Eficiencia\Reportes\obj\x86\Debug\Reportes.pdb
+C:\Reportes Eficiencia\Reportes\bin\Debug\Reportes.exe
+C:\Reportes Eficiencia\Reportes\bin\Debug\Reportes.pdb
+C:\Reportes Eficiencia\Reportes\obj\x86\Debug\Acercade.baml
+C:\Reportes Eficiencia\Reportes\obj\x86\Debug\MainReportes.baml
+C:\Reportes Eficiencia\Reportes\obj\x86\Debug\Acercade.g.cs
+C:\Reportes Eficiencia\Reportes\obj\x86\Debug\MainReportes.g.cs
+C:\Reportes Eficiencia\Reportes\obj\x86\Debug\App.g.cs
+C:\Reportes Eficiencia\Reportes\obj\x86\Debug\Reportes_MarkupCompile.cache
+C:\Reportes Eficiencia\Reportes\obj\x86\Debug\Reportes.g.resources
+C:\Reportes Eficiencia\Reportes\obj\x86\Debug\Reportes.Properties.Resources.resources
+C:\Reportes Eficiencia\Reportes\obj\x86\Debug\Reportes.csproj.GenerateResource.Cache
+C:\Reportes Eficiencia\Reportes\obj\x86\Debug\RdlCompile.cache
+C:\Reportes Eficiencia\Reportes\obj\x86\Debug\RdlCompile.compiled
+C:\Reportes Eficiencia\Reportes\bin\Debug\MahApps.Metro.dll
+C:\Reportes Eficiencia\Reportes\bin\Debug\System.Windows.Interactivity.dll
+C:\Reportes Eficiencia\Reportes\bin\Debug\MahApps.Metro.pdb
+C:\Reportes Eficiencia\Reportes\bin\Debug\MahApps.Metro.xml
+C:\Reportes Eficiencia\Reportes\obj\x86\Debug\App.baml
+C:\Reportes Eficiencia\Reportes\obj\x86\Debug\Reportes.csprojResolveAssemblyReference.cache
+C:\APP DESARROLLLO\Reportes Eficiencia\Reportes\bin\Debug\Reportes.exe.config
+C:\APP DESARROLLLO\Reportes Eficiencia\Reportes\obj\x86\Debug\Reportes.exe
+C:\APP DESARROLLLO\Reportes Eficiencia\Reportes\obj\x86\Debug\Reportes.pdb
+C:\APP DESARROLLLO\Reportes Eficiencia\Reportes\bin\Debug\Reportes.exe
+C:\APP DESARROLLLO\Reportes Eficiencia\Reportes\bin\Debug\Reportes.pdb
+C:\APP DESARROLLLO\Reportes Eficiencia\Reportes\bin\Debug\MahApps.Metro.dll
+C:\APP DESARROLLLO\Reportes Eficiencia\Reportes\bin\Debug\System.Windows.Interactivity.dll
+C:\APP DESARROLLLO\Reportes Eficiencia\Reportes\bin\Debug\MahApps.Metro.pdb
+C:\APP DESARROLLLO\Reportes Eficiencia\Reportes\bin\Debug\MahApps.Metro.xml
+C:\APP DESARROLLLO\Reportes Eficiencia\Reportes\obj\x86\Debug\Reportes.csprojResolveAssemblyReference.cache
+C:\APP DESARROLLLO\Reportes Eficiencia\Reportes\obj\x86\Debug\Acercade.baml
+C:\APP DESARROLLLO\Reportes Eficiencia\Reportes\obj\x86\Debug\MainReportes.baml
+C:\APP DESARROLLLO\Reportes Eficiencia\Reportes\obj\x86\Debug\App.baml
+C:\APP DESARROLLLO\Reportes Eficiencia\Reportes\obj\x86\Debug\Acercade.g.cs
+C:\APP DESARROLLLO\Reportes Eficiencia\Reportes\obj\x86\Debug\MainReportes.g.cs
+C:\APP DESARROLLLO\Reportes Eficiencia\Reportes\obj\x86\Debug\App.g.cs
+C:\APP DESARROLLLO\Reportes Eficiencia\Reportes\obj\x86\Debug\Reportes_MarkupCompile.cache
+C:\APP DESARROLLLO\Reportes Eficiencia\Reportes\obj\x86\Debug\Reportes.g.resources
+C:\APP DESARROLLLO\Reportes Eficiencia\Reportes\obj\x86\Debug\Reportes.Properties.Resources.resources
+C:\APP DESARROLLLO\Reportes Eficiencia\Reportes\obj\x86\Debug\Reportes.csproj.GenerateResource.Cache
+C:\APP DESARROLLLO\Reportes Eficiencia\Reportes\obj\x86\Debug\RdlCompile.cache
+C:\APP DESARROLLLO\Reportes Eficiencia\Reportes\obj\x86\Debug\RdlCompile.compiled
+\\sunsolcarapp08\Desarrollo\Reportes Eficiencia\Reportes\bin\Debug\Reportes.exe.config
+\\sunsolcarapp08\Desarrollo\Reportes Eficiencia\Reportes\obj\x86\Debug\Reportes.exe
+\\sunsolcarapp08\Desarrollo\Reportes Eficiencia\Reportes\obj\x86\Debug\Reportes.pdb
+\\sunsolcarapp08\Desarrollo\Reportes Eficiencia\Reportes\bin\Debug\Reportes.exe
+\\sunsolcarapp08\Desarrollo\Reportes Eficiencia\Reportes\bin\Debug\Reportes.pdb
+\\sunsolcarapp08\Desarrollo\Reportes Eficiencia\Reportes\bin\Debug\MahApps.Metro.dll
+\\sunsolcarapp08\Desarrollo\Reportes Eficiencia\Reportes\bin\Debug\System.Windows.Interactivity.dll
+\\sunsolcarapp08\Desarrollo\Reportes Eficiencia\Reportes\bin\Debug\MahApps.Metro.pdb
+\\sunsolcarapp08\Desarrollo\Reportes Eficiencia\Reportes\bin\Debug\MahApps.Metro.xml
+\\sunsolcarapp08\Desarrollo\Reportes Eficiencia\Reportes\obj\x86\Debug\Reportes.csprojResolveAssemblyReference.cache
+\\sunsolcarapp08\Desarrollo\Reportes Eficiencia\Reportes\obj\x86\Debug\Acercade.baml
+\\sunsolcarapp08\Desarrollo\Reportes Eficiencia\Reportes\obj\x86\Debug\MainReportes.baml
+\\sunsolcarapp08\Desarrollo\Reportes Eficiencia\Reportes\obj\x86\Debug\App.baml
+\\sunsolcarapp08\Desarrollo\Reportes Eficiencia\Reportes\obj\x86\Debug\Acercade.g.cs
+\\sunsolcarapp08\Desarrollo\Reportes Eficiencia\Reportes\obj\x86\Debug\MainReportes.g.cs
+\\sunsolcarapp08\Desarrollo\Reportes Eficiencia\Reportes\obj\x86\Debug\App.g.cs
+\\sunsolcarapp08\Desarrollo\Reportes Eficiencia\Reportes\obj\x86\Debug\Reportes_MarkupCompile.cache
+\\sunsolcarapp08\Desarrollo\Reportes Eficiencia\Reportes\obj\x86\Debug\Reportes.g.resources
+\\sunsolcarapp08\Desarrollo\Reportes Eficiencia\Reportes\obj\x86\Debug\Reportes.Properties.Resources.resources
+\\sunsolcarapp08\Desarrollo\Reportes Eficiencia\Reportes\obj\x86\Debug\Reportes.csproj.GenerateResource.Cache
+\\sunsolcarapp08\Desarrollo\Reportes Eficiencia\Reportes\obj\x86\Debug\RdlCompile.cache
+\\sunsolcarapp08\Desarrollo\Reportes Eficiencia\Reportes\obj\x86\Debug\RdlCompile.compiled
+C:\Users\juan.salazar\Desktop\Reportes Eficiencia\Reportes\bin\Debug\Reportes.exe.config
+C:\Users\juan.salazar\Desktop\Reportes Eficiencia\Reportes\obj\x86\Debug\Reportes.exe
+C:\Users\juan.salazar\Desktop\Reportes Eficiencia\Reportes\obj\x86\Debug\Reportes.pdb
+C:\Users\juan.salazar\Desktop\Reportes Eficiencia\Reportes\bin\Debug\Reportes.exe
+C:\Users\juan.salazar\Desktop\Reportes Eficiencia\Reportes\bin\Debug\Reportes.pdb
+C:\Users\juan.salazar\Desktop\Reportes Eficiencia\Reportes\bin\Debug\MahApps.Metro.dll
+C:\Users\juan.salazar\Desktop\Reportes Eficiencia\Reportes\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\juan.salazar\Desktop\Reportes Eficiencia\Reportes\bin\Debug\MahApps.Metro.pdb
+C:\Users\juan.salazar\Desktop\Reportes Eficiencia\Reportes\bin\Debug\MahApps.Metro.xml
+C:\Users\juan.salazar\Desktop\Reportes Eficiencia\Reportes\obj\x86\Debug\Reportes.csprojResolveAssemblyReference.cache
+C:\Users\juan.salazar\Desktop\Reportes Eficiencia\Reportes\obj\x86\Debug\Acercade.baml
+C:\Users\juan.salazar\Desktop\Reportes Eficiencia\Reportes\obj\x86\Debug\MainReportes.baml
+C:\Users\juan.salazar\Desktop\Reportes Eficiencia\Reportes\obj\x86\Debug\App.baml
+C:\Users\juan.salazar\Desktop\Reportes Eficiencia\Reportes\obj\x86\Debug\Acercade.g.cs
+C:\Users\juan.salazar\Desktop\Reportes Eficiencia\Reportes\obj\x86\Debug\MainReportes.g.cs
+C:\Users\juan.salazar\Desktop\Reportes Eficiencia\Reportes\obj\x86\Debug\App.g.cs
+C:\Users\juan.salazar\Desktop\Reportes Eficiencia\Reportes\obj\x86\Debug\Reportes_MarkupCompile.cache
+C:\Users\juan.salazar\Desktop\Reportes Eficiencia\Reportes\obj\x86\Debug\Reportes.g.resources
+C:\Users\juan.salazar\Desktop\Reportes Eficiencia\Reportes\obj\x86\Debug\Reportes.Properties.Resources.resources
+C:\Users\juan.salazar\Desktop\Reportes Eficiencia\Reportes\obj\x86\Debug\Reportes.csproj.GenerateResource.Cache
+C:\Users\juan.salazar\Desktop\Reportes Eficiencia\Reportes\obj\x86\Debug\RdlCompile.cache
+C:\Users\juan.salazar\Desktop\Reportes Eficiencia\Reportes\obj\x86\Debug\RdlCompile.compiled
+C:\Users\juan.salazar\Documents\Reportes Eficiencia\Reportes\obj\x86\Debug\Acercade.baml
+C:\Users\juan.salazar\Documents\Reportes Eficiencia\Reportes\obj\x86\Debug\MainReportes.baml
+C:\Users\juan.salazar\Documents\Reportes Eficiencia\Reportes\obj\x86\Debug\App.baml
+C:\Users\juan.salazar\Documents\Reportes Eficiencia\Reportes\obj\x86\Debug\Acercade.g.cs
+C:\Users\juan.salazar\Documents\Reportes Eficiencia\Reportes\obj\x86\Debug\MainReportes.g.cs
+C:\Users\juan.salazar\Documents\Reportes Eficiencia\Reportes\obj\x86\Debug\App.g.cs
+C:\Users\juan.salazar\Documents\Reportes Eficiencia\Reportes\obj\x86\Debug\Reportes_MarkupCompile.cache
+C:\Users\juan.salazar\Documents\Reportes Eficiencia\Reportes\obj\x86\Debug\Reportes.g.resources
+C:\Users\juan.salazar\Documents\Reportes Eficiencia\Reportes\obj\x86\Debug\Reportes.Properties.Resources.resources
+C:\Users\juan.salazar\Documents\Reportes Eficiencia\Reportes\obj\x86\Debug\Reportes.csproj.GenerateResource.Cache
+C:\Users\juan.salazar\Documents\Reportes Eficiencia\Reportes\obj\x86\Debug\RdlCompile.cache
+C:\Users\juan.salazar\Documents\Reportes Eficiencia\Reportes\obj\x86\Debug\RdlCompile.compiled
+C:\Users\juan.salazar\Documents\Reportes Eficiencia\Reportes\obj\x86\Debug\Reportes.csprojResolveAssemblyReference.cache
+C:\Users\juan.salazar\Documents\Reportes Eficiencia\Reportes\bin\Debug\Reportes.exe.config
+C:\Users\juan.salazar\Documents\Reportes Eficiencia\Reportes\bin\Debug\Reportes.exe
+C:\Users\juan.salazar\Documents\Reportes Eficiencia\Reportes\bin\Debug\Reportes.pdb
+C:\Users\juan.salazar\Documents\Reportes Eficiencia\Reportes\bin\Debug\MahApps.Metro.dll
+C:\Users\juan.salazar\Documents\Reportes Eficiencia\Reportes\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\juan.salazar\Documents\Reportes Eficiencia\Reportes\bin\Debug\MahApps.Metro.pdb
+C:\Users\juan.salazar\Documents\Reportes Eficiencia\Reportes\bin\Debug\MahApps.Metro.xml
+C:\Users\juan.salazar\Documents\Reportes Eficiencia\Reportes\obj\x86\Debug\Reportes.exe
+C:\Users\juan.salazar\Documents\Reportes Eficiencia\Reportes\obj\x86\Debug\Reportes.pdb

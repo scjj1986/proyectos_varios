@@ -1,0 +1,5 @@
+================ Datos de los clientes ===================== 
+----------Cliente # 1------------> Cedula: 5# Nombre: 5# Apellido: 5# Direccion: 5# Telefono: 7
+----------Cliente # 2------------> Cedula: 5# Nombre: 5# Apellido: 5# Direccion: 67# Telefono: 32
+================ Datos de los promotores ===================== 
+----------Promotor # 1------------> Cedula: 1# Nombre: 1# Apellido: 1# Direccion: 1# Telefono: 1# Año de ingreso: 1# Mes de ingreso: 1# Dia de ingreso: 1

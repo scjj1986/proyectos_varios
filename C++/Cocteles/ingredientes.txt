@@ -1,0 +1,3 @@
+Codigo: 1, Nombre: ron
+Codigo: 2, Nombre: pepsi
+Codigo: 3, Nombre: hielo

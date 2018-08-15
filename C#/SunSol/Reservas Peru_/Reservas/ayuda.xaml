@@ -1,0 +1,26 @@
+﻿<Controls:MetroWindow x:Class="Reservas.ayuda"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+        Title="Módulo de ayuda" Height="687" Width="1062.5" WindowStartupLocation="CenterScreen" Icon="icono/logo vacation.png">
+    <Grid>
+        <GroupBox Grid.Row="0" Header="Retales" Margin="0" Height="auto">
+            <GroupBox.HeaderTemplate>
+                <DataTemplate>
+                    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                        <Label Content="Manual de funciones módulo de reservaciones" Foreground="White" FontWeight="Bold" FontSize="16" Margin="5,0"
+                               HorizontalAlignment="Left" VerticalContentAlignment="Center"/>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+
+
+                        </StackPanel>
+
+
+                    </Grid>
+
+                </DataTemplate>
+            </GroupBox.HeaderTemplate>
+            <WebBrowser x:Name="wbAyuda" Height="576" Margin="10,10,12,0" VerticalAlignment="Top" Source="C:\Users\carlos.marval\Desktop\Reservas v1.1.2\Reservas\Manual\MODULO RESERVACIONES.pdf"/>
+        </GroupBox>
+    </Grid>
+</Controls:MetroWindow>

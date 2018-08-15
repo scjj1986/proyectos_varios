@@ -1,0 +1,143 @@
+﻿<Controls:MetroWindow
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+     xmlns:gl="clr-namespace:System.Globalization;assembly=mscorlib"
+        xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="InventarioToallas.Principal"
+        Title="Sistema de Inventario de Suministros" Height="1090" Width="1900.5" IsMaxRestoreButtonEnabled="False" WindowStartupLocation="CenterScreen" Icon="imagenes/sunsol isla.png" WindowState="Maximized" Loaded="MetroWindow_Loaded" Closed="MetroWindow_Closed" Closing="MetroWindow_Closing" Unloaded="MetroWindow_Unloaded" SizeChanged="MetroWindow_SizeChanged">
+
+    <ScrollViewer>
+        <Grid>
+
+
+            <Frame x:Name="frmContenido" Margin="57,0,10,0" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.CanContentScroll="True"  NavigationUIVisibility="Hidden" Width="auto" />
+            <Button x:Name="BtnMenu"  Style="{StaticResource AccentedSquareButtonStyle}" Margin="10,10,0,0" HorizontalAlignment="Left" Width="42" Height="32" VerticalAlignment="Top" ToolTip="Menú Principal" Click="BtnMenu_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="imagenes/Menu.png"/>
+                </Button.Background>
+            </Button>
+
+            <Controls:Flyout Margin="0,5,0,10" x:Name="flmenu" Theme="Adapt" HorizontalAlignment="Left" Width="459" >
+                <Grid>
+                    <Controls:Tile Margin="74,44,0,0"  Title="Usuario" Cursor="Hand" HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="tlUsuario" Click="tlUsuario_Click" Height="80" Width="82" FontSize="6" TitleFontSize="12">
+                        <Controls:Tile.Effect>
+                            <DropShadowEffect ShadowDepth="9" BlurRadius="8" Opacity="0.95"/>
+                        </Controls:Tile.Effect>
+                        <Image Source="imagenes/Users-WF.png" Height="70" Width="72" RenderTransformOrigin="0.465,0.175" />
+                    </Controls:Tile>
+                    <Controls:Tile Margin="161,44,0,0" Title="Supervisores" Cursor="Hand" HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="tlSupervisor"  Height="80" Width="82" FontSize="10" Click="tlSupervisor_Click" TitleFontSize="11">
+                        <Controls:Tile.Effect>
+                            <DropShadowEffect ShadowDepth="9" BlurRadius="8" Opacity="0.95"/>
+                        </Controls:Tile.Effect>
+                        <Image Source="imagenes/prospecto.png" />
+                    </Controls:Tile>
+                    <Controls:Tile Margin="249,44,0,0" Title="Camareras" Cursor="Hand" HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="tlCamareras"  Height="80" Width="82" FontSize="10" Click="tlCamareras_Click" TitleFontSize="12">
+                        <Controls:Tile.Effect>
+                            <DropShadowEffect ShadowDepth="9" BlurRadius="8" Opacity="0.95"/>
+                        </Controls:Tile.Effect>
+                        <Image Source="imagenes/Camarera_1.png" />
+                    </Controls:Tile>
+                    <Controls:Tile Margin="74,129,0,0" Title="Suministros" Cursor="Hand" HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="tlSuministros" Height="80" Width="82" FontSize="10" Click="tlSuministros_Click" TitleFontSize="12">
+                        <Controls:Tile.Effect>
+                            <DropShadowEffect ShadowDepth="9" BlurRadius="8" Opacity="0.95"/>
+                        </Controls:Tile.Effect>
+                        <Image Source="imagenes/Toalla.png" />
+                    </Controls:Tile>
+
+                    <Controls:Tile Margin="161,129,0,0" Title="  Asignación de Habitaciones" Cursor="Hand" HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="tlMovHab" Height="80" Width="169" FontSize="10" Click="tlMovHab_Click" TitleFontSize="12">
+                        <Controls:Tile.Effect>
+                            <DropShadowEffect ShadowDepth="9" BlurRadius="8" Opacity="0.95"/>
+                        </Controls:Tile.Effect>
+                        <Image Source="imagenes/cama.png" />
+                    </Controls:Tile>
+
+                    <Controls:Tile Margin="249,640,0,0" Title="Cerrar Sesión" Cursor="Hand" HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="tlSalir" Height="78" Width="81" FontSize="10" Click="tlSalir_Click" Unloaded="tlSalir_Unloaded" TitleFontSize="11" RenderTransformOrigin="0.963,0.488">
+                        <Controls:Tile.Effect>
+                            <DropShadowEffect ShadowDepth="9" BlurRadius="8" Opacity="0.95"/>
+                        </Controls:Tile.Effect>
+                        <Image Source="imagenes/salir3.png" Width="102" />
+                    </Controls:Tile>
+                    <Controls:Tile Margin="73,214,0,0" Title="Suministro de Hab." Cursor="Hand" HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="tlMovimiento" Height="80" Width="169" FontSize="10" Unloaded="tlSalir_Unloaded" Click="tlMovimiento_Click" TitleFontSize="12">
+                        <Controls:Tile.Effect>
+                            <DropShadowEffect ShadowDepth="9" BlurRadius="8" Opacity="0.95"/>
+                        </Controls:Tile.Effect>
+                        <Image Source="imagenes/Tasks.png" />
+                    </Controls:Tile>
+
+                    <Controls:Tile Margin="160,299,0,0" Title=" Asign. de Hab. Por Fecha" Cursor="Hand" HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="tlAsigHabHoy" Height="80" Width="169" FontSize="10" Click="tlAsigHabHoy_Click" TitleFontSize="11">
+                        <Controls:Tile.Effect>
+                            <DropShadowEffect ShadowDepth="9" BlurRadius="8" Opacity="0.95"/>
+                        </Controls:Tile.Effect>
+                        <Image Source="imagenes/HabDiaria.png" />
+                    </Controls:Tile>
+
+                    <Controls:Tile Margin="73,299,0,0" Title="Sum. de Hab. por Fecha" Cursor="Hand" HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="tlMovPorFecha" Height="80" Width="82" FontSize="10" Click="tlMovPorFecha_Click" TitleFontSize="10" RenderTransformOrigin="1.085,0.338">
+                        <Controls:Tile.Effect>
+                            <DropShadowEffect ShadowDepth="9" BlurRadius="8" Opacity="0.95"/>
+                        </Controls:Tile.Effect>
+                        <Image />
+                    </Controls:Tile>
+
+
+
+
+                    <Controls:Tile Margin="247,214,0,0" Title="Pérdidas por Fecha" Cursor="Hand" HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="tlPerPorFecha" Height="80" Width="82" FontSize="10" TitleFontSize="10" Click="tlPerPorFecha_Click" RenderTransformOrigin="0.427,0.587">
+                        <Controls:Tile.Effect>
+                            <DropShadowEffect ShadowDepth="9" BlurRadius="8" Opacity="0.95"/>
+                        </Controls:Tile.Effect>
+                        <Image />
+                    </Controls:Tile>
+
+
+
+
+                    <Controls:Tile Margin="73,384,0,0" Title="Extras" Cursor="Hand" HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="tlExtra" Height="80" Width="82" FontSize="10" TitleFontSize="10" Click="tlExtra_Click">
+                        <Controls:Tile.Effect>
+                            <DropShadowEffect ShadowDepth="9" BlurRadius="8" Opacity="0.95"/>
+                        </Controls:Tile.Effect>
+                        <Image />
+                    </Controls:Tile>
+
+                    <Controls:Tile Margin="160,384,0,0" Title="Reportes de Suministro de Hab." Cursor="Hand" HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="tlRepSumHab" Height="80" Width="169" FontSize="10" TitleFontSize="10" Click="tlRepSumHab_Click" RenderTransformOrigin="0.483,0.462">
+                        <Controls:Tile.Effect>
+                            <DropShadowEffect ShadowDepth="9" BlurRadius="8" Opacity="0.95"/>
+                        </Controls:Tile.Effect>
+                        <Image Source="imagenes/Cape-01-WF.png" />
+                    </Controls:Tile>
+
+                    <Controls:Tile Margin="73,469,0,0" Title="Reportes de Extras" Cursor="Hand" HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="tlReportesExtra" Height="78" Width="169" FontSize="10" TitleFontSize="10" Click="tlReportesExtra_Click" RenderTransformOrigin="0.459,1.377">
+                        <Controls:Tile.Effect>
+                            <DropShadowEffect ShadowDepth="9" BlurRadius="8" Opacity="0.95"/>
+                        </Controls:Tile.Effect>
+                        <Image Source="imagenes/Print Layout-WF.png" />
+                    </Controls:Tile>
+                    <Controls:Tile Margin="73,555,0,0" Title="Reporte de Toallas de Piscina" Cursor="Hand" HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="tlRepToaPisc" Height="78" Width="258" FontSize="10" TitleFontSize="10" RenderTransformOrigin="0.459,1.377" Click="tlRepToaPisc_Click">
+                        <Controls:Tile.Effect>
+                            <DropShadowEffect ShadowDepth="9" BlurRadius="8" Opacity="0.95"/>
+                        </Controls:Tile.Effect>
+                        <Image Source="imagenes/Print Layout-WF.png" />
+                    </Controls:Tile>
+
+                    <Controls:Tile Margin="73,640,0,0" Title="Reporte de Bitácoras" Cursor="Hand" HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="tlReportesBitacora" Height="78" Width="169" FontSize="10" TitleFontSize="10" RenderTransformOrigin="0.459,1.377" Click="tlReportesBitacora_Click">
+                        <Controls:Tile.Effect>
+                            <DropShadowEffect ShadowDepth="9" BlurRadius="8" Opacity="0.95"/>
+                        </Controls:Tile.Effect>
+                        <Image Source="imagenes/Print Layout-WF.png" />
+                    </Controls:Tile>
+
+                    <Controls:Tile Margin="249,469,0,0" Title="Reportes de Pérdidas" Cursor="Hand" HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="tlReportes" Height="78" Width="82" FontSize="10" TitleFontSize="10" Click="tlReportes_Click" RenderTransformOrigin="0.459,1.377">
+                        <Controls:Tile.Effect>
+                            <DropShadowEffect ShadowDepth="9" BlurRadius="8" Opacity="0.95"/>
+                        </Controls:Tile.Effect>
+                        <Image />
+                    </Controls:Tile>
+                    <Label Content="User" x:Name="lblUser" Margin="167,0,122,0" FontWeight="Bold" FontSize="10" Height="21" VerticalAlignment="Top" HorizontalContentAlignment="Right"/>
+                    <Label x:Name="lblfecha" Content="fghgfhfhgfhgf" Margin="39,723,0,0" FontWeight="Bold" HorizontalAlignment="Left" Width="289" Height="23" VerticalAlignment="Top" FontSize="10" HorizontalContentAlignment="Right" />
+                </Grid>
+            </Controls:Flyout>
+
+
+        </Grid>
+
+    </ScrollViewer>
+</Controls:MetroWindow>

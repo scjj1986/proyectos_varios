@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsPorcentajeLiner" targetNamespace="http://tempuri.org/dsPorcentajeLiner.xsd" xmlns:mstns="http://tempuri.org/dsPorcentajeLiner.xsd" xmlns="http://tempuri.org/dsPorcentajeLiner.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsPorcentajeLiner" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsPorcentajeLiner" msprop:Generator_UserDSName="dsPorcentajeLiner">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dttPorcLiner" msprop:Generator_TableClassName="dttPorcLinerDataTable" msprop:Generator_TableVarName="tabledttPorcLiner" msprop:Generator_TablePropName="dttPorcLiner" msprop:Generator_RowDeletingName="dttPorcLinerRowDeleting" msprop:Generator_RowChangingName="dttPorcLinerRowChanging" msprop:Generator_RowEvHandlerName="dttPorcLinerRowChangeEventHandler" msprop:Generator_RowDeletedName="dttPorcLinerRowDeleted" msprop:Generator_UserTableName="dttPorcLiner" msprop:Generator_RowChangedName="dttPorcLinerRowChanged" msprop:Generator_RowEvArgName="dttPorcLinerRowChangeEvent" msprop:Generator_RowClassName="dttPorcLinerRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="codigo" msprop:Generator_ColumnVarNameInTable="columncodigo" msprop:Generator_ColumnPropNameInRow="codigo" msprop:Generator_ColumnPropNameInTable="codigoColumn" msprop:Generator_UserColumnName="codigo" type="xs:string" minOccurs="0" />
+              <xs:element name="nombre" msprop:Generator_ColumnVarNameInTable="columnnombre" msprop:Generator_ColumnPropNameInRow="nombre" msprop:Generator_ColumnPropNameInTable="nombreColumn" msprop:Generator_UserColumnName="nombre" type="xs:string" minOccurs="0" />
+              <xs:element name="q" msprop:Generator_ColumnVarNameInTable="columnq" msprop:Generator_ColumnPropNameInRow="q" msprop:Generator_ColumnPropNameInTable="qColumn" msprop:Generator_UserColumnName="q" type="xs:int" minOccurs="0" />
+              <xs:element name="nq" msprop:Generator_ColumnVarNameInTable="columnnq" msprop:Generator_ColumnPropNameInRow="nq" msprop:Generator_ColumnPropNameInTable="nqColumn" msprop:Generator_UserColumnName="nq" type="xs:int" minOccurs="0" />
+              <xs:element name="total" msprop:Generator_ColumnVarNameInTable="columntotal" msprop:Generator_ColumnPropNameInRow="total" msprop:Generator_ColumnPropNameInTable="totalColumn" msprop:Generator_UserColumnName="total" type="xs:int" minOccurs="0" />
+              <xs:element name="procs" msprop:Generator_ColumnVarNameInTable="columnprocs" msprop:Generator_ColumnPropNameInRow="procs" msprop:Generator_ColumnPropNameInTable="procsColumn" msprop:Generator_UserColumnName="procs" type="xs:int" minOccurs="0" />
+              <xs:element name="pend" msprop:Generator_ColumnVarNameInTable="columnpend" msprop:Generator_ColumnPropNameInRow="pend" msprop:Generator_ColumnPropNameInTable="pendColumn" msprop:Generator_UserColumnName="pend" type="xs:int" minOccurs="0" />
+              <xs:element name="volumen" msprop:Generator_ColumnVarNameInTable="columnvolumen" msprop:Generator_ColumnPropNameInRow="volumen" msprop:Generator_ColumnPropNameInTable="volumenColumn" msprop:Generator_UserColumnName="volumen" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dttSumPorcLiner" msprop:Generator_TableClassName="dttSumPorcLinerDataTable" msprop:Generator_TableVarName="tabledttSumPorcLiner" msprop:Generator_TablePropName="dttSumPorcLiner" msprop:Generator_RowDeletingName="dttSumPorcLinerRowDeleting" msprop:Generator_RowChangingName="dttSumPorcLinerRowChanging" msprop:Generator_RowEvHandlerName="dttSumPorcLinerRowChangeEventHandler" msprop:Generator_RowDeletedName="dttSumPorcLinerRowDeleted" msprop:Generator_UserTableName="dttSumPorcLiner" msprop:Generator_RowChangedName="dttSumPorcLinerRowChanged" msprop:Generator_RowEvArgName="dttSumPorcLinerRowChangeEvent" msprop:Generator_RowClassName="dttSumPorcLinerRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="q" msprop:Generator_ColumnVarNameInTable="columnq" msprop:Generator_ColumnPropNameInRow="q" msprop:Generator_ColumnPropNameInTable="qColumn" msprop:Generator_UserColumnName="q" type="xs:int" minOccurs="0" />
+              <xs:element name="nq" msprop:Generator_ColumnVarNameInTable="columnnq" msprop:Generator_ColumnPropNameInRow="nq" msprop:Generator_ColumnPropNameInTable="nqColumn" msprop:Generator_UserColumnName="nq" type="xs:int" minOccurs="0" />
+              <xs:element name="nt" msprop:Generator_ColumnVarNameInTable="columnnt" msprop:Generator_ColumnPropNameInRow="nt" msprop:Generator_ColumnPropNameInTable="ntColumn" msprop:Generator_UserColumnName="nt" type="xs:int" minOccurs="0" />
+              <xs:element name="total" msprop:Generator_ColumnVarNameInTable="columntotal" msprop:Generator_ColumnPropNameInRow="total" msprop:Generator_ColumnPropNameInTable="totalColumn" msprop:Generator_UserColumnName="total" type="xs:int" minOccurs="0" />
+              <xs:element name="volumen" msprop:Generator_ColumnVarNameInTable="columnvolumen" msprop:Generator_ColumnPropNameInRow="volumen" msprop:Generator_ColumnPropNameInTable="volumenColumn" msprop:Generator_UserColumnName="volumen" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

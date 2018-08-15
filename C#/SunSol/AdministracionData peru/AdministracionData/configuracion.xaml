@@ -1,0 +1,95 @@
+﻿<Page
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:Custom="http://metro.mahapps.com/winfx/xaml/controls" x:Class="AdministracionData.configuracion" 
+      mc:Ignorable="d"
+	Title="configuracion" Height="auto" Width="auto" Loaded="Page_Loaded">
+
+    <Grid Margin="0,0,0,10" >
+        <GroupBox Grid.Row="0" Header="Retales" Margin="0">
+            <GroupBox.HeaderTemplate>
+                <DataTemplate>
+                    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="36">
+                        <Label Content="Configuración" Foreground="White" FontWeight="Bold" FontSize="16" Margin="5,0,0,0"
+							HorizontalAlignment="Left" VerticalContentAlignment="Center"/>
+
+
+                    </Grid>
+
+                </DataTemplate>
+            </GroupBox.HeaderTemplate>
+
+        </GroupBox>
+        <TabControl RenderTransformOrigin="-0.995,-0.835" Margin="9,55,0,10">
+
+            <TabItem Header="Documento" HorizontalAlignment="Right" Width="184" Margin="-4,0,4,0">
+                <Grid Background="{DynamicResource {x:Static SystemColors.HighlightTextBrushKey}}" Margin="0,-3,0,20">
+                    <TextBox x:Name="txtdescripcion" Margin="10,58,0,0" Height="38"            			
+                		Custom:TextBoxHelper.UseFloatingWatermark="True"
+                		Custom:TextBoxHelper.Watermark="Descripción"
+                		IsEnabled="true" Text="" FontSize="11" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top" LostFocus="txtdescripcion_LostFocus" />
+                    <TextBox x:Name="txtFormato" Margin="10,101,0,0" Height="38"            			
+                    	Custom:TextBoxHelper.UseFloatingWatermark="True"
+                    	Custom:TextBoxHelper.Watermark="Formato documento de identidad Ej: V.-##.###.###"
+                    	IsEnabled="true" Text="" FontSize="11" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                    <Custom:Tile x:Name="tlGuardar"  Height="52" Margin="560,181,0,0" Width="58" ToolTip="Guardar" VerticalAlignment="Top" HorizontalAlignment="Left" Click="tlGuardar_Click" >
+                        <Custom:Tile.Effect>
+                            <DropShadowEffect BlurRadius="8" Opacity="0.95" ShadowDepth="9"/>
+                        </Custom:Tile.Effect>
+                        <Image Source="imagenes/guardar.png" Width="48"/>
+                    </Custom:Tile>
+                    <Custom:Tile x:Name="tlCancelar"  Height="52" Margin="497,181,0,0" Width="58" VerticalAlignment="Top" HorizontalAlignment="Left" Click="tlCancelar_Click" >
+                        <Custom:Tile.Effect>
+                            <DropShadowEffect Opacity="0.95" ShadowDepth="9" BlurRadius="8"/>
+                        </Custom:Tile.Effect>
+                        <Image Source="imagenes/Cancel.png" Width="48"/>
+                    </Custom:Tile>
+                    <Label Content="(*)" HorizontalAlignment="Left" Margin="515,10,0,0" VerticalAlignment="Top" Foreground="#FFF30C0C"/>
+                    <Label Content="(*)" HorizontalAlignment="Left" Margin="515,53,0,0" VerticalAlignment="Top" Foreground="#FFF30C0C"/>
+                    <Label Content="(*) Campos obligatorios" HorizontalAlignment="Left" Margin="348,203,0,0" Foreground="#FFF30C0C" Height="26" VerticalAlignment="Top"/>
+                    <ComboBox x:Name="cmbpais" Margin="10,15,0,0" Height="38"            			
+                    	Custom:TextBoxHelper.UseFloatingWatermark="True"
+                    	Custom:TextBoxHelper.Watermark="País"
+                    	IsEnabled="true" Text="" FontSize="11" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top"  />
+                    <Label Content="(*)" HorizontalAlignment="Left" Margin="515,101,0,0" VerticalAlignment="Top" Foreground="#FFF30C0C"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="País" HorizontalAlignment="Right" Width="80" Margin="-4,0,4,0">
+                <Grid Background="{DynamicResource {x:Static SystemColors.HighlightTextBrushKey}}" Margin="0,-3,0,20">
+                    <TextBox x:Name="txtnombre" Margin="10,15,0,0" Height="38"            			
+                		Custom:TextBoxHelper.UseFloatingWatermark="True"
+                		Custom:TextBoxHelper.Watermark="Nombre"
+                		IsEnabled="true" Text="" FontSize="11" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top" LostFocus="txtnombre_LostFocus" />
+
+                    <Custom:Tile x:Name="tlGuardarPais"  Height="52" Margin="538,77,0,0" Width="58" ToolTip="Guardar" VerticalAlignment="Top" HorizontalAlignment="Left" Click="tlGuardarPais_Click" >
+                        <Custom:Tile.Effect>
+                            <DropShadowEffect BlurRadius="8" Opacity="0.95" ShadowDepth="9"/>
+                        </Custom:Tile.Effect>
+                        <Image Source="imagenes/guardar.png" Width="48"/>
+                    </Custom:Tile>
+                    <Custom:Tile x:Name="tlCancelarpais"  Height="52" Margin="475,77,0,0" Width="58" VerticalAlignment="Top" HorizontalAlignment="Left" Click="tlCancelarpais_Click" >
+                        <Custom:Tile.Effect>
+                            <DropShadowEffect Opacity="0.95" ShadowDepth="9" BlurRadius="8"/>
+                        </Custom:Tile.Effect>
+                        <Image Source="imagenes/Cancel.png" Width="48"/>
+                    </Custom:Tile>
+                    <Label Content="(*)" HorizontalAlignment="Left" Margin="515,10,0,0" VerticalAlignment="Top" Foreground="#FFF30C0C"/>
+                    <Label Content="(*) Campos obligatorios" HorizontalAlignment="Left" Margin="335,89,0,0" Foreground="#FFF30C0C" Height="26" VerticalAlignment="Top"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Bitacora" HorizontalAlignment="Right" Width="130" >
+                <Grid Background="{DynamicResource {x:Static SystemColors.HighlightTextBrushKey}}" Margin="0,-3,0,20" Height="243">
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="Acciones">
+                <Grid Background="{DynamicResource {x:Static SystemColors.HighlightTextBrushKey}}" Margin="0,-3,0,20" Height="243">
+
+                </Grid>
+            </TabItem>
+
+        </TabControl>
+    </Grid>
+</Page>

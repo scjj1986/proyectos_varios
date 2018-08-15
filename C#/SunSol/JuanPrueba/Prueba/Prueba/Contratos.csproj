@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9C758654-CBAA-47CD-A5B8-61A977345991}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Contratos</RootNamespace>
+    <AssemblyName>Contratos</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clases\Bitacora.cs" />
+    <Compile Include="Clases\conexionBD.cs" />
+    <Compile Include="Clases\Empresa.cs" />
+    <Compile Include="Clases\FormasDePago.cs" />
+    <Compile Include="Clases\Impresora.cs" />
+    <Compile Include="Clases\LImpresora.cs" />
+    <Compile Include="Clases\Parametros.cs" />
+    <Compile Include="Clases\Stting.cs" />
+    <Compile Include="Clases\Cliente.cs" />
+    <Compile Include="Data\dsClienteEdoCta.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsClienteEdoCta.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsClientes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsClientes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsPorcentajeCloser.Designer.cs">
+      <DependentUpon>dsPorcentajeCloser.xsd</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Data\dsPorcentajeLiner.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPorcentajeLiner.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsRepHostess.cs">
+      <DependentUpon>dsRepHostess.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Data\dsVolOPC.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsVolOPC.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsVolumenOPCDetallado.cs">
+      <DependentUpon>dsVolumenOPCDetallado.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Data\dsVolumenOPCDetallado.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsVolumenOPCDetallado.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\dsRepHostess.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsRepHostess.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsVolOPC.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsVolOPC.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmClientes.Designer.cs">
+      <DependentUpon>frmClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmSeleccionarEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmSeleccionarEmpresa.Designer.cs">
+      <DependentUpon>frmSeleccionarEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clases\LEmpresa.cs" />
+    <Compile Include="Formularios\frmClienteEdoCta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmClienteEdoCta.Designer.cs">
+      <DependentUpon>frmClienteEdoCta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmConsultarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmConsultarCliente.Designer.cs">
+      <DependentUpon>frmConsultarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmListadoClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmListadoClientes.Designer.cs">
+      <DependentUpon>frmListadoClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmBancos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmBancos.Designer.cs">
+      <DependentUpon>frmBancos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmInstrumentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmInstrumentos.Designer.cs">
+      <DependentUpon>frmInstrumentos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmProgramas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmProgramas.Designer.cs">
+      <DependentUpon>frmProgramas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmVolOPC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmVolOPC.Designer.cs">
+      <DependentUpon>frmVolOPC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmLocacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmLocacion.Designer.cs">
+      <DependentUpon>frmLocacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmPorcCloser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmPorcCloser.Designer.cs">
+      <DependentUpon>frmPorcCloser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmPorcLiner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmPorcLiner.Designer.cs">
+      <DependentUpon>frmPorcLiner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmVolOPCDet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmVolOPCDet.Designer.cs">
+      <DependentUpon>frmVolOPCDet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmRepHostess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmRepHostess.Designer.cs">
+      <DependentUpon>frmRepHostess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmReporteCloser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmReporteCloser.Designer.cs">
+      <DependentUpon>frmReporteCloser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmReporteResCon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmReporteResCon.Designer.cs">
+      <DependentUpon>frmReporteResCon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmContratos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmContratos.Designer.cs">
+      <DependentUpon>frmContratos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm.Designer.cs">
+      <DependentUpon>frm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\intCli.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ControlDeUsuarios\TextBoxDecimal.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlDeUsuarios\TextBoxDecimal.Designer.cs">
+      <DependentUpon>TextBoxDecimal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlDeUsuarios\TextBoxNumeric.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlDeUsuarios\TextBoxNumeric.Designer.cs">
+      <DependentUpon>TextBoxNumeric.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlDeUsuarios\TextLetras.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlDeUsuarios\TextLetras.Designer.cs">
+      <DependentUpon>TextLetras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clases\Usuario.cs" />
+    <Compile Include="Clases\Globales.cs" />
+    <Compile Include="Clases\VolOPC.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmClienteEdoCta.resx">
+      <DependentUpon>frmClienteEdoCta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmClientes.resx">
+      <DependentUpon>frmClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmRepHostess.resx">
+      <DependentUpon>frmRepHostess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmSeleccionarEmpresa.resx">
+      <DependentUpon>frmSeleccionarEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmConsultarCliente.resx">
+      <DependentUpon>frmConsultarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmListadoClientes.resx">
+      <DependentUpon>frmListadoClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmBancos.resx">
+      <DependentUpon>frmBancos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmInstrumentos.resx">
+      <DependentUpon>frmInstrumentos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmProgramas.resx">
+      <DependentUpon>frmProgramas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmVolOPC.resx">
+      <DependentUpon>frmVolOPC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmLocacion.resx">
+      <DependentUpon>frmLocacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmPorcCloser.resx">
+      <DependentUpon>frmPorcCloser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmPorcLiner.resx">
+      <DependentUpon>frmPorcLiner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmVolOPCDet.resx">
+      <DependentUpon>frmVolOPCDet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmReporteCloser.resx">
+      <DependentUpon>frmReporteCloser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmReporteResCon.resx">
+      <DependentUpon>frmReporteResCon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmContratos.resx">
+      <DependentUpon>frmContratos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm.resx">
+      <DependentUpon>frm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Reportes\rptClienteEdoCta.rdlc" />
+    <EmbeddedResource Include="Reportes\rptHostess.rdlc" />
+    <EmbeddedResource Include="Reportes\rptListadoClientes.rdlc" />
+    <EmbeddedResource Include="Reportes\rptPorcCloser.rdlc" />
+    <EmbeddedResource Include="Reportes\rptPorcLiner.rdlc" />
+    <EmbeddedResource Include="Reportes\rptVolOPC.rdlc" />
+    <EmbeddedResource Include="Reportes\rptVolOPCDet.rdlc" />
+    <None Include="Data\dsClienteEdoCta.xsc">
+      <DependentUpon>dsClienteEdoCta.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsClienteEdoCta.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsClienteEdoCta.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Data\dsClienteEdoCta.xss">
+      <DependentUpon>dsClienteEdoCta.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsClientes.xsc">
+      <DependentUpon>dsClientes.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsClientes.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsClientes.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Data\dsClientes.xss">
+      <DependentUpon>dsClientes.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsPorcentajeCloser.xsc">
+      <DependentUpon>dsPorcentajeCloser.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsPorcentajeCloser.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPorcentajeCloser.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data\dsPorcentajeCloser.xss">
+      <DependentUpon>dsPorcentajeCloser.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsPorcentajeLiner.xsc">
+      <DependentUpon>dsPorcentajeLiner.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsPorcentajeLiner.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPorcentajeLiner.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data\dsPorcentajeLiner.xss">
+      <DependentUpon>dsPorcentajeLiner.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsVolOPC.xsc">
+      <DependentUpon>dsVolOPC.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsVolOPC.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsVolOPC.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data\dsVolOPC.xss">
+      <DependentUpon>dsVolOPC.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsVolumenOPCDetallado.xsc">
+      <DependentUpon>dsVolumenOPCDetallado.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsVolumenOPCDetallado.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsVolumenOPCDetallado.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data\dsVolumenOPCDetallado.xss">
+      <DependentUpon>dsVolumenOPCDetallado.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsRepHostess.xsc">
+      <DependentUpon>dsRepHostess.xsd</DependentUpon>
+    </None>
+    <None Include="Data\dsRepHostess.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsRepHostess.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data\dsRepHostess.xss">
+      <DependentUpon>dsRepHostess.xsd</DependentUpon>
+    </None>
+    <None Include="dsVolOPC.xsc">
+      <DependentUpon>dsVolOPC.xsd</DependentUpon>
+    </None>
+    <None Include="dsVolOPC.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsVolOPC.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsVolOPC.xss">
+      <DependentUpon>dsVolOPC.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\DataSources\conexionBD.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Carpeta\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconos\search.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

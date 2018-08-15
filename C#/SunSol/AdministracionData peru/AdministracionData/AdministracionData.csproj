@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{23704617-E960-4089-AFC3-BD40005074AE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AdministracionData</RootNamespace>
+    <AssemblyName>AdministracionData</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MahApps.Metro, Version=1.3.0.0, Culture=neutral, PublicKeyToken=f4fb5a3c4d1e5b4f, processorArchitecture=MSIL">
+      <HintPath>..\packages\MahApps.Metro.1.3.0\lib\net45\MahApps.Metro.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\ReportViewer\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="system.windows.controls.datavisualization.toolkit, Version=3.5.40128.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\MahApps.Metro.1.3.0\lib\net45\System.Windows.Interactivity.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WindowsFormsIntegration" />
+    <Reference Include="WPFToolkit, Version=3.5.40128.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="afiliado.xaml.cs">
+      <DependentUpon>afiliado.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="asignacion.xaml.cs">
+      <DependentUpon>asignacion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente.xaml.cs">
+      <DependentUpon>Cliente.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="configuracion.xaml.cs">
+      <DependentUpon>configuracion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="confirmador.xaml.cs">
+      <DependentUpon>confirmador.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DetalleCita.xaml.cs">
+      <DependentUpon>DetalleCita.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="dsReporteConfirmador.cs">
+      <DependentUpon>dsReporteConfirmador.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="dsReporteConfirmador.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsReporteConfirmador.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsReporteProspecto.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsReporteProspecto.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsReporteTeleOp.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsReporteTeleOp.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="historial.xaml.cs">
+      <DependentUpon>historial.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="locacion.xaml.cs">
+      <DependentUpon>locacion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MyMaskedTextBox.cs" />
+    <Compile Include="Page1.xaml.cs">
+      <DependentUpon>Page1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pendiente.xaml.cs">
+      <DependentUpon>Pendiente.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="promotor.xaml.cs">
+      <DependentUpon>promotor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="reporteConfirmador.xaml.cs">
+      <DependentUpon>reporteConfirmador.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteProspecto.xaml.cs">
+      <DependentUpon>ReporteProspecto.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="reportesxaml.xaml.cs">
+      <DependentUpon>reportesxaml.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteTeleOp.xaml.cs">
+      <DependentUpon>ReporteTeleOp.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="telemarketing.xaml.cs">
+      <DependentUpon>telemarketing.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="usuario.xaml.cs">
+      <DependentUpon>usuario.xaml</DependentUpon>
+    </Compile>
+    <Page Include="afiliado.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="asignacion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Cliente.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="configuracion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="confirmador.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DetalleCita.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="historial.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="locacion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Login.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Page1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pendiente.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Principal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="promotor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="reporteConfirmador.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ReporteProspecto.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="reportesxaml.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ReporteTeleOp.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Icons.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\IconsNonShared.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="telemarketing.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="usuario.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Principal.xaml.cs">
+      <DependentUpon>Principal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteConfirmador.rdlc" />
+    <EmbeddedResource Include="ReporteProspecto.rdlc" />
+    <EmbeddedResource Include="ReportTeleOp.rdlc" />
+    <None Include="dsReporteConfirmador.xsc">
+      <DependentUpon>dsReporteConfirmador.xsd</DependentUpon>
+    </None>
+    <None Include="dsReporteConfirmador.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsReporteConfirmador.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsReporteConfirmador.xss">
+      <DependentUpon>dsReporteConfirmador.xsd</DependentUpon>
+    </None>
+    <None Include="dsReporteProspecto.xsc">
+      <DependentUpon>dsReporteProspecto.xsd</DependentUpon>
+    </None>
+    <None Include="dsReporteProspecto.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsReporteProspecto.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsReporteProspecto.xss">
+      <DependentUpon>dsReporteProspecto.xsd</DependentUpon>
+    </None>
+    <None Include="dsReporteTeleOp.xsc">
+      <DependentUpon>dsReporteTeleOp.xsd</DependentUpon>
+    </None>
+    <None Include="dsReporteTeleOp.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsReporteTeleOp.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsReporteTeleOp.xss">
+      <DependentUpon>dsReporteTeleOp.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+    <Resource Include="Resources\Entypo.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\logo vacation.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\photo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Clases\Clases.csproj">
+      <Project>{0855e22d-651b-4a30-86e7-87668c83c83a}</Project>
+      <Name>Clases</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\WindowsIcons-license.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Entypo-license.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\Users.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\Cliente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\Users-WF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\locacion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\Tele.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\cita.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\data.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\User Info-WF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\aceptar.png" />
+    <Resource Include="imagenes\cancelar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\ojo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\guardar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\Cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\nuevo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\configuracion.png" />
+    <Resource Include="imagenes\documentoIdentidad.png" />
+    <Resource Include="imagenes\pais.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\reporte.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\prospecto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\pendientes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\acompanante.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\Menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\Calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\quit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\confirmador.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\promotor.png" />
+    <Resource Include="imagenes\supervisor.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

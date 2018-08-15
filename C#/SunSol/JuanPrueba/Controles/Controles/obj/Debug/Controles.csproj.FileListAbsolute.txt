@@ -1,0 +1,5 @@
+C:\Users\juan.salazar\Documents\JuanPrueba\Controles\Controles\obj\Debug\Controles.csprojResolveAssemblyReference.cache
+C:\Users\juan.salazar\Documents\JuanPrueba\Controles\Controles\bin\Debug\Controles.dll
+C:\Users\juan.salazar\Documents\JuanPrueba\Controles\Controles\bin\Debug\Controles.pdb
+C:\Users\juan.salazar\Documents\JuanPrueba\Controles\Controles\obj\Debug\Controles.dll
+C:\Users\juan.salazar\Documents\JuanPrueba\Controles\Controles\obj\Debug\Controles.pdb

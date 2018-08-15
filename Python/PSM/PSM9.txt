@@ -1,0 +1,9 @@
+stack size from 13 to 19
+
+push uu (20)
+push ff (67)
+pop
+pop
+end
+hdfbs
+hgdgh

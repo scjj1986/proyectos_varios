@@ -1,0 +1,12 @@
+﻿<Controls:MetroWindow x:Class="AdministracionData.ReporteProspecto"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+          xmlns:rv="clr-namespace:Microsoft.Reporting.WinForms;assembly=Microsoft.ReportViewer.WinForms" 
+        xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+        Title="ReporteProspecto"  Height="549" Width="872" WindowStartupLocation="CenterScreen" Loaded="MetroWindow_Loaded">
+    <Grid>
+        <WindowsFormsHost Margin="10,25,10,20">
+            <rv:ReportViewer x:Name="_reportViewer" ForeColor="" PageCountMode="Actual"/>
+        </WindowsFormsHost>
+    </Grid>
+</Controls:MetroWindow>

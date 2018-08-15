@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=windows-1250">
+  <meta name="generator" content="PSPad editor, www.pspad.com">
+  <title></title>
+  </head>
+  <body>
+   <h1 align=center><font color=black><b><i>An&aacutelisis del problema</i></b></font>
+   </h1>
+   <hr color=black width=100% size=5%>
+   <p align=justify>1)<b>Cu&aacutel es problema?:</b>&nbsp;Se requiere de un simulador del
+administrador de memoria de un lenguaje de programación recursivo, específicamente del segmento de pila
+(STACK). Este simulador debe utilizar un TDA Stack que encapsule todas sus operaciones.
+La secuencia de operaciones a aplicar a la pila será cargada desde un archivo de texto, no sensible al uso
+de mayúsculas/minúsculas, sin importar los espacios o líneas en blanco.
+Dado como entrada automática archivos de la forma PSMn.TXT (n es un número), se deberá cargar los archivos de entrada y verificar su sintaxis; 
+si existe un error sintáctico, debe mostrar la línea
+errónea, indicar cual es el error, se aborta la interpretación del archivo erróneo y se avanza al próximo.
+En caso de que no hayan errores, debe ejecutar las instrucciones de cada archivo de entrada y generar
+automáticamente un archivo llamado psm.xml. en el cual por cada archivo procesado, debe arrojar los siguientes resultados:<p>
+
+        <dl>
+           <dd>- N&uacutemero de lineas procesadas.<p>
+           <dd>- Valor final del puntero libre.<p>
+           <dd>- Secuencia de valores del puntero libre durante la ejecucion.<p>
+           <dd>- Valor final del puntero actual.<p>
+           <dd>- Secuencia de valores del puntero actual durante la ejecucion.<p>
+           <dd>- El contenido de la pila, es decir, los registros de activacion que quedaron almacenados en la misma con su respectivo valor asignado de espacio de memoria.<p>
+           <dd>- Cantidad m&aacutexima de espacios ocupados en la pila.<p>
+           <dd>- Todos los registros de activacion que fueron insertados(asi hayan sido sacado previamente) de la pila, detallando de cada uno, las direccciones inicial y final en que le fueron asignadas en el momento de su insercion en la pila .<p>
+           <dd>- Cantidad acumulada de espacios de memoria de todos los registros de activacion(asi hayan sido expulsados) de la pila.<p>
+           <dd>- Cantidad de inserciones realizadas en la pila.<p>
+           <dd>- Cantidad de expulsiones realizadas en la pila.<p>
+
+        </dl>
+
+        2)<b>Datos:</b><p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1)<b><i>Datos suministrados por el problema:</i></b> Las instrucciones para la manipulacion de la pila, cuyos formatos son los siguientes:
+        <ul>
+
+         <li><i>STACK SIZE FROM "dir_ini" TO "dir_fin"</i>: Define el tamańo de la pila, debe ser la primera línea ejecutable,en donde "dir_ini" es un valor entero positivo que representa la dirección inicial de la pila y "dir_fin" es un valor entero positivo que representa la dirección final de la pila, mayor a "dir_ini".<p>
+         <li><i>PUSH "id" ("tam")</i>: Instruccion para insertar un registro de activacion en la pila, en donde "id" es el nombre del registro de activacion que se va a montar en la pila y "tam" es un valor entero positivo que indica el tamańo del registro de activacion<p>
+         <li><i>POP:</i> Instruccion para extraer el elemento que se encuentra en el tope de la pila .<p>
+         <li><i>END:</i> Indica el fin de la ejecucion del archivo de texto.<p>
+         
+         </ul>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2)<b><i>Datos suministrados por el usuario:</i></b> Los datos ingresados por el usuario, estar&aacuten contenidos en los archivos de texto ("PSMn.txt").<p>
+         3)<b>Operaciones:</b>&nbsp;<p>
+
+          <dl>
+               <dd>- "Funci&oacuten extraer":Por cada archivo de texto que se vaya abriendo, se extraer&aacute toda la informaci&oacuten que contenga el mismo.Tambien se tomar&aacute en cuenta las l&iacuteneas en blanco, el uso de letras min&uacutesculas y/o may&uacutesculas y en caso de archivos de texto vacios.<p>
+
+               <dd>- "Funci&oacuten sintax":Funci&oacuten de tipo booleana que determina si un archivo de texto cumple sintacticamente con las instrucciones escritas para el manejo de una pila.Para ello esta funci&oacuten toma en cuenta las siguientes validaciones:<p>
+               <dl>
+                     <dd>a)Declaraci&oacuten de la pila:Si no cumple con el formato de declaraci&oacuten dicho previamente, o es redeclarada o no se declara en la primera linea de ejecucion, entonces se notificar&acute un error de sintaxis indicando la linea en donde ocurrio el error y posteriormente retornara un valor falso, para asi abortar la ejecuci&oacuten y pasar a procesar otro archivo de texto.<p>
+
+                     <dd>b)Inserci&oacuten de un elemento en la pila: Si no cumple con el formato de inserci&oacuten dicho previamente, o el nombre del registro de activacion posee caracteres num&eacutericos, entonces se notificar&acute un error de sintaxis indicando la linea en donde ocurrio el error y posteriormente retornara un valor falso, para asi abortar la ejecuci&oacuten y pasar a procesar otro archivo de texto.<p>
+
+                     <dd>c)Extracci&oacuten de un elemento de la pila: Si no cumple con el formato de extracci&oacuten dicho previamente, entonces se notificar&acute un error de sintaxis indicando la linea en donde ocurrio el error y posteriormente retornara un valor falso, para asi abortar la ejecuci&oacuten y pasar a procesar otro archivo de texto.<p>
+
+                     <dd>d)Fin de la ejecuci&oacuten del archivo de texto: No es siempre la &uacuteltima linea del archivo de texto que se esta procesando, pero obligatoriamente debe estar presente en el archivo por que esta instruccion finaliza la ejecucion; En caso de que no se encuentre presente en ese archivo, se notificar&acute un error de sintaxis indicando la linea en donde ocurrio el error y posteriormente retornara un valor falso, para asi abortar la ejecuci&oacuten y pasar a procesar otro archivo de texto.<p>
+
+               </dl>
+               <dd>- "Funci&oacuten exe":Si el contenido del archivo de texto que se est&aacute manipulando cumple con las validaciones implantadas en la funcion sintax, se pasa hacia esta funci&oacuten, la cual consiste en ejecutar todas las instrucciones del archivo de texto en proceso y asi, almacenar los resultados detallados de la ejecucion(actual, libre, registros de activacion,lineas procesadas, contenido de la pila, etc.)<p>
+
+               <dd>- "Funci&oacuten xmlwrite":Por cada archivo procesado sin error de sintaxis, se escribe en un archivo xml los resultados dichos anteriormente de su procesamiento.<p>
+          
+               
+  </body>
+</html>

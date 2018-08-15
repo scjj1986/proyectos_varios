@@ -1,0 +1,1 @@
+Codigo: 999, Nombre: cuba libre, Grado Alcoholico: 10, Costo (Bs.): 10, Codigo ingrediente Nr. 1: 1, Nombre ingrediente Nr. 1: ron, Codigo ingrediente Nr. 2: 2, Nombre ingrediente Nr. 2: pepsi, Codigo ingrediente Nr. 3: 3, Nombre ingrediente Nr. 3: hielo

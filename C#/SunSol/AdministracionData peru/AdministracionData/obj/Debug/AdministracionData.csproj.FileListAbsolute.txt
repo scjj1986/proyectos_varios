@@ -1,0 +1,682 @@
+c:\users\nataly.pinho\documents\visual studio 2013\Projects\AdministracionData\AdministracionData\bin\Debug\AdministracionData.exe.config
+c:\users\nataly.pinho\documents\visual studio 2013\Projects\AdministracionData\AdministracionData\obj\Debug\AdministracionData.csprojResolveAssemblyReference.cache
+c:\users\nataly.pinho\documents\visual studio 2013\Projects\AdministracionData\AdministracionData\obj\Debug\Login.baml
+c:\users\nataly.pinho\documents\visual studio 2013\Projects\AdministracionData\AdministracionData\obj\Debug\App.baml
+c:\users\nataly.pinho\documents\visual studio 2013\Projects\AdministracionData\AdministracionData\obj\Debug\Login.g.cs
+c:\users\nataly.pinho\documents\visual studio 2013\Projects\AdministracionData\AdministracionData\obj\Debug\App.g.cs
+c:\users\nataly.pinho\documents\visual studio 2013\Projects\AdministracionData\AdministracionData\obj\Debug\AdministracionData_MarkupCompile.cache
+c:\users\nataly.pinho\documents\visual studio 2013\Projects\AdministracionData\AdministracionData\obj\Debug\AdministracionData.g.resources
+c:\users\nataly.pinho\documents\visual studio 2013\Projects\AdministracionData\AdministracionData\obj\Debug\AdministracionData.Properties.Resources.resources
+c:\users\nataly.pinho\documents\visual studio 2013\Projects\AdministracionData\AdministracionData\obj\Debug\AdministracionData.csproj.GenerateResource.Cache
+c:\users\nataly.pinho\documents\visual studio 2013\Projects\AdministracionData\AdministracionData\bin\Debug\AdministracionData.exe
+c:\users\nataly.pinho\documents\visual studio 2013\Projects\AdministracionData\AdministracionData\bin\Debug\AdministracionData.pdb
+c:\users\nataly.pinho\documents\visual studio 2013\Projects\AdministracionData\AdministracionData\bin\Debug\MahApps.Metro.dll
+c:\users\nataly.pinho\documents\visual studio 2013\Projects\AdministracionData\AdministracionData\bin\Debug\System.Windows.Interactivity.dll
+c:\users\nataly.pinho\documents\visual studio 2013\Projects\AdministracionData\AdministracionData\bin\Debug\MahApps.Metro.pdb
+c:\users\nataly.pinho\documents\visual studio 2013\Projects\AdministracionData\AdministracionData\bin\Debug\MahApps.Metro.xml
+c:\users\nataly.pinho\documents\visual studio 2013\Projects\AdministracionData\AdministracionData\obj\Debug\AdministracionData.exe
+c:\users\nataly.pinho\documents\visual studio 2013\Projects\AdministracionData\AdministracionData\obj\Debug\AdministracionData.pdb
+c:\users\nataly.pinho\documents\visual studio 2013\Projects\AdministracionData\AdministracionData\bin\Debug\Clases.dll
+c:\users\nataly.pinho\documents\visual studio 2013\Projects\AdministracionData\AdministracionData\bin\Debug\EntityFramework.dll
+c:\users\nataly.pinho\documents\visual studio 2013\Projects\AdministracionData\AdministracionData\bin\Debug\Clases.pdb
+c:\users\nataly.pinho\documents\visual studio 2013\Projects\AdministracionData\AdministracionData\bin\Debug\EntityFramework.xml
+c:\users\nataly.pinho\documents\visual studio 2013\Projects\AdministracionData\AdministracionData\obj\Debug\Principal.baml
+c:\users\nataly.pinho\documents\visual studio 2013\Projects\AdministracionData\AdministracionData\obj\Debug\Principal.g.cs
+c:\users\nataly.pinho\documents\visual studio 2013\Projects\AdministracionData\AdministracionData\obj\Debug\Resources\Icons.baml
+c:\users\nataly.pinho\documents\visual studio 2013\Projects\AdministracionData\AdministracionData\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData\AdministracionData\bin\Debug\AdministracionData.exe.config
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData\AdministracionData\obj\Debug\AdministracionData.exe
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData\AdministracionData\obj\Debug\AdministracionData.pdb
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData\AdministracionData\bin\Debug\AdministracionData.exe
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData\AdministracionData\bin\Debug\AdministracionData.pdb
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData\AdministracionData\bin\Debug\Clases.dll
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData\AdministracionData\bin\Debug\MahApps.Metro.dll
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData\AdministracionData\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData\AdministracionData\bin\Debug\EntityFramework.dll
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData\AdministracionData\bin\Debug\Clases.pdb
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData\AdministracionData\bin\Debug\MahApps.Metro.pdb
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData\AdministracionData\bin\Debug\MahApps.Metro.xml
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData\AdministracionData\bin\Debug\EntityFramework.xml
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData\AdministracionData\obj\Debug\AdministracionData.csprojResolveAssemblyReference.cache
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData\AdministracionData\obj\Debug\Login.baml
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData\AdministracionData\obj\Debug\Principal.baml
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData\AdministracionData\obj\Debug\Resources\Icons.baml
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData\AdministracionData\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData\AdministracionData\obj\Debug\usuario.baml
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData\AdministracionData\obj\Debug\Window1.baml
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData\AdministracionData\obj\Debug\App.baml
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData\AdministracionData\obj\Debug\Login.g.cs
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData\AdministracionData\obj\Debug\Principal.g.cs
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData\AdministracionData\obj\Debug\usuario.g.cs
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData\AdministracionData\obj\Debug\Window1.g.cs
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData\AdministracionData\obj\Debug\App.g.cs
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData\AdministracionData\obj\Debug\AdministracionData_MarkupCompile.cache
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData\AdministracionData\obj\Debug\AdministracionData.g.resources
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData\AdministracionData\obj\Debug\AdministracionData.Properties.Resources.resources
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData\AdministracionData\obj\Debug\AdministracionData.csproj.GenerateResource.Cache
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\bin\Debug\AdministracionData.exe.config
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\bin\Debug\AdministracionData.exe
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\bin\Debug\AdministracionData.pdb
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\bin\Debug\Clases.dll
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\bin\Debug\MahApps.Metro.dll
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\bin\Debug\MetroFramework.Design.dll
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\bin\Debug\MetroFramework.dll
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\bin\Debug\EntityFramework.dll
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\bin\Debug\Clases.pdb
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\bin\Debug\MahApps.Metro.pdb
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\bin\Debug\MahApps.Metro.xml
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\bin\Debug\EntityFramework.xml
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\obj\Debug\AdministracionData.csprojResolveAssemblyReference.cache
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\obj\Debug\afiliado.baml
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\obj\Debug\asignacion.baml
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\obj\Debug\configuracion.baml
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\obj\Debug\DetalleCita.baml
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\obj\Debug\locacion.baml
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\obj\Debug\Login.baml
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\obj\Debug\Pendiente.baml
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\obj\Debug\Principal.baml
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\obj\Debug\reportesxaml.baml
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\obj\Debug\Resources\Icons.baml
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\obj\Debug\telemarketing.baml
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\obj\Debug\usuario.baml
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\obj\Debug\App.baml
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\obj\Debug\afiliado.g.cs
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\obj\Debug\asignacion.g.cs
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\obj\Debug\Cliente.g.cs
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\obj\Debug\configuracion.g.cs
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\obj\Debug\DetalleCita.g.cs
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\obj\Debug\locacion.g.cs
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\obj\Debug\Login.g.cs
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\obj\Debug\Pendiente.g.cs
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\obj\Debug\Principal.g.cs
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\obj\Debug\reportesxaml.g.cs
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\obj\Debug\telemarketing.g.cs
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\obj\Debug\usuario.g.cs
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\obj\Debug\App.g.cs
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\obj\Debug\AdministracionData_MarkupCompile.cache
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\obj\Debug\AdministracionData_MarkupCompile.lref
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\obj\Debug\Cliente.baml
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\obj\Debug\AdministracionData.g.resources
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\obj\Debug\AdministracionData.Properties.Resources.resources
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\obj\Debug\AdministracionData.csproj.GenerateResource.Cache
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\obj\Debug\AdministracionData.exe
+C:\Users\consultoria\Desktop\AdministracionData\AdministracionData\obj\Debug\AdministracionData.pdb
+J:\AdministracionData\AdministracionData\bin\Debug\AdministracionData.exe.config
+J:\AdministracionData\AdministracionData\obj\Debug\AdministracionData.exe
+J:\AdministracionData\AdministracionData\obj\Debug\AdministracionData.csprojResolveAssemblyReference.cache
+J:\AdministracionData\AdministracionData\obj\Debug\afiliado.baml
+J:\AdministracionData\AdministracionData\obj\Debug\asignacion.baml
+J:\AdministracionData\AdministracionData\obj\Debug\configuracion.baml
+J:\AdministracionData\AdministracionData\obj\Debug\DetalleCita.baml
+J:\AdministracionData\AdministracionData\obj\Debug\locacion.baml
+J:\AdministracionData\AdministracionData\obj\Debug\Login.baml
+J:\AdministracionData\AdministracionData\obj\Debug\Pendiente.baml
+J:\AdministracionData\AdministracionData\obj\Debug\Principal.baml
+J:\AdministracionData\AdministracionData\obj\Debug\reportesxaml.baml
+J:\AdministracionData\AdministracionData\obj\Debug\Resources\Icons.baml
+J:\AdministracionData\AdministracionData\obj\Debug\Resources\IconsNonShared.baml
+J:\AdministracionData\AdministracionData\obj\Debug\telemarketing.baml
+J:\AdministracionData\AdministracionData\obj\Debug\usuario.baml
+J:\AdministracionData\AdministracionData\obj\Debug\App.baml
+J:\AdministracionData\AdministracionData\obj\Debug\afiliado.g.cs
+J:\AdministracionData\AdministracionData\obj\Debug\asignacion.g.cs
+J:\AdministracionData\AdministracionData\obj\Debug\Cliente.g.cs
+J:\AdministracionData\AdministracionData\obj\Debug\configuracion.g.cs
+J:\AdministracionData\AdministracionData\obj\Debug\DetalleCita.g.cs
+J:\AdministracionData\AdministracionData\obj\Debug\locacion.g.cs
+J:\AdministracionData\AdministracionData\obj\Debug\Login.g.cs
+J:\AdministracionData\AdministracionData\obj\Debug\Pendiente.g.cs
+J:\AdministracionData\AdministracionData\obj\Debug\Principal.g.cs
+J:\AdministracionData\AdministracionData\obj\Debug\reportesxaml.g.cs
+J:\AdministracionData\AdministracionData\obj\Debug\telemarketing.g.cs
+J:\AdministracionData\AdministracionData\obj\Debug\usuario.g.cs
+J:\AdministracionData\AdministracionData\obj\Debug\App.g.cs
+J:\AdministracionData\AdministracionData\obj\Debug\AdministracionData_MarkupCompile.cache
+J:\AdministracionData\AdministracionData\obj\Debug\AdministracionData_MarkupCompile.lref
+J:\AdministracionData\AdministracionData\bin\Debug\AdministracionData.exe
+J:\AdministracionData\AdministracionData\bin\Debug\AdministracionData.pdb
+J:\AdministracionData\AdministracionData\bin\Debug\Clases.dll
+J:\AdministracionData\AdministracionData\bin\Debug\MahApps.Metro.dll
+J:\AdministracionData\AdministracionData\bin\Debug\MetroFramework.Design.dll
+J:\AdministracionData\AdministracionData\bin\Debug\MetroFramework.dll
+J:\AdministracionData\AdministracionData\bin\Debug\MetroFramework.Fonts.dll
+J:\AdministracionData\AdministracionData\bin\Debug\System.Windows.Interactivity.dll
+J:\AdministracionData\AdministracionData\bin\Debug\EntityFramework.dll
+J:\AdministracionData\AdministracionData\bin\Debug\Clases.pdb
+J:\AdministracionData\AdministracionData\bin\Debug\MahApps.Metro.pdb
+J:\AdministracionData\AdministracionData\bin\Debug\MahApps.Metro.xml
+J:\AdministracionData\AdministracionData\bin\Debug\EntityFramework.xml
+J:\AdministracionData\AdministracionData\obj\Debug\Cliente.baml
+J:\AdministracionData\AdministracionData\obj\Debug\AdministracionData.g.resources
+J:\AdministracionData\AdministracionData\obj\Debug\AdministracionData.Properties.Resources.resources
+J:\AdministracionData\AdministracionData\obj\Debug\AdministracionData.csproj.GenerateResource.Cache
+J:\AdministracionData\AdministracionData\obj\Debug\AdministracionData.pdb
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\bin\Debug\AdministracionData.exe.config
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\bin\Debug\AdministracionData.exe
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\bin\Debug\AdministracionData.pdb
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\bin\Debug\Clases.dll
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\bin\Debug\MahApps.Metro.dll
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\bin\Debug\MetroFramework.Design.dll
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\bin\Debug\MetroFramework.dll
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\bin\Debug\system.windows.controls.datavisualization.toolkit.dll
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\bin\Debug\WPFToolkit.dll
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\bin\Debug\EntityFramework.dll
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\bin\Debug\Clases.pdb
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\bin\Debug\MahApps.Metro.pdb
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\bin\Debug\MahApps.Metro.xml
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\bin\Debug\system.windows.controls.datavisualization.toolkit.pdb
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\bin\Debug\WPFToolkit.pdb
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\bin\Debug\EntityFramework.xml
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\AdministracionData.csprojResolveAssemblyReference.cache
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\afiliado.baml
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\asignacion.baml
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\configuracion.baml
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\confirmador.baml
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\DetalleCita.baml
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\historial.baml
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\locacion.baml
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\Login.baml
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\Pendiente.baml
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\Principal.baml
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\promotor.baml
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\ReporteProspecto.baml
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\reportesxaml.baml
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\ReporteTeleOp.baml
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\Resources\Icons.baml
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\telemarketing.baml
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\usuario.baml
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\App.baml
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\afiliado.g.cs
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\asignacion.g.cs
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\Cliente.g.cs
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\configuracion.g.cs
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\confirmador.g.cs
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\DetalleCita.g.cs
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\historial.g.cs
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\locacion.g.cs
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\Login.g.cs
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\Pendiente.g.cs
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\Principal.g.cs
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\promotor.g.cs
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\ReporteProspecto.g.cs
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\reportesxaml.g.cs
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\ReporteTeleOp.g.cs
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\telemarketing.g.cs
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\usuario.g.cs
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\App.g.cs
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\AdministracionData_MarkupCompile.cache
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\AdministracionData_MarkupCompile.lref
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\Cliente.baml
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\AdministracionData.g.resources
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\AdministracionData.Properties.Resources.resources
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\AdministracionData.csproj.GenerateResource.Cache
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\RdlCompile.cache
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\RdlCompile.compiled
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\AdministracionData.exe
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\AdministracionData\obj\Debug\AdministracionData.pdb
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\bin\Debug\AdministracionData.exe.config
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\bin\Debug\AdministracionData.exe
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\bin\Debug\AdministracionData.pdb
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\bin\Debug\Clases.dll
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\bin\Debug\MahApps.Metro.dll
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\bin\Debug\MetroFramework.Design.dll
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\bin\Debug\MetroFramework.dll
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\bin\Debug\system.windows.controls.datavisualization.toolkit.dll
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\bin\Debug\WPFToolkit.dll
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\bin\Debug\EntityFramework.dll
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\bin\Debug\Clases.pdb
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\bin\Debug\MahApps.Metro.pdb
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\bin\Debug\MahApps.Metro.xml
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\bin\Debug\system.windows.controls.datavisualization.toolkit.pdb
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\bin\Debug\WPFToolkit.pdb
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\bin\Debug\EntityFramework.xml
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\AdministracionData.csprojResolveAssemblyReference.cache
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\afiliado.baml
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\asignacion.baml
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\configuracion.baml
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\confirmador.baml
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\DetalleCita.baml
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\historial.baml
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\locacion.baml
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\Login.baml
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\Pendiente.baml
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\Principal.baml
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\promotor.baml
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\ReporteProspecto.baml
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\reportesxaml.baml
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\ReporteTeleOp.baml
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\Resources\Icons.baml
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\telemarketing.baml
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\usuario.baml
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\App.baml
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\afiliado.g.cs
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\asignacion.g.cs
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\Cliente.g.cs
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\configuracion.g.cs
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\confirmador.g.cs
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\DetalleCita.g.cs
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\historial.g.cs
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\locacion.g.cs
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\Login.g.cs
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\Pendiente.g.cs
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\Principal.g.cs
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\promotor.g.cs
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\ReporteProspecto.g.cs
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\reportesxaml.g.cs
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\ReporteTeleOp.g.cs
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\telemarketing.g.cs
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\usuario.g.cs
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\App.g.cs
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\AdministracionData_MarkupCompile.cache
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\AdministracionData_MarkupCompile.lref
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\Cliente.baml
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\AdministracionData.g.resources
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\AdministracionData.Properties.Resources.resources
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\AdministracionData.csproj.GenerateResource.Cache
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\RdlCompile.cache
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\RdlCompile.compiled
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\AdministracionData.exe
+C:\Users\consultoria\Desktop\AdministracionData michel\AdministracionData\obj\Debug\AdministracionData.pdb
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\bin\Debug\AdministracionData.exe.config
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\bin\Debug\AdministracionData.exe
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\bin\Debug\AdministracionData.pdb
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\bin\Debug\Clases.dll
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\bin\Debug\MahApps.Metro.dll
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\bin\Debug\MetroFramework.Design.dll
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\bin\Debug\MetroFramework.dll
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\bin\Debug\system.windows.controls.datavisualization.toolkit.dll
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\bin\Debug\WPFToolkit.dll
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\bin\Debug\EntityFramework.dll
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\bin\Debug\Clases.pdb
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\bin\Debug\MahApps.Metro.pdb
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\bin\Debug\MahApps.Metro.xml
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\bin\Debug\system.windows.controls.datavisualization.toolkit.pdb
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\bin\Debug\WPFToolkit.pdb
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\bin\Debug\EntityFramework.xml
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\AdministracionData.csprojResolveAssemblyReference.cache
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\afiliado.baml
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\asignacion.baml
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\configuracion.baml
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\confirmador.baml
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\DetalleCita.baml
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\historial.baml
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\locacion.baml
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\Login.baml
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\Pendiente.baml
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\Principal.baml
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\promotor.baml
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\ReporteProspecto.baml
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\reportesxaml.baml
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\ReporteTeleOp.baml
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\Resources\Icons.baml
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\telemarketing.baml
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\usuario.baml
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\App.baml
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\afiliado.g.cs
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\asignacion.g.cs
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\Cliente.g.cs
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\configuracion.g.cs
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\confirmador.g.cs
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\DetalleCita.g.cs
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\historial.g.cs
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\locacion.g.cs
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\Login.g.cs
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\Pendiente.g.cs
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\Principal.g.cs
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\promotor.g.cs
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\ReporteProspecto.g.cs
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\reportesxaml.g.cs
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\ReporteTeleOp.g.cs
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\telemarketing.g.cs
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\usuario.g.cs
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\App.g.cs
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\AdministracionData_MarkupCompile.cache
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\AdministracionData_MarkupCompile.lref
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\Cliente.baml
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\AdministracionData.g.resources
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\AdministracionData.Properties.Resources.resources
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\AdministracionData.csproj.GenerateResource.Cache
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\RdlCompile.cache
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\RdlCompile.compiled
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\AdministracionData.exe
+C:\Users\consultoria\Documents\AdministracionData michel\AdministracionData\obj\Debug\AdministracionData.pdb
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\bin\Debug\AdministracionData.exe.config
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\bin\Debug\AdministracionData.exe
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\bin\Debug\AdministracionData.pdb
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\bin\Debug\Clases.dll
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\bin\Debug\MahApps.Metro.dll
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\bin\Debug\MetroFramework.Design.dll
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\bin\Debug\MetroFramework.dll
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\bin\Debug\system.windows.controls.datavisualization.toolkit.dll
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\bin\Debug\WPFToolkit.dll
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\bin\Debug\EntityFramework.dll
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\bin\Debug\Clases.pdb
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\bin\Debug\MahApps.Metro.pdb
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\bin\Debug\MahApps.Metro.xml
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\bin\Debug\system.windows.controls.datavisualization.toolkit.pdb
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\bin\Debug\WPFToolkit.pdb
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\bin\Debug\EntityFramework.xml
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\afiliado.baml
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\asignacion.baml
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\configuracion.baml
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\confirmador.baml
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\DetalleCita.baml
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\historial.baml
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\locacion.baml
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\Login.baml
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\Pendiente.baml
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\Principal.baml
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\promotor.baml
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\ReporteProspecto.baml
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\reportesxaml.baml
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\ReporteTeleOp.baml
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\Resources\Icons.baml
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\telemarketing.baml
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\usuario.baml
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\App.baml
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\afiliado.g.cs
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\asignacion.g.cs
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\Cliente.g.cs
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\configuracion.g.cs
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\confirmador.g.cs
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\DetalleCita.g.cs
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\historial.g.cs
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\locacion.g.cs
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\Login.g.cs
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\Pendiente.g.cs
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\Principal.g.cs
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\promotor.g.cs
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\ReporteProspecto.g.cs
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\reportesxaml.g.cs
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\ReporteTeleOp.g.cs
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\telemarketing.g.cs
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\usuario.g.cs
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\App.g.cs
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\AdministracionData_MarkupCompile.cache
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\AdministracionData_MarkupCompile.lref
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\Cliente.baml
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\AdministracionData.g.resources
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\AdministracionData.Properties.Resources.resources
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\AdministracionData.csproj.GenerateResource.Cache
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\RdlCompile.cache
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\RdlCompile.compiled
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\AdministracionData.exe
+C:\Users\consultoria\Documents\AdministracionData_Nuevo\AdministracionData\obj\Debug\AdministracionData.pdb
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\bin\Debug\AdministracionData.exe.config
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\bin\Debug\AdministracionData.exe
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\bin\Debug\AdministracionData.pdb
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\bin\Debug\Clases.dll
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\bin\Debug\MahApps.Metro.dll
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\bin\Debug\MetroFramework.Design.dll
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\bin\Debug\MetroFramework.dll
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\bin\Debug\MetroFramework.Fonts.dll
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\bin\Debug\system.windows.controls.datavisualization.toolkit.dll
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\bin\Debug\System.Windows.Interactivity.dll
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\bin\Debug\WPFToolkit.dll
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\bin\Debug\EntityFramework.dll
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\bin\Debug\Clases.pdb
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\bin\Debug\MahApps.Metro.pdb
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\bin\Debug\MahApps.Metro.xml
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\bin\Debug\system.windows.controls.datavisualization.toolkit.pdb
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\bin\Debug\WPFToolkit.pdb
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\bin\Debug\EntityFramework.xml
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\afiliado.baml
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\asignacion.baml
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\configuracion.baml
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\confirmador.baml
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\DetalleCita.baml
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\historial.baml
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\locacion.baml
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\Login.baml
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\Pendiente.baml
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\Principal.baml
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\promotor.baml
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\ReporteProspecto.baml
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\reportesxaml.baml
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\ReporteTeleOp.baml
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\Resources\Icons.baml
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\Resources\IconsNonShared.baml
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\telemarketing.baml
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\usuario.baml
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\App.baml
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\afiliado.g.cs
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\asignacion.g.cs
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\Cliente.g.cs
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\configuracion.g.cs
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\confirmador.g.cs
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\DetalleCita.g.cs
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\historial.g.cs
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\locacion.g.cs
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\Login.g.cs
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\Pendiente.g.cs
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\Principal.g.cs
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\promotor.g.cs
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\ReporteProspecto.g.cs
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\reportesxaml.g.cs
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\ReporteTeleOp.g.cs
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\telemarketing.g.cs
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\usuario.g.cs
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\App.g.cs
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\AdministracionData_MarkupCompile.cache
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\AdministracionData_MarkupCompile.lref
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\Cliente.baml
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\AdministracionData.g.resources
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\AdministracionData.Properties.Resources.resources
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\AdministracionData.csproj.GenerateResource.Cache
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\RdlCompile.cache
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\RdlCompile.compiled
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\AdministracionData.exe
+\\sunsolcarapp08\Desarrollo\AdministracionData_Nuevo\AdministracionData\obj\Debug\AdministracionData.pdb
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\AdministracionData.csprojResolveAssemblyReference.cache
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\afiliado.baml
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\asignacion.baml
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\configuracion.baml
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\confirmador.baml
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\DetalleCita.baml
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\historial.baml
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\locacion.baml
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\Login.baml
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\Pendiente.baml
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\Principal.baml
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\promotor.baml
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\ReporteProspecto.baml
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\reportesxaml.baml
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\ReporteTeleOp.baml
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\Resources\Icons.baml
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\telemarketing.baml
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\usuario.baml
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\App.baml
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\afiliado.g.cs
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\asignacion.g.cs
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\Cliente.g.cs
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\configuracion.g.cs
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\confirmador.g.cs
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\DetalleCita.g.cs
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\historial.g.cs
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\locacion.g.cs
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\Login.g.cs
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\Pendiente.g.cs
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\Principal.g.cs
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\promotor.g.cs
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\ReporteProspecto.g.cs
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\reportesxaml.g.cs
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\ReporteTeleOp.g.cs
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\telemarketing.g.cs
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\usuario.g.cs
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\App.g.cs
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\AdministracionData_MarkupCompile.cache
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\AdministracionData_MarkupCompile.lref
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\bin\Debug\AdministracionData.exe.config
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\reporteConfirmador.baml
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\reporteConfirmador.g.cs
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\Cliente.baml
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\AdministracionData.g.resources
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\AdministracionData.Properties.Resources.resources
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\AdministracionData.csproj.GenerateResource.Cache
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\RdlCompile.cache
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\RdlCompile.compiled
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\AdministracionData.pdb
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\bin\Debug\AdministracionData.exe
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\bin\Debug\AdministracionData.pdb
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\bin\Debug\Clases.dll
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\bin\Debug\MahApps.Metro.dll
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\bin\Debug\MetroFramework.Design.dll
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\bin\Debug\MetroFramework.dll
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\bin\Debug\EntityFramework.dll
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\bin\Debug\Clases.pdb
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\bin\Debug\MahApps.Metro.pdb
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\bin\Debug\MahApps.Metro.xml
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\bin\Debug\system.windows.controls.datavisualization.toolkit.pdb
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\bin\Debug\WPFToolkit.pdb
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\bin\Debug\EntityFramework.xml
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\AdministracionData\obj\Debug\AdministracionData.exe
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\afiliado.baml
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\asignacion.baml
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\configuracion.baml
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\confirmador.baml
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\DetalleCita.baml
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\historial.baml
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\locacion.baml
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\Login.baml
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\Page1.baml
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\Pendiente.baml
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\Principal.baml
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\promotor.baml
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\reporteConfirmador.baml
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\ReporteProspecto.baml
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\reportesxaml.baml
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\ReporteTeleOp.baml
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\Resources\Icons.baml
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\telemarketing.baml
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\usuario.baml
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\App.baml
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\afiliado.g.cs
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\asignacion.g.cs
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\Cliente.g.cs
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\configuracion.g.cs
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\confirmador.g.cs
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\DetalleCita.g.cs
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\historial.g.cs
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\locacion.g.cs
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\Login.g.cs
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\Page1.g.cs
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\Pendiente.g.cs
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\Principal.g.cs
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\promotor.g.cs
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\reporteConfirmador.g.cs
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\ReporteProspecto.g.cs
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\reportesxaml.g.cs
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\ReporteTeleOp.g.cs
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\telemarketing.g.cs
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\usuario.g.cs
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\App.g.cs
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\AdministracionData_MarkupCompile.cache
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\AdministracionData_MarkupCompile.lref
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\AdministracionData.csprojResolveAssemblyReference.cache
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\bin\Debug\AdministracionData.exe.config
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\bin\Debug\AdministracionData.exe
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\bin\Debug\AdministracionData.pdb
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\bin\Debug\Clases.dll
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\bin\Debug\MahApps.Metro.dll
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\bin\Debug\MetroFramework.Design.dll
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\bin\Debug\MetroFramework.dll
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\bin\Debug\EntityFramework.dll
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\bin\Debug\Clases.pdb
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\bin\Debug\MahApps.Metro.pdb
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\bin\Debug\MahApps.Metro.xml
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\bin\Debug\EntityFramework.xml
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\Cliente.baml
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\AdministracionData.g.resources
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\AdministracionData.Properties.Resources.resources
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\AdministracionData.csproj.GenerateResource.Cache
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\RdlCompile.cache
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\RdlCompile.compiled
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\AdministracionData.exe
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\AdministracionData\obj\Debug\AdministracionData.pdb
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\bin\Debug\AdministracionData.exe.config
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\AdministracionData.exe
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\AdministracionData.pdb
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\bin\Debug\AdministracionData.exe
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\bin\Debug\AdministracionData.pdb
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\bin\Debug\Clases.dll
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\bin\Debug\MahApps.Metro.dll
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\bin\Debug\MetroFramework.Design.dll
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\bin\Debug\MetroFramework.dll
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\bin\Debug\EntityFramework.dll
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\bin\Debug\Clases.pdb
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\bin\Debug\MahApps.Metro.pdb
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\bin\Debug\MahApps.Metro.xml
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\bin\Debug\EntityFramework.xml
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\AdministracionData.csprojResolveAssemblyReference.cache
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\afiliado.baml
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\asignacion.baml
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\configuracion.baml
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\confirmador.baml
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\DetalleCita.baml
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\historial.baml
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\locacion.baml
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\Login.baml
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\Page1.baml
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\Pendiente.baml
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\Principal.baml
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\promotor.baml
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\reporteConfirmador.baml
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\ReporteProspecto.baml
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\reportesxaml.baml
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\ReporteTeleOp.baml
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\Resources\Icons.baml
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\telemarketing.baml
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\usuario.baml
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\App.baml
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\afiliado.g.cs
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\asignacion.g.cs
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\Cliente.g.cs
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\configuracion.g.cs
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\confirmador.g.cs
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\DetalleCita.g.cs
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\historial.g.cs
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\locacion.g.cs
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\Login.g.cs
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\Page1.g.cs
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\Pendiente.g.cs
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\Principal.g.cs
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\promotor.g.cs
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\reporteConfirmador.g.cs
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\ReporteProspecto.g.cs
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\reportesxaml.g.cs
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\ReporteTeleOp.g.cs
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\telemarketing.g.cs
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\usuario.g.cs
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\App.g.cs
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\AdministracionData_MarkupCompile.cache
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\AdministracionData_MarkupCompile.lref
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\Cliente.baml
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\AdministracionData.g.resources
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\AdministracionData.Properties.Resources.resources
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\AdministracionData.csproj.GenerateResource.Cache
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\RdlCompile.cache
+C:\Users\juan.salazar\Documents\AdministracionData peru\AdministracionData\obj\Debug\RdlCompile.compiled

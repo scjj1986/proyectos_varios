@@ -1,0 +1,8 @@
+D:\Documentos\Documentos S.C.J.J\Aplicaciones\C#\Pila\Pila\bin\Debug\Pila.exe.config
+D:\Documentos\Documentos S.C.J.J\Aplicaciones\C#\Pila\Pila\bin\Debug\Pila.exe
+D:\Documentos\Documentos S.C.J.J\Aplicaciones\C#\Pila\Pila\bin\Debug\Pila.pdb
+D:\Documentos\Documentos S.C.J.J\Aplicaciones\C#\Pila\Pila\obj\Debug\Pila.csprojResolveAssemblyReference.cache
+D:\Documentos\Documentos S.C.J.J\Aplicaciones\C#\Pila\Pila\obj\Debug\Pila.MainForm.resources
+D:\Documentos\Documentos S.C.J.J\Aplicaciones\C#\Pila\Pila\obj\Debug\Pila.csproj.GenerateResource.Cache
+D:\Documentos\Documentos S.C.J.J\Aplicaciones\C#\Pila\Pila\obj\Debug\Pila.exe
+D:\Documentos\Documentos S.C.J.J\Aplicaciones\C#\Pila\Pila\obj\Debug\Pila.pdb

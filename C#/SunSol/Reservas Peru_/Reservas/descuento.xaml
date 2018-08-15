@@ -1,0 +1,101 @@
+﻿<Page x:Class="Reservas.descuento"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+       xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="descuento" Height="460" Width="810" >
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="165*"/>
+            <ColumnDefinition Width="503*"/>
+        </Grid.ColumnDefinitions>
+        <GroupBox Grid.Row="0" Header="Retales" Margin="0" Grid.ColumnSpan="2" >
+            <GroupBox.HeaderTemplate>
+                <DataTemplate>
+                    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                        <Label x:Name="lbltitulo" Content="Todo incluido" Foreground="White" FontWeight="Bold" FontSize="16" Margin="5,0"
+                               HorizontalAlignment="Left" VerticalContentAlignment="Center"/>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+
+
+                        </StackPanel>
+
+
+                    </Grid>
+
+
+                </DataTemplate>
+            </GroupBox.HeaderTemplate>
+
+        </GroupBox>
+        <DataGrid x:Name="dtgPersonaDes"   AutoGenerateColumns="False" HorizontalAlignment="Left" VerticalAlignment="Top" Height="241" Width="782" IsHitTestVisible="True" IsSynchronizedWithCurrentItem="False" Margin="10,129,0,0" Grid.ColumnSpan="2" IsManipulationEnabled="True" CanUserSortColumns="False" AlternationCount="1" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserResizeRows="False" IsTextSearchEnabled="True" UseLayoutRounding="False" Loaded="dtgPersonaDes_Loaded" SelectionChanged="dtgPersonaDes_SelectionChanged" CanUserAddRows="False" CanUserDeleteRows="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="colhotel" Binding="{Binding hotel}" Header="hotel"  IsReadOnly="True"  />
+                <DataGridTextColumn x:Name="colhabitacion" Binding="{Binding habitacion}" Header="habitación" IsReadOnly="True"  />
+                <DataGridTextColumn x:Name="colpersona" Binding="{Binding personas}" Header="persona"  IsReadOnly="True"  />
+                <DataGridTextColumn x:Name="colmonto" Binding="{Binding monto}" Header="monto"  IsReadOnly="True"  >
+                    <DataGridTextColumn.CellStyle>
+                        <Style>
+                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                        </Style>
+                    </DataGridTextColumn.CellStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn x:Name="coldescuento" Binding="{Binding descuento}" Header="descuento %"  IsReadOnly="True"  >
+                    <DataGridTextColumn.CellStyle>
+                        <Style>
+                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                        </Style>
+                    </DataGridTextColumn.CellStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn x:Name="coldescuentob" Binding="{Binding descuentob}" Header="descuento bs."  IsReadOnly="True"  >
+                    <DataGridTextColumn.CellStyle>
+                        <Style>
+                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                        </Style>
+                    </DataGridTextColumn.CellStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn x:Name="total" Binding="{Binding total}" Header="total" IsReadOnly="True"  >
+                    <DataGridTextColumn.CellStyle>
+                        <Style>
+                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                        </Style>
+                    </DataGridTextColumn.CellStyle>
+                </DataGridTextColumn>
+                <DataGridCheckBoxColumn Binding="{Binding IsSelected }">
+                    <DataGridCheckBoxColumn.Header>
+                        <CheckBox Content="Aplicar a todo" Name="chkSelectAll" Checked="chkSelectAll_Checked" Unchecked="chkSelectAll_Unchecked" ></CheckBox>
+                    </DataGridCheckBoxColumn.Header>
+                    <DataGridCheckBoxColumn.CellStyle>
+                    <Style>
+                        <EventSetter Event="CheckBox.Checked" Handler="OnChecked"/>
+                    </Style>
+                    </DataGridCheckBoxColumn.CellStyle>
+
+
+                </DataGridCheckBoxColumn>
+
+
+            </DataGrid.Columns>
+
+
+
+
+        </DataGrid>
+        <Button x:Name="btnCancelar" Content="" HorizontalAlignment="Left" Margin="481,375,0,0" VerticalAlignment="Top" Width="32" ToolTip="Agregar otra habitación" Click="btnCancelar_Click" Grid.Column="1">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/boton-rojo.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnGuarda" Content="" HorizontalAlignment="Left" Margin="518,375,0,0" VerticalAlignment="Top" Width="32" ToolTip="Agregar otra habitación" IsEnabled="False" Grid.Column="1" Click="btnGuarda_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/1353183085_save.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <Label Content="Descuento %:" HorizontalAlignment="Left" Margin="20,53,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="Descuento Bs.:" HorizontalAlignment="Left" Margin="20,79,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBox x:Name="txtdescuento" HorizontalAlignment="Left" Height="23" Margin="112,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2" KeyUp="txtdescuento_KeyUp" KeyDown="txtdescuento_KeyDown"/>
+        <TextBox x:Name="txtdexcuentobs" HorizontalAlignment="Left" Height="23" Margin="112,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2" KeyUp="txtdexcuentobs_KeyUp" KeyDown="txtdexcuentobs_KeyDown"/>
+
+    </Grid>
+
+</Page>

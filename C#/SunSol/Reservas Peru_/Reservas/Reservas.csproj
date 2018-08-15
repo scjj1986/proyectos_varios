@@ -1,0 +1,706 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{80E609D1-EDF5-43C1-84B7-4A62F0D9B89F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Reservas</RootNamespace>
+    <AssemblyName>Reservas</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <PublishUrl>publicar\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Reservas.App</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icono\LogoSS.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MahApps.Metro">
+      <HintPath>..\packages\MahApps.Metro.1.3.0\lib\net45\MahApps.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\Microsoft Visual Studio 12.0\ReportViewer\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="RibbonControlsLibrary">
+      <HintPath>..\librerias\dll\RibbonControlsLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Controls.Ribbon">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Interactivity">
+      <HintPath>..\packages\MahApps.Metro.1.3.0\lib\net45\System.Windows.Interactivity.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="ayuda.xaml.cs">
+      <DependentUpon>ayuda.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="configuracion.xaml.cs">
+      <DependentUpon>configuracion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="cotizacion.xaml.cs">
+      <DependentUpon>cotizacion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="dsConcaTemporadas.cs">
+      <DependentUpon>dsConcaTemporadas.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="dsConcaTemporadas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsConcaTemporadas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsConceptos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsConceptos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsConfirmacion.cs">
+      <DependentUpon>dsConfirmacion.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="dsConfirmacion.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsConfirmacion.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsConfirmacionHabitacion.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsConfirmacionHabitacion.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsConfirmacionPagosTI.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsConfirmacionPagosTI.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dscotizacion.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dscotizacion.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsCotizacionCargos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCotizacionCargos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsCotizacionHabitacion.cs">
+      <DependentUpon>dsCotizacionHabitacion.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="dsCotizacionHabitacion.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCotizacionHabitacion.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsCotizacionHotel.cs">
+      <DependentUpon>dsCotizacionHotel.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="dsCotizacionHotel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCotizacionHotel.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsMontoPA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsMontoPA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsPaxlocalizador.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPaxlocalizador.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsRepEdoCtaCliCon.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsRepEdoCtaCliCon.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsreporteCobros.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsreporteCobros.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsreporteReserva.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsreporteReserva.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsReservas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsReservas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsRPAGral.cs">
+      <DependentUpon>dsRPAGral.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="dsRPAGral.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsRPAGral.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsTemporadaTI.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsTemporadaTI.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="estadoCuenta.xaml.cs">
+      <DependentUpon>estadoCuenta.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="localizador.xaml.cs">
+      <DependentUpon>localizador.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="menu.xaml.cs">
+      <DependentUpon>menu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="modificareserva.xaml.cs">
+      <DependentUpon>modificareserva.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="nuevareserva.xaml.cs">
+      <DependentUpon>nuevareserva.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pagos.xaml.cs">
+      <DependentUpon>pagos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="primera.xaml.cs">
+      <DependentUpon>primera.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="inicio.xaml.cs">
+      <DependentUpon>inicio.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PuntosDisponibles.xaml.cs">
+      <DependentUpon>PuntosDisponibles.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="reporteCobros.xaml.cs">
+      <DependentUpon>reporteCobros.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="reporteEdoCtaCliCon.xaml.cs">
+      <DependentUpon>reporteEdoCtaCliCon.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="reporteReserva.xaml.cs">
+      <DependentUpon>reporteReserva.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="trasladaPagos.xaml.cs">
+      <DependentUpon>trasladaPagos.xaml</DependentUpon>
+    </Compile>
+    <Page Include="ayuda.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="configuracion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="cotizacion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="estadoCuenta.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="estilo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="localizador.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="menu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="modificareserva.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="nuevareserva.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="pagos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="primera.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="inicio.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PuntosDisponibles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="reporteCobros.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="reporteEdoCtaCliCon.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="reporteReserva.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Icons.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="trasladaPagos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="confirmacioIC.rdlc" />
+    <EmbeddedResource Include="confirmacion.rdlc" />
+    <EmbeddedResource Include="confirmacionCA.rdlc" />
+    <EmbeddedResource Include="confirmacionCPB.rdlc" />
+    <EmbeddedResource Include="confirmacionID.rdlc" />
+    <EmbeddedResource Include="cotizacionN.rdlc" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reporteCobros.rdlc" />
+    <EmbeddedResource Include="reporteECC.rdlc" />
+    <EmbeddedResource Include="reporteReservas.rdlc" />
+    <EmbeddedResource Include="reporteRPAG.rdlc" />
+    <None Include="dsConcaTemporadas.xsc">
+      <DependentUpon>dsConcaTemporadas.xsd</DependentUpon>
+    </None>
+    <None Include="dsConcaTemporadas.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsConcaTemporadas.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsConcaTemporadas.xss">
+      <DependentUpon>dsConcaTemporadas.xsd</DependentUpon>
+    </None>
+    <None Include="dsConceptos.xsc">
+      <DependentUpon>dsConceptos.xsd</DependentUpon>
+    </None>
+    <None Include="dsConceptos.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsConceptos.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsConceptos.xss">
+      <DependentUpon>dsConceptos.xsd</DependentUpon>
+    </None>
+    <None Include="dsConfirmacion.xsc">
+      <DependentUpon>dsConfirmacion.xsd</DependentUpon>
+    </None>
+    <None Include="dsConfirmacion.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsConfirmacion.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsConfirmacion.xss">
+      <DependentUpon>dsConfirmacion.xsd</DependentUpon>
+    </None>
+    <None Include="dsConfirmacionHabitacion.xsc">
+      <DependentUpon>dsConfirmacionHabitacion.xsd</DependentUpon>
+    </None>
+    <None Include="dsConfirmacionHabitacion.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsConfirmacionHabitacion.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsConfirmacionHabitacion.xss">
+      <DependentUpon>dsConfirmacionHabitacion.xsd</DependentUpon>
+    </None>
+    <None Include="dsConfirmacionPagosTI.xsc">
+      <DependentUpon>dsConfirmacionPagosTI.xsd</DependentUpon>
+    </None>
+    <None Include="dsConfirmacionPagosTI.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsConfirmacionPagosTI.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsConfirmacionPagosTI.xss">
+      <DependentUpon>dsConfirmacionPagosTI.xsd</DependentUpon>
+    </None>
+    <None Include="dscotizacion.xsc">
+      <DependentUpon>dscotizacion.xsd</DependentUpon>
+    </None>
+    <None Include="dscotizacion.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dscotizacion.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dscotizacion.xss">
+      <DependentUpon>dscotizacion.xsd</DependentUpon>
+    </None>
+    <None Include="dsCotizacionCargos.xsc">
+      <DependentUpon>dsCotizacionCargos.xsd</DependentUpon>
+    </None>
+    <None Include="dsCotizacionCargos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCotizacionCargos.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsCotizacionCargos.xss">
+      <DependentUpon>dsCotizacionCargos.xsd</DependentUpon>
+    </None>
+    <None Include="dsCotizacionHabitacion.xsc">
+      <DependentUpon>dsCotizacionHabitacion.xsd</DependentUpon>
+    </None>
+    <None Include="dsCotizacionHabitacion.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCotizacionHabitacion.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsCotizacionHabitacion.xss">
+      <DependentUpon>dsCotizacionHabitacion.xsd</DependentUpon>
+    </None>
+    <None Include="dsCotizacionHotel.xsc">
+      <DependentUpon>dsCotizacionHotel.xsd</DependentUpon>
+    </None>
+    <None Include="dsCotizacionHotel.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCotizacionHotel.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsCotizacionHotel.xss">
+      <DependentUpon>dsCotizacionHotel.xsd</DependentUpon>
+    </None>
+    <None Include="dsMontoPA.xsc">
+      <DependentUpon>dsMontoPA.xsd</DependentUpon>
+    </None>
+    <None Include="dsMontoPA.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsMontoPA.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsMontoPA.xss">
+      <DependentUpon>dsMontoPA.xsd</DependentUpon>
+    </None>
+    <None Include="dsPaxlocalizador.xsc">
+      <DependentUpon>dsPaxlocalizador.xsd</DependentUpon>
+    </None>
+    <None Include="dsPaxlocalizador.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPaxlocalizador.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsPaxlocalizador.xss">
+      <DependentUpon>dsPaxlocalizador.xsd</DependentUpon>
+    </None>
+    <None Include="dsRepEdoCtaCliCon.xsc">
+      <DependentUpon>dsRepEdoCtaCliCon.xsd</DependentUpon>
+    </None>
+    <None Include="dsRepEdoCtaCliCon.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsRepEdoCtaCliCon.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsRepEdoCtaCliCon.xss">
+      <DependentUpon>dsRepEdoCtaCliCon.xsd</DependentUpon>
+    </None>
+    <None Include="dsreporteCobros.xsc">
+      <DependentUpon>dsreporteCobros.xsd</DependentUpon>
+    </None>
+    <None Include="dsreporteCobros.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsreporteCobros.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsreporteCobros.xss">
+      <DependentUpon>dsreporteCobros.xsd</DependentUpon>
+    </None>
+    <None Include="dsreporteReserva.xsc">
+      <DependentUpon>dsreporteReserva.xsd</DependentUpon>
+    </None>
+    <None Include="dsreporteReserva.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsreporteReserva.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsreporteReserva.xss">
+      <DependentUpon>dsreporteReserva.xsd</DependentUpon>
+    </None>
+    <None Include="dsReservas.xsc">
+      <DependentUpon>dsReservas.xsd</DependentUpon>
+    </None>
+    <None Include="dsReservas.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsReservas.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsReservas.xss">
+      <DependentUpon>dsReservas.xsd</DependentUpon>
+    </None>
+    <None Include="dsRPAGral.xsc">
+      <DependentUpon>dsRPAGral.xsd</DependentUpon>
+    </None>
+    <None Include="dsRPAGral.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsRPAGral.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsRPAGral.xss">
+      <DependentUpon>dsRPAGral.xsd</DependentUpon>
+    </None>
+    <None Include="dsTemporadaTI.xsc">
+      <DependentUpon>dsTemporadaTI.xsd</DependentUpon>
+    </None>
+    <None Include="dsTemporadaTI.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsTemporadaTI.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsTemporadaTI.xss">
+      <DependentUpon>dsTemporadaTI.xsd</DependentUpon>
+    </None>
+    <None Include="Manual\MODULO RESERVACIONES.pdf" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+    <Resource Include="Resources\Entypo.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\librerias\librerias.csproj">
+      <Project>{71730e00-4f17-4fbd-b0f8-960cad4c7cdd}</Project>
+      <Name>librerias</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icono\LogoSS.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icono\LogoSS2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icono\editnote_edi_9512.png" />
+    <Resource Include="icono\icono-de-la-impresora-azul-3148.png" />
+    <Resource Include="icono\nb_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icono\other.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icono\man_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icono\temporada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\1353183085_save.png" />
+    <Resource Include="Images\add.png" />
+    <Resource Include="Images\copy.png" />
+    <Resource Include="Images\cut.png" />
+    <Resource Include="Images\format_painter.png" />
+    <Resource Include="Images\go-next.png" />
+    <Resource Include="Images\go-previous.png" />
+    <Resource Include="Images\help.png" />
+    <Resource Include="Images\home.png" />
+    <Resource Include="Images\options.png" />
+    <Resource Include="Images\paste.png" />
+    <Resource Include="Images\personal.png" />
+    <Resource Include="Images\quit.png" />
+    <Resource Include="Images\redo.png" />
+    <Resource Include="Images\save.png" />
+    <Resource Include="Images\undo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icono\Exit Planning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icono\CALENDARIO AZUL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\WindowsIcons-license.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Entypo-license.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icono\photo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\list_remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\boton-rojo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icono\Delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icono\herramientas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icono\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icono\pagos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icono\pagos %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icono\Discount-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icono\localizador.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icono\logo vacation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icono\disponible.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\ID.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\imgModalUserLoginOut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\ayuda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icono\next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

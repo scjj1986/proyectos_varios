@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BD_CUPONESModelStoreContainer" CdmEntityContainer="BD_CUPONESEntities">
+    <EntitySetMapping Name="C_Cita">
+      <EntityTypeMapping TypeName="BD_CUPONESModel.C_Cita">
+        <MappingFragment StoreEntitySet="_Cita">
+          <ScalarProperty Name="id_cita" ColumnName="id_cita" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="id_cliente" ColumnName="id_cliente" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="observacion" ColumnName="observacion" />
+          <ScalarProperty Name="id_telemarketing" ColumnName="id_telemarketing" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_Cliente">
+      <EntityTypeMapping TypeName="BD_CUPONESModel.C_Cliente">
+        <MappingFragment StoreEntitySet="_Cliente">
+          <ScalarProperty Name="id_cliente" ColumnName="id_cliente" />
+          <ScalarProperty Name="id_td" ColumnName="id_td" />
+          <ScalarProperty Name="documento_identidad" ColumnName="documento_identidad" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apellido" ColumnName="apellido" />
+          <ScalarProperty Name="id_pais" ColumnName="id_pais" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="t_habitacion" ColumnName="t_habitacion" />
+          <ScalarProperty Name="t_celular" ColumnName="t_celular" />
+          <ScalarProperty Name="t_oficina" ColumnName="t_oficina" />
+          <ScalarProperty Name="id_status" ColumnName="id_status" />
+          <ScalarProperty Name="id_locacion" ColumnName="id_locacion" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="profesion" ColumnName="profesion" />
+          <ScalarProperty Name="edad" ColumnName="edad" />
+          <ScalarProperty Name="edo_civil" ColumnName="edo_civil" />
+          <ScalarProperty Name="f_nacimiento" ColumnName="f_nacimiento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_Locacion">
+      <EntityTypeMapping TypeName="BD_CUPONESModel.C_Locacion">
+        <MappingFragment StoreEntitySet="_Locacion">
+          <ScalarProperty Name="idlocacion" ColumnName="idlocacion" />
+          <ScalarProperty Name="codigo" ColumnName="codigo" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_Pais">
+      <EntityTypeMapping TypeName="BD_CUPONESModel.C_Pais">
+        <MappingFragment StoreEntitySet="_Pais">
+          <ScalarProperty Name="id_pais" ColumnName="id_pais" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_Status">
+      <EntityTypeMapping TypeName="BD_CUPONESModel.C_Status">
+        <MappingFragment StoreEntitySet="_Status">
+          <ScalarProperty Name="id_status" ColumnName="id_status" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="observacion" ColumnName="observacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_Telemarketing">
+      <EntityTypeMapping TypeName="BD_CUPONESModel.C_Telemarketing">
+        <MappingFragment StoreEntitySet="_Telemarketing">
+          <ScalarProperty Name="id_telemarketing" ColumnName="id_telemarketing" />
+          <ScalarProperty Name="id_td" ColumnName="id_td" />
+          <ScalarProperty Name="doc_iden" ColumnName="doc_iden" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apellido" ColumnName="apellido" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="id_locacion" ColumnName="id_locacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_TipoDocumento">
+      <EntityTypeMapping TypeName="BD_CUPONESModel.C_TipoDocumento">
+        <MappingFragment StoreEntitySet="_TipoDocumento">
+          <ScalarProperty Name="id_td" ColumnName="id_td" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="formato" ColumnName="formato" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_Usuario">
+      <EntityTypeMapping TypeName="BD_CUPONESModel.C_Usuario">
+        <MappingFragment StoreEntitySet="_Usuario">
+          <ScalarProperty Name="iduser" ColumnName="iduser" />
+          <ScalarProperty Name="cedula" ColumnName="cedula" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apellido" ColumnName="apellido" />
+          <ScalarProperty Name="login" ColumnName="login" />
+          <ScalarProperty Name="pass" ColumnName="pass" />
+          <ScalarProperty Name="nivel" ColumnName="nivel" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="BD_CUPONESModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

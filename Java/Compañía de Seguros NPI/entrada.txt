@@ -1,0 +1,25 @@
+**************************** Archivo entrada.txt *******************************
+                                                      Fecha actual: 2/9/2007 
+
+========= Lista de ingresos monetaros de los clientes de la compañia ===========
+ Cliente # 1 
+Tipo de asegurado: natural || Nombre: jaun || Cedula: 17846688 || Numero de Poliza: 1 || Concepto del seguro: vida || Fecha de adquisicion: 1/1/2001 || Fecha de vencimiento: 9/9/2009 || Fecha de pago: 2/2/2002 || Monto pagado: 30000000 Bs 
+
+ Cliente # 2 
+Tipo de asegurado: natural || Nombre: jechica || Cedula: 16336213 || Numero de Poliza: 4 || Concepto del seguro: accidentes || Fecha de adquisicion: 3/3/2003 || Fecha de vencimiento: 10/10/2010 || Fecha de pago: 6/6/2006 || Monto pagado: 400000 Bs 
+
+Cliente # 3
+Tipo de asegurado: juridico || RIF: j-0063 || Numero de Poliza: 7 || Concepto del seguro: gh || Fecha de adquisicion: 2/2/2002 || Fecha de vencimiento: 9/9/2009 || Fecha de pago: 2/2/2002 || Monto pagado: 4000000 Bs
+Cliente # 4
+Tipo de asegurado: juridico || RIF: j-000056 || Numero de Poliza: 5 || Concepto del seguro: vida || Fecha de adquisicion: 1/1/2000 || Fecha de vencimiento: 7/7/2007 || Fecha de pago: 5/5/2005 || Monto pagado: 25000000 Bs
+========= Lista de egresos monetaros de los clientes de la compañia ============
+ Cliente # 1 
+ Tipo de asegurado: juridico || RIF: j-0063 || Concepto: gh || Fecha de pago: 4/4/2004 || Monto: 4000000 Bs 
+ Cliente # 2 
+Tipo de asegurado: natural || Nombre: jechica || Cedula: 16336213 || Concepto: accidentes || Fecha de pago: 6/6/2006 || Monto: 5670000 Bs
+ Cliente # 3 
+Tipo de asegurado: natural || Nombre: jaun || Cedula: 17846688 || Concepto: vida || Fecha de pago: 7/7/2007 || Monto: 3400000 Bs
+
+********************************************************************************
+
+

@@ -1,0 +1,29 @@
+
+
+stack size from 7 to 25
+pop
+push aa (21)
+push ak (20)
+pop
+pop
+push aa (6)
+push by (3)
+push rt (2)
+pop
+push cy (5)
+push wh (5)
+pop
+pop
+pop
+
+push w (10)
+
+end
+llll
+
+
+
+
+
+
+

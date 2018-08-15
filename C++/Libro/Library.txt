@@ -1,0 +1,8 @@
+Numero de Cota: 375 || Nombre del Libro: PENSAMIENTOS DE BOLIVAR || Autor: HUGO CHAVEZ || Editorial: SANTILLANA || Ano: 1981
+Numero de Cota: 375 || Nombre del Libro: PENSAMIENTOS DE BOLIVAR || Autor: HUGO CHAVEZ || Editorial: SANTILLANA || Ano: 1981
+Numero de Cota: 646 || Nombre del Libro: JUAN CHARRASQUEADO || Autor: ANTONIO AGUILAR || Editorial: MEXICO || Ano: 1951
+Numero de Cota: 748 || Nombre del Libro: EL CHINO POTTER || Autor: GERARDO BLOEM || Editorial: MERIDA || Ano: 2009
+Numero de Cota: 646 || Nombre del Libro: JUAN CHARRASQUEADO || Autor: ANTONIO AGUILAR || Editorial: MEXICO || Ano: 1951
+Numero de Cota: 331 || Nombre del Libro: LOS PENSAMIENTOS DE BOLIVAR || Autor: HUGO CHAVEZ || Editorial: SANTILLANA || Ano: 1981
+Numero de Cota: 331 || Nombre del Libro: LOS PENSAMIENTOS DE BOLIVAR || Autor: HUGO CHAVEZ || Editorial: SANTILLANA || Ano: 1981
+Numero de Cota: 222 || Nombre del Libro: JUAN || Autor: RUIZ PINEDA || Editorial: 123 || Ano: 2011

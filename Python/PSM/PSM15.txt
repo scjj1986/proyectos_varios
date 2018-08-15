@@ -1,0 +1,15 @@
+
+
+stack size from 1 to 27
+push hu (20)
+pop
+pop
+end
+ggs
+jgdfhg
+
+
+
+
+
+

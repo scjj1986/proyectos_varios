@@ -1,0 +1,4 @@
+================ Datos de las propiedades ===================== 
+----------casa # 1------------> Id: 1# Extension(m2): 1# Ubicacion: 1# Metros de construccion: 1# Años de construccion: 1
+----------apartamento # 2------------> Id: 2# Extension(m2): 2# Ubicacion: 2# Piso: 2
+----------terreno # 3------------> Id: 3# Extension(m2): 3# Ubicacion: 3# Limites: 3

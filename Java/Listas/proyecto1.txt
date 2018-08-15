@@ -1,0 +1,15 @@
+
+ingresar 2 lista la primera ordenada,
+la segunda desordenada y la tercera la debe generar
+el sistema pero esta debe ser una lista combinada,
+y debe contener otra lista con los elementos repetidos
+q no se encuentren en las listas anteriores; debe presentar
+una interfaz q los modulos sean ingresar, mostrar, buscar,eliminar,
+salida y otro modulo q sea como una ayuda para el usuario.
+debe buscar por cedula y debe mostrar un cuadro de dialogo q diga 
+cedula tal asociada al nombre tal ejemplo cedula 21524 nombre adrialys.
+el eliminar igual al buscar...introduzca cedula osea desea eliminar la cedula 1245
+ nombre adrialys gomez si o no? si es si..q diga elemento fue eliminado, 
+el mostrar debe mostrar todas las lista de una vez..y en el ingresar es normal
+ solo q cuando vayas pedir datos solo sea por  cedula,nombre, apellido asi mismo..
+no le coloque ni introduzca ni nada de eso q al profe no le gusta.

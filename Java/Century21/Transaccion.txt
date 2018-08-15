@@ -1,0 +1,6 @@
+++++++++++++++ Transaccion # 1++++++++++++++++#Tipo de transaccion: venta# Id de la propiedad: 3# Tipo de propiedad: terreno# Metros cuadrados: 3# Ubicacion: 3# Monto de la transaccion: 66 Bs.F.
+--------------Datos del cliente---------------# Cedula: 5# Nombre: 5# Apellido: 5# Direccion: 5# Tlf: 7
+--------------Datos del promotor---------------# Cedula: 1# Nombre: 1# Apellido: 1
+++++++++++++++ Transaccion # 2++++++++++++++++#Tipo de transaccion: alquiler# Id de la propiedad: 1# Tipo de propiedad: casa# Metros cuadrados: 1# Ubicacion: 1# Monto de la transaccion: 4544 Bs.F.
+--------------Datos del cliente---------------# Cedula: 5# Nombre: 5# Apellido: 5# Direccion: 67# Tlf: 32
+--------------Datos del promotor---------------# Cedula: 1# Nombre: 1# Apellido: 1

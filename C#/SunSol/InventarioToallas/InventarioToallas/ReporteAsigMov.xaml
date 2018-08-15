@@ -1,0 +1,52 @@
+﻿<Page x:Class="InventarioToallas.reporteAsigMov"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+       xmlns:rv="clr-namespace:Microsoft.Reporting.WinForms;assembly=Microsoft.ReportViewer.WinForms" 
+      xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+      mc:Ignorable="d" 
+      d:DesignHeight="355" d:DesignWidth="1095"
+	Title="reporteAsigMov" Loaded="Page_Loaded">
+
+    <Grid>
+
+        <GroupBox Grid.Row="0" Header="Retales" Margin="10">
+            <GroupBox.HeaderTemplate>
+                <DataTemplate>
+                    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="27">
+                        <Label Content="Reporte de asignación de suministros" Foreground="White" FontWeight="Bold" FontSize="12" Margin="5,0,0,0"
+                			HorizontalAlignment="Left" VerticalContentAlignment="Center"/>
+
+
+                    </Grid>
+                </DataTemplate>
+            </GroupBox.HeaderTemplate>
+            <WindowsFormsHost Margin="370,46,4,14">
+                <rv:ReportViewer x:Name="_reportViewer" ForeColor="" PageCountMode="Actual" />
+            </WindowsFormsHost>
+        </GroupBox>
+        <TextBox x:Name="txtBuscarHab" Margin="20,55,0,0" Height="38"
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Habitación"
+            			IsEnabled="true" Text="" FontSize="11" Width="95" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+        <DatePicker x:Name="dpFechaI" HorizontalAlignment="Left" Margin="140,55,0,0" VerticalAlignment="Top" FontSize="10" Height="38" Width="135" SelectedDateChanged="dpFechaI_SelectedDateChanged"/>
+        <DatePicker x:Name="dpFechaF" HorizontalAlignment="Left" Margin="300,55,0,0" VerticalAlignment="Top" FontSize="10" Height="38" Width="130"/>
+        <Controls:Tile x:Name="tlGuardar" Cursor="Hand"  Height="38" Margin="890,55,0,0" Width="45" HorizontalAlignment="Left" ToolTip="Guardar" Click="tlGuardar_Click" VerticalAlignment="Top" >
+            <Controls:Tile.Effect>
+                <DropShadowEffect BlurRadius="8" Opacity="0.95" ShadowDepth="9"/>
+            </Controls:Tile.Effect>
+            <Image Source="imagenes/reporte.png" Width="38" Height="42"/>
+        </Controls:Tile>
+        <CheckBox x:Name="rbSoloToalla" Content="Solo toallas" HorizontalAlignment="Left" Height="38" Margin="445,55,0,0" VerticalAlignment="Top" Checked="rbSoloToalla_Checked" Unchecked="rbSoloToalla_Unchecked"/>
+        <ComboBox x:Name="cmbModulo" Margin="545,55,0,0" Height="38"
+        	Controls:TextBoxHelper.UseFloatingWatermark="True"
+        	Controls:TextBoxHelper.Watermark="Módulo"
+        	IsEnabled="False" Text="" FontSize="11" Width="155" HorizontalAlignment="Left" VerticalAlignment="Top" SelectionChanged="cmbModulo_SelectionChanged"/>
+        <ComboBox x:Name="cmbPiso" Margin="715,55,0,0" Height="38"
+        	Controls:TextBoxHelper.UseFloatingWatermark="True"
+        	Controls:TextBoxHelper.Watermark="Piso"
+        	IsEnabled="False" Text="" FontSize="11" Width="155" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+    </Grid>
+</Page>

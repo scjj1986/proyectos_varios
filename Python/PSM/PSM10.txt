@@ -1,0 +1,18 @@
+
+
+stack size from 1 to 56
+push hu (20)
+push df (12)
+push dd (13)
+push hu (2)
+pop
+pop
+end
+ggs
+jgdfhg
+
+
+
+
+
+

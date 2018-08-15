@@ -1,0 +1,21 @@
+ISLA CARIBE
+Persist Security Info=False;User ID=contratos2;PWD=123456;Initial Catalog=CONTRATOS_ISLA_TEMP;Data Source=sunsolCarsql04
+03
+CARIBBEAN BEACH
+Persist Security Info=False;User ID=contratos2;PWD=123456789;Initial Catalog=CONTRATOS;Data Source=sunsolCBBsql01\cbb01
+02
+PUNTABLANCA
+Persist Security Info=False;User ID=contratos2;PWD=123456;Initial Catalog=CONTRATOS;Data Source=sunsolptbsql01\ptb01
+01
+PARQUE COSTAZUL
+Persist Security Info=False;User ID=contratos2;PWD=123456;Initial Catalog=CONTRATOS;Data Source=wscazcnt001
+04
+CONSOLIDADO
+Persist Security Info=False;User ID=contratos2;PWD=123456;Initial Catalog=CONTRATOS;Data Source=sunsolCarsql04
+07
+SALA 05
+Persist Security Info=False;User ID=contratos2;PWD=123456;Initial Catalog=CONTRATOS_colombia;Data Source=sunsolcarsql04
+05
+PRUEBAS
+Persist Security Info=False;User ID=contratos_reservas;PWD=c0ntratos2016**;Initial Catalog=CONTRATOS_PRU;Data Source=SUNSOLCARSQL03
+07

@@ -1,0 +1,112 @@
+public class cuatrolistas {
+
+   /* public cuatrolistas() {
+    }*/
+    public static void main(String[] args) throws Exception /*principal*/
+    {
+    	Listas l=new Listas();
+    	nodo nuevo,aux;
+    	nuevo= new nodo();
+    	nuevo.llenar();
+    	l.ordenada=null;
+    	l.desordenada=null;
+    	l.combinada=null;
+    	l.repetida=null;
+    	l.backup=null;
+    	l.aux=null;
+    	l.agregar(nuevo);
+    	nuevo.llenar();
+    	l.agregar(nuevo);
+    	l.aux=l.backup;
+    	l.ordenar(nuevo);
+    }
+    
+    
+}
+
+class nodo
+{
+	String cedula,nombre,apellido;
+	nodo sig;
+	public void llenar()  throws Exception
+	{
+		
+		BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
+		System.out.println("Ingrese la cedula: \n ");
+    	cedula = entrada.readLine();
+    	while (!numerico())
+    	{
+    		System.out.println("Error. La cedula debe ser numerica.Ingresela de nuevo: \n ");
+    		cedula = entrada.readLine();
+    	}
+    	System.out.println("Ingrese el nombre: \n ");
+    	nombre = entrada.readLine();
+    	System.out.println("Ingrese el apellido: \n ");
+    	apellido = entrada.readLine();
+	}
+	public boolean numerico() throws Exception 
+	{
+		
+		for (int i=0; i<cedula.length(); i++)
+		{
+			if( !Character.isDigit(cedula.charAt(i)) ){				
+				return false;
+			}
+		}
+		return true;
+	}
+	
+	
+}
+class Listas
+{
+	public nodo aux, backup,ordenada,desordenada,combinada,repetida;
+	public void agregar(nodo nuevo) throws Exception
+	{
+		
+		if (backup==null)
+		{
+			backup=nuevo;
+		}
+		else{
+			
+		aux=backup;
+		while(aux.sig!=null){
+			
+			aux=aux.sig;
+		}
+		aux.sig=nuevo;	
+		}
+	}
+	public void ordenar (nodo nuevo) throws Exception
+	{
+		
+		boolean bandera=false;
+		
+		while (aux.sig!=null)
+		{
+			System.out.print(aux.cedula);
+			if (aux.cedula.compareTo(aux.sig.cedula)>0)
+			{
+				
+				nuevo.cedula=aux.cedula;
+				nuevo.nombre=aux.nombre;
+				nuevo.apellido=aux.apellido;
+				aux.cedula=aux.sig.cedula;
+				aux.nombre=aux.sig.nombre;
+				aux.apellido=aux.sig.apellido;
+				aux.sig.cedula=nuevo.cedula;
+				aux.sig.nombre=nuevo.nombre;
+				aux.sig.apellido=nuevo.apellido;
+				bandera=true;
+				
+			}
+			aux=aux.sig;
+			if ( (aux.sig==null) && (bandera==true)){
+				bandera=false;
+				aux=backup;
+				
+			}
+		}
+	}
+}

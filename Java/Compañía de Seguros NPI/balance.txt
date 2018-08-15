@@ -1,0 +1,11 @@
+**************************** Archivo balance.txt *******************************
+                                                      Fecha actual: 2/9/2007 
+
+ Tipo de asegurado con mas beneficios: Natural 
+ Desde el 1/1/2002 hasta la fecha actual se obtuvo un monto de ganancia de 46330000 Bs 
+==================== Montos globales hasta la fecha actual =====================
+
+ Monto total de ingresos :59400000 Bs 
+ Monto total de egresos :13070000 Bs
+
+********************************************************************************

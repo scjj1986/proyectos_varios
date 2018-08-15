@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsPorcentajeCloser" targetNamespace="http://tempuri.org/dsPorcentajeCloser.xsd" xmlns:mstns="http://tempuri.org/dsPorcentajeCloser.xsd" xmlns="http://tempuri.org/dsPorcentajeCloser.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsPorcentajeCloser" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsPorcentajeCloser" msprop:Generator_UserDSName="dsPorcentajeCloser">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dttPorcCloser" msprop:Generator_TableClassName="dttPorcCloserDataTable" msprop:Generator_TableVarName="tabledttPorcCloser" msprop:Generator_TablePropName="dttPorcCloser" msprop:Generator_RowDeletingName="dttPorcCloserRowDeleting" msprop:Generator_RowChangingName="dttPorcCloserRowChanging" msprop:Generator_RowEvHandlerName="dttPorcCloserRowChangeEventHandler" msprop:Generator_RowDeletedName="dttPorcCloserRowDeleted" msprop:Generator_UserTableName="dttPorcCloser" msprop:Generator_RowChangedName="dttPorcCloserRowChanged" msprop:Generator_RowEvArgName="dttPorcCloserRowChangeEvent" msprop:Generator_RowClassName="dttPorcCloserRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="codigo" msprop:Generator_ColumnVarNameInTable="columncodigo" msprop:Generator_ColumnPropNameInRow="codigo" msprop:Generator_ColumnPropNameInTable="codigoColumn" msprop:Generator_UserColumnName="codigo" type="xs:string" minOccurs="0" />
+              <xs:element name="nombre" msprop:Generator_ColumnVarNameInTable="columnnombre" msprop:Generator_ColumnPropNameInRow="nombre" msprop:Generator_ColumnPropNameInTable="nombreColumn" msprop:Generator_UserColumnName="nombre" type="xs:string" minOccurs="0" />
+              <xs:element name="q" msprop:Generator_ColumnVarNameInTable="columnq" msprop:Generator_ColumnPropNameInRow="q" msprop:Generator_ColumnPropNameInTable="qColumn" msprop:Generator_UserColumnName="q" type="xs:int" minOccurs="0" />
+              <xs:element name="nq" msprop:Generator_ColumnVarNameInTable="columnnq" msprop:Generator_ColumnPropNameInRow="nq" msprop:Generator_ColumnPropNameInTable="nqColumn" msprop:Generator_UserColumnName="nq" type="xs:int" minOccurs="0" />
+              <xs:element name="total" msprop:Generator_ColumnVarNameInTable="columntotal" msprop:Generator_ColumnPropNameInRow="total" msprop:Generator_ColumnPropNameInTable="totalColumn" msprop:Generator_UserColumnName="total" type="xs:int" minOccurs="0" />
+              <xs:element name="procs" msprop:Generator_ColumnVarNameInTable="columnprocs" msprop:Generator_ColumnPropNameInRow="procs" msprop:Generator_ColumnPropNameInTable="procsColumn" msprop:Generator_UserColumnName="procs" type="xs:int" minOccurs="0" />
+              <xs:element name="pend" msprop:Generator_ColumnVarNameInTable="columnpend" msprop:Generator_ColumnPropNameInRow="pend" msprop:Generator_ColumnPropNameInTable="pendColumn" msprop:Generator_UserColumnName="pend" type="xs:int" minOccurs="0" />
+              <xs:element name="volumen" msprop:Generator_ColumnVarNameInTable="columnvolumen" msprop:Generator_ColumnPropNameInRow="volumen" msprop:Generator_ColumnPropNameInTable="volumenColumn" msprop:Generator_UserColumnName="volumen" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dttSumPorcCloser" msprop:Generator_TableClassName="dttSumPorcCloserDataTable" msprop:Generator_TableVarName="tabledttSumPorcCloser" msprop:Generator_TablePropName="dttSumPorcCloser" msprop:Generator_RowDeletingName="dttSumPorcCloserRowDeleting" msprop:Generator_RowChangingName="dttSumPorcCloserRowChanging" msprop:Generator_RowEvHandlerName="dttSumPorcCloserRowChangeEventHandler" msprop:Generator_RowDeletedName="dttSumPorcCloserRowDeleted" msprop:Generator_UserTableName="dttSumPorcCloser" msprop:Generator_RowChangedName="dttSumPorcCloserRowChanged" msprop:Generator_RowEvArgName="dttSumPorcCloserRowChangeEvent" msprop:Generator_RowClassName="dttSumPorcCloserRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="q" msprop:Generator_ColumnVarNameInTable="columnq" msprop:Generator_ColumnPropNameInRow="q" msprop:Generator_ColumnPropNameInTable="qColumn" msprop:Generator_UserColumnName="q" type="xs:int" minOccurs="0" />
+              <xs:element name="nq" msprop:Generator_ColumnVarNameInTable="columnnq" msprop:Generator_ColumnPropNameInRow="nq" msprop:Generator_ColumnPropNameInTable="nqColumn" msprop:Generator_UserColumnName="nq" type="xs:int" minOccurs="0" />
+              <xs:element name="nt" msprop:Generator_ColumnVarNameInTable="columnnt" msprop:Generator_ColumnPropNameInRow="nt" msprop:Generator_ColumnPropNameInTable="ntColumn" msprop:Generator_UserColumnName="nt" type="xs:int" minOccurs="0" />
+              <xs:element name="total" msprop:Generator_ColumnVarNameInTable="columntotal" msprop:Generator_ColumnPropNameInRow="total" msprop:Generator_ColumnPropNameInTable="totalColumn" msprop:Generator_UserColumnName="total" type="xs:int" minOccurs="0" />
+              <xs:element name="volumen" msprop:Generator_ColumnVarNameInTable="columnvolumen" msprop:Generator_ColumnPropNameInRow="volumen" msprop:Generator_ColumnPropNameInTable="volumenColumn" msprop:Generator_UserColumnName="volumen" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

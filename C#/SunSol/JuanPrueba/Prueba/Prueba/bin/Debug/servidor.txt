@@ -1,0 +1,23 @@
+Provider=SQLOLEDB.1;Persist Security Info=False;User ID=contratos2;PWD=12345678;Initial Catalog=reservas_pruebas;Data Source=sunsolcarsql03
+Confirmación de Reservación Sunsol Vacation Club C.A.
+josclem@hotmail.com
+Puntos
+Mant
+1
+07
+36
+1
+1
+Provider=SQLOLEDB.1;Persist Security Info=False;User ID=nataly.pinho;PWD=130684**..;Initial Catalog=SSVC_A;Data Source=sunsolcarsql10
+
+
+Provider=SQLNCLI.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SSVC_A;Data Source=sunsolcarsql10
+
+LUCIA-PC\SQLEXPRESS
+
+
+
+
+1 para mostrar form1
+03 codigo de oficina
+36 cantidad maxima de bancos por orden de codigos

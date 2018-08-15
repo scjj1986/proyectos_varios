@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=puzzle\ mapa
+comment0.target=Sudoku(int[][],\ int[][])
+comment1.target=boolean\ esValido()
+comment2.target=void\ solve()
+comment3.target=void\ push()
+comment4.target=void\ pop()
+comment5.target=void\ print()
+comment6.target=void\ pl()
+comment7.params=args
+comment7.target=void\ main(String[])
+numComments=8

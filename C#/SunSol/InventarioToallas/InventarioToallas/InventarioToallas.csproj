@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B0091B65-CB0B-430E-9E39-4AB9060B533C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>InventarioToallas</RootNamespace>
+    <AssemblyName>InventarioToallas</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MahApps.Metro">
+      <HintPath>..\packages\MahApps.Metro.1.4.3\lib\net45\MahApps.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\ReportViewer\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="RDLCReportRunner">
+      <HintPath>..\packages\RDLCReportRunner.1.0.0\lib\RDLCReportRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\MahApps.Metro.1.4.3\lib\net45\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="asignacion.xaml.cs">
+      <DependentUpon>asignacion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AsigSuministro.xaml.cs">
+      <DependentUpon>AsigSuministro.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="camarera.xaml.cs">
+      <DependentUpon>camarera.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="dsReporteAsigSum1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsReporteAsigSum.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsReporteBitacora.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsReporteBitacora.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsReporteCamarera.cs">
+      <DependentUpon>dsReporteCamarera.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="dsReporteCamarera.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsReporteCamarera.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsReporteExtra.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsReporteExtra.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsReportePerdida1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsReportePerdida.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EditarAsignHab.xaml.cs">
+      <DependentUpon>EditarAsignHab.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MovHabPorFecha.xaml.cs">
+      <DependentUpon>MovHabPorFecha.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListAsignHabCamHoy.xaml.cs">
+      <DependentUpon>ListAsignHabCamHoy.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PerPorFecha.xaml.cs">
+      <DependentUpon>PerPorFecha.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Registrar_Extra.xaml.cs">
+      <DependentUpon>Registrar_Extra.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Registrar_Incidencia.xaml.cs">
+      <DependentUpon>Registrar_Incidencia.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Registrar_Perdida.xaml.cs">
+      <DependentUpon>Registrar_Perdida.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteAsigMov.xaml.cs">
+      <DependentUpon>ReporteAsigMov.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteBitacora.xaml.cs">
+      <DependentUpon>ReporteBitacora.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="reporteCamarera.xaml.cs">
+      <DependentUpon>reporteCamarera.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteExtra.xaml.cs">
+      <DependentUpon>ReporteExtra.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ReportePerdida.xaml.cs">
+      <DependentUpon>ReportePerdida.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteToallasPiscina.xaml.cs">
+      <DependentUpon>ReporteToallasPiscina.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="suministro.xaml.cs">
+      <DependentUpon>suministro.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SuministroExtra.xaml.cs">
+      <DependentUpon>SuministroExtra.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="supervisor.xaml.cs">
+      <DependentUpon>supervisor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="usuario.xaml.cs">
+      <DependentUpon>usuario.xaml</DependentUpon>
+    </Compile>
+    <Page Include="asignacion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AsigSuministro.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="camarera.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EditarAsignHab.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Login.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="MovHabPorFecha.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListAsignHabCamHoy.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PerPorFecha.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Principal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Registrar_Extra.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Registrar_Incidencia.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Registrar_Perdida.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ReporteAsigMov.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ReporteBitacora.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="reporteCamarera.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ReporteExtra.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ReportePerdida.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ReporteToallasPiscina.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Icons.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\IconsNonShared.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="suministro.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SuministroExtra.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="supervisor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="usuario.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Principal.xaml.cs">
+      <DependentUpon>Principal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="AsignacionSum.rdlc" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteBitacoras.rdlc" />
+    <EmbeddedResource Include="ReporteCam.rdlc" />
+    <EmbeddedResource Include="ReporteExtras.rdlc" />
+    <EmbeddedResource Include="ReportePerdida.rdlc" />
+    <EmbeddedResource Include="ReporteToallas.rdlc" />
+    <EmbeddedResource Include="RepToaPisc.rdlc" />
+    <None Include="dsReporteAsigSum.xsc">
+      <DependentUpon>dsReporteAsigSum.xsd</DependentUpon>
+    </None>
+    <None Include="dsReporteAsigSum.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsReporteAsigSum1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsReporteAsigSum.xss">
+      <DependentUpon>dsReporteAsigSum.xsd</DependentUpon>
+    </None>
+    <None Include="dsReporteBitacora.xsc">
+      <DependentUpon>dsReporteBitacora.xsd</DependentUpon>
+    </None>
+    <None Include="dsReporteBitacora.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsReporteBitacora.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsReporteBitacora.xss">
+      <DependentUpon>dsReporteBitacora.xsd</DependentUpon>
+    </None>
+    <None Include="dsReporteCamarera.xsc">
+      <DependentUpon>dsReporteCamarera.xsd</DependentUpon>
+    </None>
+    <None Include="dsReporteCamarera.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsReporteCamarera.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsReporteCamarera.xss">
+      <DependentUpon>dsReporteCamarera.xsd</DependentUpon>
+    </None>
+    <None Include="dsReporteExtra.xsc">
+      <DependentUpon>dsReporteExtra.xsd</DependentUpon>
+    </None>
+    <None Include="dsReporteExtra.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsReporteExtra.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsReporteExtra.xss">
+      <DependentUpon>dsReporteExtra.xsd</DependentUpon>
+    </None>
+    <None Include="dsReportePerdida.xsc">
+      <DependentUpon>dsReportePerdida.xsd</DependentUpon>
+    </None>
+    <None Include="dsReportePerdida.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsReportePerdida1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsReportePerdida.xss">
+      <DependentUpon>dsReportePerdida.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+    <Resource Include="Resources\Entypo.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\WindowsIcons-license.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Entypo-license.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\photo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Clases\Clases.csproj">
+      <Project>{7cada979-c04c-4ab1-a51b-f1ff4b143502}</Project>
+      <Name>Clases</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\aceptar.png" />
+    <Resource Include="imagenes\Cancel.png" />
+    <Resource Include="imagenes\cancelar.png" />
+    <Resource Include="imagenes\cita.png" />
+    <Resource Include="imagenes\Cliente.png" />
+    <Resource Include="imagenes\configuracion.png" />
+    <Resource Include="imagenes\data.png" />
+    <Resource Include="imagenes\documentoIdentidad.png" />
+    <Resource Include="imagenes\guardar.png" />
+    <Resource Include="imagenes\locacion.png" />
+    <Resource Include="imagenes\logo vacation.ico" />
+    <Resource Include="imagenes\nuevo.png" />
+    <Resource Include="imagenes\ojo.png" />
+    <Resource Include="imagenes\pais.png" />
+    <Resource Include="imagenes\prospecto.png" />
+    <Resource Include="imagenes\reporte.png" />
+    <Resource Include="imagenes\Tele.png" />
+    <Resource Include="imagenes\telemarketing.png" />
+    <Resource Include="imagenes\User Info-WF.png" />
+    <Resource Include="imagenes\Users-WF.png" />
+    <Resource Include="imagenes\Users.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\camarera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\camarera_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\salir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\salir3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\Camarera_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\habitacion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\habitacion_peq.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\Toalla.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\cama.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\Tasks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\sunsol isla.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\HabDiaria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\Menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\Cape-01-WF.png" />
+    <Resource Include="imagenes\Print Layout-WF.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

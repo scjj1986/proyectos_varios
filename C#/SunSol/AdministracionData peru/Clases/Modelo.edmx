@@ -1,0 +1,648 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="BD_CUPONESModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="_Cita">
+          <Key>
+            <PropertyRef Name="id_cita" />
+          </Key>
+          <Property Name="id_cita" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="fecha" Type="date" />
+          <Property Name="id_cliente" Type="int" />
+          <Property Name="status" Type="nchar" MaxLength="50" />
+          <Property Name="observacion" Type="nchar" MaxLength="500" />
+          <Property Name="id_telemarketing" Type="int" />
+        </EntityType>
+        <EntityType Name="_Cliente">
+          <Key>
+            <PropertyRef Name="id_cliente" />
+          </Key>
+          <Property Name="id_cliente" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="id_td" Type="int" />
+          <Property Name="documento_identidad" Type="nchar" MaxLength="20" />
+          <Property Name="nombre" Type="nchar" MaxLength="50" />
+          <Property Name="apellido" Type="nchar" MaxLength="50" />
+          <Property Name="id_pais" Type="int" />
+          <Property Name="direccion" Type="nchar" MaxLength="500" />
+          <Property Name="t_habitacion" Type="nchar" MaxLength="30" />
+          <Property Name="t_celular" Type="nchar" MaxLength="30" />
+          <Property Name="t_oficina" Type="nchar" MaxLength="30" />
+          <Property Name="id_status" Type="int" />
+          <Property Name="id_locacion" Type="int" />
+          <Property Name="correo" Type="nchar" MaxLength="50" />
+          <Property Name="profesion" Type="nchar" MaxLength="50" />
+          <Property Name="edad" Type="int" />
+          <Property Name="edo_civil" Type="nchar" MaxLength="20" />
+          <Property Name="f_nacimiento" Type="date" />
+        </EntityType>
+        <EntityType Name="_Locacion">
+          <Key>
+            <PropertyRef Name="idlocacion" />
+          </Key>
+          <Property Name="idlocacion" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="codigo" Type="int" />
+          <Property Name="descripcion" Type="nchar" MaxLength="100" />
+          <Property Name="direccion" Type="nchar" MaxLength="500" />
+        </EntityType>
+        <EntityType Name="_Pais">
+          <Key>
+            <PropertyRef Name="id_pais" />
+          </Key>
+          <Property Name="id_pais" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nombre" Type="nchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="_Status">
+          <Key>
+            <PropertyRef Name="id_status" />
+          </Key>
+          <Property Name="id_status" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="descripcion" Type="nchar" MaxLength="50" />
+          <Property Name="observacion" Type="nchar" MaxLength="500" />
+        </EntityType>
+        <EntityType Name="_Telemarketing">
+          <Key>
+            <PropertyRef Name="id_telemarketing" />
+          </Key>
+          <Property Name="id_telemarketing" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="id_td" Type="int" />
+          <Property Name="doc_iden" Type="nchar" MaxLength="50" />
+          <Property Name="nombre" Type="nchar" MaxLength="50" />
+          <Property Name="apellido" Type="nchar" MaxLength="50" />
+          <Property Name="telefono" Type="nchar" MaxLength="10" />
+          <Property Name="correo" Type="nchar" MaxLength="100" />
+          <Property Name="id_locacion" Type="int" />
+        </EntityType>
+        <EntityType Name="_TipoDocumento">
+          <Key>
+            <PropertyRef Name="id_td" />
+          </Key>
+          <Property Name="id_td" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="descripcion" Type="nchar" MaxLength="100" />
+          <Property Name="formato" Type="nchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="_Usuario">
+          <Key>
+            <PropertyRef Name="iduser" />
+          </Key>
+          <Property Name="iduser" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="cedula" Type="nchar" MaxLength="20" />
+          <Property Name="nombre" Type="nchar" MaxLength="50" />
+          <Property Name="apellido" Type="nchar" MaxLength="50" />
+          <Property Name="login" Type="nchar" MaxLength="50" />
+          <Property Name="pass" Type="nchar" MaxLength="20" />
+          <Property Name="nivel" Type="int" />
+          <Property Name="status" Type="int" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
+        <Association Name="FK__Cita__Cliente">
+          <End Role="_Cliente" Type="Self._Cliente" Multiplicity="0..1" />
+          <End Role="_Cita" Type="Self._Cita" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="_Cliente">
+              <PropertyRef Name="id_cliente" />
+            </Principal>
+            <Dependent Role="_Cita">
+              <PropertyRef Name="id_cliente" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Cita__Telemarketing">
+          <End Role="_Telemarketing" Type="Self._Telemarketing" Multiplicity="0..1" />
+          <End Role="_Cita" Type="Self._Cita" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="_Telemarketing">
+              <PropertyRef Name="id_telemarketing" />
+            </Principal>
+            <Dependent Role="_Cita">
+              <PropertyRef Name="id_telemarketing" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Cliente__Locacion">
+          <End Role="_Locacion" Type="Self._Locacion" Multiplicity="0..1" />
+          <End Role="_Cliente" Type="Self._Cliente" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="_Locacion">
+              <PropertyRef Name="idlocacion" />
+            </Principal>
+            <Dependent Role="_Cliente">
+              <PropertyRef Name="id_locacion" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Cliente__Pais">
+          <End Role="_Pais" Type="Self._Pais" Multiplicity="0..1" />
+          <End Role="_Cliente" Type="Self._Cliente" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="_Pais">
+              <PropertyRef Name="id_pais" />
+            </Principal>
+            <Dependent Role="_Cliente">
+              <PropertyRef Name="id_pais" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Cliente__Status">
+          <End Role="_Status" Type="Self._Status" Multiplicity="0..1" />
+          <End Role="_Cliente" Type="Self._Cliente" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="_Status">
+              <PropertyRef Name="id_status" />
+            </Principal>
+            <Dependent Role="_Cliente">
+              <PropertyRef Name="id_status" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Cliente__TipoDocumento">
+          <End Role="_TipoDocumento" Type="Self._TipoDocumento" Multiplicity="0..1" />
+          <End Role="_Cliente" Type="Self._Cliente" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="_TipoDocumento">
+              <PropertyRef Name="id_td" />
+            </Principal>
+            <Dependent Role="_Cliente">
+              <PropertyRef Name="id_td" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Telemarketing__Locacion">
+          <End Role="_Locacion" Type="Self._Locacion" Multiplicity="0..1" />
+          <End Role="_Telemarketing" Type="Self._Telemarketing" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="_Locacion">
+              <PropertyRef Name="idlocacion" />
+            </Principal>
+            <Dependent Role="_Telemarketing">
+              <PropertyRef Name="id_locacion" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Telemarketing__TipoDocumento">
+          <End Role="_TipoDocumento" Type="Self._TipoDocumento" Multiplicity="0..1" />
+          <End Role="_Telemarketing" Type="Self._Telemarketing" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="_TipoDocumento">
+              <PropertyRef Name="id_td" />
+            </Principal>
+            <Dependent Role="_Telemarketing">
+              <PropertyRef Name="id_td" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="BD_CUPONESModelStoreContainer">
+          <EntitySet Name="_Cita" EntityType="Self._Cita" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="_Cliente" EntityType="Self._Cliente" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="_Locacion" EntityType="Self._Locacion" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="_Pais" EntityType="Self._Pais" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="_Status" EntityType="Self._Status" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="_Telemarketing" EntityType="Self._Telemarketing" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="_TipoDocumento" EntityType="Self._TipoDocumento" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="_Usuario" EntityType="Self._Usuario" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__Cita__Cliente" Association="Self.FK__Cita__Cliente">
+            <End Role="_Cliente" EntitySet="_Cliente" />
+            <End Role="_Cita" EntitySet="_Cita" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Cita__Telemarketing" Association="Self.FK__Cita__Telemarketing">
+            <End Role="_Telemarketing" EntitySet="_Telemarketing" />
+            <End Role="_Cita" EntitySet="_Cita" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Cliente__Locacion" Association="Self.FK__Cliente__Locacion">
+            <End Role="_Locacion" EntitySet="_Locacion" />
+            <End Role="_Cliente" EntitySet="_Cliente" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Cliente__Pais" Association="Self.FK__Cliente__Pais">
+            <End Role="_Pais" EntitySet="_Pais" />
+            <End Role="_Cliente" EntitySet="_Cliente" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Cliente__Status" Association="Self.FK__Cliente__Status">
+            <End Role="_Status" EntitySet="_Status" />
+            <End Role="_Cliente" EntitySet="_Cliente" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Cliente__TipoDocumento" Association="Self.FK__Cliente__TipoDocumento">
+            <End Role="_TipoDocumento" EntitySet="_TipoDocumento" />
+            <End Role="_Cliente" EntitySet="_Cliente" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Telemarketing__Locacion" Association="Self.FK__Telemarketing__Locacion">
+            <End Role="_Locacion" EntitySet="_Locacion" />
+            <End Role="_Telemarketing" EntitySet="_Telemarketing" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Telemarketing__TipoDocumento" Association="Self.FK__Telemarketing__TipoDocumento">
+            <End Role="_TipoDocumento" EntitySet="_TipoDocumento" />
+            <End Role="_Telemarketing" EntitySet="_Telemarketing" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="BD_CUPONESModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="C_Cita">
+          <Key>
+            <PropertyRef Name="id_cita" />
+          </Key>
+          <Property Name="id_cita" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="fecha" Type="DateTime" Precision="0" />
+          <Property Name="id_cliente" Type="Int32" />
+          <Property Name="status" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+          <Property Name="observacion" Type="String" MaxLength="500" FixedLength="true" Unicode="true" />
+          <Property Name="id_telemarketing" Type="Int32" />
+          <NavigationProperty Name="C_Cliente" Relationship="Self.FK__Cita__Cliente" FromRole="C_Cita" ToRole="C_Cliente" />
+          <NavigationProperty Name="C_Telemarketing" Relationship="Self.FK__Cita__Telemarketing" FromRole="C_Cita" ToRole="C_Telemarketing" />
+        </EntityType>
+        <EntityType Name="C_Cliente">
+          <Key>
+            <PropertyRef Name="id_cliente" />
+          </Key>
+          <Property Name="id_cliente" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="id_td" Type="Int32" />
+          <Property Name="documento_identidad" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+          <Property Name="nombre" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+          <Property Name="apellido" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+          <Property Name="id_pais" Type="Int32" />
+          <Property Name="direccion" Type="String" MaxLength="500" FixedLength="true" Unicode="true" />
+          <Property Name="t_habitacion" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+          <Property Name="t_celular" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+          <Property Name="t_oficina" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+          <Property Name="id_status" Type="Int32" />
+          <Property Name="id_locacion" Type="Int32" />
+          <Property Name="correo" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+          <Property Name="profesion" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+          <Property Name="edad" Type="Int32" />
+          <Property Name="edo_civil" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+          <Property Name="f_nacimiento" Type="DateTime" Precision="0" />
+          <NavigationProperty Name="C_Cita" Relationship="Self.FK__Cita__Cliente" FromRole="C_Cliente" ToRole="C_Cita" />
+          <NavigationProperty Name="C_Locacion" Relationship="Self.FK__Cliente__Locacion" FromRole="C_Cliente" ToRole="C_Locacion" />
+          <NavigationProperty Name="C_Pais" Relationship="Self.FK__Cliente__Pais" FromRole="C_Cliente" ToRole="C_Pais" />
+          <NavigationProperty Name="C_Status" Relationship="Self.FK__Cliente__Status" FromRole="C_Cliente" ToRole="C_Status" />
+          <NavigationProperty Name="C_TipoDocumento" Relationship="Self.FK__Cliente__TipoDocumento" FromRole="C_Cliente" ToRole="C_TipoDocumento" />
+        </EntityType>
+        <EntityType Name="C_Locacion">
+          <Key>
+            <PropertyRef Name="idlocacion" />
+          </Key>
+          <Property Name="idlocacion" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="codigo" Type="Int32" />
+          <Property Name="descripcion" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
+          <Property Name="direccion" Type="String" MaxLength="500" FixedLength="true" Unicode="true" />
+          <NavigationProperty Name="C_Cliente" Relationship="Self.FK__Cliente__Locacion" FromRole="C_Locacion" ToRole="C_Cliente" />
+          <NavigationProperty Name="C_Telemarketing" Relationship="Self.FK__Telemarketing__Locacion" FromRole="C_Locacion" ToRole="C_Telemarketing" />
+        </EntityType>
+        <EntityType Name="C_Pais">
+          <Key>
+            <PropertyRef Name="id_pais" />
+          </Key>
+          <Property Name="id_pais" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nombre" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
+          <NavigationProperty Name="C_Cliente" Relationship="Self.FK__Cliente__Pais" FromRole="C_Pais" ToRole="C_Cliente" />
+        </EntityType>
+        <EntityType Name="C_Status">
+          <Key>
+            <PropertyRef Name="id_status" />
+          </Key>
+          <Property Name="id_status" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="descripcion" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+          <Property Name="observacion" Type="String" MaxLength="500" FixedLength="true" Unicode="true" />
+          <NavigationProperty Name="C_Cliente" Relationship="Self.FK__Cliente__Status" FromRole="C_Status" ToRole="C_Cliente" />
+        </EntityType>
+        <EntityType Name="C_Telemarketing">
+          <Key>
+            <PropertyRef Name="id_telemarketing" />
+          </Key>
+          <Property Name="id_telemarketing" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="id_td" Type="Int32" />
+          <Property Name="doc_iden" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+          <Property Name="nombre" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+          <Property Name="apellido" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+          <Property Name="telefono" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="correo" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
+          <Property Name="id_locacion" Type="Int32" />
+          <NavigationProperty Name="C_Cita" Relationship="Self.FK__Cita__Telemarketing" FromRole="C_Telemarketing" ToRole="C_Cita" />
+          <NavigationProperty Name="C_Locacion" Relationship="Self.FK__Telemarketing__Locacion" FromRole="C_Telemarketing" ToRole="C_Locacion" />
+          <NavigationProperty Name="C_TipoDocumento" Relationship="Self.FK__Telemarketing__TipoDocumento" FromRole="C_Telemarketing" ToRole="C_TipoDocumento" />
+        </EntityType>
+        <EntityType Name="C_TipoDocumento">
+          <Key>
+            <PropertyRef Name="id_td" />
+          </Key>
+          <Property Name="id_td" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="descripcion" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
+          <Property Name="formato" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+          <NavigationProperty Name="C_Cliente" Relationship="Self.FK__Cliente__TipoDocumento" FromRole="C_TipoDocumento" ToRole="C_Cliente" />
+          <NavigationProperty Name="C_Telemarketing" Relationship="Self.FK__Telemarketing__TipoDocumento" FromRole="C_TipoDocumento" ToRole="C_Telemarketing" />
+        </EntityType>
+        <EntityType Name="C_Usuario">
+          <Key>
+            <PropertyRef Name="iduser" />
+          </Key>
+          <Property Name="iduser" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="cedula" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+          <Property Name="nombre" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+          <Property Name="apellido" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+          <Property Name="login" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+          <Property Name="pass" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+          <Property Name="nivel" Type="Int32" />
+          <Property Name="status" Type="Int32" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <Association Name="FK__Cita__Cliente">
+          <End Role="C_Cliente" Type="Self.C_Cliente" Multiplicity="0..1" />
+          <End Role="C_Cita" Type="Self.C_Cita" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="C_Cliente">
+              <PropertyRef Name="id_cliente" />
+            </Principal>
+            <Dependent Role="C_Cita">
+              <PropertyRef Name="id_cliente" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Cita__Telemarketing">
+          <End Role="C_Telemarketing" Type="Self.C_Telemarketing" Multiplicity="0..1" />
+          <End Role="C_Cita" Type="Self.C_Cita" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="C_Telemarketing">
+              <PropertyRef Name="id_telemarketing" />
+            </Principal>
+            <Dependent Role="C_Cita">
+              <PropertyRef Name="id_telemarketing" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Cliente__Locacion">
+          <End Role="C_Locacion" Type="Self.C_Locacion" Multiplicity="0..1" />
+          <End Role="C_Cliente" Type="Self.C_Cliente" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="C_Locacion">
+              <PropertyRef Name="idlocacion" />
+            </Principal>
+            <Dependent Role="C_Cliente">
+              <PropertyRef Name="id_locacion" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Cliente__Pais">
+          <End Role="C_Pais" Type="Self.C_Pais" Multiplicity="0..1" />
+          <End Role="C_Cliente" Type="Self.C_Cliente" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="C_Pais">
+              <PropertyRef Name="id_pais" />
+            </Principal>
+            <Dependent Role="C_Cliente">
+              <PropertyRef Name="id_pais" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Cliente__Status">
+          <End Role="C_Status" Type="Self.C_Status" Multiplicity="0..1" />
+          <End Role="C_Cliente" Type="Self.C_Cliente" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="C_Status">
+              <PropertyRef Name="id_status" />
+            </Principal>
+            <Dependent Role="C_Cliente">
+              <PropertyRef Name="id_status" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Cliente__TipoDocumento">
+          <End Role="C_TipoDocumento" Type="Self.C_TipoDocumento" Multiplicity="0..1" />
+          <End Role="C_Cliente" Type="Self.C_Cliente" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="C_TipoDocumento">
+              <PropertyRef Name="id_td" />
+            </Principal>
+            <Dependent Role="C_Cliente">
+              <PropertyRef Name="id_td" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Telemarketing__Locacion">
+          <End Role="C_Locacion" Type="Self.C_Locacion" Multiplicity="0..1" />
+          <End Role="C_Telemarketing" Type="Self.C_Telemarketing" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="C_Locacion">
+              <PropertyRef Name="idlocacion" />
+            </Principal>
+            <Dependent Role="C_Telemarketing">
+              <PropertyRef Name="id_locacion" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Telemarketing__TipoDocumento">
+          <End Role="C_TipoDocumento" Type="Self.C_TipoDocumento" Multiplicity="0..1" />
+          <End Role="C_Telemarketing" Type="Self.C_Telemarketing" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="C_TipoDocumento">
+              <PropertyRef Name="id_td" />
+            </Principal>
+            <Dependent Role="C_Telemarketing">
+              <PropertyRef Name="id_td" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="BD_CUPONESEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="C_Cita" EntityType="Self.C_Cita" />
+          <EntitySet Name="C_Cliente" EntityType="Self.C_Cliente" />
+          <EntitySet Name="C_Locacion" EntityType="Self.C_Locacion" />
+          <EntitySet Name="C_Pais" EntityType="Self.C_Pais" />
+          <EntitySet Name="C_Status" EntityType="Self.C_Status" />
+          <EntitySet Name="C_Telemarketing" EntityType="Self.C_Telemarketing" />
+          <EntitySet Name="C_TipoDocumento" EntityType="Self.C_TipoDocumento" />
+          <EntitySet Name="C_Usuario" EntityType="Self.C_Usuario" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+          <AssociationSet Name="FK__Cita__Cliente" Association="Self.FK__Cita__Cliente">
+            <End Role="C_Cliente" EntitySet="C_Cliente" />
+            <End Role="C_Cita" EntitySet="C_Cita" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Cita__Telemarketing" Association="Self.FK__Cita__Telemarketing">
+            <End Role="C_Telemarketing" EntitySet="C_Telemarketing" />
+            <End Role="C_Cita" EntitySet="C_Cita" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Cliente__Locacion" Association="Self.FK__Cliente__Locacion">
+            <End Role="C_Locacion" EntitySet="C_Locacion" />
+            <End Role="C_Cliente" EntitySet="C_Cliente" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Cliente__Pais" Association="Self.FK__Cliente__Pais">
+            <End Role="C_Pais" EntitySet="C_Pais" />
+            <End Role="C_Cliente" EntitySet="C_Cliente" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Cliente__Status" Association="Self.FK__Cliente__Status">
+            <End Role="C_Status" EntitySet="C_Status" />
+            <End Role="C_Cliente" EntitySet="C_Cliente" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Cliente__TipoDocumento" Association="Self.FK__Cliente__TipoDocumento">
+            <End Role="C_TipoDocumento" EntitySet="C_TipoDocumento" />
+            <End Role="C_Cliente" EntitySet="C_Cliente" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Telemarketing__Locacion" Association="Self.FK__Telemarketing__Locacion">
+            <End Role="C_Locacion" EntitySet="C_Locacion" />
+            <End Role="C_Telemarketing" EntitySet="C_Telemarketing" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Telemarketing__TipoDocumento" Association="Self.FK__Telemarketing__TipoDocumento">
+            <End Role="C_TipoDocumento" EntitySet="C_TipoDocumento" />
+            <End Role="C_Telemarketing" EntitySet="C_Telemarketing" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="BD_CUPONESModelStoreContainer" CdmEntityContainer="BD_CUPONESEntities">
+          <EntitySetMapping Name="C_Cita">
+            <EntityTypeMapping TypeName="BD_CUPONESModel.C_Cita">
+              <MappingFragment StoreEntitySet="_Cita">
+                <ScalarProperty Name="id_cita" ColumnName="id_cita" />
+                <ScalarProperty Name="fecha" ColumnName="fecha" />
+                <ScalarProperty Name="id_cliente" ColumnName="id_cliente" />
+                <ScalarProperty Name="status" ColumnName="status" />
+                <ScalarProperty Name="observacion" ColumnName="observacion" />
+                <ScalarProperty Name="id_telemarketing" ColumnName="id_telemarketing" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="C_Cliente">
+            <EntityTypeMapping TypeName="BD_CUPONESModel.C_Cliente">
+              <MappingFragment StoreEntitySet="_Cliente">
+                <ScalarProperty Name="id_cliente" ColumnName="id_cliente" />
+                <ScalarProperty Name="id_td" ColumnName="id_td" />
+                <ScalarProperty Name="documento_identidad" ColumnName="documento_identidad" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+                <ScalarProperty Name="apellido" ColumnName="apellido" />
+                <ScalarProperty Name="id_pais" ColumnName="id_pais" />
+                <ScalarProperty Name="direccion" ColumnName="direccion" />
+                <ScalarProperty Name="t_habitacion" ColumnName="t_habitacion" />
+                <ScalarProperty Name="t_celular" ColumnName="t_celular" />
+                <ScalarProperty Name="t_oficina" ColumnName="t_oficina" />
+                <ScalarProperty Name="id_status" ColumnName="id_status" />
+                <ScalarProperty Name="id_locacion" ColumnName="id_locacion" />
+                <ScalarProperty Name="correo" ColumnName="correo" />
+                <ScalarProperty Name="profesion" ColumnName="profesion" />
+                <ScalarProperty Name="edad" ColumnName="edad" />
+                <ScalarProperty Name="edo_civil" ColumnName="edo_civil" />
+                <ScalarProperty Name="f_nacimiento" ColumnName="f_nacimiento" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="C_Locacion">
+            <EntityTypeMapping TypeName="BD_CUPONESModel.C_Locacion">
+              <MappingFragment StoreEntitySet="_Locacion">
+                <ScalarProperty Name="idlocacion" ColumnName="idlocacion" />
+                <ScalarProperty Name="codigo" ColumnName="codigo" />
+                <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+                <ScalarProperty Name="direccion" ColumnName="direccion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="C_Pais">
+            <EntityTypeMapping TypeName="BD_CUPONESModel.C_Pais">
+              <MappingFragment StoreEntitySet="_Pais">
+                <ScalarProperty Name="id_pais" ColumnName="id_pais" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="C_Status">
+            <EntityTypeMapping TypeName="BD_CUPONESModel.C_Status">
+              <MappingFragment StoreEntitySet="_Status">
+                <ScalarProperty Name="id_status" ColumnName="id_status" />
+                <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+                <ScalarProperty Name="observacion" ColumnName="observacion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="C_Telemarketing">
+            <EntityTypeMapping TypeName="BD_CUPONESModel.C_Telemarketing">
+              <MappingFragment StoreEntitySet="_Telemarketing">
+                <ScalarProperty Name="id_telemarketing" ColumnName="id_telemarketing" />
+                <ScalarProperty Name="id_td" ColumnName="id_td" />
+                <ScalarProperty Name="doc_iden" ColumnName="doc_iden" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+                <ScalarProperty Name="apellido" ColumnName="apellido" />
+                <ScalarProperty Name="telefono" ColumnName="telefono" />
+                <ScalarProperty Name="correo" ColumnName="correo" />
+                <ScalarProperty Name="id_locacion" ColumnName="id_locacion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="C_TipoDocumento">
+            <EntityTypeMapping TypeName="BD_CUPONESModel.C_TipoDocumento">
+              <MappingFragment StoreEntitySet="_TipoDocumento">
+                <ScalarProperty Name="id_td" ColumnName="id_td" />
+                <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+                <ScalarProperty Name="formato" ColumnName="formato" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="C_Usuario">
+            <EntityTypeMapping TypeName="BD_CUPONESModel.C_Usuario">
+              <MappingFragment StoreEntitySet="_Usuario">
+                <ScalarProperty Name="iduser" ColumnName="iduser" />
+                <ScalarProperty Name="cedula" ColumnName="cedula" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+                <ScalarProperty Name="apellido" ColumnName="apellido" />
+                <ScalarProperty Name="login" ColumnName="login" />
+                <ScalarProperty Name="pass" ColumnName="pass" />
+                <ScalarProperty Name="nivel" ColumnName="nivel" />
+                <ScalarProperty Name="status" ColumnName="status" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="BD_CUPONESModel.sysdiagrams">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

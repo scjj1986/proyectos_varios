@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Queue()
+comment1.target=boolean\ isEmpty()
+comment2.target=int\ length()
+comment3.target=int\ size()
+comment4.params=item
+comment4.target=void\ enqueue(Item)
+comment5.target=Item\ dequeue()
+comment6.target=String\ toString()
+comment7.target=Iterator<Item>\ iterator()
+numComments=8

@@ -1,0 +1,894 @@
+﻿<Page x:Class="Reservas.cotizacion"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+       xmlns:rv="clr-namespace:Microsoft.Reporting.WinForms;assembly=Microsoft.ReportViewer.WinForms" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+       xmlns:gl="clr-namespace:System.Globalization;assembly=mscorlib"
+      mc:Ignorable="d"
+	Title="cotizacion" Width="auto" Height="790" Loaded="Page_Loaded" d:DesignWidth="1314.5">
+
+    <Grid>
+
+        <GroupBox Grid.Row="0" Header="Retales" Margin="10,1,10,10">
+            <GroupBox.HeaderTemplate>
+                <DataTemplate>
+                    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="27">
+                        <Label Content="Reportes" Foreground="White" FontWeight="Bold" FontSize="16" Margin="5,0,0,0"
+                			HorizontalAlignment="Left" VerticalContentAlignment="Center"/>
+
+
+                    </Grid>
+
+                </DataTemplate>
+            </GroupBox.HeaderTemplate>
+            <TabControl x:Name="TabPrimario" Margin="0,0,-2,-10">
+                <TabItem Header="Cotización">
+                    <Grid Margin="0,0,0,-7" Background="{DynamicResource {x:Static SystemColors.WindowBrushKey}}">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="202*"/>
+                            <ColumnDefinition Width="34*"/>
+                            <ColumnDefinition Width="433*"/>
+                            <ColumnDefinition Width="605*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Label Content="Nº Reserva:" HorizontalAlignment="Left" Margin="40,0,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+                        <Label Content="Cliente:" HorizontalAlignment="Left" Margin="39,26,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.158,-0.192" FontWeight="Bold"/>
+                        <TextBox x:Name="txtNroReserva" HorizontalAlignment="Left" Height="23" Margin="115,1,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" KeyUp="txtNroReserva_KeyUp" KeyDown="txtNroReserva_KeyDown" TextChanged="txtNroReserva_TextChanged" Grid.ColumnSpan="2"/>
+                        <TextBox x:Name="txtCliente" HorizontalAlignment="Left" Height="23" Margin="115,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" KeyUp="txtCliente_KeyUp" Grid.ColumnSpan="2"/>
+                        <DataGrid x:Name="dtgReservas" Margin="10,57,10,0" VerticalAlignment="Top" Height="154" AutoGenerateColumns="False" MouseDoubleClick="dtgReservas_MouseDoubleClick" Grid.ColumnSpan="4" SelectionChanged="dtgReservas_SelectionChanged">
+                            <DataGrid.Columns>
+
+                                <DataGridTextColumn Binding="{Binding idreserva, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="N° Reserva">
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Binding="{Binding NroContrato, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="N° Contrato">
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+
+                                </DataGridTextColumn>
+
+                                <DataGridTextColumn Binding="{Binding fechaI, Mode=OneWay, StringFormat=\{0:dd-MM-yyyy\}}"  CanUserResize="False" IsReadOnly="True" Header="Fecha Inicio">
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Binding="{Binding fechaF, Mode=OneWay, StringFormat=\{0:dd-MM-yyyy\}}"  CanUserResize="False" IsReadOnly="True" Header="Fecha Fin">
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Binding="{Binding diasReserva, Mode=OneWay, StringFormat=\{0:F0\}}"  CanUserResize="False" IsReadOnly="True" Header="noches">
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+                                </DataGridTextColumn>
+
+                                <DataGridTextColumn Binding="{Binding puntos, Mode=OneWay, StringFormat=\{0:F0\}}"  CanUserResize="False" IsReadOnly="True" Header="puntos">
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Binding="{Binding montoTI, Mode=OneWay,  StringFormat='{}{0:#,#.00}',ConverterCulture={x:Static gl:CultureInfo.InstalledUICulture}}"  CanUserResize="False" IsReadOnly="True" Header="todo incluido Bs.">
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Binding="{Binding puntosA, Mode=OneWay, StringFormat=\{0:F0\}}"  CanUserResize="False" IsReadOnly="True" Header="puntos acelerados" >
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Binding="{Binding montoPA, Mode=OneWay,  StringFormat='{}{0:#,#.00}',ConverterCulture={x:Static gl:CultureInfo.InstalledUICulture}}"  CanUserResize="False" IsReadOnly="True" Header="Monto acelerados bs." >
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Binding="{Binding fechaReserva, Mode=OneWay, StringFormat=\{0:dd-MM-yyyy\}}"  CanUserResize="False" IsReadOnly="True" Header="Fecha">
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Binding="{Binding localizador, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="localizador" >
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Binding="{Binding total, Mode=OneWay,  StringFormat='{}{0:#,#.00}',ConverterCulture={x:Static gl:CultureInfo.InstalledUICulture}}"  CanUserResize="False" IsReadOnly="True" Header="total bs." >
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Binding="{Binding creado_por , Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="Reservado por" >
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+                                </DataGridTextColumn>
+                            </DataGrid.Columns>
+
+                        </DataGrid>
+                        <DatePicker x:Name="dpfecha" HorizontalAlignment="Left" Margin="181,0,0,0" VerticalAlignment="Top" SelectedDateChanged="dpfecha_SelectedDateChanged" Grid.Column="2"/>
+                        <Label Content="Fecha inicio:" HorizontalAlignment="Left" Margin="95,1,0,0" VerticalAlignment="Top" FontWeight="Bold" Grid.Column="2"/>
+                        <TextBox x:Name="txtNroContrato" HorizontalAlignment="Left" Height="23" Margin="48.448,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" KeyUp="txtNroContrato_KeyUp" KeyDown="txtNroContrato_KeyDown" Grid.Column="3"/>
+                        <Label Content="Nº Contrato:" HorizontalAlignment="Left" Margin="395,1,0,0" VerticalAlignment="Top" FontWeight="Bold" Grid.Column="2" Grid.ColumnSpan="2"/>
+                        <WindowsFormsHost Margin="39,236,48,14" Grid.ColumnSpan="4" >
+                            <rv:ReportViewer x:Name="_reportViewer" ForeColor="" PageCountMode="Actual"  />
+                        </WindowsFormsHost>
+                        <DatePicker x:Name="dpfin" HorizontalAlignment="Left" Margin="181,25,0,0" VerticalAlignment="Top" AllowDrop="True" SelectedDateChanged="dpfin_SelectedDateChanged" Grid.Column="2"/>
+                        <Label Content="Fecha fin:" HorizontalAlignment="Left" Margin="95,26,0,0" VerticalAlignment="Top" FontWeight="Bold" Grid.Column="2"/>
+                    </Grid>
+                </TabItem>
+                <TabItem x:Name="tbconfirmacion" Header="Confirmación">
+                    <Grid Background="#FFE5E5E5" Margin="0,0,0,8">
+                        <Grid Margin="0,0,0,10" Background="{DynamicResource {x:Static SystemColors.WindowBrushKey}}">
+                            <Label Content="Nº Reserva:" HorizontalAlignment="Left" Margin="39,0,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+                            <Label Content="Cliente:" HorizontalAlignment="Left" Margin="39,26,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.158,-0.192" FontWeight="Bold"/>
+                            <TextBox x:Name="txtNroReserva1" HorizontalAlignment="Left" Height="23" Margin="115,1,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" KeyUp="txtNroReserva1_KeyUp" TextChanged="txtNroReserva1_TextChanged" KeyDown="txtNroReserva1_KeyDown"/>
+                            <TextBox x:Name="txtCliente1" HorizontalAlignment="Left" Height="23" Margin="115,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" KeyUp="txtCliente1_KeyUp"/>
+                            <DataGrid x:Name="dtgReservas1" Margin="10,57,10,0" VerticalAlignment="Top" Height="105" AutoGenerateColumns="False" MouseDoubleClick="dtgReservas1_MouseDoubleClick" SelectionChanged="dtgReservas1_SelectionChanged">
+                                <DataGrid.Columns>
+
+                                    <DataGridTextColumn Binding="{Binding idreserva, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="N° Reserva">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+
+                                    </DataGridTextColumn>
+                                    <DataGridTextColumn Binding="{Binding NroContrato, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="N° Contrato">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+
+                                    </DataGridTextColumn>
+                                    <DataGridTextColumn Binding="{Binding fechaI, Mode=OneWay, StringFormat=\{0:dd-MM-yyyy\}}"  CanUserResize="False" IsReadOnly="True" Header="Fecha Inicio">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+                                    <DataGridTextColumn Binding="{Binding fechaF, Mode=OneWay, StringFormat=\{0:dd-MM-yyyy\}}"  CanUserResize="False" IsReadOnly="True" Header="Fecha Fin">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+
+                                    </DataGridTextColumn>
+                                    <DataGridTextColumn Binding="{Binding diasReserva, Mode=OneWay, StringFormat=\{0:F0\}}"  CanUserResize="False" IsReadOnly="True" Header="noches">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+
+                                    <DataGridTextColumn Binding="{Binding puntos, Mode=OneWay, StringFormat=\{0:F0\}}"  CanUserResize="False" IsReadOnly="True" Header="puntos">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+                                    <DataGridTextColumn Binding="{Binding montoTI, Mode=OneWay,  StringFormat='{}{0:#,#.00}',ConverterCulture={x:Static gl:CultureInfo.InstalledUICulture}}"  CanUserResize="False" IsReadOnly="True" Header="todo incluido Bs.">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+                                    <DataGridTextColumn Binding="{Binding puntosA, Mode=OneWay, StringFormat=\{0:F0\}}"  CanUserResize="False" IsReadOnly="True" Header="puntos acelerados" >
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+                                    <DataGridTextColumn Binding="{Binding montoPA, Mode=OneWay,  StringFormat='{}{0:#,#.00}',ConverterCulture={x:Static gl:CultureInfo.InstalledUICulture}}"  CanUserResize="False" IsReadOnly="True" Header="Monto acelerados bs." >
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+                                    <DataGridTextColumn Binding="{Binding fechaReserva, Mode=OneWay, StringFormat=\{0:dd-MM-yyyy\}}"  CanUserResize="False" IsReadOnly="True" Header="Fecha">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+                                    <DataGridTextColumn Binding="{Binding localizador, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="localizador" >
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+                                    <DataGridTextColumn Binding="{Binding total, Mode=OneWay, StringFormat='{}{0:#,#.00}',ConverterCulture={x:Static gl:CultureInfo.InstalledUICulture}}"  CanUserResize="False" IsReadOnly="True" Header="total bs." >
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+                                    <DataGridTextColumn Binding="{Binding creado_por , Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="Reservado por" >
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+                                </DataGrid.Columns>
+
+                            </DataGrid>
+                            <DatePicker x:Name="dpfecha1" HorizontalAlignment="Left" Margin="337,0,0,0" VerticalAlignment="Top" SelectedDateChanged="dpfecha1_SelectedDateChanged"/>
+                            <Label Content="Fecha inicio:" HorizontalAlignment="Left" Margin="257,0,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+
+                            <TextBox x:Name="txtNroContrato1" HorizontalAlignment="Left" Height="23" Margin="590,1,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143" KeyUp="txtNroContrato1_KeyUp" KeyDown="txtNroContrato1_KeyDown"/>
+                            <Label Content="Nº Contrato:" HorizontalAlignment="Left" Margin="510,1,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+                            <TabControl x:Name="TabGeneral" Margin="39,183,48,10">
+
+                                <TabItem x:Name="tbCB" Header="Caribbean Beach" IsEnabled="False">
+                                    <Grid Background="#FFE5E5E5">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="287*"/>
+                                            <ColumnDefinition Width="748*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <WindowsFormsHost Grid.ColumnSpan="2" Margin="0,38,4,10" >
+                                            <rv:ReportViewer x:Name="_reportViewer1" ForeColor="" PageCountMode="Actual" />
+                                        </WindowsFormsHost>
+                                        <Button x:Name="btnImprimirCB" Content="Generar confirmación" Margin="10,8,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.307,0.2" HorizontalAlignment="Left" Width="149" IsEnabled="False" Click="btnImprimirCB_Click"/>
+                                    </Grid>
+                                </TabItem>
+                                <TabItem x:Name="tbID" Header="International Drive" Margin="-4,0,4,0" IsEnabled="False">
+                                    <Grid Background="#FFE5E5E5">
+                                        <WindowsFormsHost Margin="0,38,0,10" >
+                                            <rv:ReportViewer x:Name="_ConfirmacionID" ForeColor="" PageCountMode="Actual" />
+                                        </WindowsFormsHost>
+                                        <Button x:Name="btnImprimirID" Content="Generar confirmación" Margin="10,8,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.307,0.2" HorizontalAlignment="Left" Width="149" IsEnabled="False" Click="btnImprimirID_Click"/>
+                                    </Grid>
+                                </TabItem>
+                                <TabItem x:Name="tbIC" Header="Isla Caribe" IsEnabled="False">
+                                    <Grid Background="#FFE5E5E5">
+                                        <WindowsFormsHost Margin="0,38,0,10" >
+                                            <rv:ReportViewer x:Name="_ConfirmacionIC" ForeColor="" PageCountMode="Actual" />
+                                        </WindowsFormsHost>
+                                        <Button x:Name="btnImprimirIC" Content="Generar confirmación" Margin="10,8,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.307,0.2" HorizontalAlignment="Left" Width="149" IsEnabled="False" Click="btnImprimirIC_Click"/>
+                                    </Grid>
+                                </TabItem>
+                                <TabItem x:Name="tbCPB" Header="Coche Punta Blanca" IsEnabled="False">
+                                    <Grid Background="#FFE5E5E5">
+                                        <WindowsFormsHost Margin="0,40,0,10" >
+                                            <rv:ReportViewer x:Name="_ConfirmacionPB" ForeColor="" PageCountMode="Actual" />
+                                        </WindowsFormsHost>
+                                        <Button x:Name="btnImprimirPB" Content="Generar confirmación" Margin="10,8,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.307,0.2" HorizontalAlignment="Left" Width="149" IsEnabled="False" Click="btnImprimirPB_Click"/>
+                                    </Grid>
+
+                                </TabItem>
+                                <TabItem x:Name="tbCA" Header="Costa Azul" IsEnabled="False">
+                                    <Grid Background="#FFE5E5E5">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="703*"/>
+                                            <ColumnDefinition Width="27*"/>
+                                            <ColumnDefinition Width="447*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <WindowsFormsHost Margin="0,40,0,10" Grid.ColumnSpan="3" >
+                                            <rv:ReportViewer x:Name="_ConfirmacionCA" ForeColor="" PageCountMode="Actual" />
+                                        </WindowsFormsHost>
+                                        <Button x:Name="btnImprimirCA" Content="Generar confirmación" Margin="10,8,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.307,0.2" HorizontalAlignment="Left" Width="149" IsEnabled="False" Click="btnImprimirCA_Click"/>
+                                    </Grid>
+
+                                </TabItem>
+                            </TabControl>
+                            <DatePicker x:Name="dpfin1" HorizontalAlignment="Left" Margin="337,26,0,0" VerticalAlignment="Top" SelectedDateChanged="dpfin1_SelectedDateChanged"/>
+                            <Label Content="Fecha fin:" HorizontalAlignment="Left" Margin="257,26,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+                        </Grid>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Cobros">
+                    <Grid Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Margin="0,2,0,4">
+
+                        <Label Content="Concepto:" HorizontalAlignment="Left" Margin="13,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+                        <ComboBox x:Name="lstCargos1" HorizontalAlignment="Left" Margin="100,10,0,0" VerticalAlignment="Top" Width="252" SelectionChanged="lstCargos1_SelectionChanged" SelectedIndex="0"/>
+                        <DatePicker x:Name="dpfechaPago" HorizontalAlignment="Left" Margin="866,10,0,0" VerticalAlignment="Top" SelectedDateChanged="dpfechaPago_SelectedDateChanged"/>
+                        <Label Content="Fecha inicio:" HorizontalAlignment="Left" Margin="776,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+                        <Label Content="Estatus:" HorizontalAlignment="Left" Margin="453,62,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+                        <ComboBox x:Name="lstEstatus1" HorizontalAlignment="Left" Margin="538,62,0,0" VerticalAlignment="Top" Width="143" SelectionChanged="lstEstatus1_SelectionChanged" SelectedIndex="0"/>
+                        <DataGrid x:Name="dtgPagos" Margin="10,93,0,124" AutoGenerateColumns="False" MouseDoubleClick="dtgReservas_MouseDoubleClick" Grid.ColumnSpan="2">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Binding="{Binding reserva, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="Nº reserva">
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Binding="{Binding contrato, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="Contrato">
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Binding="{Binding cliente, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="Cliente">
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Binding="{Binding concepto, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="Concepto">
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+
+                                </DataGridTextColumn>
+
+                                <DataGridTextColumn Binding="{Binding trasaccion, Mode=OneWay, StringFormat=\{0:dd-MM-yyyy\}}"  CanUserResize="False" IsReadOnly="True" Header="Transacción">
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Binding="{Binding documento, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="N° documento/tarjeta">
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+
+                                </DataGridTextColumn>
+
+
+                                <DataGridTextColumn Binding="{Binding monto, Mode=OneWay,  StringFormat='{}{0:#,#.00}',ConverterCulture={x:Static gl:CultureInfo.InstalledUICulture}}"  CanUserResize="False" IsReadOnly="True" Header="monto bs.">
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Binding="{Binding puntosA, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="Puntos">
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Binding="{Binding fecha, Mode=OneWay, StringFormat=\{0:dd-mm-yyyy\}}"  CanUserResize="False" IsReadOnly="True" Header="fecha">
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Binding="{Binding estatus, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="estatus" >
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Binding="{Binding ejecutivo, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="ejecutivo" >
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Binding="{Binding cuenta, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="Banco" >
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Binding="{Binding tipo, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="tipo" >
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Binding="{Binding hotel, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="hotel" >
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Binding="{Binding loc, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="localizador" >
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Binding="{Binding observacion, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="observacion" >
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+                                </DataGridTextColumn>
+
+                            </DataGrid.Columns>
+
+                        </DataGrid>
+                        <Button x:Name="btnImprimir" Content="Imprimir" Margin="0,0,10,10" VerticalAlignment="Bottom" RenderTransformOrigin="0.307,0.2" HorizontalAlignment="Right" Width="58" Click="btnImprimir_Click" Grid.Column="1"/>
+                        <Label Content="Nº reserva:" HorizontalAlignment="Left" Margin="453,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+                        <Label Content="Nº contrato:" HorizontalAlignment="Left" Margin="453,36,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+                        <TextBox x:Name="txtNroReservaCobros" HorizontalAlignment="Left" Height="23" Margin="538,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" KeyUp="txtNroReservaCobros_KeyUp" KeyDown="txtNroReservaCobros_KeyDown"/>
+                        <TextBox x:Name="txtNroContratoCobros" HorizontalAlignment="Left" Height="23" Margin="538,36,0,0" TextWrapping="Wrap" Width="120" KeyUp="txtNroContratoCobros_KeyUp" VerticalAlignment="Top" KeyDown="txtNroContratoCobros_KeyDown"/>
+                        <Label Content="Fecha fin:" HorizontalAlignment="Left" Margin="776,36,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+                        <DatePicker x:Name="dpfechafinPago" HorizontalAlignment="Left" Margin="866,36,0,0" VerticalAlignment="Top" SelectedDateChanged="dpfechafinPago_SelectedDateChanged"/>
+                        <Label Content="Ejecutivo:" HorizontalAlignment="Left" Margin="13,36,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+                        <ComboBox x:Name="lstEjecutivo" HorizontalAlignment="Left" Margin="100,36,0,0" VerticalAlignment="Top" Width="252" SelectedIndex="0" SelectionChanged="lstEjecutivo_SelectionChanged"/>
+                        <Label Content="Hotel:" HorizontalAlignment="Left" Margin="13,59,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+                        <ComboBox x:Name="lstHotel" HorizontalAlignment="Left" Margin="100,59,0,0" VerticalAlignment="Top" Width="252" SelectedIndex="0" SelectionChanged="lstHotel_SelectionChanged"/>
+                    </Grid>
+                </TabItem>
+                <TabItem x:Name="tbReporteReservas" Header="Reservas" GotFocus="tbReporteReservas_GotFocus" Loaded="tbReporteReservas_Loaded">
+                    <Grid Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Margin="0,0,0,7">
+
+
+                        <Label Content="Nº Reserva:" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="26" Width="75"/>
+                        <Label Content="Cliente:" HorizontalAlignment="Left" Margin="10,26,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.158,-0.192" FontWeight="Bold" Height="26" Width="52"/>
+                        <TextBox x:Name="txtNroReservaReporte" HorizontalAlignment="Left" Height="26" Margin="88,1,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" KeyUp="txtNroReservaReporte_KeyUp" KeyDown="txtNroReservaReporte_KeyDown"/>
+                        <TextBox x:Name="txtClienteReporte" HorizontalAlignment="Left" Height="26" Margin="88,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" KeyUp="txtClienteReporte_KeyUp"/>
+                        <DataGrid x:Name="dtgReservasReporte" Margin="10,74,0,107" AutoGenerateColumns="False" MouseDoubleClick="dtgReservas_MouseDoubleClick">
+                            <DataGrid.Columns>
+
+                                <DataGridTextColumn Binding="{Binding idreserva, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="N° Reserva">
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+
+                                </DataGridTextColumn>
+
+                                <DataGridTextColumn Binding="{Binding fechaI, Mode=OneWay, StringFormat=\{0:dd-MM-yyyy\}}"  CanUserResize="False" IsReadOnly="True" Header="Fecha Inicio">
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Binding="{Binding fechaF, Mode=OneWay, StringFormat=\{0:dd-MM-yyyy\}}"  CanUserResize="False" IsReadOnly="True" Header="Fecha Fin">
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Binding="{Binding nombres, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="cliente">
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+                                </DataGridTextColumn>
+
+                                <DataGridTextColumn Binding="{Binding adulto, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="adultos">
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Binding="{Binding ninio, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="niños">
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Binding="{Binding infante, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="infantes" >
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Binding="{Binding puntos, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="puntos reserva" >
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Binding="{Binding montoTI, Mode=OneWay, StringFormat='{}{0:#,#.00}',ConverterCulture={x:Static gl:CultureInfo.InstalledUICulture}}"  CanUserResize="False" IsReadOnly="True" Header="todo incluido Bs.">
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Binding="{Binding montoPA, Mode=OneWay, StringFormat='{}{0:#,#.00}',ConverterCulture={x:Static gl:CultureInfo.InstalledUICulture}}"  CanUserResize="False" IsReadOnly="True" Header="Puntos Acelerados Bs." >
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Binding="{Binding mantenimiento, Mode=OneWay, StringFormat='{}{0:#,#.00}',ConverterCulture={x:Static gl:CultureInfo.InstalledUICulture}}"  CanUserResize="False" IsReadOnly="True" Header="Mantenimiento Bs." >
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+                                </DataGridTextColumn>
+
+                                <DataGridTextColumn Binding="{Binding penalidad, Mode=OneWay, StringFormat='{}{0:#,#.00}',ConverterCulture={x:Static gl:CultureInfo.InstalledUICulture}}"  CanUserResize="False" IsReadOnly="True" Header="Penalidad Bs." >
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Binding="{Binding certificado, Mode=OneWay, StringFormat='{}{0:#,#.00}',ConverterCulture={x:Static gl:CultureInfo.InstalledUICulture}}"  CanUserResize="False" IsReadOnly="True" Header="Certificados Bs." >
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Binding="{Binding Descripcion, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="Hotel">
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Binding="{Binding localizador, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" MaxWidth="100" Header="localizador">
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Binding="{Binding reservado_por , Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="Reservado por" >
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+                                </DataGridTextColumn>
+
+                            </DataGrid.Columns>
+
+
+                        </DataGrid>
+                        <DatePicker x:Name="dpfechaReporte" HorizontalAlignment="Left" Margin="293,0,0,0" VerticalAlignment="Top" SelectedDateChanged="dpfechaReporte_SelectedDateChanged" Height="26" Width="143"/>
+                        <Label Content="Fecha inicio:" HorizontalAlignment="Left" Margin="213,0,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="26" Width="79"/>
+                        <TextBox x:Name="txtNroContratoReporte" HorizontalAlignment="Left" Height="26" Margin="564,1,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143" KeyUp="txtNroContratoReporte_KeyUp" KeyDown="txtNroContratoReporte_KeyDown" Grid.ColumnSpan="2"/>
+                        <Label Content="Nº Contrato:" HorizontalAlignment="Left" Margin="484,1,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="26" Width="82"/>
+                        <Label Content="Estatus:" HorizontalAlignment="Left" Margin="484,27,0,0" VerticalAlignment="Top" FontWeight="Bold" ClipToBounds="True" Height="26" Width="53"/>
+                        <ComboBox x:Name="lstEstatus" HorizontalAlignment="Left" Margin="564,27,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0" SelectionChanged="lstEstatus_SelectionChanged" Height="26" RenderTransformOrigin="0.513,0.385"/>
+                        <Button x:Name="btnImprimirReservas" Content="Imprimir" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="76" Grid.Column="1" Height="25" Click="btnImprimirReservas_Click"/>
+                        <Label Content="Fecha fin:" HorizontalAlignment="Left" Margin="216,25,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="26" Width="64"/>
+                        <DatePicker x:Name="dpfechaReportefin" HorizontalAlignment="Left" Margin="293,27,0,0" VerticalAlignment="Top" SelectedDateChanged="dpfechaReportefin_SelectedDateChanged" Height="26" Width="143"/>
+                    </Grid>
+                </TabItem>
+
+                <TabItem x:Name="tbReportesEdoCtaCli" Header="Edo. Cta. Cliente" GotFocus="tbReportesEdoCtaCli_GotFocus" Loaded="tbReportesEdoCtaCli_Loaded">
+                    <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+                        <Grid Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Height="640">
+
+                            <Label Content="CONTRATOS:" HorizontalAlignment="Left" Margin="10,66,0,464" FontWeight="ExtraBlack" FontSize="18"/>
+                            <Label Content="Cédula Cliente:" Margin="8,28,1158,0" VerticalAlignment="Top" FontWeight="ExtraBlack" FontSize="14" Height="31"/>
+                            <TextBox x:Name="txtcedula" HorizontalAlignment="Left" Height="23" Margin="120,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="10" KeyDown="txtcedula_KeyDown" KeyUp="txtcedula_KeyUp"/>
+
+                            <Label Content="Nombre Cliente:" HorizontalAlignment="Left" Margin="274,28,0,0" VerticalAlignment="Top" FontWeight="ExtraBlack" FontSize="14" Height="31"/>
+                            <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Height="23" Margin="396,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="10" KeyDown="txtNombre_KeyDown" KeyUp="txtNombre_KeyUp"/>
+
+                            <Label Content="N. Contrato:" HorizontalAlignment="Left" Margin="541,28,0,504" FontWeight="ExtraBlack" FontSize="14"/>
+                            <TextBox x:Name="txtContrato" HorizontalAlignment="Left" Height="23" Margin="633,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="10" KeyDown="txtContrato_KeyDown" KeyUp="txtContrato_KeyUp"/>
+
+
+                            <Label Content="RESERVAS" HorizontalAlignment="Left" Margin="10,271,0,0" FontWeight="ExtraBlack" FontSize="18" RenderTransformOrigin="-0.088,2.618" Height="34" VerticalAlignment="Top"/>
+                            <DataGrid x:Name="dtgrdContratos"   ItemsSource="{Binding}" AutoGenerateColumns="false" AlternationCount="1" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserAddRows="False" CanUserResizeRows="False" CanUserSortColumns="False" ToolTip="Doble click para seleccionar un contrato" HorizontalScrollBarVisibility="Disabled" HorizontalContentAlignment="Center" Background="{DynamicResource {x:Static SystemColors.HighlightTextBrushKey}}" Margin="10,104,0,0" MouseDoubleClick="dtgrdContratos_MouseDoubleClick" Height="142" VerticalAlignment="Top" HorizontalAlignment="Left" Width="1177">
+
+
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Binding="{Binding Mode=OneWay,Path=cedula_rif}"  CanUserResize="False" IsReadOnly="True" Header="CLiente" >
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+
+                                    <DataGridTextColumn Binding="{Binding Mode=OneWay,Path=NroContrato}"  CanUserResize="False" IsReadOnly="True" Header="N° Contrato">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+
+                                    </DataGridTextColumn>
+
+                                    <DataGridTextColumn Binding="{Binding Mode=OneWay,Path=DescripcionTipoContrato}"  CanUserResize="False" IsReadOnly="True" Header="tipo contrato">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+                                    <DataGridTextColumn Binding="{Binding Mode=OneWay,Path=puntos}"  CanUserResize="False" IsReadOnly="True" Header="puntos">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+
+                                    </DataGridTextColumn>
+                                    <DataGridTextColumn Visibility="Hidden" Binding="{Binding Mode=OneWay,Path=ValorPuntos,StringFormat='{}{0:#,#.00}',ConverterCulture={x:Static gl:CultureInfo.InstalledUICulture}}"  CanUserResize="False" IsReadOnly="True" Header="valor">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+
+                                    <DataGridTextColumn Visibility="Hidden" Binding="{Binding Mode=OneWay,Path=MontoContrato,StringFormat='{}{0:#,#.00}',ConverterCulture={x:Static gl:CultureInfo.InstalledUICulture}}"  CanUserResize="False" IsReadOnly="True" Header="Monto">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+
+                                    <DataGridTextColumn Binding="{Binding Mode=OneWay,Path=FechaProcesable,StringFormat={}\{0:dd-MM-yyyy\}}"  CanUserResize="False" IsReadOnly="True" Header="Fecha Creación">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+                                    <DataGridTextColumn Binding="{Binding Mode=OneWay,Path=FechaCreacion,StringFormat={}\{0:dd-MM-yyyy\}}"  CanUserResize="False" IsReadOnly="True" Visibility="Visible" Header="Fecha Venta" >
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+
+                                    <DataGridTextColumn Binding="{Binding Mode=OneWay,Path=PrimerAnioUso}"  CanUserResize="False" IsReadOnly="True" Header="primer año" >
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+
+
+
+                                    <DataGridTextColumn Binding="{Binding Mode=OneWay,Path=Calendario}"  CanUserResize="False" IsReadOnly="True" Header="calendario" >
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+
+
+
+                                    <DataGridTextColumn Visibility="Hidden" Binding="{Binding Mode=OneWay,Path=CodigoSubTipoContrato}"  CanUserResize="False" IsReadOnly="True"  Header="Subtipo" >
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+
+                                    <DataGridTextColumn Binding="{Binding Mode=OneWay,Path=TablaPuntos}"  CanUserResize="False" IsReadOnly="True" Visibility="Hidden"  Header="Tabla" >
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+                                </DataGrid.Columns>
+
+                            </DataGrid>
+
+
+
+                            <DataGrid x:Name="dtgRsvECC" Margin="0,310,0,0" AutoGenerateColumns="False" MouseDoubleClick="dtgReservas_MouseDoubleClick" SelectionChanged="dtgReservas_SelectionChanged" HorizontalAlignment="Left" Width="1253" Height="180" VerticalAlignment="Top">
+                                <DataGrid.Columns>
+
+                                    <DataGridTextColumn Binding="{Binding idreserva, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="N° Reserva">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+
+                                    </DataGridTextColumn>
+                                    <DataGridTextColumn Binding="{Binding NroContrato, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="N° Contrato">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+
+                                    </DataGridTextColumn>
+
+                                    <DataGridTextColumn Binding="{Binding fechaI, Mode=OneWay, StringFormat=\{0:dd-MM-yyyy\}}"  CanUserResize="False" IsReadOnly="True" Header="Fecha Inicio">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+                                    <DataGridTextColumn Binding="{Binding fechaF, Mode=OneWay, StringFormat=\{0:dd-MM-yyyy\}}"  CanUserResize="False" IsReadOnly="True" Header="Fecha Fin">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+
+                                    </DataGridTextColumn>
+                                    <DataGridTextColumn Binding="{Binding diasReserva, Mode=OneWay, StringFormat=\{0:F0\}}"  CanUserResize="False" IsReadOnly="True" Header="noches">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+
+                                    <DataGridTextColumn Binding="{Binding puntos, Mode=OneWay, StringFormat=\{0:F0\}}"  CanUserResize="False" IsReadOnly="True" Header="puntos">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+                                    <DataGridTextColumn Binding="{Binding montoTI, Mode=OneWay,  StringFormat='{}{0:#,#.00}',ConverterCulture={x:Static gl:CultureInfo.InstalledUICulture}}"  CanUserResize="False" IsReadOnly="True" Header="todo incluido Bs.">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+                                    <DataGridTextColumn Binding="{Binding puntosA, Mode=OneWay, StringFormat=\{0:F0\}}"  CanUserResize="False" IsReadOnly="True" Header="puntos acelerados" >
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+                                    <DataGridTextColumn Binding="{Binding montoPA, Mode=OneWay,  StringFormat='{}{0:#,#.00}',ConverterCulture={x:Static gl:CultureInfo.InstalledUICulture}}"  CanUserResize="False" IsReadOnly="True" Header="Monto acelerados bs." >
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+                                    <DataGridTextColumn Binding="{Binding fechaReserva, Mode=OneWay, StringFormat=\{0:dd-MM-yyyy\}}"  CanUserResize="False" IsReadOnly="True" Header="Fecha">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+                                    <DataGridTextColumn Binding="{Binding localizador, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="localizador" >
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+                                    <DataGridTextColumn Binding="{Binding total, Mode=OneWay,  StringFormat='{}{0:#,#.00}',ConverterCulture={x:Static gl:CultureInfo.InstalledUICulture}}"  CanUserResize="False" IsReadOnly="True" Header="total bs." >
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+                                    
+                                    <DataGridTextColumn Binding="{Binding creado_por , Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="Reservado por" >
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+
+                                    <DataGridTextColumn Binding="{Binding status , Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="Reservado por" >
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+
+                                </DataGrid.Columns>
+
+                            </DataGrid>
+
+
+                            <Button x:Name="btnImpr" Content="Imprimir estado de cuenta" HorizontalAlignment="Left" Margin="790,25,0,0" VerticalAlignment="Top" Width="176" IsEnabled="False" FontSize="10" RenderTransformOrigin="-4.927,-24.26" Click="btnImpr_Click"/>
+
+
+
+                        </Grid>
+                    </ScrollViewer>
+
+                </TabItem>
+
+                <TabItem x:Name="tbReportesGralRelPtosAnio" Header="Puntos Por Año Gral." Loaded="tbReportesEdoCtaCli_Loaded">
+                    <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+                        <Grid Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Height="640">
+
+                            <Label Content="AÑO DESDE:" HorizontalAlignment="Left" Margin="10,4,0,606" FontWeight="ExtraBlack" FontSize="18"/>
+                            <TextBox x:Name="txtAnioRPA" HorizontalAlignment="Left" Height="23" Margin="138,8,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="10" KeyUp="txtAnioRPA_KeyUp"/>
+
+                            <TextBox x:Name="txtAnioRPAHasta" HorizontalAlignment="Left" Height="23" Margin="138,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="10" KeyUp="txtAnioRPA_KeyUp"/>
+
+
+                            <Button x:Name="btnImprRPA" Content="Generar Reporte" HorizontalAlignment="Left" Margin="274,7,0,0" VerticalAlignment="Top" Width="116" IsEnabled="True" FontSize="10" RenderTransformOrigin="-4.927,-24.26" Click="btnImprRPA_Click"/>
+                            <WindowsFormsHost Margin="412,10,216,146" >
+                                <rv:ReportViewer x:Name="_rptRPA" ForeColor="" PageCountMode="Actual" />
+                            </WindowsFormsHost>
+                            <Label Content="AÑO DESDE:" HorizontalAlignment="Left" Margin="10,4,0,606" FontWeight="ExtraBlack" FontSize="18"/>
+                            <Label Content="AÑO HASTA:" HorizontalAlignment="Left" Margin="10,44,0,557" FontWeight="ExtraBlack" FontSize="18"/>
+
+
+                        </Grid>
+                    </ScrollViewer>
+
+                </TabItem>
+
+
+
+            </TabControl>
+        </GroupBox>
+    </Grid>
+
+</Page>

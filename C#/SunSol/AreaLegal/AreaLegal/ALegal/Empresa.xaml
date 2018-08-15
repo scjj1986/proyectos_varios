@@ -1,0 +1,588 @@
+﻿<Page x:Class="ALegal.Empresa"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+         xmlns:gl="clr-namespace:System.Globalization;assembly=mscorlib"
+        xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d" 
+      Title="" Width="auto" Height="auto" Loaded="Page_Loaded">
+
+    <GroupBox Grid.Row="0" Header="" Margin="0,0,0,10" Width="auto">
+        <GroupBox.HeaderTemplate>
+            <DataTemplate>
+                <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                    <Label Content="Empresas" Foreground="White" FontWeight="Bold" FontSize="16" Margin="5,0"
+                               HorizontalAlignment="Left" VerticalContentAlignment="Center"/>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+
+
+                    </StackPanel>
+                </Grid>
+
+            </DataTemplate>
+        </GroupBox.HeaderTemplate>
+        <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+            <Grid Margin="0,0,0,0" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Height="auto" Width="auto" >
+
+                <Label Content="Búsqueda:" Margin="22,34,1554,837" FontWeight="Bold" />
+                <TextBox x:Name="txtBsqEmp" Margin="95,34,0,0" TextWrapping="Wrap" HorizontalAlignment="Left" Width="156" Height="29" VerticalAlignment="Top"/>
+                <DataGrid x:Name="dtgEmp" Margin="10,92,0,0" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" HorizontalAlignment="Left" Width="533" Height="256" VerticalAlignment="Top">
+                    <DataGrid.Columns>
+
+
+                        <DataGridTextColumn Visibility="Hidden" Binding="{Binding id, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="id">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn Visibility="Hidden" Binding="{Binding trif, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="tdoc">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn Visibility="Hidden" Binding="{Binding rif, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="ndoc">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+
+
+                        <DataGridTextColumn Binding="{Binding nombre, Mode=OneWay}"  CanUserResize="False" Width="350" IsReadOnly="True" Header="NOMBRE">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn Binding="{Binding rifcompleto, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="R.I.F.">
+                            <DataGridTextColumn.CellStyle>
+                                <Style>
+                                    <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+                    </DataGrid.Columns>
+
+
+                </DataGrid>
+
+                <TabControl x:Name="tbContenedor2" Margin="10,367,0,82" HorizontalAlignment="Left" Width="1300">
+                    <TabItem x:Name="tbDatPrin2" Header="Datos Principales">
+                        <Grid Background="#FFE5E5E5" Height="410" VerticalAlignment="Top" Margin="0,0,6,0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="121*"/>
+                                <ColumnDefinition Width="93*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Label Content="*Nombre:" Margin="48,46,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="24" HorizontalAlignment="Left" Width="68" RenderTransformOrigin="0.8,0.583"/>
+                            <TextBox x:Name="txtNomb" HorizontalAlignment="Left" Height="26" Margin="116,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="177"/>
+
+
+                            <ComboBox x:Name="cmbNac" HorizontalAlignment="Left" Margin="404,44,0,0" VerticalAlignment="Top" Width="56"/>
+                            <Label Content="*R.I.F.:" HorizontalAlignment="Left" Margin="353,44,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="26" Width="46" RenderTransformOrigin="0.478,0.769"/>
+                            <TextBox x:Name="txtRif" HorizontalAlignment="Left" Height="26" Margin="460,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143" PreviewTextInput="NumberValidationTextBox"/>
+
+                            <Label Content="*Cap. Actual (Bs.):" Margin="632,46,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="36" HorizontalAlignment="Left" Width="111" RenderTransformOrigin="0.8,0.583" Grid.ColumnSpan="2"/>
+                            <TextBox x:Name="txtCapAct" HorizontalAlignment="Left" Height="26" Margin="21,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="88" Grid.Column="1" PreviewTextInput="DecimalValidationTextBox"/>
+
+                            <Label Content="*Últ. Ejerc. Econ. Aprobado:" Margin="136,46,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="36" HorizontalAlignment="Left" Width="172" RenderTransformOrigin="0.8,0.583" Grid.Column="1"/>
+                            <TextBox x:Name="txtUEEA" HorizontalAlignment="Left" Height="26" Margin="311,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" Grid.Column="1"/>
+
+
+                            <Label Content="REGISTRO MERCANTIL:" Margin="19,101,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="24" HorizontalAlignment="Left" Width="146" RenderTransformOrigin="0.8,0.583"/>
+
+                            <DatePicker x:Name="dpFechaRegMerc" HorizontalAlignment="Left" Margin="155,139,0,0" VerticalAlignment="Top" IsEnabled="True" FontSize="10"/>
+                            <Label Content="*Fecha:" Margin="100,141,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="24" HorizontalAlignment="Left" Width="50" RenderTransformOrigin="0.8,0.583"/>
+
+                            <Label Content="*N°:" Margin="300,141,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="24" HorizontalAlignment="Left" Width="35" RenderTransformOrigin="0.8,0.583"/>
+                            <TextBox x:Name="txtNrRegMerc" HorizontalAlignment="Left" Height="26" Margin="335,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="57"/>
+
+
+                            <Label Content="*Tomo:" Margin="404,141,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="24" HorizontalAlignment="Left" Width="56" RenderTransformOrigin="0.8,0.583"/>
+                            <TextBox x:Name="txtTomoRegMerc" HorizontalAlignment="Left" Height="26" Margin="460,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="57"/>
+
+                            <Label Content="DOMICILIOS:" Margin="19,186,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="24" HorizontalAlignment="Left" Width="146" RenderTransformOrigin="0.8,0.583"/>
+
+                            <Label Content="*Domicilio Fiscal:" Margin="48,215,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="24" HorizontalAlignment="Left" Width="106" RenderTransformOrigin="0.8,0.583"/>
+                            <TextBox x:Name="txtDomFisc" HorizontalAlignment="Left" Height="62" Margin="159,213,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="177"/>
+                            <Label Content="*Sucursal:" Margin="394,217,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="24" HorizontalAlignment="Left" Width="64" RenderTransformOrigin="0.8,0.583"/>
+                            <TextBox x:Name="txtSuc" HorizontalAlignment="Left" Height="62" Margin="465,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="177"/>
+
+                            <Label Content="*Agencia Comercial:" Margin="674,217,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="33" HorizontalAlignment="Left" Width="126" RenderTransformOrigin="0.8,0.583" Grid.ColumnSpan="2"/>
+                            <TextBox x:Name="txtAgCom" HorizontalAlignment="Left" Height="62" Margin="79,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="177" Grid.Column="1"/>
+
+
+                        </Grid>
+                    </TabItem>
+
+                    <TabItem x:Name="tbAcc" Header="Accionistas">
+                        <Grid Background="#FFE5E5E5" Height="410" VerticalAlignment="Top">
+
+                            <Label Content="*Cédula:" HorizontalAlignment="Left" Margin="15,36,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="26" Width="56"/>
+                            <ComboBox x:Name="cmbNacAcc" HorizontalAlignment="Left" Margin="86,36,0,0" VerticalAlignment="Top" Width="56" />
+                            <TextBox x:Name="txtCedAcc" HorizontalAlignment="Left" Height="26" Margin="142,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143" LostFocus="txtCedAcc_LostFocus" PreviewTextInput="NumberValidationTextBox"/>
+
+                            <Label Content="*R.I.F.:" HorizontalAlignment="Left" Margin="315,36,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="26" Width="47"/>
+                            <ComboBox x:Name="cmbNacRIFAcc" HorizontalAlignment="Left" Margin="368,36,0,0" VerticalAlignment="Top" Width="56" />
+                            <TextBox x:Name="txtRIFAcc" HorizontalAlignment="Left" Height="26" Margin="424,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143" PreviewTextInput="NumberValidationTextBox"/>
+
+                            <Label Content="*Nombre Completo:" Margin="587,36,579,0" VerticalAlignment="Top" FontWeight="Bold" Height="26"/>
+                            <TextBox x:Name="txtNomAcc" HorizontalAlignment="Left" Height="26" Margin="716,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="268"/>
+
+                            <Label Content="*Duración:" Margin="10,91,1211,0" VerticalAlignment="Top" FontWeight="Bold" Height="26"/>
+                            <TextBox x:Name="txtDurAcc" HorizontalAlignment="Left" Height="26" Margin="84,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115"/>
+
+                            <Label Content="*Facultades:" Margin="282,91,927,0" VerticalAlignment="Top" FontWeight="Bold" Height="26" RenderTransformOrigin="0.566,0.462"/>
+                            <TextBox x:Name="txtFacAcc" HorizontalAlignment="Left" Height="26" Margin="368,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="199"/>
+
+                            <Label Content="Búsqueda:" HorizontalAlignment="Left" Margin="15,151,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="26" Width="68" RenderTransformOrigin="0.484,0.462"/>
+                            <TextBox x:Name="txtBsqAcc" HorizontalAlignment="Left" Height="26" Margin="84,151,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" KeyUp="txtBsqAcc_KeyUp"/>
+
+
+                            <Button ToolTip="Guardar" x:Name="btnGuardarAcc" Content="" HorizontalAlignment="Left" Margin="1119,142,0,0" VerticalAlignment="Top" Width="51" Height="45" Grid.Column="0" RenderTransformOrigin="0.5,0.76" Click="btnGuardarAcc_Click">
+                                <Button.Background>
+                                    <ImageBrush ImageSource="Images/1353183085_save.png" Stretch="Uniform"/>
+                                </Button.Background>
+                            </Button>
+
+                            <Button ToolTip="Nuevo" x:Name="btnNuevoAcc" Content="" HorizontalAlignment="Left" Margin="1059,142,0,0" VerticalAlignment="Top" Width="55" Height="45" Grid.Column="0" RenderTransformOrigin="0.5,0.76" Click="btnNuevoAcc_Click">
+                                <Button.Background>
+                                    <ImageBrush ImageSource="Images/add.png" Stretch="Uniform"/>
+                                </Button.Background>
+                            </Button>
+
+                            <DataGrid x:Name="dtgAcc" HorizontalAlignment="Left" Margin="10,192,0,0" VerticalAlignment="Top" Width="1162" Height="198" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" MouseDoubleClick="dtgAcc_MouseDoubleClick">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Visibility="Hidden" Binding="{Binding tced, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="tdoc">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+
+                                    <DataGridTextColumn Visibility="Hidden" Binding="{Binding cedula, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="cedula">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+
+                                    <DataGridTextColumn Visibility="Hidden" Binding="{Binding trif, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="tdoc">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+
+                                    <DataGridTextColumn Visibility="Hidden" Binding="{Binding rif, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="rif">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+
+                                    <DataGridTextColumn Width="120" Binding="{Binding cedulacompleta, Mode=TwoWay}"  CanUserResize="False" IsReadOnly="True" Header="Cédula">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+
+                                    <DataGridTextColumn Width="120" Binding="{Binding rifcompleto, Mode=TwoWay}"  CanUserResize="False" IsReadOnly="True" Header="R.I.F.">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+
+                                    <DataGridTextColumn Width="360" Binding="{Binding nombre, Mode=TwoWay}"  CanUserResize="False" IsReadOnly="True" Header="Nombre">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+
+                                    <DataGridTextColumn Width="230" Binding="{Binding duracion, Mode=TwoWay}"  CanUserResize="False" IsReadOnly="True" Header="duración">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+
+                                    <DataGridTextColumn Width="120" Binding="{Binding facultades, Mode=TwoWay}"  CanUserResize="False" IsReadOnly="True" Header="facultades">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+
+
+                                </DataGrid.Columns>
+                                <DataGrid.Resources>
+                                    <ContextMenu x:Key="RowMenu" 
+            DataContext="{Binding PlacementTarget.DataContext, RelativeSource={RelativeSource Self}}">
+                                        <MenuItem x:Name="ElimFildtgAcc" Header="Eliminar de la Lista" Click="ElimFildtgAcc_Click" />
+                                        <MenuItem x:Name="ElimTododtgAcc" Header="Eliminar Todo" Click="ElimTododtgAcc_Click" />
+                                    </ContextMenu>
+                                </DataGrid.Resources>
+                                <DataGrid.RowStyle>
+                                    <Style TargetType="DataGridRow" >
+                                        <Setter Property="ContextMenu" Value="{StaticResource RowMenu}" />
+                                    </Style>
+                                </DataGrid.RowStyle>
+                            </DataGrid>
+
+
+                        </Grid>
+                    </TabItem>
+                    <TabItem x:Name="tbDir" Header="Directores">
+                        <Grid Background="#FFE5E5E5" Margin="0,0,6,0" Height="410" VerticalAlignment="Top">
+
+                            <Label Content="*Cédula:" HorizontalAlignment="Left" Margin="30,36,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="26" Width="56"/>
+                            <ComboBox x:Name="cmbNacDir" HorizontalAlignment="Left" Margin="86,36,0,0" VerticalAlignment="Top" Width="56" />
+                            <TextBox x:Name="txtCedDir" HorizontalAlignment="Left" Height="26" Margin="142,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143" LostFocus="txtCedDir_LostFocus" PreviewTextInput="NumberValidationTextBox"/>
+
+                            <Label Content="*R.I.F.:" HorizontalAlignment="Left" Margin="315,36,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="26" Width="47"/>
+                            <ComboBox x:Name="cmbNacRIFDir" HorizontalAlignment="Left" Margin="368,36,0,0" VerticalAlignment="Top" Width="56" />
+                            <TextBox x:Name="txtRIFDir" HorizontalAlignment="Left" Height="26" Margin="424,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143" PreviewTextInput="NumberValidationTextBox"/>
+
+                            <Label Content="*Nombre Completo:" Margin="587,36,573,0" VerticalAlignment="Top" FontWeight="Bold" Height="26"/>
+                            <TextBox x:Name="txtNomDir" HorizontalAlignment="Left" Height="26" Margin="716,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="268"/>
+
+                            <Label Content="*Acciones:" Margin="1013,36,202,0" VerticalAlignment="Top" FontWeight="Bold" Height="26"/>
+                            <TextBox x:Name="txtAccDir" HorizontalAlignment="Left" Height="26" Margin="1087,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="178"/>
+
+                            <Label Content="*Val. Nom.:" Margin="7,93,1203,0" VerticalAlignment="Top" FontWeight="Bold" Height="26" RenderTransformOrigin="0.566,0.462"/>
+                            <TextBox x:Name="txtValNomDir" HorizontalAlignment="Left" Height="26" Margin="86,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="153" PreviewTextInput="DecimalValidationTextBox"/>
+
+                            <Label Content="*Aporte Bs.:" Margin="285,93,922,0" VerticalAlignment="Top" FontWeight="Bold" Height="26" RenderTransformOrigin="0.566,0.462"/>
+                            <TextBox x:Name="txtAporteBsDir" HorizontalAlignment="Left" Height="26" Margin="371,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170" PreviewTextInput="DecimalValidationTextBox"/>
+
+                            <Label Content="*% Aporte:" Margin="638,93,573,0" VerticalAlignment="Top" FontWeight="Bold" Height="26" RenderTransformOrigin="0.566,0.462"/>
+                            <TextBox x:Name="txtAportePorc" HorizontalAlignment="Left" Height="26" Margin="716,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170" PreviewTextInput="DecimalValidationTextBox"/>
+
+                            <Label Content="*% Accionario:" Margin="988,93,202,0" VerticalAlignment="Top" FontWeight="Bold" Height="26" RenderTransformOrigin="0.566,0.462"/>
+                            <TextBox x:Name="txtAccPorc" HorizontalAlignment="Left" Height="26" Margin="1090,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170" PreviewTextInput="DecimalValidationTextBox"/>
+
+                            <Label Content="Búsqueda:" HorizontalAlignment="Left" Margin="15,151,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="26" Width="68" RenderTransformOrigin="0.484,0.462"/>
+                            <TextBox x:Name="txtBusqDir" HorizontalAlignment="Left" Height="26" Margin="84,151,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" KeyUp="txtBusqDir_KeyUp"/>
+
+
+                            <Button ToolTip="Guardar" x:Name="btnGuardarDir" Content="" HorizontalAlignment="Left" Margin="1209,142,0,0" VerticalAlignment="Top" Width="51" Height="45" Grid.Column="0" RenderTransformOrigin="0.5,0.76" Click="btnGuardarDir_Click">
+                                <Button.Background>
+                                    <ImageBrush ImageSource="Images/1353183085_save.png" Stretch="Uniform"/>
+                                </Button.Background>
+                            </Button>
+
+                            <Button ToolTip="Nuevo" x:Name="btnNuevoDir" Content="" HorizontalAlignment="Left" Margin="1149,142,0,0" VerticalAlignment="Top" Width="55" Height="45" Grid.Column="0" RenderTransformOrigin="0.5,0.76" Click="btnNuevoDir_Click">
+                                <Button.Background>
+                                    <ImageBrush ImageSource="Images/add.png" Stretch="Uniform"/>
+                                </Button.Background>
+                            </Button>
+
+                            <DataGrid x:Name="dtgDir" HorizontalAlignment="Left" Margin="10,192,0,0" VerticalAlignment="Top" Width="1250" Height="208" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" MouseDoubleClick="dtgDir_MouseDoubleClick">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Visibility="Hidden" Binding="{Binding tced, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="tdoc">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+
+                                    <DataGridTextColumn Visibility="Hidden" Binding="{Binding cedula, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="cedula">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+
+                                    <DataGridTextColumn Visibility="Hidden" Binding="{Binding trif, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="tdoc">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+
+                                    <DataGridTextColumn Visibility="Hidden" Binding="{Binding rif, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="rif">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+
+
+
+                                    <DataGridTextColumn Visibility="Hidden" Binding="{Binding aportebs, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="rif">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+
+                                    <DataGridTextColumn Visibility="Hidden" Binding="{Binding porcaporte, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="rif">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+
+                                    <DataGridTextColumn Visibility="Hidden" Binding="{Binding porcacc, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="rif">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+
+
+
+                                    <DataGridTextColumn Width="120" Binding="{Binding cedulacompleta, Mode=TwoWay}"  CanUserResize="False" IsReadOnly="True" Header="Cédula">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+
+                                    <DataGridTextColumn Width="120" Binding="{Binding rifcompleto, Mode=TwoWay}"  CanUserResize="False" IsReadOnly="True" Header="R.I.F.">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+
+                                    <DataGridTextColumn Width="360" Binding="{Binding nombre, Mode=TwoWay}"  CanUserResize="False" IsReadOnly="True" Header="Nombre">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+
+                                    <DataGridTextColumn Width="230" Binding="{Binding acciones, Mode=TwoWay}"  CanUserResize="False" IsReadOnly="True" Header="acciones">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+
+                                    <DataGridTextColumn Width="150" Binding="{Binding valornominal, Mode=TwoWay}"  CanUserResize="False" IsReadOnly="True" Header="valor nominal bs.">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+
+
+                                </DataGrid.Columns>
+                                <DataGrid.Resources>
+                                    <ContextMenu x:Key="RowMenu" 
+            DataContext="{Binding PlacementTarget.DataContext, RelativeSource={RelativeSource Self}}">
+                                        <MenuItem x:Name="ElimFildtgDir" Header="Eliminar de la Lista" Click="ElimFildtgDir_Click" />
+                                        <MenuItem x:Name="ElimTododtgDir" Header="Eliminar Todo" Click="ElimTododtgDir_Click" />
+                                    </ContextMenu>
+                                </DataGrid.Resources>
+                                <DataGrid.RowStyle>
+                                    <Style TargetType="DataGridRow" >
+                                        <Setter Property="ContextMenu" Value="{StaticResource RowMenu}" />
+                                    </Style>
+                                </DataGrid.RowStyle>
+                            </DataGrid>
+
+
+                        </Grid>
+                    </TabItem>
+                    <TabItem x:Name="tbComis" Header="Comisario">
+                        <Grid Background="#FFE5E5E5" Margin="0,0,-4,0" Height="410" VerticalAlignment="Top">
+                            <Label Content="*Cédula:" HorizontalAlignment="Left" Margin="15,36,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="26" Width="56"/>
+                            <ComboBox x:Name="cmbNacCom" HorizontalAlignment="Left" Margin="86,36,0,0" VerticalAlignment="Top" Width="56" />
+                            <TextBox x:Name="txtCedCom" HorizontalAlignment="Left" Height="26" Margin="142,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143" LostFocus="txtCedCom_LostFocus" PreviewTextInput="NumberValidationTextBox"/>
+
+                            <Label Content="*R.I.F.:" HorizontalAlignment="Left" Margin="315,36,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="26" Width="47"/>
+                            <ComboBox x:Name="cmbNacRIFCom" HorizontalAlignment="Left" Margin="368,36,0,0" VerticalAlignment="Top" Width="56" />
+                            <TextBox x:Name="txtRIFCom" HorizontalAlignment="Left" Height="26" Margin="424,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143" PreviewTextInput="NumberValidationTextBox"/>
+
+                            <Label Content="*Nombre Completo:" Margin="587,36,583,0" VerticalAlignment="Top" FontWeight="Bold" Height="26"/>
+                            <TextBox x:Name="txtNomCom" HorizontalAlignment="Left" Height="26" Margin="716,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="268"/>
+
+                            <Label Content="*Duración:" Margin="10,91,1215,0" VerticalAlignment="Top" FontWeight="Bold" Height="26"/>
+                            <TextBox x:Name="txtDurCom" HorizontalAlignment="Left" Height="26" Margin="84,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115"/>
+
+
+                            <Label Content="*CPC:" Margin="321,91,931,0" VerticalAlignment="Top" FontWeight="Bold" Height="26"/>
+                            <TextBox x:Name="txtCPCCom" HorizontalAlignment="Left" Height="26" Margin="368,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115"/>
+
+
+                        </Grid>
+                    </TabItem>
+
+                    <TabItem x:Name="tbActReg" Header="Actas Registradas">
+                        <Grid Background="#FFE5E5E5" Margin="0,5,10,0" Height="404" VerticalAlignment="Top">
+
+                            <DatePicker x:Name="dpFechaCelebActReg" HorizontalAlignment="Left" Margin="145,20,0,0" VerticalAlignment="Top" IsEnabled="True" FontSize="10"/>
+                            <Label Content="*Fecha Celebración:" Margin="18,22,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="24" HorizontalAlignment="Left" Width="122" RenderTransformOrigin="0.8,0.583"/>
+
+                            <DatePicker x:Name="dpFechaProtActReg" HorizontalAlignment="Left" Margin="431,18,0,0" VerticalAlignment="Top" IsEnabled="True" FontSize="10"/>
+                            <Label Content="*Fecha Protocolización:" Margin="285,20,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="24" HorizontalAlignment="Left" Width="141" RenderTransformOrigin="0.8,0.583"/>
+
+                            <Label Content="*N°:" Margin="109,72,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="24" HorizontalAlignment="Left" Width="35" RenderTransformOrigin="0.8,0.583"/>
+                            <TextBox x:Name="txtNrActReg" HorizontalAlignment="Left" Height="26" Margin="144,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="57"/>
+
+                            <Label Content="*Puntos a Tratar:" Margin="603,19,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="27" HorizontalAlignment="Left" Width="106" RenderTransformOrigin="0.8,0.583"/>
+                            <TextBox x:Name="txtPtosATratActReg" HorizontalAlignment="Left" Height="66" Margin="714,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="184"  />
+
+
+                            <Label Content="*Tomo:" Margin="373,72,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="24" HorizontalAlignment="Left" Width="56" RenderTransformOrigin="0.8,0.583"/>
+                            <TextBox x:Name="txtTomoActReg" HorizontalAlignment="Left" Height="26" Margin="429,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="77"/>
+
+                            <Label Content="Búsqueda:" HorizontalAlignment="Left" Margin="72,138,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="26" Width="68" RenderTransformOrigin="0.484,0.462"/>
+                            <TextBox x:Name="txtBsqActReg" HorizontalAlignment="Left" Height="26" Margin="141,138,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" KeyUp="txtBsqActReg_KeyUp"/>
+
+
+                            <Button ToolTip="Guardar" x:Name="btnGuardarActReg" Content="" HorizontalAlignment="Left" Margin="847,138,0,0" VerticalAlignment="Top" Width="51" Height="45" Grid.Column="0" RenderTransformOrigin="0.5,0.76" Click="btnGuardarActReg_Click">
+                                <Button.Background>
+                                    <ImageBrush ImageSource="Images/1353183085_save.png" Stretch="Uniform"/>
+                                </Button.Background>
+                            </Button>
+
+                            <Button ToolTip="Nuevo" x:Name="btnNuevoActReg" Content="" HorizontalAlignment="Left" Margin="787,138,0,0" VerticalAlignment="Top" Width="55" Height="45" Grid.Column="0" RenderTransformOrigin="0.5,0.76" Click="btnNuevoActReg_Click">
+                                <Button.Background>
+                                    <ImageBrush ImageSource="Images/add.png" Stretch="Uniform"/>
+                                </Button.Background>
+                            </Button>
+
+                            <DataGrid x:Name="dtgActReg" HorizontalAlignment="Left" Margin="10,188,0,0" VerticalAlignment="Top" Width="888" Height="185" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" MouseDoubleClick="dtgActReg_MouseDoubleClick">
+                                <DataGrid.Columns>
+
+
+                                    <DataGridTextColumn Visibility="Hidden" Binding="{Binding ptosatratar, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="rif">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+
+                                    <DataGridTextColumn Visibility="Hidden" Binding="{Binding fcel, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="rif">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+
+                                    <DataGridTextColumn Visibility="Hidden" Binding="{Binding fprot, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="rif">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+
+
+
+                                    <DataGridTextColumn Width="120" Binding="{Binding nr, Mode=TwoWay}"  CanUserResize="False" IsReadOnly="True" Header="Número">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+
+                                    <DataGridTextColumn Width="120" Binding="{Binding tomo, Mode=TwoWay}"  CanUserResize="False" IsReadOnly="True" Header="tomo">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+
+                                    <DataGridTextColumn Width="220" Binding="{Binding string_fcel, Mode=TwoWay}"  CanUserResize="False" IsReadOnly="True" Header="Fecha celebración">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+
+                                    <DataGridTextColumn Width="220" Binding="{Binding string_fprot, Mode=TwoWay}"  CanUserResize="False" IsReadOnly="True" Header="Fecha protocolización">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+
+
+
+
+                                </DataGrid.Columns>
+                                <DataGrid.Resources>
+                                    <ContextMenu x:Key="RowMenu" 
+            DataContext="{Binding PlacementTarget.DataContext, RelativeSource={RelativeSource Self}}">
+                                        <MenuItem x:Name="ElimFildtgActReg" Header="Eliminar de la Lista" Click="ElimFildtgActReg_Click" />
+                                        <MenuItem x:Name="ElimTododtgActReg" Header="Eliminar Todo" Click="ElimTododtgActReg_Click" />
+                                    </ContextMenu>
+                                </DataGrid.Resources>
+                                <DataGrid.RowStyle>
+                                    <Style TargetType="DataGridRow" >
+                                        <Setter Property="ContextMenu" Value="{StaticResource RowMenu}" />
+                                    </Style>
+                                </DataGrid.RowStyle>
+
+
+                            </DataGrid>
+
+
+                        </Grid>
+                    </TabItem>
+
+
+
+                </TabControl>
+
+                <Button ToolTip="Nuevo" x:Name="btnNuevoEmp" Content="" Margin="1172,831,0,0" Grid.Column="0" RenderTransformOrigin="0.646,1.263" Click="btnNuevoEmp_Click" HorizontalAlignment="Left" Width="65" Height="57" VerticalAlignment="Top">
+                    <Button.Background>
+                        <ImageBrush ImageSource="Images/add.png" Stretch="Uniform"/>
+                    </Button.Background>
+                </Button>
+
+                <Button ToolTip="Guardar" x:Name="btnGuardarEmp" Content="" HorizontalAlignment="Left" Margin="1242,830,0,0" VerticalAlignment="Top" Width="68" Height="57" Grid.Column="0" Click="btnGuardarEmp_Click">
+                    <Button.Background>
+                        <ImageBrush ImageSource="Images/1353183085_save.png" Stretch="Uniform"/>
+                    </Button.Background>
+                </Button>
+
+
+
+
+
+
+            </Grid>
+        </ScrollViewer>
+    </GroupBox>
+</Page>

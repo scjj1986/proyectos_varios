@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BD_INVENTARIO_HABITACIONModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="_Asignacion">
+    <Key>
+      <PropertyRef Name="idAsignacion" />
+    </Key>
+    <Property Name="idAsignacion" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idcamarera" Type="int" />
+    <Property Name="idsupervisor" Type="int" />
+    <Property Name="idhabitacion" Type="int" />
+    <Property Name="fecha" Type="date" />
+    <Property Name="status" Type="int" />
+    <Property Name="idUsuario" Type="int" />
+  </EntityType>
+  <EntityType Name="_Camarera">
+    <Key>
+      <PropertyRef Name="idCamarera" />
+    </Key>
+    <Property Name="idCamarera" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="nchar" MaxLength="50" />
+    <Property Name="apellido" Type="nchar" MaxLength="50" />
+    <Property Name="idSupervisor" Type="int" />
+    <Property Name="nac" Type="nchar" MaxLength="5" />
+    <Property Name="documento" Type="nchar" MaxLength="20" />
+    <Property Name="activo" Type="int" />
+  </EntityType>
+  <EntityType Name="_Extra">
+    <Key>
+      <PropertyRef Name="idExtra" />
+    </Key>
+    <Property Name="idExtra" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idSuministro" Type="int" />
+    <Property Name="idHabitacion" Type="int" />
+    <Property Name="cantidad" Type="int" />
+    <Property Name="fecha" Type="date" />
+    <Property Name="idUsuario" Type="int" />
+    <Property Name="fechaModicacion" Type="date" />
+  </EntityType>
+  <EntityType Name="_Movimiento">
+    <Key>
+      <PropertyRef Name="idMovimiento" />
+    </Key>
+    <Property Name="idMovimiento" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idSuministro" Type="int" />
+    <Property Name="idHabitacion" Type="int" />
+    <Property Name="fecha" Type="date" />
+    <Property Name="cantidadEstimada" Type="int" />
+    <Property Name="cantidadReal" Type="int" />
+    <Property Name="tipo" Type="nchar" MaxLength="10" />
+    <Property Name="idUsuario" Type="int" />
+    <Property Name="fechaModificacion" Type="date" />
+    <Property Name="idCamarera" Type="int" />
+    <Property Name="idsupervisor" Type="int" />
+  </EntityType>
+  <EntityType Name="_Perdida">
+    <Key>
+      <PropertyRef Name="idPerdida" />
+    </Key>
+    <Property Name="idPerdida" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idSuministro" Type="int" />
+    <Property Name="idHabitacion" Type="int" />
+    <Property Name="cantidad" Type="int" />
+    <Property Name="fecha" Type="date" />
+    <Property Name="idUsuario" Type="int" />
+    <Property Name="fechaModificacion" Type="date" />
+  </EntityType>
+  <EntityType Name="_Suministro">
+    <Key>
+      <PropertyRef Name="idSuministro" />
+    </Key>
+    <Property Name="idSuministro" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="descripcion" Type="nchar" MaxLength="100" />
+    <Property Name="observacion" Type="nchar" MaxLength="300" />
+    <Property Name="cantidad" Type="int" />
+  </EntityType>
+  <EntityType Name="_Supervisor">
+    <Key>
+      <PropertyRef Name="idSupervisor" />
+    </Key>
+    <Property Name="idSupervisor" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="nchar" MaxLength="50" />
+    <Property Name="apellido" Type="nchar" MaxLength="50" />
+    <Property Name="nac" Type="nchar" MaxLength="1" />
+    <Property Name="documento" Type="nchar" MaxLength="15" />
+    <Property Name="activo" Type="int" />
+  </EntityType>
+  <EntityType Name="_Usuario">
+    <Key>
+      <PropertyRef Name="idUsuario" />
+    </Key>
+    <Property Name="idUsuario" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="nchar" MaxLength="50" />
+    <Property Name="apellido" Type="nchar" MaxLength="50" />
+    <Property Name="login" Type="nchar" MaxLength="50" />
+    <Property Name="clave" Type="nchar" MaxLength="50" />
+    <Property Name="nivel" Type="int" />
+    <Property Name="activo" Type="int" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <Association Name="FK__Camarera__Supervisor">
+    <End Role="_Supervisor" Type="Self._Supervisor" Multiplicity="0..1" />
+    <End Role="_Camarera" Type="Self._Camarera" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="_Supervisor">
+        <PropertyRef Name="idSupervisor" />
+      </Principal>
+      <Dependent Role="_Camarera">
+        <PropertyRef Name="idSupervisor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Extra__Suministro">
+    <End Role="_Suministro" Type="Self._Suministro" Multiplicity="0..1" />
+    <End Role="_Extra" Type="Self._Extra" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="_Suministro">
+        <PropertyRef Name="idSuministro" />
+      </Principal>
+      <Dependent Role="_Extra">
+        <PropertyRef Name="idSuministro" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Extra__Usuario">
+    <End Role="_Usuario" Type="Self._Usuario" Multiplicity="0..1" />
+    <End Role="_Extra" Type="Self._Extra" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="_Usuario">
+        <PropertyRef Name="idUsuario" />
+      </Principal>
+      <Dependent Role="_Extra">
+        <PropertyRef Name="idUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Movimiento__Camarera">
+    <End Role="_Camarera" Type="Self._Camarera" Multiplicity="0..1" />
+    <End Role="_Movimiento" Type="Self._Movimiento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="_Camarera">
+        <PropertyRef Name="idCamarera" />
+      </Principal>
+      <Dependent Role="_Movimiento">
+        <PropertyRef Name="idCamarera" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Movimiento__Suministro">
+    <End Role="_Suministro" Type="Self._Suministro" Multiplicity="0..1" />
+    <End Role="_Movimiento" Type="Self._Movimiento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="_Suministro">
+        <PropertyRef Name="idSuministro" />
+      </Principal>
+      <Dependent Role="_Movimiento">
+        <PropertyRef Name="idSuministro" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Movimiento__Usuario">
+    <End Role="_Usuario" Type="Self._Usuario" Multiplicity="0..1" />
+    <End Role="_Movimiento" Type="Self._Movimiento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="_Usuario">
+        <PropertyRef Name="idUsuario" />
+      </Principal>
+      <Dependent Role="_Movimiento">
+        <PropertyRef Name="idUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Perdida__Suministro">
+    <End Role="_Suministro" Type="Self._Suministro" Multiplicity="0..1" />
+    <End Role="_Perdida" Type="Self._Perdida" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="_Suministro">
+        <PropertyRef Name="idSuministro" />
+      </Principal>
+      <Dependent Role="_Perdida">
+        <PropertyRef Name="idSuministro" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Perdida__Usuario">
+    <End Role="_Usuario" Type="Self._Usuario" Multiplicity="0..1" />
+    <End Role="_Perdida" Type="Self._Perdida" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="_Usuario">
+        <PropertyRef Name="idUsuario" />
+      </Principal>
+      <Dependent Role="_Perdida">
+        <PropertyRef Name="idUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="BD_INVENTARIO_HABITACIONModelStoreContainer">
+    <EntitySet Name="_Asignacion" EntityType="Self._Asignacion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="_Camarera" EntityType="Self._Camarera" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="_Extra" EntityType="Self._Extra" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="_Movimiento" EntityType="Self._Movimiento" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="_Perdida" EntityType="Self._Perdida" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="_Suministro" EntityType="Self._Suministro" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="_Supervisor" EntityType="Self._Supervisor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="_Usuario" EntityType="Self._Usuario" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Camarera__Supervisor" Association="Self.FK__Camarera__Supervisor">
+      <End Role="_Supervisor" EntitySet="_Supervisor" />
+      <End Role="_Camarera" EntitySet="_Camarera" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Extra__Suministro" Association="Self.FK__Extra__Suministro">
+      <End Role="_Suministro" EntitySet="_Suministro" />
+      <End Role="_Extra" EntitySet="_Extra" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Extra__Usuario" Association="Self.FK__Extra__Usuario">
+      <End Role="_Usuario" EntitySet="_Usuario" />
+      <End Role="_Extra" EntitySet="_Extra" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Movimiento__Camarera" Association="Self.FK__Movimiento__Camarera">
+      <End Role="_Camarera" EntitySet="_Camarera" />
+      <End Role="_Movimiento" EntitySet="_Movimiento" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Movimiento__Suministro" Association="Self.FK__Movimiento__Suministro">
+      <End Role="_Suministro" EntitySet="_Suministro" />
+      <End Role="_Movimiento" EntitySet="_Movimiento" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Movimiento__Usuario" Association="Self.FK__Movimiento__Usuario">
+      <End Role="_Usuario" EntitySet="_Usuario" />
+      <End Role="_Movimiento" EntitySet="_Movimiento" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Perdida__Suministro" Association="Self.FK__Perdida__Suministro">
+      <End Role="_Suministro" EntitySet="_Suministro" />
+      <End Role="_Perdida" EntitySet="_Perdida" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Perdida__Usuario" Association="Self.FK__Perdida__Usuario">
+      <End Role="_Usuario" EntitySet="_Usuario" />
+      <End Role="_Perdida" EntitySet="_Perdida" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

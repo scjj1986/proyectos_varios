@@ -1,0 +1,270 @@
+F:\Reservas\librerias\bin\Debug\librerias.dll
+F:\Reservas\librerias\bin\Debug\librerias.pdb
+F:\Reservas\librerias\bin\Debug\MahApps.Metro.dll
+F:\Reservas\librerias\bin\Debug\System.Windows.Interactivity.dll
+F:\Reservas\librerias\bin\Debug\MahApps.Metro.pdb
+F:\Reservas\librerias\bin\Debug\MahApps.Metro.xml
+F:\Reservas\librerias\obj\Debug\librerias.csprojResolveAssemblyReference.cache
+F:\Reservas\librerias\obj\Debug\librerias.dll
+F:\Reservas\librerias\obj\Debug\librerias.pdb
+C:\Users\Ing. Michel Parra\Desktop\Reservas\librerias\bin\Debug\librerias.dll
+C:\Users\Ing. Michel Parra\Desktop\Reservas\librerias\bin\Debug\librerias.pdb
+C:\Users\Ing. Michel Parra\Desktop\Reservas\librerias\bin\Debug\MahApps.Metro.dll
+C:\Users\Ing. Michel Parra\Desktop\Reservas\librerias\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Ing. Michel Parra\Desktop\Reservas\librerias\bin\Debug\MahApps.Metro.pdb
+C:\Users\Ing. Michel Parra\Desktop\Reservas\librerias\bin\Debug\MahApps.Metro.xml
+C:\Users\Ing. Michel Parra\Desktop\Reservas\librerias\obj\Debug\librerias.csprojResolveAssemblyReference.cache
+C:\Users\Ing. Michel Parra\Desktop\Reservas\librerias\obj\Debug\librerias.dll
+C:\Users\Ing. Michel Parra\Desktop\Reservas\librerias\obj\Debug\librerias.pdb
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\librerias\bin\Debug\librerias.dll
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\librerias\bin\Debug\librerias.pdb
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\librerias\bin\Debug\MahApps.Metro.dll
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\librerias\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\librerias\bin\Debug\MahApps.Metro.pdb
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\librerias\bin\Debug\MahApps.Metro.xml
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\librerias\obj\Debug\librerias.csprojResolveAssemblyReference.cache
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\librerias\obj\Debug\librerias.dll
+C:\Users\Ing. Michel Parra\Documents\Visual Studio 2013\Projects\Reservas\librerias\obj\Debug\librerias.pdb
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\librerias\bin\Debug\librerias.dll
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\librerias\bin\Debug\librerias.pdb
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\librerias\bin\Debug\MahApps.Metro.dll
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\librerias\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\librerias\bin\Debug\MahApps.Metro.pdb
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\librerias\bin\Debug\MahApps.Metro.xml
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\librerias\obj\Debug\librerias.dll
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\librerias\obj\Debug\librerias.pdb
+I:\Reservas\librerias\bin\Debug\librerias.dll
+I:\Reservas\librerias\bin\Debug\librerias.pdb
+I:\Reservas\librerias\bin\Debug\MahApps.Metro.dll
+I:\Reservas\librerias\bin\Debug\System.Windows.Interactivity.dll
+I:\Reservas\librerias\bin\Debug\MahApps.Metro.pdb
+I:\Reservas\librerias\bin\Debug\MahApps.Metro.xml
+I:\Reservas\librerias\obj\Debug\librerias.dll
+I:\Reservas\librerias\obj\Debug\librerias.pdb
+C:\Users\josmer.martinez\Desktop\Reservas\librerias\bin\Debug\librerias.dll
+C:\Users\josmer.martinez\Desktop\Reservas\librerias\bin\Debug\librerias.pdb
+C:\Users\josmer.martinez\Desktop\Reservas\librerias\bin\Debug\MahApps.Metro.dll
+C:\Users\josmer.martinez\Desktop\Reservas\librerias\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\josmer.martinez\Desktop\Reservas\librerias\bin\Debug\MahApps.Metro.pdb
+C:\Users\josmer.martinez\Desktop\Reservas\librerias\bin\Debug\MahApps.Metro.xml
+C:\Users\josmer.martinez\Desktop\Reservas\librerias\obj\Debug\librerias.dll
+C:\Users\josmer.martinez\Desktop\Reservas\librerias\obj\Debug\librerias.pdb
+I:\Reservas\librerias\obj\Debug\librerias.csprojResolveAssemblyReference.cache
+C:\Users\josmer.martinez\Desktop\Reservas\librerias\obj\Debug\librerias.csprojResolveAssemblyReference.cache
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\librerias\bin\Debug\librerias.dll
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\librerias\bin\Debug\librerias.pdb
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\librerias\bin\Debug\MahApps.Metro.dll
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\librerias\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\librerias\bin\Debug\MahApps.Metro.pdb
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\librerias\bin\Debug\MahApps.Metro.xml
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\librerias\obj\Debug\librerias.dll
+C:\Users\josmer.martinez\Desktop\Reservas v1.1\librerias\obj\Debug\librerias.pdb
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\librerias\bin\Debug\librerias.dll
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\librerias\bin\Debug\librerias.pdb
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\librerias\bin\Debug\MahApps.Metro.dll
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\librerias\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\librerias\bin\Debug\MahApps.Metro.pdb
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\librerias\bin\Debug\MahApps.Metro.xml
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\librerias\obj\Debug\librerias.dll
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\librerias\obj\Debug\librerias.pdb
+C:\Users\carlos.marval\Desktop\Reservas v1.1\librerias\bin\Debug\librerias.dll
+C:\Users\carlos.marval\Desktop\Reservas v1.1\librerias\bin\Debug\librerias.pdb
+C:\Users\carlos.marval\Desktop\Reservas v1.1\librerias\bin\Debug\MahApps.Metro.dll
+C:\Users\carlos.marval\Desktop\Reservas v1.1\librerias\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\carlos.marval\Desktop\Reservas v1.1\librerias\bin\Debug\MahApps.Metro.pdb
+C:\Users\carlos.marval\Desktop\Reservas v1.1\librerias\bin\Debug\MahApps.Metro.xml
+C:\Users\carlos.marval\Desktop\Reservas v1.1\librerias\obj\Debug\librerias.dll
+C:\Users\carlos.marval\Desktop\Reservas v1.1\librerias\obj\Debug\librerias.pdb
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1\librerias\obj\Debug\librerias.csprojResolveAssemblyReference.cache
+C:\Users\carlos.marval\Desktop\Reservas v1.1\librerias\obj\Debug\librerias.csprojResolveAssemblyReference.cache
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\librerias\bin\Debug\librerias.dll
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\librerias\bin\Debug\librerias.pdb
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\librerias\bin\Debug\MahApps.Metro.dll
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\librerias\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\librerias\bin\Debug\MahApps.Metro.pdb
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\librerias\bin\Debug\MahApps.Metro.xml
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\librerias\obj\Debug\librerias.dll
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\librerias\obj\Debug\librerias.pdb
+C:\Users\Ing. Michel Parra\Desktop\Reservas v1.1.2\librerias\obj\Debug\librerias.csprojResolveAssemblyReference.cache
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\librerias\bin\Debug\librerias.dll
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\librerias\bin\Debug\librerias.pdb
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\librerias\bin\Debug\MahApps.Metro.dll
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\librerias\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\librerias\bin\Debug\MahApps.Metro.pdb
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\librerias\bin\Debug\MahApps.Metro.xml
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\librerias\obj\Debug\librerias.dll
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\librerias\obj\Debug\librerias.pdb
+C:\Users\Carlos.marval\Desktop\Reservas v1.1.2\librerias\obj\Debug\librerias.csprojResolveAssemblyReference.cache
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\librerias\bin\Debug\librerias.dll
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\librerias\bin\Debug\librerias.pdb
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\librerias\bin\Debug\MahApps.Metro.dll
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\librerias\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\librerias\bin\Debug\MahApps.Metro.pdb
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\librerias\bin\Debug\MahApps.Metro.xml
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\librerias\obj\Debug\librerias.csprojResolveAssemblyReference.cache
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\librerias\obj\Debug\librerias.dll
+C:\Users\Carlos.marval\Desktop\Reservas v2.0 prueba piloto\librerias\obj\Debug\librerias.pdb
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\librerias\bin\Debug\librerias.dll
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\librerias\bin\Debug\librerias.pdb
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\librerias\bin\Debug\MahApps.Metro.dll
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\librerias\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\librerias\bin\Debug\MahApps.Metro.pdb
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\librerias\bin\Debug\MahApps.Metro.xml
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\librerias\obj\Debug\librerias.csprojResolveAssemblyReference.cache
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\librerias\obj\Debug\librerias.dll
+C:\Users\Consultoria\Desktop\Reservas v2.0 prueba piloto\librerias\obj\Debug\librerias.pdb
+C:\Users\Consultoria\Desktop\Reservas v2.0\librerias\bin\Debug\librerias.dll
+C:\Users\Consultoria\Desktop\Reservas v2.0\librerias\bin\Debug\librerias.pdb
+C:\Users\Consultoria\Desktop\Reservas v2.0\librerias\bin\Debug\MahApps.Metro.dll
+C:\Users\Consultoria\Desktop\Reservas v2.0\librerias\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Consultoria\Desktop\Reservas v2.0\librerias\bin\Debug\MahApps.Metro.pdb
+C:\Users\Consultoria\Desktop\Reservas v2.0\librerias\bin\Debug\MahApps.Metro.xml
+C:\Users\Consultoria\Desktop\Reservas v2.0\librerias\obj\Debug\librerias.csprojResolveAssemblyReference.cache
+C:\Users\Consultoria\Desktop\Reservas v2.0\librerias\obj\Debug\librerias.dll
+C:\Users\Consultoria\Desktop\Reservas v2.0\librerias\obj\Debug\librerias.pdb
+C:\Users\Suns0lH0t\Desktop\Reservaciones\librerias\bin\Debug\librerias.dll
+C:\Users\Suns0lH0t\Desktop\Reservaciones\librerias\bin\Debug\librerias.pdb
+C:\Users\Suns0lH0t\Desktop\Reservaciones\librerias\bin\Debug\MahApps.Metro.dll
+C:\Users\Suns0lH0t\Desktop\Reservaciones\librerias\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Suns0lH0t\Desktop\Reservaciones\librerias\bin\Debug\MahApps.Metro.pdb
+C:\Users\Suns0lH0t\Desktop\Reservaciones\librerias\bin\Debug\MahApps.Metro.xml
+C:\Users\Suns0lH0t\Desktop\Reservaciones\librerias\obj\Debug\librerias.csprojResolveAssemblyReference.cache
+C:\Users\Suns0lH0t\Desktop\Reservaciones\librerias\obj\Debug\librerias.dll
+C:\Users\Suns0lH0t\Desktop\Reservaciones\librerias\obj\Debug\librerias.pdb
+C:\Users\consultoria\Desktop\Reservaciones\librerias\bin\Debug\librerias.dll
+C:\Users\consultoria\Desktop\Reservaciones\librerias\bin\Debug\librerias.pdb
+C:\Users\consultoria\Desktop\Reservaciones\librerias\bin\Debug\MahApps.Metro.dll
+C:\Users\consultoria\Desktop\Reservaciones\librerias\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\consultoria\Desktop\Reservaciones\librerias\bin\Debug\MahApps.Metro.pdb
+C:\Users\consultoria\Desktop\Reservaciones\librerias\bin\Debug\MahApps.Metro.xml
+C:\Users\consultoria\Desktop\Reservaciones\librerias\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\consultoria\Desktop\Reservaciones\librerias\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\consultoria\Desktop\Reservaciones\librerias\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\consultoria\Desktop\Reservaciones\librerias\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\consultoria\Desktop\Reservaciones\librerias\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\consultoria\Desktop\Reservaciones\librerias\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\consultoria\Desktop\Reservaciones\librerias\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\consultoria\Desktop\Reservaciones\librerias\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\consultoria\Desktop\Reservaciones\librerias\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\consultoria\Desktop\Reservaciones\librerias\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\consultoria\Desktop\Reservaciones\librerias\obj\Debug\librerias.csprojResolveAssemblyReference.cache
+C:\Users\consultoria\Desktop\Reservaciones\librerias\obj\Debug\librerias.dll
+C:\Users\consultoria\Desktop\Reservaciones\librerias\obj\Debug\librerias.pdb
+C:\Users\juan.salazar\Documents\Reservaciones michel\librerias\bin\Debug\librerias.dll
+C:\Users\juan.salazar\Documents\Reservaciones michel\librerias\bin\Debug\librerias.pdb
+C:\Users\juan.salazar\Documents\Reservaciones michel\librerias\bin\Debug\MahApps.Metro.dll
+C:\Users\juan.salazar\Documents\Reservaciones michel\librerias\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\juan.salazar\Documents\Reservaciones michel\librerias\bin\Debug\MahApps.Metro.pdb
+C:\Users\juan.salazar\Documents\Reservaciones michel\librerias\bin\Debug\MahApps.Metro.xml
+C:\Users\juan.salazar\Documents\Reservaciones michel\librerias\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\juan.salazar\Documents\Reservaciones michel\librerias\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\juan.salazar\Documents\Reservaciones michel\librerias\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\juan.salazar\Documents\Reservaciones michel\librerias\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\juan.salazar\Documents\Reservaciones michel\librerias\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\juan.salazar\Documents\Reservaciones michel\librerias\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\juan.salazar\Documents\Reservaciones michel\librerias\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\juan.salazar\Documents\Reservaciones michel\librerias\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\juan.salazar\Documents\Reservaciones michel\librerias\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\juan.salazar\Documents\Reservaciones michel\librerias\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\juan.salazar\Documents\Reservaciones michel\librerias\obj\Debug\librerias.dll
+C:\Users\juan.salazar\Documents\Reservaciones michel\librerias\obj\Debug\librerias.pdb
+C:\Users\juan.salazar\Documents\Reservaciones michel\librerias\bin\Debug\librerias.dll.config
+C:\Users\juan.salazar\Documents\Reservaciones michel\librerias\obj\Debug\librerias.csprojResolveAssemblyReference.cache
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\librerias\bin\Debug\librerias.dll.config
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\librerias\bin\Debug\librerias.dll
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\librerias\bin\Debug\librerias.pdb
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\librerias\bin\Debug\MahApps.Metro.dll
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\librerias\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\librerias\bin\Debug\MahApps.Metro.pdb
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\librerias\bin\Debug\MahApps.Metro.xml
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\librerias\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\librerias\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\librerias\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\librerias\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\librerias\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\librerias\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\librerias\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\librerias\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\librerias\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\librerias\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\librerias\obj\Debug\librerias.dll
+C:\Users\jesus.indriago\Documents\Reservas\Reservas\librerias\obj\Debug\librerias.pdb
+C:\Users\consultoria\Desktop\Reservas\librerias\bin\Debug\librerias.dll.config
+C:\Users\consultoria\Desktop\Reservas\librerias\bin\Debug\librerias.dll
+C:\Users\consultoria\Desktop\Reservas\librerias\bin\Debug\librerias.pdb
+C:\Users\consultoria\Desktop\Reservas\librerias\bin\Debug\MahApps.Metro.dll
+C:\Users\consultoria\Desktop\Reservas\librerias\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\consultoria\Desktop\Reservas\librerias\bin\Debug\MahApps.Metro.pdb
+C:\Users\consultoria\Desktop\Reservas\librerias\bin\Debug\MahApps.Metro.xml
+C:\Users\consultoria\Desktop\Reservas\librerias\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\consultoria\Desktop\Reservas\librerias\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\consultoria\Desktop\Reservas\librerias\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\consultoria\Desktop\Reservas\librerias\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\consultoria\Desktop\Reservas\librerias\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\consultoria\Desktop\Reservas\librerias\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\consultoria\Desktop\Reservas\librerias\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\consultoria\Desktop\Reservas\librerias\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\consultoria\Desktop\Reservas\librerias\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\consultoria\Desktop\Reservas\librerias\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\consultoria\Desktop\Reservas\librerias\obj\Debug\librerias.csprojResolveAssemblyReference.cache
+C:\Users\consultoria\Desktop\Reservas\librerias\obj\Debug\librerias.dll
+C:\Users\consultoria\Desktop\Reservas\librerias\obj\Debug\librerias.pdb
+C:\Users\consultoria\Desktop\Reservas Peru\librerias\bin\Debug\librerias.dll.config
+C:\Users\consultoria\Desktop\Reservas Peru\librerias\bin\Debug\librerias.dll
+C:\Users\consultoria\Desktop\Reservas Peru\librerias\bin\Debug\librerias.pdb
+C:\Users\consultoria\Desktop\Reservas Peru\librerias\bin\Debug\MahApps.Metro.dll
+C:\Users\consultoria\Desktop\Reservas Peru\librerias\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\consultoria\Desktop\Reservas Peru\librerias\bin\Debug\MahApps.Metro.pdb
+C:\Users\consultoria\Desktop\Reservas Peru\librerias\bin\Debug\MahApps.Metro.xml
+C:\Users\consultoria\Desktop\Reservas Peru\librerias\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\consultoria\Desktop\Reservas Peru\librerias\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\consultoria\Desktop\Reservas Peru\librerias\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\consultoria\Desktop\Reservas Peru\librerias\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\consultoria\Desktop\Reservas Peru\librerias\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\consultoria\Desktop\Reservas Peru\librerias\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\consultoria\Desktop\Reservas Peru\librerias\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\consultoria\Desktop\Reservas Peru\librerias\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\consultoria\Desktop\Reservas Peru\librerias\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\consultoria\Desktop\Reservas Peru\librerias\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\consultoria\Desktop\Reservas Peru\librerias\obj\Debug\librerias.dll
+C:\Users\consultoria\Desktop\Reservas Peru\librerias\obj\Debug\librerias.pdb
+C:\Users\consultoria\Desktop\Reservas Peru\librerias\obj\Debug\librerias.csprojResolveAssemblyReference.cache
+\\sunsolcarapp08\Desarrollo\Reservas Peru\librerias\bin\Debug\librerias.dll.config
+\\sunsolcarapp08\Desarrollo\Reservas Peru\librerias\bin\Debug\librerias.dll
+\\sunsolcarapp08\Desarrollo\Reservas Peru\librerias\bin\Debug\librerias.pdb
+\\sunsolcarapp08\Desarrollo\Reservas Peru\librerias\bin\Debug\MahApps.Metro.dll
+\\sunsolcarapp08\Desarrollo\Reservas Peru\librerias\bin\Debug\System.Windows.Interactivity.dll
+\\sunsolcarapp08\Desarrollo\Reservas Peru\librerias\bin\Debug\MahApps.Metro.pdb
+\\sunsolcarapp08\Desarrollo\Reservas Peru\librerias\bin\Debug\MahApps.Metro.xml
+\\sunsolcarapp08\Desarrollo\Reservas Peru\librerias\bin\Debug\de\System.Windows.Interactivity.resources.dll
+\\sunsolcarapp08\Desarrollo\Reservas Peru\librerias\bin\Debug\en\System.Windows.Interactivity.resources.dll
+\\sunsolcarapp08\Desarrollo\Reservas Peru\librerias\bin\Debug\es\System.Windows.Interactivity.resources.dll
+\\sunsolcarapp08\Desarrollo\Reservas Peru\librerias\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+\\sunsolcarapp08\Desarrollo\Reservas Peru\librerias\bin\Debug\it\System.Windows.Interactivity.resources.dll
+\\sunsolcarapp08\Desarrollo\Reservas Peru\librerias\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+\\sunsolcarapp08\Desarrollo\Reservas Peru\librerias\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+\\sunsolcarapp08\Desarrollo\Reservas Peru\librerias\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+\\sunsolcarapp08\Desarrollo\Reservas Peru\librerias\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+\\sunsolcarapp08\Desarrollo\Reservas Peru\librerias\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+\\sunsolcarapp08\Desarrollo\Reservas Peru\librerias\obj\Debug\librerias.dll
+\\sunsolcarapp08\Desarrollo\Reservas Peru\librerias\obj\Debug\librerias.pdb
+C:\Users\juan.salazar\Documents\Reservas Peru\librerias\bin\Debug\librerias.dll.config
+C:\Users\juan.salazar\Documents\Reservas Peru\librerias\bin\Debug\librerias.dll
+C:\Users\juan.salazar\Documents\Reservas Peru\librerias\bin\Debug\librerias.pdb
+C:\Users\juan.salazar\Documents\Reservas Peru\librerias\bin\Debug\MahApps.Metro.dll
+C:\Users\juan.salazar\Documents\Reservas Peru\librerias\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\juan.salazar\Documents\Reservas Peru\librerias\bin\Debug\MahApps.Metro.pdb
+C:\Users\juan.salazar\Documents\Reservas Peru\librerias\bin\Debug\MahApps.Metro.xml
+C:\Users\juan.salazar\Documents\Reservas Peru\librerias\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\juan.salazar\Documents\Reservas Peru\librerias\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\juan.salazar\Documents\Reservas Peru\librerias\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\juan.salazar\Documents\Reservas Peru\librerias\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\juan.salazar\Documents\Reservas Peru\librerias\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\juan.salazar\Documents\Reservas Peru\librerias\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\juan.salazar\Documents\Reservas Peru\librerias\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\juan.salazar\Documents\Reservas Peru\librerias\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\juan.salazar\Documents\Reservas Peru\librerias\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\juan.salazar\Documents\Reservas Peru\librerias\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\juan.salazar\Documents\Reservas Peru\librerias\obj\Debug\librerias.dll
+C:\Users\juan.salazar\Documents\Reservas Peru\librerias\obj\Debug\librerias.pdb
+C:\Users\juan.salazar\Documents\Reservas Peru\librerias\obj\Debug\librerias.csprojResolveAssemblyReference.cache

@@ -1,0 +1,180 @@
+﻿<Page x:Class="InventarioToallas.usuario"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:gl="clr-namespace:System.Globalization;assembly=mscorlib"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+     xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+      mc:Ignorable="d"
+	Title="Usuarios" Width="auto" Height="auto" Loaded="Page_Loaded">
+
+    <Grid Margin="0,0,0,42">
+        <GroupBox Grid.Row="0" Header="Retales" Margin="10,0,10,37">
+            <GroupBox.HeaderTemplate>
+                <DataTemplate>
+                    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="36">
+                        <Label Content="Usuarios" Foreground="White" FontWeight="Bold" FontSize="16" Margin="5,0,0,0"
+                			HorizontalAlignment="Left" VerticalContentAlignment="Center"/>
+                    </Grid>
+
+                </DataTemplate>
+            </GroupBox.HeaderTemplate>
+
+        </GroupBox>
+        <Grid Margin="0,0,0,37">
+
+            <Button Cursor="Hand" Name="BtnNvUsuario" BorderBrush="Green"  Style="{StaticResource AccentedSquareButtonStyle}" Margin="24,54,0,0" Click="BtnNvUsuario_Click" HorizontalAlignment="Left" Width="48" Height="48" VerticalAlignment="Top" ToolTip="Nuevo usuario">
+                <Button.Background>
+                    <ImageBrush ImageSource="imagenes/nuevo.png" Stretch="None"/>
+                </Button.Background>
+            </Button>
+            <TextBox x:Name="txtBuscarUsu" Margin="100,54,0,0" Height="48"
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Buscar"
+            			IsEnabled="true" Text="" FontSize="11" Width="345" HorizontalAlignment="Left" VerticalAlignment="Top" KeyUp="txtBuscarUsu_KeyUp"/>
+            <DataGrid Margin="24,117,19,80" x:Name="dtgrdusuarios"  ItemsSource="{Binding}" AutoGenerateColumns="false" AlternationCount="1" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserAddRows="False" CanUserResizeRows="False" CanUserSortColumns="False" ToolTip="Doble click para modificar un usuario" HorizontalScrollBarVisibility="Disabled" HorizontalContentAlignment="Center" PreviewMouseDoubleClick="dtgrdusuarios_PreviewMouseDoubleClick" MouseDoubleClick="dtgrdusuarios_MouseDoubleClick" ScrollViewer.CanContentScroll="True" 
+      ScrollViewer.VerticalScrollBarVisibility="Auto"
+      ScrollViewer.HorizontalScrollBarVisibility="Auto">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding Mode=OneWay,Path=nombre}"  CanUserResize="False" IsReadOnly="True" Header="nombre">
+                        <DataGridTextColumn.CellStyle>
+                            <Style>
+                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                            </Style>
+                        </DataGridTextColumn.CellStyle>
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Binding="{Binding Mode=OneWay,Path=apellido}"  CanUserResize="False" IsReadOnly="True" Header="Apellido">
+                        <DataGridTextColumn.CellStyle>
+                            <Style>
+                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                            </Style>
+                        </DataGridTextColumn.CellStyle>
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Binding="{Binding Mode=OneWay,Path=login}"  CanUserResize="False" IsReadOnly="True" Header="login">
+                        <DataGridTextColumn.CellStyle>
+                            <Style>
+                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                            </Style>
+                        </DataGridTextColumn.CellStyle>
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Binding="{Binding Mode=OneWay,Path=tipo}"  CanUserResize="False" IsReadOnly="True" Header="Perfil">
+                        <DataGridTextColumn.CellStyle>
+                            <Style>
+                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                            </Style>
+                        </DataGridTextColumn.CellStyle>
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Visibility="Hidden" Binding="{Binding Mode=OneWay,Path=clave}"  CanUserResize="False" IsReadOnly="True" Header="Clave">
+                        <DataGridTextColumn.CellStyle>
+                            <Style>
+                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                            </Style>
+                        </DataGridTextColumn.CellStyle>
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Visibility="Hidden" Binding="{Binding Mode=OneWay,Path=idUsuario}"  CanUserResize="False" IsReadOnly="True" Header="Id">
+                        <DataGridTextColumn.CellStyle>
+                            <Style>
+                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                            </Style>
+                        </DataGridTextColumn.CellStyle>
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Visibility="Hidden" Binding="{Binding Mode=OneWay,Path=activo}"  CanUserResize="False" IsReadOnly="True" Header="activo">
+                        <DataGridTextColumn.CellStyle>
+                            <Style>
+                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                            </Style>
+                        </DataGridTextColumn.CellStyle>
+                    </DataGridTextColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <Controls:Flyout Header="Nuevo Usuario" Position="Left" Margin="10,14,-164,-14" HorizontalAlignment="Left" Width="665" x:Name="flNuevo" Theme="Light" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" BorderBrush="{DynamicResource {x:Static SystemColors.HotTrackBrushKey}}" Height="505">
+
+                <Grid Height="430" Width="653" HorizontalAlignment="Right" Margin="0,0,-38,0">
+
+                    <TextBox x:Name="txtIdUsuario" Visibility="Hidden"
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Nombre"
+            			IsEnabled="true" Text="" FontSize="11" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+
+
+
+                    <TextBox x:Name="txtNombre" Margin="14,38,0,0" Height="38"
+            			
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Nombre"
+            			IsEnabled="true" Text="" FontSize="11" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top" LostFocus="txtNombre_LostFocus"/>
+                    <TextBox x:Name="txtApellido" Margin="14,76,0,0" Height="38"
+            		
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Apellido"
+            			IsEnabled="true" Text="" FontSize="11" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top" LostFocus="txtApellido_LostFocus"/>
+                    <TextBox x:Name="txtLogin" Margin="14,114,0,0" Height="38"
+            			
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Login"
+            			IsEnabled="true" Text="" FontSize="11" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top" LostFocus="txtLogin_LostFocus"/>
+                    <PasswordBox x:Name="txtClave" Margin="14,152,0,0"
+            			Controls:TextBoxHelper.Watermark="Password"
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"            			
+            			Controls:TextBoxHelper.ButtonCommand="{Binding TextBoxButtonCmd, Mode=OneWay}"
+            			Password="" FontSize="11" ForceCursor="True" Height="38" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                    <ComboBox x:Name="cmbTipo" Width="500" Height="38"
+            			Controls:TextBoxHelper.Watermark="Perfil"
+            			Controls:TextBoxHelper.UseFloatingWatermark="True" Margin="14,228,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="11"
+            			/>
+                    <ComboBox x:Name="cmbEstado" Width="500" Height="38"
+            			Controls:TextBoxHelper.Watermark="Estado"
+            			Controls:TextBoxHelper.UseFloatingWatermark="True" Margin="14,267,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="11"
+            			/>
+                    <Controls:Tile x:Name="tlGuardar" Cursor="Hand"  Height="52" Margin="0,0,92,43" Width="58" VerticalAlignment="Bottom" HorizontalAlignment="Right" ToolTip="Guardar" Click="tlGuardar_Click" >
+                        <Controls:Tile.Effect>
+                            <DropShadowEffect BlurRadius="8" Opacity="0.95" ShadowDepth="9"/>
+                        </Controls:Tile.Effect>
+                        <Image Source="imagenes/guardar.png" Width="48"/>
+                    </Controls:Tile>
+                    <Controls:Tile x:Name="tlCancelar" Cursor="Hand"  Height="52" Margin="0,335,155,0" Width="58" HorizontalAlignment="Right" VerticalAlignment="Top" Click="tlCancelar_Click" RenderTransformOrigin="0.431,-1.538" >
+                        <Controls:Tile.Effect>
+                            <DropShadowEffect Opacity="0.95" ShadowDepth="9" BlurRadius="8"/>
+                        </Controls:Tile.Effect>
+                        <Image Source="imagenes/Cancel.png" Width="48" RenderTransformOrigin="0.611,1.417"/>
+                    </Controls:Tile>
+                    <PasswordBox x:Name="txtConfirmar" Margin="14,190,0,0"
+            			Controls:TextBoxHelper.Watermark="Confirmar password"
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			
+            			Controls:TextBoxHelper.ButtonCommand="{Binding TextBoxButtonCmd, Mode=OneWay}"
+            			Password="" FontSize="11" ForceCursor="True" Height="38" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top" LostFocus="txtConfirmar_LostFocus" />
+
+                    <Image x:Name="ojo" Source="imagenes/ojo.png" Width="38" Height="38" Margin="512,152,0,0" ToolTip="Ver clave" MouseEnter="ojo_MouseEnter" MouseLeave="ojo_MouseLeave" HorizontalAlignment="Left" VerticalAlignment="Top" />
+
+                    <Image x:Name="ojo_1" Source="imagenes/ojo.png" Width="38" Height="38" Margin="512,190,0,0" ToolTip="Ver clave" MouseEnter="ojo_1_MouseEnter" MouseLeave="ojo_1_MouseLeave" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+                    <TextBox x:Name="txtClaveoculta" Margin="14,152,0,0" Height="38"
+            			
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Password"
+            			IsEnabled="true" Text="" FontSize="11" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Hidden"  />
+                    <TextBox x:Name="txtConfirmaroculta" Margin="14,190,0,0" Height="38"
+            			
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Confirmar password"
+            			IsEnabled="true" Text="" FontSize="11" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Hidden"   />
+
+                    <Label Content="(*)" HorizontalAlignment="Left" Margin="550,48,0,0" VerticalAlignment="Top" Foreground="#FFF30C0C"/>
+                    <Label Content="(*)" HorizontalAlignment="Left" Margin="550,88,0,0" VerticalAlignment="Top" Foreground="#FFF30C0C" RenderTransformOrigin="0.458,2.077"/>
+                    <Label Content="(*)" HorizontalAlignment="Left" Margin="550,127,0,0" VerticalAlignment="Top" Foreground="#FFF30C0C"/>
+                    <Label Content="(*)" HorizontalAlignment="Left" Margin="550,164,0,0" VerticalAlignment="Top" Foreground="#FFF30C0C"/>
+                    <Label Content="(*) Campos obligatorios" HorizontalAlignment="Left" Margin="299,331,0,0" VerticalAlignment="Top" Foreground="#FFF30C0C"/>
+                    <Label Content="(*)" HorizontalAlignment="Left" Margin="550,200,0,0" VerticalAlignment="Top" Foreground="#FFF30C0C"/>
+                    <Label Content="(*)" HorizontalAlignment="Left" Margin="550,240,0,0" VerticalAlignment="Top" Foreground="#FFF30C0C"/>
+                    <Label Content="(*)" HorizontalAlignment="Left" Margin="550,280,0,0" VerticalAlignment="Top" Foreground="#FFF30C0C"/>
+
+                </Grid>
+            </Controls:Flyout>
+
+        </Grid>
+
+    </Grid>
+</Page>

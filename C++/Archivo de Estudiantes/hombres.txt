@@ -1,0 +1,2 @@
+Cedula: 17655152 || Nombre: ESPARTACO || Apellido: ROMANO || Edad: 26 || Sexo: M || Promedio: 11
+Cedula: 15000000 || Nombre: PEDRO || Apellido: MAITA || Edad: 22 || Sexo: M || Promedio: 13

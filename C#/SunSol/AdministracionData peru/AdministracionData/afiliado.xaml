@@ -1,0 +1,336 @@
+﻿<Page x:Class="AdministracionData.afiliado"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="1000"
+	Title="Afiliados" Height="auto" Width="auto" Loaded="Page_Loaded">
+
+    <Grid Margin="0,0,0,10" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="278*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <GroupBox Grid.Row="0" Header="Retales" Margin="0,0,0,7">
+            <GroupBox.HeaderTemplate>
+                <DataTemplate>
+                    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="36">
+                        <Label Content="Afiliados" Foreground="White" FontWeight="Bold" FontSize="16" Margin="5,0,0,0"
+							HorizontalAlignment="Left" VerticalContentAlignment="Center"/>
+
+
+                    </Grid>
+
+                </DataTemplate>
+            </GroupBox.HeaderTemplate>
+
+
+
+
+        </GroupBox>
+        <TextBox x:Name="txtCedula" Margin="24,54,0,0" Height="38"            			
+        		Controls:TextBoxHelper.UseFloatingWatermark="True"
+        		Controls:TextBoxHelper.Watermark="Documento de identidad"
+        		IsEnabled="true" Text="" FontSize="11" Width="266" HorizontalAlignment="Left" VerticalAlignment="Top" KeyUp="txtCedula_KeyUp"/>
+        <TextBox x:Name="txtTelefono" Margin="306,54,0,0" Height="38"
+            			
+        		Controls:TextBoxHelper.UseFloatingWatermark="True"
+        		Controls:TextBoxHelper.Watermark="Teléfonos"
+        		IsEnabled="true" Text="" FontSize="11" Width="266" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+        <DataGrid x:Name="dtgrdclientes" FontSize="10"  ItemsSource="{Binding}" AutoGenerateColumns="false" AlternationCount="1" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserAddRows="False" CanUserResizeRows="False" CanUserSortColumns="False" ToolTip="Doble click para seleccionar un cliente" HorizontalContentAlignment="Center" Margin="24,117,32,32" AreRowDetailsFrozen="True" MouseDoubleClick="dtgrdclientes_MouseDoubleClick" SourceUpdated="dtgrdclientes_SourceUpdated">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding documento_identidad, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="N° documento">
+                    <DataGridTextColumn.CellStyle>
+                        <Style>
+                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                        </Style>
+                    </DataGridTextColumn.CellStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding nombre, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="nombre">
+                    <DataGridTextColumn.CellStyle>
+                        <Style>
+                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                        </Style>
+                    </DataGridTextColumn.CellStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding apellido, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="Apellido">
+                    <DataGridTextColumn.CellStyle>
+                        <Style>
+                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                        </Style>
+                    </DataGridTextColumn.CellStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding direccion, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="dirección">
+                    <DataGridTextColumn.CellStyle>
+                        <Style>
+                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                        </Style>
+                    </DataGridTextColumn.CellStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding t_habitacion, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="Telf. habitación">
+                    <DataGridTextColumn.CellStyle>
+                        <Style>
+                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                        </Style>
+                    </DataGridTextColumn.CellStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding t_celular, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="Telf. celular">
+                    <DataGridTextColumn.CellStyle>
+                        <Style>
+                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                        </Style>
+                    </DataGridTextColumn.CellStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding t_oficina, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="Telf. oficina">
+                    <DataGridTextColumn.CellStyle>
+                        <Style>
+                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                        </Style>
+                    </DataGridTextColumn.CellStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding correo, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="correo">
+                    <DataGridTextColumn.CellStyle>
+                        <Style>
+                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                        </Style>
+                    </DataGridTextColumn.CellStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding C_Locacion.codigo, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="locación">
+                    <DataGridTextColumn.CellStyle>
+                        <Style>
+                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                        </Style>
+                    </DataGridTextColumn.CellStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding profesion, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="profesión">
+                    <DataGridTextColumn.CellStyle>
+                        <Style>
+                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                        </Style>
+                    </DataGridTextColumn.CellStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding edad, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="edad">
+                    <DataGridTextColumn.CellStyle>
+                        <Style>
+                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                        </Style>
+                    </DataGridTextColumn.CellStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding edo_civil, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="edo. civil">
+                    <DataGridTextColumn.CellStyle>
+                        <Style>
+                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                        </Style>
+                    </DataGridTextColumn.CellStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding f_nacimiento, Mode=OneWay,StringFormat=\{0:dd-MM-yyyy\}}"  CanUserResize="False" IsReadOnly="True" Header="f. nacimiento">
+                    <DataGridTextColumn.CellStyle>
+                        <Style>
+                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                        </Style>
+                    </DataGridTextColumn.CellStyle>
+                </DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Controls:Flyout  Header="Nuevo prospecto de cliente" Position="Left" Margin="10,10,0,7" 
+            	HorizontalAlignment="Left" Width="717" x:Name="flNuevo" Theme="Light" 
+            	RenderTransformOrigin="0.5,0.5" BorderBrush="{DynamicResource {x:Static SystemColors.HotTrackBrushKey}}" 
+            	IsOpenChanged="flNuevo_IsOpenChanged" Height="auto" VerticalAlignment="Bottom" ScrollViewer.CanContentScroll="True" 
+            	ScrollViewer.VerticalScrollBarVisibility="Auto">
+
+
+            <Grid Margin="98,0,-38,0" Height="722"     >
+                <TextBox x:Name="txtCedul" Margin="0,78,0,0" Height="32"            			
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Documento de identidad"
+            			IsEnabled="true" Text="" FontSize="9" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top" IsTabStop="False" LostFocus="txtCedul_LostFocus"/>
+
+                <TextBox x:Name="txtNombre" Margin="0,108,0,0" Height="32"
+            			
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Nombre"
+            			IsEnabled="true" Text="" FontSize="9" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top" LostFocus="txtNombre_LostFocus"/>
+                <TextBox x:Name="txtApellido" Margin="0,140,0,0" Height="32"
+            		
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Apellido"
+            			IsEnabled="true" Text="" FontSize="9" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top" LostFocus="txtApellido_LostFocus"/>
+                <ComboBox x:Name="cmbPais" Margin="0,168,0,0" Height="30"
+            			
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="País"
+            			IsEnabled="true" Text="" FontSize="9" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                <ComboBox  x:Name="cmbtipo" Margin="0,49,0,0" Height="30"
+            			
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Tipo de documento"
+            			IsEnabled="true" Text="" FontSize="9" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top" SelectionChanged="cmbtipo_SelectionChanged" />
+
+                <Controls:Tile x:Name="tlGuardar"  Height="52" Margin="0,0,66,34" Width="58" HorizontalAlignment="Right" ToolTip="Guardar" Click="tlGuardar_Click" VerticalAlignment="Bottom" >
+                    <Controls:Tile.Effect>
+                        <DropShadowEffect BlurRadius="8" Opacity="0.95" ShadowDepth="9"/>
+                    </Controls:Tile.Effect>
+                    <Image Source="imagenes/guardar.png" Width="48"/>
+                </Controls:Tile>
+                <Controls:Tile x:Name="tlCancelar"  Height="52" Margin="0,0,129,34" Width="58" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="tlCancelar_Click" >
+                    <Controls:Tile.Effect>
+                        <DropShadowEffect Opacity="0.95" ShadowDepth="9" BlurRadius="8"/>
+                    </Controls:Tile.Effect>
+                    <Image Source="imagenes/Cancel.png" Width="48"/>
+                </Controls:Tile>
+                <TextBox x:Name="txtDireccion" Margin="0,198,0,0" Height="32"
+            		
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Dirección"
+            			IsEnabled="true" Text="" FontSize="9" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top" LostFocus="txtDireccion_LostFocus"/>
+                <TextBox x:Name="txtThabitacion" Margin="0,230,0,0" Height="32"
+            		
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Teléfono habitación"
+            			IsEnabled="true" Text="" FontSize="9" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top" LostFocus="txtThabitacion_LostFocus"/>
+                <TextBox x:Name="txtTcelular" Margin="0,258,0,0" Height="32"
+            		
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Teléfono celular 1"
+            			IsEnabled="true" Text="" FontSize="9" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top" LostFocus="txtTcelular_LostFocus"/>
+                <TextBox x:Name="txtTcelular2" Margin="0,290,0,0" Height="32"
+            		
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Teléfono celular 2"
+            			IsEnabled="true" Text="" FontSize="9" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top" LostFocus="txtTcelular2_LostFocus"/>
+                <ComboBox x:Name="cmbStatusPrincipal" Margin="0,320,0,0" Height="30"
+            			
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Estatus principal"
+            			IsEnabled="true" Text="" FontSize="9" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top" SelectionChanged="cmbStatusPrincipal_SelectionChanged"/>
+                <ComboBox x:Name="cmbLocacion" Margin="0,19,0,0" Height="30"
+            			
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Locación / Campaña"
+            			IsEnabled="true" Text="" FontSize="9" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                <TextBox x:Name="txtcorreo" Margin="0,408,0,0" Height="32"
+            		
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Correo electrónico"
+            			IsEnabled="true" Text="" FontSize="9" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top" LostFocus="txtcorreo_LostFocus"/>
+                <TextBox x:Name="txtProfesion" Margin="0,440,0,0" Height="32"
+            		
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Profesión"
+            			IsEnabled="true" Text="" FontSize="9" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top" LostFocus="txtProfesion_LostFocus"/>
+                <TextBox x:Name="txtEdad" Margin="0,504,0,0" Height="32"
+            		
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Edad"
+            			IsEnabled="true" Text="" FontSize="9" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top" KeyDown="txtEdad_KeyDown"/>
+                <ComboBox x:Name="cmbEdoCivil" Margin="0,536,0,0" Height="30"
+            		
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Estado civil"
+            			IsEnabled="true" Text="" FontSize="9" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top" LostFocus="txtEdoCivil_LostFocus"/>
+
+                <DatePicker x:Name="dpFechaNac" Margin="0,472,0,0" Height="32"
+            		
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Fecha ingreso"
+            			IsEnabled="true" Text="" FontSize="9" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top" DisplayDateStart="1930-01-01"/>
+                <Controls:Tile x:Name="tlAcompanante"  Height="52" Margin="0,1,66,0" Width="58" HorizontalAlignment="Right" VerticalAlignment="Top" Click="tlAcompanante_Click" IsEnabled="False" >
+                    <Controls:Tile.Effect>
+                        <DropShadowEffect Opacity="0.95" ShadowDepth="9" BlurRadius="8"/>
+                    </Controls:Tile.Effect>
+                    <Image Source="imagenes/acompanante.png" Width="48"/>
+                </Controls:Tile>
+                <ComboBox x:Name="cmbStatus" Margin="0,348,0,0" Height="30"
+            			
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Estatus"
+            			IsEnabled="true" Text="" FontSize="9" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top" SelectionChanged="cmbStatus_SelectionChanged"/>
+                <ComboBox x:Name="cmbStatusCita" Margin="0,378,0,0" Height="30"
+            			
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Estatus Cita"
+            			IsEnabled="true" Text="" FontSize="9" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top" SelectionChanged="cmbStatusCita_SelectionChanged"/>
+                <TextBox x:Name="txtobservacion" Margin="0,566,0,0"            		
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Observaciones"
+            			IsEnabled="true" Text="" FontSize="9" Width="500" HorizontalAlignment="Left" LostFocus="txtobservacion_LostFocus" Height="30" VerticalAlignment="Top"/>
+                <ComboBox x:Name="cmbPromotor" Margin="0,596,0,0"            		
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Promotor"
+            			IsEnabled="true" Text="" FontSize="9" Width="500" HorizontalAlignment="Left" LostFocus="txtobservacion_LostFocus" Height="30" VerticalAlignment="Top"/>
+                <Controls:Tile x:Name="tlDetalleCita"  Height="52" Margin="0,348,66,0" Width="58" HorizontalAlignment="Right" VerticalAlignment="Top" IsManipulationEnabled="True" IsEnabled="False" Click="tlDetalleCita_Click" >
+                    <Controls:Tile.Effect>
+                        <DropShadowEffect Opacity="0.95" ShadowDepth="9" BlurRadius="8"/>
+                    </Controls:Tile.Effect>
+                    <Image Source="imagenes/Calendar.png" Width="48"/>
+                </Controls:Tile>
+                <Label Content="(*)" HorizontalAlignment="Left" Margin="505,258,0,0" VerticalAlignment="Top" Foreground="#FFF30C0C"/>
+                <Label Content="(*) Campos obligatorios" HorizontalAlignment="Left" Margin="320,0,0,46" VerticalAlignment="Bottom" Foreground="#FFF30C0C"/>
+                <Label Content="(*)" HorizontalAlignment="Left" Margin="505,111,0,0" VerticalAlignment="Top" Foreground="#FFF30C0C"/>
+                <Label Content="(*)" HorizontalAlignment="Left" Margin="505,142,0,0" VerticalAlignment="Top" Foreground="#FFF30C0C"/>
+
+            </Grid>
+
+        </Controls:Flyout>
+        <Controls:Flyout Header="Acompañante" Position="Left" HorizontalAlignment="Left" Width="649" x:Name="flAcompanante" Theme="Light" RenderTransformOrigin="0.502,0.446" BorderBrush="{DynamicResource {x:Static SystemColors.HotTrackBrushKey}}" Margin="24,10,0,0" VerticalAlignment="Top" Height="654" >
+
+
+            <Grid   Width="547" Margin="40,43,38,0" Height="503" VerticalAlignment="Top">
+                <ComboBox  x:Name="cmbtipoA" Margin="10,0,0,0" Height="48"            			
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Tipo de documento"
+            			IsEnabled="true" Text="" FontSize="11" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top" SelectionChanged="cmbtipoA_SelectionChanged" />
+
+                <TextBox x:Name="txtidentidad" Margin="10,48,0,0" Height="38"            			
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Documento de identidad"
+            			IsEnabled="true" Text="" FontSize="11" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top" IsTabStop="False" LostFocus="txtidentidad_LostFocus"/>
+
+                <TextBox x:Name="txtNombreA" Margin="10,86,0,0"            			
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Nombres"
+            			IsEnabled="true" Text="" FontSize="11" Width="500" HorizontalAlignment="Left" LostFocus="txtNombreA_LostFocus" Height="38" VerticalAlignment="Top"/>
+
+                <TextBox x:Name="txtApellidoA" Margin="10,124,0,0"            		
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Apellidos"
+            			IsEnabled="true" Text="" FontSize="11" Width="500" HorizontalAlignment="Left" Height="38" VerticalAlignment="Top" LostFocus="txtApellidoA_LostFocus"/>
+
+                <TextBox x:Name="txtEdadA" Margin="10,162,0,0" Height="38"            		
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Edad"
+            			IsEnabled="true" Text="" FontSize="11" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top" KeyDown="txtEdad_KeyDown"/>
+
+                <TextBox x:Name="txtProfesionA" Margin="10,200,0,0" Height="38"            		
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Ocupación"
+            			IsEnabled="true" Text="" FontSize="11" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top" LostFocus="txtProfesionA_LostFocus"/>
+
+                <TextBox x:Name="txtTelefonoA" Margin="10,238,0,0" Height="38"            		
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Teléfono Ej: 412 1112211"
+            			IsEnabled="true" Text="" FontSize="11" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top" LostFocus="txtTelefonoA_LostFocus"/>
+
+                <TextBox x:Name="txtcorreoA" Margin="10,276,0,0" Height="38"            		
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Correo electrónico"
+            			IsEnabled="true" Text="" FontSize="11" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top" LostFocus="txtcorreoA_LostFocus"/>
+                <Controls:Tile x:Name="tlGuardaAcomp"  Height="52" Margin="485,333,0,0" Width="52" Click="tlGuardaAcomp_Click" VerticalAlignment="Top" HorizontalAlignment="Left" >
+                    <Controls:Tile.Effect>
+                        <DropShadowEffect Opacity="0.95" ShadowDepth="9" BlurRadius="8"/>
+                    </Controls:Tile.Effect>
+                    <Image Source="imagenes/guardar.png" Width="48"/>
+                </Controls:Tile>
+                <Label Content="(*) Campos obligatorios" HorizontalAlignment="Left" Margin="318,347,0,0" Foreground="#FFF30C0C" Height="26" VerticalAlignment="Top"/>
+                <Label Content="(*)" HorizontalAlignment="Left" Margin="515,86,0,0" VerticalAlignment="Top" Foreground="#FFF30C0C" Height="38"/>
+                <Label Content="(*)" HorizontalAlignment="Left" Margin="515,124,0,0" VerticalAlignment="Top" Foreground="#FFF30C0C" Height="38"/>
+                <Label Content="(*)" HorizontalAlignment="Left" Margin="515,238,0,0" VerticalAlignment="Top" Foreground="#FFF30C0C" Height="38"/>
+            </Grid>
+
+        </Controls:Flyout>
+    </Grid>
+
+</Page>

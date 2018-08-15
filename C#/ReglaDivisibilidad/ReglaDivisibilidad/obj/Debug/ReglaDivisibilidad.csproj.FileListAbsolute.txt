@@ -1,0 +1,8 @@
+D:\Documentos\Documentos S.C.J.J\Aplicaciones\C#\ReglaDivisibilidad\ReglaDivisibilidad\bin\Debug\ReglaDivisibilidad.exe.config
+D:\Documentos\Documentos S.C.J.J\Aplicaciones\C#\ReglaDivisibilidad\ReglaDivisibilidad\bin\Debug\ReglaDivisibilidad.exe
+D:\Documentos\Documentos S.C.J.J\Aplicaciones\C#\ReglaDivisibilidad\ReglaDivisibilidad\bin\Debug\ReglaDivisibilidad.pdb
+D:\Documentos\Documentos S.C.J.J\Aplicaciones\C#\ReglaDivisibilidad\ReglaDivisibilidad\obj\Debug\ReglaDivisibilidad.csprojResolveAssemblyReference.cache
+D:\Documentos\Documentos S.C.J.J\Aplicaciones\C#\ReglaDivisibilidad\ReglaDivisibilidad\obj\Debug\ReglaDivisibilidad.MainForm.resources
+D:\Documentos\Documentos S.C.J.J\Aplicaciones\C#\ReglaDivisibilidad\ReglaDivisibilidad\obj\Debug\ReglaDivisibilidad.csproj.GenerateResource.Cache
+D:\Documentos\Documentos S.C.J.J\Aplicaciones\C#\ReglaDivisibilidad\ReglaDivisibilidad\obj\Debug\ReglaDivisibilidad.exe
+D:\Documentos\Documentos S.C.J.J\Aplicaciones\C#\ReglaDivisibilidad\ReglaDivisibilidad\obj\Debug\ReglaDivisibilidad.pdb

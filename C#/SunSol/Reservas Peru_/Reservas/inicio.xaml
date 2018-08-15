@@ -1,0 +1,48 @@
+﻿<Controls:MetroWindow
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="Reservas.inicio"
+        Title="Inicio" Height="308" Width="350" IsMaxRestoreButtonEnabled="False" WindowStartupLocation="CenterScreen" Icon="icono/logo vacation.png">
+    <Grid>
+        <Image Source="icono/photo.jpg" Margin="112,45,116,143"/>
+        <GroupBox Grid.Row="0" Header="Retales" Margin="10">
+            <GroupBox.HeaderTemplate>
+                <DataTemplate>
+                    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="27">
+                        <Label Content="Acceso" Foreground="White" FontWeight="Bold" FontSize="16" Margin="5,0,0,0"
+                			HorizontalAlignment="Left" VerticalContentAlignment="Center"/>
+
+                    </Grid>
+                </DataTemplate>
+            </GroupBox.HeaderTemplate>
+            <Grid HorizontalAlignment="Stretch" VerticalAlignment="Center" Height="164" Margin="0,54,0,15">
+
+                <Grid.RowDefinitions>
+
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Stretch" Margin="10,29,10,38" Grid.RowSpan="2">
+                    <TextBox x:Name="txtUsuario" Margin="0, 10, 0, 0" Height="38"
+        				Controls:TextBoxHelper.ClearTextButton="True"
+        				Controls:TextBoxHelper.UseFloatingWatermark="True"
+        				Controls:TextBoxHelper.Watermark="Usuario"
+        				IsEnabled="true" Text="" FontSize="10" KeyDown="txtUsuario_KeyDown"/>
+                    <PasswordBox x:Name="txtClave" Margin="0, 10, 0, 0"
+        				Controls:TextBoxHelper.Watermark="Password"
+        				Controls:TextBoxHelper.UseFloatingWatermark="True"
+        				Controls:TextBoxHelper.ClearTextButton="True"
+        				Controls:TextBoxHelper.ButtonCommand="{Binding TextBoxButtonCmd, Mode=OneWay}"
+        				Password="" FontSize="10" ForceCursor="True" Height="38" KeyDown="txtClave_KeyDown" />
+                </StackPanel>
+
+            </Grid>
+
+        </GroupBox>
+        <Button x:Name="btnaceptar" Content="Aceptar" HorizontalAlignment="Left" Margin="239,230,0,0" VerticalAlignment="Top" Width="75" Click="btnaceptar_click"/>
+        <Border BorderThickness="1" BorderBrush="{DynamicResource AccentColorBrush}" Margin="0,0,0,-16"/>
+    </Grid>
+</Controls:MetroWindow>
+
+

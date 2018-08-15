@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsReservas" targetNamespace="http://tempuri.org/dsReservas.xsd" xmlns:mstns="http://tempuri.org/dsReservas.xsd" xmlns="http://tempuri.org/dsReservas.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="2" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ConexionSunsol" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConexionSunsol (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Reservas.Properties.Settings.GlobalReference.Default.ConexionSunsol" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ConexionPropia" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConexionPropia (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Reservas.Properties.Settings.GlobalReference.Default.ConexionPropia" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="CONTRATOS_PRUEBA_PeruConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="CONTRATOS_PRUEBA_PeruConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Reservas.Properties.Settings.GlobalReference.Default.CONTRATOS_PRUEBA_PeruConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="_V_reporteReservaTableAdapter" GeneratorDataComponentClassName="_V_reporteReservaTableAdapter" Name="_V_reporteReserva" UserDataComponentName="_V_reporteReservaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="CONTRATOS_PRUEBA_PeruConnectionString (Settings)" DbObjectName="CONTRATOS_PRUEBA.dbo._V_reporteReserva" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT idreserva, fechaI, fechaF, nombres, infante, ninio, adulto, puntos, montoTI, montoPA, status, cedula_rif, NroContrato, fechaReserva, mantenimiento, certificado, penalidad, Descripcion, localizador FROM dbo.[_V_reporteReserva]</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="idreserva" DataSetColumn="idreserva" />
+              <Mapping SourceColumn="fechaI" DataSetColumn="fechaI" />
+              <Mapping SourceColumn="fechaF" DataSetColumn="fechaF" />
+              <Mapping SourceColumn="nombres" DataSetColumn="nombres" />
+              <Mapping SourceColumn="infante" DataSetColumn="infante" />
+              <Mapping SourceColumn="ninio" DataSetColumn="ninio" />
+              <Mapping SourceColumn="adulto" DataSetColumn="adulto" />
+              <Mapping SourceColumn="puntos" DataSetColumn="puntos" />
+              <Mapping SourceColumn="montoTI" DataSetColumn="montoTI" />
+              <Mapping SourceColumn="montoPA" DataSetColumn="montoPA" />
+              <Mapping SourceColumn="status" DataSetColumn="status" />
+              <Mapping SourceColumn="cedula_rif" DataSetColumn="cedula_rif" />
+              <Mapping SourceColumn="NroContrato" DataSetColumn="NroContrato" />
+              <Mapping SourceColumn="fechaReserva" DataSetColumn="fechaReserva" />
+              <Mapping SourceColumn="mantenimiento" DataSetColumn="mantenimiento" />
+              <Mapping SourceColumn="certificado" DataSetColumn="certificado" />
+              <Mapping SourceColumn="penalidad" DataSetColumn="penalidad" />
+              <Mapping SourceColumn="Descripcion" DataSetColumn="Descripcion" />
+              <Mapping SourceColumn="localizador" DataSetColumn="localizador" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsReservas" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="dsReservas" msprop:Generator_UserDSName="dsReservas">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="_V_reporteReserva" msprop:Generator_TableClassName="_V_reporteReservaDataTable" msprop:Generator_TableVarName="table_V_reporteReserva" msprop:Generator_TablePropName="_V_reporteReserva" msprop:Generator_RowDeletingName="_V_reporteReservaRowDeleting" msprop:Generator_RowChangingName="_V_reporteReservaRowChanging" msprop:Generator_RowEvHandlerName="_V_reporteReservaRowChangeEventHandler" msprop:Generator_RowDeletedName="_V_reporteReservaRowDeleted" msprop:Generator_UserTableName="_V_reporteReserva" msprop:Generator_RowChangedName="_V_reporteReservaRowChanged" msprop:Generator_RowEvArgName="_V_reporteReservaRowChangeEvent" msprop:Generator_RowClassName="_V_reporteReservaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idreserva" msprop:Generator_ColumnVarNameInTable="columnidreserva" msprop:Generator_ColumnPropNameInRow="idreserva" msprop:Generator_ColumnPropNameInTable="idreservaColumn" msprop:Generator_UserColumnName="idreserva" type="xs:int" minOccurs="0" />
+              <xs:element name="fechaI" msprop:Generator_ColumnVarNameInTable="columnfechaI" msprop:Generator_ColumnPropNameInRow="fechaI" msprop:Generator_ColumnPropNameInTable="fechaIColumn" msprop:Generator_UserColumnName="fechaI" type="xs:dateTime" />
+              <xs:element name="fechaF" msprop:Generator_ColumnVarNameInTable="columnfechaF" msprop:Generator_ColumnPropNameInRow="fechaF" msprop:Generator_ColumnPropNameInTable="fechaFColumn" msprop:Generator_UserColumnName="fechaF" type="xs:dateTime" />
+              <xs:element name="nombres" msprop:Generator_ColumnVarNameInTable="columnnombres" msprop:Generator_ColumnPropNameInRow="nombres" msprop:Generator_ColumnPropNameInTable="nombresColumn" msprop:Generator_UserColumnName="nombres" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="90" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="infante" msprop:Generator_ColumnVarNameInTable="columninfante" msprop:Generator_ColumnPropNameInRow="infante" msprop:Generator_ColumnPropNameInTable="infanteColumn" msprop:Generator_UserColumnName="infante" type="xs:int" minOccurs="0" />
+              <xs:element name="ninio" msprop:Generator_ColumnVarNameInTable="columnninio" msprop:Generator_ColumnPropNameInRow="ninio" msprop:Generator_ColumnPropNameInTable="ninioColumn" msprop:Generator_UserColumnName="ninio" type="xs:int" minOccurs="0" />
+              <xs:element name="adulto" msprop:Generator_ColumnVarNameInTable="columnadulto" msprop:Generator_ColumnPropNameInRow="adulto" msprop:Generator_ColumnPropNameInTable="adultoColumn" msprop:Generator_UserColumnName="adulto" type="xs:int" minOccurs="0" />
+              <xs:element name="puntos" msprop:Generator_ColumnVarNameInTable="columnpuntos" msprop:Generator_ColumnPropNameInRow="puntos" msprop:Generator_ColumnPropNameInTable="puntosColumn" msprop:Generator_UserColumnName="puntos" type="xs:int" />
+              <xs:element name="montoTI" msprop:Generator_ColumnVarNameInTable="columnmontoTI" msprop:Generator_ColumnPropNameInRow="montoTI" msprop:Generator_ColumnPropNameInTable="montoTIColumn" msprop:Generator_UserColumnName="montoTI" type="xs:double" />
+              <xs:element name="montoPA" msprop:Generator_ColumnVarNameInTable="columnmontoPA" msprop:Generator_ColumnPropNameInRow="montoPA" msprop:Generator_ColumnPropNameInTable="montoPAColumn" msprop:Generator_UserColumnName="montoPA" type="xs:double" />
+              <xs:element name="status" msprop:Generator_ColumnVarNameInTable="columnstatus" msprop:Generator_ColumnPropNameInRow="status" msprop:Generator_ColumnPropNameInTable="statusColumn" msprop:Generator_UserColumnName="status">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cedula_rif" msprop:Generator_ColumnVarNameInTable="columncedula_rif" msprop:Generator_ColumnPropNameInRow="cedula_rif" msprop:Generator_ColumnPropNameInTable="cedula_rifColumn" msprop:Generator_UserColumnName="cedula_rif">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NroContrato" msprop:Generator_ColumnVarNameInTable="columnNroContrato" msprop:Generator_ColumnPropNameInRow="NroContrato" msprop:Generator_ColumnPropNameInTable="NroContratoColumn" msprop:Generator_UserColumnName="NroContrato" type="xs:int" />
+              <xs:element name="fechaReserva" msprop:Generator_ColumnVarNameInTable="columnfechaReserva" msprop:Generator_ColumnPropNameInRow="fechaReserva" msprop:Generator_ColumnPropNameInTable="fechaReservaColumn" msprop:Generator_UserColumnName="fechaReserva" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="mantenimiento" msprop:Generator_ColumnVarNameInTable="columnmantenimiento" msprop:Generator_ColumnPropNameInRow="mantenimiento" msprop:Generator_ColumnPropNameInTable="mantenimientoColumn" msprop:Generator_UserColumnName="mantenimiento" type="xs:double" minOccurs="0" />
+              <xs:element name="certificado" msprop:Generator_ColumnVarNameInTable="columncertificado" msprop:Generator_ColumnPropNameInRow="certificado" msprop:Generator_ColumnPropNameInTable="certificadoColumn" msprop:Generator_UserColumnName="certificado" type="xs:double" minOccurs="0" />
+              <xs:element name="penalidad" msprop:Generator_ColumnVarNameInTable="columnpenalidad" msprop:Generator_ColumnPropNameInRow="penalidad" msprop:Generator_ColumnPropNameInTable="penalidadColumn" msprop:Generator_UserColumnName="penalidad" type="xs:double" minOccurs="0" />
+              <xs:element name="Descripcion" msprop:Generator_ColumnVarNameInTable="columnDescripcion" msprop:Generator_ColumnPropNameInRow="Descripcion" msprop:Generator_ColumnPropNameInTable="DescripcionColumn" msprop:Generator_UserColumnName="Descripcion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="localizador" msprop:Generator_ColumnVarNameInTable="columnlocalizador" msprop:Generator_ColumnPropNameInRow="localizador" msprop:Generator_ColumnPropNameInTable="localizadorColumn" msprop:Generator_UserColumnName="localizador" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:_V_reporteReserva" />
+      <xs:field xpath="mstns:cedula_rif" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsVolumenOPCDetallado" targetNamespace="http://tempuri.org/dsVolumenOPCDetallado.xsd" xmlns:mstns="http://tempuri.org/dsVolumenOPCDetallado.xsd" xmlns="http://tempuri.org/dsVolumenOPCDetallado.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="CONTRATOS04" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="CONTRATOS04 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Contratos.Properties.Settings.GlobalReference.Default.CONTRATOS04" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsVolumenOPCDetallado" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsVolumenOPCDetallado" msprop:Generator_UserDSName="dsVolumenOPCDetallado">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dttVolOPCDet" msprop:Generator_TableClassName="dttVolOPCDetDataTable" msprop:Generator_TableVarName="tabledttVolOPCDet" msprop:Generator_TablePropName="dttVolOPCDet" msprop:Generator_RowDeletingName="dttVolOPCDetRowDeleting" msprop:Generator_RowChangingName="dttVolOPCDetRowChanging" msprop:Generator_RowEvHandlerName="dttVolOPCDetRowChangeEventHandler" msprop:Generator_RowDeletedName="dttVolOPCDetRowDeleted" msprop:Generator_UserTableName="dttVolOPCDet" msprop:Generator_RowChangedName="dttVolOPCDetRowChanged" msprop:Generator_RowEvArgName="dttVolOPCDetRowChangeEvent" msprop:Generator_RowClassName="dttVolOPCDetRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="codigo" msprop:Generator_ColumnVarNameInTable="columncodigo" msprop:Generator_ColumnPropNameInRow="codigo" msprop:Generator_ColumnPropNameInTable="codigoColumn" msprop:Generator_UserColumnName="codigo" type="xs:string" minOccurs="0" />
+              <xs:element name="nombre" msprop:Generator_ColumnVarNameInTable="columnnombre" msprop:Generator_ColumnPropNameInRow="nombre" msprop:Generator_ColumnPropNameInTable="nombreColumn" msprop:Generator_UserColumnName="nombre" type="xs:string" minOccurs="0" />
+              <xs:element name="nom_inv" msdata:Caption="q" msprop:Generator_ColumnVarNameInTable="columnnom_inv" msprop:Generator_ColumnPropNameInRow="nom_inv" msprop:Generator_ColumnPropNameInTable="nom_invColumn" msprop:Generator_UserColumnName="nom_inv" type="xs:string" minOccurs="0" />
+              <xs:element name="fecha" msdata:Caption="nq" msprop:Generator_ColumnVarNameInTable="columnfecha" msprop:Generator_ColumnPropNameInRow="fecha" msprop:Generator_ColumnPropNameInTable="fechaColumn" msprop:Generator_UserColumnName="fecha" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="califiq" msdata:Caption="nt" msprop:Generator_ColumnVarNameInTable="columncalifiq" msprop:Generator_ColumnPropNameInRow="califiq" msprop:Generator_ColumnPropNameInTable="califiqColumn" msprop:Generator_UserColumnName="califiq" type="xs:string" minOccurs="0" />
+              <xs:element name="monto" msprop:Generator_ColumnVarNameInTable="columnmonto" msprop:Generator_ColumnPropNameInRow="monto" msprop:Generator_ColumnPropNameInTable="montoColumn" msprop:Generator_UserColumnName="monto" type="xs:decimal" minOccurs="0" />
+              <xs:element name="estatus" msdata:Caption="procs" msprop:Generator_ColumnVarNameInTable="columnestatus" msprop:Generator_ColumnPropNameInRow="estatus" msprop:Generator_ColumnPropNameInTable="estatusColumn" msprop:Generator_UserColumnName="estatus" type="xs:string" minOccurs="0" />
+              <xs:element name="nrocontrato" msprop:Generator_ColumnVarNameInTable="columnnrocontrato" msprop:Generator_ColumnPropNameInRow="nrocontrato" msprop:Generator_ColumnPropNameInTable="nrocontratoColumn" msprop:Generator_UserColumnName="nrocontrato" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

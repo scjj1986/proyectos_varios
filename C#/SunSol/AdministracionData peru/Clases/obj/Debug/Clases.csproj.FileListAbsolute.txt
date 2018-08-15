@@ -1,0 +1,88 @@
+c:\users\nataly.pinho\documents\visual studio 2013\Projects\AdministracionData\Clases\bin\Debug\Clases.dll.config
+c:\users\nataly.pinho\documents\visual studio 2013\Projects\AdministracionData\Clases\bin\Debug\Clases.dll
+c:\users\nataly.pinho\documents\visual studio 2013\Projects\AdministracionData\Clases\bin\Debug\Clases.pdb
+c:\users\nataly.pinho\documents\visual studio 2013\Projects\AdministracionData\Clases\bin\Debug\EntityFramework.dll
+c:\users\nataly.pinho\documents\visual studio 2013\Projects\AdministracionData\Clases\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\nataly.pinho\documents\visual studio 2013\Projects\AdministracionData\Clases\bin\Debug\EntityFramework.xml
+c:\users\nataly.pinho\documents\visual studio 2013\Projects\AdministracionData\Clases\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\nataly.pinho\documents\visual studio 2013\Projects\AdministracionData\Clases\obj\Debug\Clases.csprojResolveAssemblyReference.cache
+c:\users\nataly.pinho\documents\visual studio 2013\Projects\AdministracionData\Clases\obj\Debug\Clases.dll
+c:\users\nataly.pinho\documents\visual studio 2013\Projects\AdministracionData\Clases\obj\Debug\Clases.pdb
+C:\Users\consultoria\Desktop\AdministracionData\Clases\bin\Debug\Clases.dll.config
+C:\Users\consultoria\Desktop\AdministracionData\Clases\bin\Debug\Clases.dll
+C:\Users\consultoria\Desktop\AdministracionData\Clases\bin\Debug\Clases.pdb
+C:\Users\consultoria\Desktop\AdministracionData\Clases\bin\Debug\EntityFramework.dll
+C:\Users\consultoria\Desktop\AdministracionData\Clases\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\consultoria\Desktop\AdministracionData\Clases\bin\Debug\EntityFramework.xml
+C:\Users\consultoria\Desktop\AdministracionData\Clases\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\consultoria\Desktop\AdministracionData\Clases\obj\Debug\Clases.dll
+C:\Users\consultoria\Desktop\AdministracionData\Clases\obj\Debug\Clases.pdb
+C:\Users\consultoria\Desktop\AdministracionData\Clases\obj\Debug\Clases.csprojResolveAssemblyReference.cache
+J:\AdministracionData\Clases\bin\Debug\Clases.dll.config
+J:\AdministracionData\Clases\bin\Debug\Clases.dll
+J:\AdministracionData\Clases\bin\Debug\Clases.pdb
+J:\AdministracionData\Clases\bin\Debug\EntityFramework.dll
+J:\AdministracionData\Clases\bin\Debug\EntityFramework.SqlServer.dll
+J:\AdministracionData\Clases\bin\Debug\EntityFramework.xml
+J:\AdministracionData\Clases\bin\Debug\EntityFramework.SqlServer.xml
+J:\AdministracionData\Clases\obj\Debug\Clases.csprojResolveAssemblyReference.cache
+J:\AdministracionData\Clases\obj\Debug\Clases.dll
+J:\AdministracionData\Clases\obj\Debug\Clases.pdb
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\Clases\bin\Debug\Clases.dll.config
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\Clases\bin\Debug\Clases.dll
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\Clases\bin\Debug\Clases.pdb
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\Clases\bin\Debug\EntityFramework.dll
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\Clases\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\Clases\bin\Debug\EntityFramework.xml
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\Clases\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\Clases\obj\Debug\Clases.csprojResolveAssemblyReference.cache
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\Clases\obj\Debug\Clases.dll
+C:\Users\Ing. Michel Parra\Desktop\AdministracionData michel\Clases\obj\Debug\Clases.pdb
+C:\Users\consultoria\Desktop\AdministracionData michel\Clases\bin\Debug\Clases.dll.config
+C:\Users\consultoria\Desktop\AdministracionData michel\Clases\bin\Debug\Clases.dll
+C:\Users\consultoria\Desktop\AdministracionData michel\Clases\bin\Debug\Clases.pdb
+C:\Users\consultoria\Desktop\AdministracionData michel\Clases\bin\Debug\EntityFramework.dll
+C:\Users\consultoria\Desktop\AdministracionData michel\Clases\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\consultoria\Desktop\AdministracionData michel\Clases\bin\Debug\EntityFramework.xml
+C:\Users\consultoria\Desktop\AdministracionData michel\Clases\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\consultoria\Desktop\AdministracionData michel\Clases\obj\Debug\Clases.dll
+C:\Users\consultoria\Desktop\AdministracionData michel\Clases\obj\Debug\Clases.pdb
+C:\Users\consultoria\Documents\AdministracionData michel\Clases\bin\Debug\Clases.dll.config
+C:\Users\consultoria\Documents\AdministracionData michel\Clases\bin\Debug\Clases.dll
+C:\Users\consultoria\Documents\AdministracionData michel\Clases\bin\Debug\Clases.pdb
+C:\Users\consultoria\Documents\AdministracionData michel\Clases\bin\Debug\EntityFramework.dll
+C:\Users\consultoria\Documents\AdministracionData michel\Clases\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\consultoria\Documents\AdministracionData michel\Clases\bin\Debug\EntityFramework.xml
+C:\Users\consultoria\Documents\AdministracionData michel\Clases\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\consultoria\Documents\AdministracionData michel\Clases\obj\Debug\Clases.dll
+C:\Users\consultoria\Documents\AdministracionData michel\Clases\obj\Debug\Clases.pdb
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\Clases\bin\Debug\Clases.dll.config
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\Clases\bin\Debug\Clases.dll
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\Clases\bin\Debug\Clases.pdb
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\Clases\bin\Debug\EntityFramework.dll
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\Clases\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\Clases\bin\Debug\EntityFramework.xml
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\Clases\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\Clases\obj\Debug\Clases.dll
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\Clases\obj\Debug\Clases.pdb
+C:\Users\consultoria\Desktop\AdministracionData_Nuevo_______\Clases\obj\Debug\Clases.csprojResolveAssemblyReference.cache
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\Clases\bin\Debug\Clases.dll.config
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\Clases\bin\Debug\Clases.dll
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\Clases\bin\Debug\Clases.pdb
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\Clases\bin\Debug\EntityFramework.dll
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\Clases\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\Clases\bin\Debug\EntityFramework.xml
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\Clases\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\Clases\obj\Debug\Clases.dll
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\Clases\obj\Debug\Clases.pdb
+C:\Users\consultoria.SUNSOLHOTELES\Desktop\AdministracionData peru\Clases\obj\Debug\Clases.csprojResolveAssemblyReference.cache
+C:\Users\juan.salazar\Documents\AdministracionData peru\Clases\bin\Debug\Clases.dll.config
+C:\Users\juan.salazar\Documents\AdministracionData peru\Clases\bin\Debug\Clases.dll
+C:\Users\juan.salazar\Documents\AdministracionData peru\Clases\bin\Debug\Clases.pdb
+C:\Users\juan.salazar\Documents\AdministracionData peru\Clases\bin\Debug\EntityFramework.dll
+C:\Users\juan.salazar\Documents\AdministracionData peru\Clases\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\juan.salazar\Documents\AdministracionData peru\Clases\bin\Debug\EntityFramework.xml
+C:\Users\juan.salazar\Documents\AdministracionData peru\Clases\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\juan.salazar\Documents\AdministracionData peru\Clases\obj\Debug\Clases.csprojResolveAssemblyReference.cache
+C:\Users\juan.salazar\Documents\AdministracionData peru\Clases\obj\Debug\Clases.dll
+C:\Users\juan.salazar\Documents\AdministracionData peru\Clases\obj\Debug\Clases.pdb

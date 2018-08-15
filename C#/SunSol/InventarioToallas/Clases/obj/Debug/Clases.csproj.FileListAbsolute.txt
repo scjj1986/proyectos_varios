@@ -1,0 +1,227 @@
+J:\InventarioToallas\Clases\bin\Debug\Clases.dll.config
+J:\InventarioToallas\Clases\bin\Debug\Clases.dll
+J:\InventarioToallas\Clases\bin\Debug\Clases.pdb
+J:\InventarioToallas\Clases\bin\Debug\EntityFramework.dll
+J:\InventarioToallas\Clases\bin\Debug\EntityFramework.SqlServer.dll
+J:\InventarioToallas\Clases\bin\Debug\EntityFramework.xml
+J:\InventarioToallas\Clases\bin\Debug\EntityFramework.SqlServer.xml
+J:\InventarioToallas\Clases\obj\Debug\Clases.csprojResolveAssemblyReference.cache
+J:\InventarioToallas\Clases\obj\Debug\Clases.dll
+J:\InventarioToallas\Clases\obj\Debug\Clases.pdb
+C:\Users\juan.salazar\Documents\Toallas\InventarioToallas\Clases\bin\Debug\Clases.dll.config
+C:\Users\juan.salazar\Documents\Toallas\InventarioToallas\Clases\bin\Debug\Clases.dll
+C:\Users\juan.salazar\Documents\Toallas\InventarioToallas\Clases\bin\Debug\Clases.pdb
+C:\Users\juan.salazar\Documents\Toallas\InventarioToallas\Clases\bin\Debug\EntityFramework.dll
+C:\Users\juan.salazar\Documents\Toallas\InventarioToallas\Clases\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\juan.salazar\Documents\Toallas\InventarioToallas\Clases\bin\Debug\EntityFramework.xml
+C:\Users\juan.salazar\Documents\Toallas\InventarioToallas\Clases\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\juan.salazar\Documents\Toallas\InventarioToallas\Clases\obj\Debug\Clases.csprojResolveAssemblyReference.cache
+C:\Users\juan.salazar\Documents\Toallas\InventarioToallas\Clases\obj\Debug\Clases.dll
+C:\Users\juan.salazar\Documents\Toallas\InventarioToallas\Clases\obj\Debug\Clases.pdb
+C:\Users\consultoria\Desktop\InventarioToallas\Clases\bin\Debug\Clases.dll.config
+C:\Users\consultoria\Desktop\InventarioToallas\Clases\bin\Debug\Clases.dll
+C:\Users\consultoria\Desktop\InventarioToallas\Clases\bin\Debug\Clases.pdb
+C:\Users\consultoria\Desktop\InventarioToallas\Clases\bin\Debug\EntityFramework.dll
+C:\Users\consultoria\Desktop\InventarioToallas\Clases\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\consultoria\Desktop\InventarioToallas\Clases\bin\Debug\EntityFramework.xml
+C:\Users\consultoria\Desktop\InventarioToallas\Clases\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\consultoria\Desktop\InventarioToallas\Clases\obj\Debug\Clases.csprojResolveAssemblyReference.cache
+C:\Users\consultoria\Desktop\InventarioToallas\Clases\obj\Debug\Clases.dll
+C:\Users\consultoria\Desktop\InventarioToallas\Clases\obj\Debug\Clases.pdb
+C:\Users\juan.salazar\Documents\InventarioToallas\Clases\bin\Debug\Clases.dll.config
+C:\Users\juan.salazar\Documents\InventarioToallas\Clases\bin\Debug\Clases.dll
+C:\Users\juan.salazar\Documents\InventarioToallas\Clases\bin\Debug\Clases.pdb
+C:\Users\juan.salazar\Documents\InventarioToallas\Clases\bin\Debug\EntityFramework.dll
+C:\Users\juan.salazar\Documents\InventarioToallas\Clases\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\juan.salazar\Documents\InventarioToallas\Clases\bin\Debug\EntityFramework.xml
+C:\Users\juan.salazar\Documents\InventarioToallas\Clases\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\juan.salazar\Documents\InventarioToallas\Clases\obj\Debug\Clases.csprojResolveAssemblyReference.cache
+C:\Users\juan.salazar\Documents\InventarioToallas\Clases\obj\Debug\Clases.dll
+C:\Users\juan.salazar\Documents\InventarioToallas\Clases\obj\Debug\Clases.pdb
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes\Clases\bin\Debug\Clases.dll.config
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes\Clases\bin\Debug\Clases.dll
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes\Clases\bin\Debug\Clases.pdb
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes\Clases\bin\Debug\EntityFramework.dll
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes\Clases\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes\Clases\bin\Debug\EntityFramework.xml
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes\Clases\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes\Clases\obj\Debug\Clases.dll
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes\Clases\obj\Debug\Clases.pdb
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes\Clases\obj\Debug\Clases.csprojResolveAssemblyReference.cache
+C:\Users\Ing. Michel Parra\Desktop\InventarioToallas con reportes\Clases\bin\Debug\Clases.dll.config
+C:\Users\Ing. Michel Parra\Desktop\InventarioToallas con reportes\Clases\bin\Debug\Clases.dll
+C:\Users\Ing. Michel Parra\Desktop\InventarioToallas con reportes\Clases\bin\Debug\Clases.pdb
+C:\Users\Ing. Michel Parra\Desktop\InventarioToallas con reportes\Clases\bin\Debug\EntityFramework.dll
+C:\Users\Ing. Michel Parra\Desktop\InventarioToallas con reportes\Clases\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ing. Michel Parra\Desktop\InventarioToallas con reportes\Clases\bin\Debug\EntityFramework.xml
+C:\Users\Ing. Michel Parra\Desktop\InventarioToallas con reportes\Clases\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ing. Michel Parra\Desktop\InventarioToallas con reportes\Clases\obj\Debug\Clases.csprojResolveAssemblyReference.cache
+C:\Users\Ing. Michel Parra\Desktop\InventarioToallas con reportes\Clases\obj\Debug\Clases.dll
+C:\Users\Ing. Michel Parra\Desktop\InventarioToallas con reportes\Clases\obj\Debug\Clases.pdb
+C:\Users\nataly.pinho\Desktop\InventarioToallas con reportes corregido\Clases\bin\Debug\Clases.dll.config
+C:\Users\nataly.pinho\Desktop\InventarioToallas con reportes corregido\Clases\bin\Debug\Clases.dll
+C:\Users\nataly.pinho\Desktop\InventarioToallas con reportes corregido\Clases\bin\Debug\Clases.pdb
+C:\Users\nataly.pinho\Desktop\InventarioToallas con reportes corregido\Clases\bin\Debug\EntityFramework.dll
+C:\Users\nataly.pinho\Desktop\InventarioToallas con reportes corregido\Clases\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nataly.pinho\Desktop\InventarioToallas con reportes corregido\Clases\bin\Debug\EntityFramework.xml
+C:\Users\nataly.pinho\Desktop\InventarioToallas con reportes corregido\Clases\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nataly.pinho\Desktop\InventarioToallas con reportes corregido\Clases\obj\Debug\Clases.csprojResolveAssemblyReference.cache
+C:\Users\nataly.pinho\Desktop\InventarioToallas con reportes corregido\Clases\obj\Debug\Clases.dll
+C:\Users\nataly.pinho\Desktop\InventarioToallas con reportes corregido\Clases\obj\Debug\Clases.pdb
+\\sunsolcarapp08\Desarrollo\InventarioToallas con reportes corregido\Clases\bin\Debug\Clases.dll.config
+\\sunsolcarapp08\Desarrollo\InventarioToallas con reportes corregido\Clases\bin\Debug\Clases.dll
+\\sunsolcarapp08\Desarrollo\InventarioToallas con reportes corregido\Clases\bin\Debug\Clases.pdb
+\\sunsolcarapp08\Desarrollo\InventarioToallas con reportes corregido\Clases\bin\Debug\EntityFramework.dll
+\\sunsolcarapp08\Desarrollo\InventarioToallas con reportes corregido\Clases\bin\Debug\EntityFramework.SqlServer.dll
+\\sunsolcarapp08\Desarrollo\InventarioToallas con reportes corregido\Clases\bin\Debug\EntityFramework.xml
+\\sunsolcarapp08\Desarrollo\InventarioToallas con reportes corregido\Clases\bin\Debug\EntityFramework.SqlServer.xml
+\\sunsolcarapp08\Desarrollo\InventarioToallas con reportes corregido\Clases\obj\Debug\Clases.dll
+\\sunsolcarapp08\Desarrollo\InventarioToallas con reportes corregido\Clases\obj\Debug\Clases.pdb
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes corregido\Clases\bin\Debug\Clases.dll.config
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes corregido\Clases\bin\Debug\Clases.dll
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes corregido\Clases\bin\Debug\Clases.pdb
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes corregido\Clases\bin\Debug\EntityFramework.dll
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes corregido\Clases\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes corregido\Clases\bin\Debug\EntityFramework.xml
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes corregido\Clases\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes corregido\Clases\obj\Debug\Clases.csprojResolveAssemblyReference.cache
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes corregido\Clases\obj\Debug\Clases.dll
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes corregido\Clases\obj\Debug\Clases.pdb
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes corregido juan\Clases\bin\Debug\Clases.dll.config
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes corregido juan\Clases\bin\Debug\Clases.dll
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes corregido juan\Clases\bin\Debug\Clases.pdb
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes corregido juan\Clases\bin\Debug\EntityFramework.dll
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes corregido juan\Clases\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes corregido juan\Clases\bin\Debug\EntityFramework.xml
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes corregido juan\Clases\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes corregido juan\Clases\obj\Debug\Clases.csprojResolveAssemblyReference.cache
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes corregido juan\Clases\obj\Debug\Clases.dll
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes corregido juan\Clases\obj\Debug\Clases.pdb
+C:\Users\consultoria\Desktop\InventarioToallas con reportes corregido juan\Clases\bin\Debug\Clases.dll.config
+C:\Users\consultoria\Desktop\InventarioToallas con reportes corregido juan\Clases\bin\Debug\Clases.dll
+C:\Users\consultoria\Desktop\InventarioToallas con reportes corregido juan\Clases\bin\Debug\Clases.pdb
+C:\Users\consultoria\Desktop\InventarioToallas con reportes corregido juan\Clases\bin\Debug\EntityFramework.dll
+C:\Users\consultoria\Desktop\InventarioToallas con reportes corregido juan\Clases\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\consultoria\Desktop\InventarioToallas con reportes corregido juan\Clases\bin\Debug\EntityFramework.xml
+C:\Users\consultoria\Desktop\InventarioToallas con reportes corregido juan\Clases\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\consultoria\Desktop\InventarioToallas con reportes corregido juan\Clases\obj\Debug\Clases.csprojResolveAssemblyReference.cache
+C:\Users\consultoria\Desktop\InventarioToallas con reportes corregido juan\Clases\obj\Debug\Clases.dll
+C:\Users\consultoria\Desktop\InventarioToallas con reportes corregido juan\Clases\obj\Debug\Clases.pdb
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes final\Clases\bin\Debug\Clases.dll.config
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes final\Clases\bin\Debug\Clases.dll
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes final\Clases\bin\Debug\Clases.pdb
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes final\Clases\bin\Debug\EntityFramework.dll
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes final\Clases\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes final\Clases\bin\Debug\EntityFramework.xml
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes final\Clases\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes final\Clases\obj\Debug\Clases.csprojResolveAssemblyReference.cache
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes final\Clases\obj\Debug\Clases.dll
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes final\Clases\obj\Debug\Clases.pdb
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes Juan\Clases\bin\Debug\Clases.dll.config
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes Juan\Clases\bin\Debug\Clases.dll
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes Juan\Clases\bin\Debug\Clases.pdb
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes Juan\Clases\bin\Debug\EntityFramework.dll
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes Juan\Clases\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes Juan\Clases\bin\Debug\EntityFramework.xml
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes Juan\Clases\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes Juan\Clases\obj\Debug\Clases.csprojResolveAssemblyReference.cache
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes Juan\Clases\obj\Debug\Clases.dll
+C:\Users\juan.salazar\Documents\InventarioToallas con reportes Juan\Clases\obj\Debug\Clases.pdb
+C:\Users\consultoria\Desktop\InventarioToallas con reportes Juan\Clases\bin\Debug\Clases.dll.config
+C:\Users\consultoria\Desktop\InventarioToallas con reportes Juan\Clases\bin\Debug\Clases.dll
+C:\Users\consultoria\Desktop\InventarioToallas con reportes Juan\Clases\bin\Debug\Clases.pdb
+C:\Users\consultoria\Desktop\InventarioToallas con reportes Juan\Clases\bin\Debug\EntityFramework.dll
+C:\Users\consultoria\Desktop\InventarioToallas con reportes Juan\Clases\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\consultoria\Desktop\InventarioToallas con reportes Juan\Clases\bin\Debug\EntityFramework.xml
+C:\Users\consultoria\Desktop\InventarioToallas con reportes Juan\Clases\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\consultoria\Desktop\InventarioToallas con reportes Juan\Clases\obj\Debug\Clases.csprojResolveAssemblyReference.cache
+C:\Users\consultoria\Desktop\InventarioToallas con reportes Juan\Clases\obj\Debug\Clases.dll
+C:\Users\consultoria\Desktop\InventarioToallas con reportes Juan\Clases\obj\Debug\Clases.pdb
+C:\Users\juan.salazar\Documents\InventarioToallas final este si_____\Clases\bin\Debug\Clases.dll.config
+C:\Users\juan.salazar\Documents\InventarioToallas final este si_____\Clases\bin\Debug\Clases.dll
+C:\Users\juan.salazar\Documents\InventarioToallas final este si_____\Clases\bin\Debug\Clases.pdb
+C:\Users\juan.salazar\Documents\InventarioToallas final este si_____\Clases\bin\Debug\EntityFramework.dll
+C:\Users\juan.salazar\Documents\InventarioToallas final este si_____\Clases\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\juan.salazar\Documents\InventarioToallas final este si_____\Clases\bin\Debug\EntityFramework.xml
+C:\Users\juan.salazar\Documents\InventarioToallas final este si_____\Clases\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\juan.salazar\Documents\InventarioToallas final este si_____\Clases\obj\Debug\Clases.csprojResolveAssemblyReference.cache
+C:\Users\juan.salazar\Documents\InventarioToallas final este si_____\Clases\obj\Debug\Clases.dll
+C:\Users\juan.salazar\Documents\InventarioToallas final este si_____\Clases\obj\Debug\Clases.pdb
+\\sunsolcarapp08\Desarrollo\InventarioToallas final este si\Clases\bin\Debug\Clases.dll.config
+\\sunsolcarapp08\Desarrollo\InventarioToallas final este si\Clases\bin\Debug\Clases.dll
+\\sunsolcarapp08\Desarrollo\InventarioToallas final este si\Clases\bin\Debug\Clases.pdb
+\\sunsolcarapp08\Desarrollo\InventarioToallas final este si\Clases\bin\Debug\EntityFramework.dll
+\\sunsolcarapp08\Desarrollo\InventarioToallas final este si\Clases\bin\Debug\EntityFramework.SqlServer.dll
+\\sunsolcarapp08\Desarrollo\InventarioToallas final este si\Clases\bin\Debug\EntityFramework.xml
+\\sunsolcarapp08\Desarrollo\InventarioToallas final este si\Clases\bin\Debug\EntityFramework.SqlServer.xml
+\\sunsolcarapp08\Desarrollo\InventarioToallas final este si\Clases\obj\Debug\Clases.csprojResolveAssemblyReference.cache
+\\sunsolcarapp08\Desarrollo\InventarioToallas final este si\Clases\obj\Debug\Clases.dll
+\\sunsolcarapp08\Desarrollo\InventarioToallas final este si\Clases\obj\Debug\Clases.pdb
+C:\Users\juan.salazar\Documents\InventarioToallas final este si\Clases\bin\Debug\Clases.dll.config
+C:\Users\juan.salazar\Documents\InventarioToallas final este si\Clases\bin\Debug\Clases.dll
+C:\Users\juan.salazar\Documents\InventarioToallas final este si\Clases\bin\Debug\Clases.pdb
+C:\Users\juan.salazar\Documents\InventarioToallas final este si\Clases\bin\Debug\EntityFramework.dll
+C:\Users\juan.salazar\Documents\InventarioToallas final este si\Clases\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\juan.salazar\Documents\InventarioToallas final este si\Clases\bin\Debug\EntityFramework.xml
+C:\Users\juan.salazar\Documents\InventarioToallas final este si\Clases\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\juan.salazar\Documents\InventarioToallas final este si\Clases\obj\Debug\Clases.dll
+C:\Users\juan.salazar\Documents\InventarioToallas final este si\Clases\obj\Debug\Clases.pdb
+C:\Users\juan.salazar\Documents\InventarioToallas final este si - copia\Clases\bin\Debug\Clases.dll.config
+C:\Users\juan.salazar\Documents\InventarioToallas final este si - copia\Clases\bin\Debug\Clases.dll
+C:\Users\juan.salazar\Documents\InventarioToallas final este si - copia\Clases\bin\Debug\Clases.pdb
+C:\Users\juan.salazar\Documents\InventarioToallas final este si - copia\Clases\bin\Debug\EntityFramework.dll
+C:\Users\juan.salazar\Documents\InventarioToallas final este si - copia\Clases\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\juan.salazar\Documents\InventarioToallas final este si - copia\Clases\bin\Debug\EntityFramework.xml
+C:\Users\juan.salazar\Documents\InventarioToallas final este si - copia\Clases\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\juan.salazar\Documents\InventarioToallas final este si - copia\Clases\obj\Debug\Clases.dll
+C:\Users\juan.salazar\Documents\InventarioToallas final este si - copia\Clases\obj\Debug\Clases.pdb
+C:\Users\juan.salazar\Documents\InventarioToallas final este si\Clases\obj\Debug\Clases.csprojResolveAssemblyReference.cache
+\\sunsolcarapp08\Desarrollo\InventarioToallas final\Clases\bin\Debug\Clases.dll.config
+\\sunsolcarapp08\Desarrollo\InventarioToallas final\Clases\bin\Debug\Clases.dll
+\\sunsolcarapp08\Desarrollo\InventarioToallas final\Clases\bin\Debug\Clases.pdb
+\\sunsolcarapp08\Desarrollo\InventarioToallas final\Clases\bin\Debug\EntityFramework.dll
+\\sunsolcarapp08\Desarrollo\InventarioToallas final\Clases\bin\Debug\EntityFramework.SqlServer.dll
+\\sunsolcarapp08\Desarrollo\InventarioToallas final\Clases\bin\Debug\EntityFramework.xml
+\\sunsolcarapp08\Desarrollo\InventarioToallas final\Clases\bin\Debug\EntityFramework.SqlServer.xml
+\\sunsolcarapp08\Desarrollo\InventarioToallas final\Clases\obj\Debug\Clases.dll
+\\sunsolcarapp08\Desarrollo\InventarioToallas final\Clases\obj\Debug\Clases.pdb
+\\sunsolcarapp08\Desarrollo\InventarioToallas final\Clases\obj\Debug\Clases.csprojResolveAssemblyReference.cache
+C:\Users\juan.salazar\Documents\InventarioToallas final\Clases\bin\Debug\Clases.dll.config
+C:\Users\juan.salazar\Documents\InventarioToallas final\Clases\bin\Debug\Clases.dll
+C:\Users\juan.salazar\Documents\InventarioToallas final\Clases\bin\Debug\Clases.pdb
+C:\Users\juan.salazar\Documents\InventarioToallas final\Clases\bin\Debug\EntityFramework.dll
+C:\Users\juan.salazar\Documents\InventarioToallas final\Clases\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\juan.salazar\Documents\InventarioToallas final\Clases\bin\Debug\EntityFramework.xml
+C:\Users\juan.salazar\Documents\InventarioToallas final\Clases\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\juan.salazar\Documents\InventarioToallas final\Clases\obj\Debug\Clases.dll
+C:\Users\juan.salazar\Documents\InventarioToallas final\Clases\obj\Debug\Clases.pdb
+C:\Users\consultoria\Desktop\InventarioToallas final_Nuevo\Clases\bin\Debug\Clases.dll.config
+C:\Users\consultoria\Desktop\InventarioToallas final_Nuevo\Clases\bin\Debug\Clases.dll
+C:\Users\consultoria\Desktop\InventarioToallas final_Nuevo\Clases\bin\Debug\Clases.pdb
+C:\Users\consultoria\Desktop\InventarioToallas final_Nuevo\Clases\bin\Debug\EntityFramework.dll
+C:\Users\consultoria\Desktop\InventarioToallas final_Nuevo\Clases\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\consultoria\Desktop\InventarioToallas final_Nuevo\Clases\bin\Debug\EntityFramework.xml
+C:\Users\consultoria\Desktop\InventarioToallas final_Nuevo\Clases\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\consultoria\Desktop\InventarioToallas final_Nuevo\Clases\obj\Debug\Clases.csprojResolveAssemblyReference.cache
+C:\Users\consultoria\Desktop\InventarioToallas final_Nuevo\Clases\obj\Debug\Clases.dll
+C:\Users\consultoria\Desktop\InventarioToallas final_Nuevo\Clases\obj\Debug\Clases.pdb
+\\sunsolcarapp08\Desarrollo\InventarioToallas final_Nuevo\Clases\bin\Debug\Clases.dll.config
+\\sunsolcarapp08\Desarrollo\InventarioToallas final_Nuevo\Clases\bin\Debug\Clases.dll
+\\sunsolcarapp08\Desarrollo\InventarioToallas final_Nuevo\Clases\bin\Debug\Clases.pdb
+\\sunsolcarapp08\Desarrollo\InventarioToallas final_Nuevo\Clases\bin\Debug\EntityFramework.dll
+\\sunsolcarapp08\Desarrollo\InventarioToallas final_Nuevo\Clases\bin\Debug\EntityFramework.SqlServer.dll
+\\sunsolcarapp08\Desarrollo\InventarioToallas final_Nuevo\Clases\bin\Debug\EntityFramework.xml
+\\sunsolcarapp08\Desarrollo\InventarioToallas final_Nuevo\Clases\bin\Debug\EntityFramework.SqlServer.xml
+\\sunsolcarapp08\Desarrollo\InventarioToallas final_Nuevo\Clases\obj\Debug\Clases.csprojResolveAssemblyReference.cache
+\\sunsolcarapp08\Desarrollo\InventarioToallas final_Nuevo\Clases\obj\Debug\Clases.dll
+\\sunsolcarapp08\Desarrollo\InventarioToallas final_Nuevo\Clases\obj\Debug\Clases.pdb
+C:\Users\juan.salazar\Documents\InventarioToallas final_New\Clases\bin\Debug\Clases.dll.config
+C:\Users\juan.salazar\Documents\InventarioToallas final_New\Clases\bin\Debug\Clases.dll
+C:\Users\juan.salazar\Documents\InventarioToallas final_New\Clases\bin\Debug\Clases.pdb
+C:\Users\juan.salazar\Documents\InventarioToallas final_New\Clases\bin\Debug\EntityFramework.dll
+C:\Users\juan.salazar\Documents\InventarioToallas final_New\Clases\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\juan.salazar\Documents\InventarioToallas final_New\Clases\bin\Debug\EntityFramework.xml
+C:\Users\juan.salazar\Documents\InventarioToallas final_New\Clases\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\juan.salazar\Documents\InventarioToallas final_New\Clases\obj\Debug\Clases.dll
+C:\Users\juan.salazar\Documents\InventarioToallas final_New\Clases\obj\Debug\Clases.pdb
+C:\Users\juan.salazar\Documents\InventarioToallas final_New\Clases\obj\Debug\Clases.csprojResolveAssemblyReference.cache

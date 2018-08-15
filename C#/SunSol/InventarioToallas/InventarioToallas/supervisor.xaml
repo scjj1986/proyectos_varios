@@ -1,0 +1,203 @@
+﻿<Page x:Class="InventarioToallas.supervisor"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:gl="clr-namespace:System.Globalization;assembly=mscorlib"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+     xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+      mc:Ignorable="d"
+	Title="Supervisores" Width="auto" Height="auto" Loaded="Page_Loaded">
+
+    <Grid Margin="0,0,0,42">
+        <GroupBox Grid.Row="0" Header="Retales" Margin="10,0,10,37">
+            <GroupBox.HeaderTemplate>
+                <DataTemplate>
+                    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="36">
+                        <Label Content="Supervisores" Foreground="White" FontWeight="Bold" FontSize="16" Margin="5,0,0,0"
+                			HorizontalAlignment="Left" VerticalContentAlignment="Center"/>
+                    </Grid>
+
+                </DataTemplate>
+            </GroupBox.HeaderTemplate>
+
+        </GroupBox>
+        <Grid Margin="0,0,0,37">
+            <Button Name="BtnNvSup" Cursor="Hand" BorderBrush="Green"  Style="{StaticResource AccentedSquareButtonStyle}" Margin="24,54,0,0" Click="BtnNvSup_Click" HorizontalAlignment="Left" Width="48" Height="48" VerticalAlignment="Top" ToolTip="Nuevo Supervisor">
+                <Button.Background>
+                    <ImageBrush ImageSource="imagenes/nuevo.png" Stretch="None"/>
+                </Button.Background>
+            </Button>
+
+            <Button BorderBrush="Green" Name="BtnCam" Cursor="Hand"  Style="{StaticResource AccentedSquareButtonStyle}" Margin="80,54,0,0" HorizontalAlignment="Left" Width="48" Height="48" VerticalAlignment="Top" ToolTip="Listado de Camareras" Click="BtnCam_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="imagenes/camarera.png" Stretch="None"/>
+                </Button.Background>
+            </Button>
+            <TextBox x:Name="txtBuscarSup" Margin="24,115,0,0" Height="38"
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Buscar"
+            			IsEnabled="true" Text="" FontSize="11" Width="150" HorizontalAlignment="Left" VerticalAlignment="Top" KeyDown="txtBuscarSup_KeyDown" KeyUp="txtBuscarSup_KeyUp"/>
+
+
+
+
+
+            <DataGrid x:Name="dtgrdsup" Margin="24,158,25,19"  ItemsSource="{Binding}" AutoGenerateColumns="false" AlternationCount="1" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserAddRows="False" CanUserResizeRows="False" CanUserSortColumns="False" ToolTip="Doble click para modificar un supervisor" HorizontalScrollBarVisibility="Disabled" HorizontalContentAlignment="Center" MouseDoubleClick="dtgrdsup_MouseDoubleClick" ScrollViewer.CanContentScroll="True" 
+      ScrollViewer.VerticalScrollBarVisibility="Auto"
+      ScrollViewer.HorizontalScrollBarVisibility="Auto">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding Mode=OneWay,Path=cedula}"  CanUserResize="False" IsReadOnly="True" Header="Cédula">
+                        <DataGridTextColumn.CellStyle>
+                            <Style>
+                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                            </Style>
+                        </DataGridTextColumn.CellStyle>
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Binding="{Binding Mode=OneWay,Path=nombre}"  CanUserResize="False" IsReadOnly="True" Header="Nombre">
+                        <DataGridTextColumn.CellStyle>
+                            <Style>
+                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                            </Style>
+                        </DataGridTextColumn.CellStyle>
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Binding="{Binding Mode=OneWay,Path=apellido}"  CanUserResize="False" IsReadOnly="True" Header="Apellido">
+                        <DataGridTextColumn.CellStyle>
+                            <Style>
+                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                            </Style>
+                        </DataGridTextColumn.CellStyle>
+                    </DataGridTextColumn>
+                    
+                    <DataGridTextColumn Visibility="Hidden" Binding="{Binding Mode=OneWay,Path=idSupervisor}"  CanUserResize="False" IsReadOnly="True" Header="Id">
+                        <DataGridTextColumn.CellStyle>
+                            <Style>
+                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                            </Style>
+                        </DataGridTextColumn.CellStyle>
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Visibility="Hidden" Binding="{Binding Mode=OneWay,Path=nac}"  CanUserResize="False" IsReadOnly="True" Header="estado">
+                        <DataGridTextColumn.CellStyle>
+                            <Style>
+                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                            </Style>
+                        </DataGridTextColumn.CellStyle>
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Visibility="Hidden" Binding="{Binding Mode=OneWay,Path=documento}"  CanUserResize="False" IsReadOnly="True" Header="estado">
+                        <DataGridTextColumn.CellStyle>
+                            <Style>
+                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                            </Style>
+                        </DataGridTextColumn.CellStyle>
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Visibility="Hidden" Binding="{Binding Mode=OneWay,Path=estado}"  CanUserResize="False" IsReadOnly="True" Header="estado">
+                        <DataGridTextColumn.CellStyle>
+                            <Style>
+                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                            </Style>
+                        </DataGridTextColumn.CellStyle>
+                    </DataGridTextColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <Controls:Flyout Header="Nuevo Supervisor" Position="Left" Margin="4,2,-7,15" HorizontalAlignment="Left" Width="614" x:Name="flNuevo" Theme="Light" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" BorderBrush="{DynamicResource {x:Static SystemColors.HotTrackBrushKey}}" IsOpenChanged="flNuevo_IsOpenChanged">
+                <Controls:Flyout.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleX="-0.28"/>
+                        <RotateTransform/>
+                        <TranslateTransform X="-1.495"/>
+                    </TransformGroup>
+                </Controls:Flyout.RenderTransform>
+                <Grid Height="430" Width="653" HorizontalAlignment="Right" Margin="0,0,-38,0">
+
+                    <TextBox x:Name="txtIdSup" Visibility="Hidden"
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Nombre"
+            			IsEnabled="true" Text="" FontSize="11" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+                    <ComboBox x:Name="cmbCed" Width="60" Height="38"
+            			Controls:TextBoxHelper.Watermark="Nac."
+            			Controls:TextBoxHelper.UseFloatingWatermark="True" Margin="14,59,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="11" LostFocus="cmbCed_LostFocus"
+            			/>
+                    <TextBox x:Name="txtCedula" Margin="76,59,0,0" Height="38"
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Cédula"
+            			IsEnabled="true" Text="" FontSize="11" Width="150" HorizontalAlignment="Left" VerticalAlignment="Top" LostFocus="txtCedula_LostFocus"/>
+                    <TextBox x:Name="txtNombre" Margin="14,98,0,0" Height="38"
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Nombre"
+            			IsEnabled="true" Text="" FontSize="11" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top" LostFocus="txtNombre_LostFocus"/>
+                    <TextBox x:Name="txtApellido" Margin="14,136,0,0" Height="38"
+            			Controls:TextBoxHelper.UseFloatingWatermark="True"
+            			Controls:TextBoxHelper.Watermark="Apellido"
+            			IsEnabled="true" Text="" FontSize="11" Width="500" HorizontalAlignment="Left" VerticalAlignment="Top" LostFocus="txtApellido_LostFocus"/>
+                    <ComboBox x:Name="cmbEstado" Width="500" Height="38"
+            			Controls:TextBoxHelper.Watermark="Estado"
+            			Controls:TextBoxHelper.UseFloatingWatermark="True" Margin="14,175,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="11"
+            			/>
+                    <Controls:Tile x:Name="tlGuardar" Cursor="Hand"  Height="52" Margin="0,0,92,143" Width="58" VerticalAlignment="Bottom" HorizontalAlignment="Right" ToolTip="Guardar" Click="tlGuardar_Click" >
+                        <Controls:Tile.Effect>
+                            <DropShadowEffect BlurRadius="8" Opacity="0.95" ShadowDepth="9"/>
+                        </Controls:Tile.Effect>
+                        <Image Source="imagenes/guardar.png" Width="48"/>
+                    </Controls:Tile>
+                    <Controls:Tile x:Name="tlCancelar" Cursor="Hand"  Height="52" Margin="0,235,155,0" Width="58" HorizontalAlignment="Right" VerticalAlignment="Top" Click="tlCancelar_Click" RenderTransformOrigin="0.431,-1.538" >
+                        <Controls:Tile.Effect>
+                            <DropShadowEffect Opacity="0.95" ShadowDepth="9" BlurRadius="8"/>
+                        </Controls:Tile.Effect>
+                        <Image Source="imagenes/Cancel.png" Width="48" RenderTransformOrigin="0.611,1.417"/>
+                    </Controls:Tile>
+
+                    <Label Content="(*)" HorizontalAlignment="Left" Margin="550,64,0,0" VerticalAlignment="Top" Foreground="#FFF30C0C"/>
+                    <Label Content="(*)" HorizontalAlignment="Left" Margin="550,104,0,0" VerticalAlignment="Top" Foreground="#FFF30C0C" RenderTransformOrigin="0.458,2.077"/>
+                    <Label Content="(*)" HorizontalAlignment="Left" Margin="550,144,0,0" VerticalAlignment="Top" Foreground="#FFF30C0C"/>
+                    <Label Content="(*)" HorizontalAlignment="Left" Margin="550,184,0,0" VerticalAlignment="Top" Foreground="#FFF30C0C"/>
+                    <Label Content="(*) Campos obligatorios" HorizontalAlignment="Left" Margin="299,226,0,0" VerticalAlignment="Top" Foreground="#FFF30C0C" Height="31" RenderTransformOrigin="0.502,-3.129"/>
+                </Grid>
+            </Controls:Flyout>
+            <Controls:Flyout Header="Camareras" Position="Left" Margin="0,-2,-103,19" HorizontalAlignment="Left" Width="714" x:Name="flCamarera" Theme="Light" BorderBrush="Black" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" IsOpenChanged="flCamarera_IsOpenChanged" >
+                
+                <Grid Height="430" Width="653" HorizontalAlignment="Right" Margin="0,0,-38,0">
+                    
+
+                    
+                    <DataGrid x:Name="dtgrdcam"  ItemsSource="{Binding}" AutoGenerateColumns="false" AlternationCount="1" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserAddRows="False" CanUserResizeRows="False" CanUserSortColumns="False" HorizontalScrollBarVisibility="Disabled" HorizontalContentAlignment="Center" Margin="24,104,32,10">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Binding="{Binding Mode=OneWay,Path=cedula}"  CanUserResize="False" IsReadOnly="True" Header="Cédula">
+                                <DataGridTextColumn.CellStyle>
+                                    <Style>
+                                        <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                    </Style>
+                                </DataGridTextColumn.CellStyle>
+                            </DataGridTextColumn>
+                            <DataGridTextColumn Binding="{Binding Mode=OneWay,Path=nombre}"  CanUserResize="False" IsReadOnly="True" Header="Nombre">
+                                <DataGridTextColumn.CellStyle>
+                                    <Style>
+                                        <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                    </Style>
+                                </DataGridTextColumn.CellStyle>
+                            </DataGridTextColumn>
+                            <DataGridTextColumn Binding="{Binding Mode=OneWay,Path=apellido}"  CanUserResize="False" IsReadOnly="True" Header="Apellido">
+                                <DataGridTextColumn.CellStyle>
+                                    <Style>
+                                        <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                                    </Style>
+                                </DataGridTextColumn.CellStyle>
+                            </DataGridTextColumn>
+
+                            
+                            
+                            
+                            
+                        </DataGrid.Columns>
+                    </DataGrid>
+
+                </Grid>
+            </Controls:Flyout>
+            
+
+
+        </Grid>
+
+    </Grid>
+</Page>

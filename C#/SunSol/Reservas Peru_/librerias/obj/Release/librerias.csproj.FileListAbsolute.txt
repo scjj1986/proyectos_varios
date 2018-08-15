@@ -1,0 +1,18 @@
+C:\Users\Ing. Michel Parra\Desktop\Reservas\librerias\bin\Release\librerias.dll
+C:\Users\Ing. Michel Parra\Desktop\Reservas\librerias\bin\Release\librerias.pdb
+C:\Users\Ing. Michel Parra\Desktop\Reservas\librerias\bin\Release\MahApps.Metro.dll
+C:\Users\Ing. Michel Parra\Desktop\Reservas\librerias\bin\Release\System.Windows.Interactivity.dll
+C:\Users\Ing. Michel Parra\Desktop\Reservas\librerias\bin\Release\MahApps.Metro.pdb
+C:\Users\Ing. Michel Parra\Desktop\Reservas\librerias\bin\Release\MahApps.Metro.xml
+C:\Users\Ing. Michel Parra\Desktop\Reservas\librerias\obj\Release\librerias.dll
+C:\Users\Ing. Michel Parra\Desktop\Reservas\librerias\obj\Release\librerias.pdb
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\librerias\bin\Release\librerias.dll
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\librerias\bin\Release\librerias.pdb
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\librerias\bin\Release\MahApps.Metro.dll
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\librerias\bin\Release\System.Windows.Interactivity.dll
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\librerias\bin\Release\MahApps.Metro.pdb
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\librerias\bin\Release\MahApps.Metro.xml
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\librerias\obj\Release\librerias.dll
+C:\Users\josmer.martinez\Documents\Visual Studio 2013\Projects\Reservas\librerias\obj\Release\librerias.pdb
+C:\Users\consultoria\Desktop\Reservaciones\librerias\obj\Release\librerias.dll
+C:\Users\consultoria\Desktop\Reservaciones\librerias\obj\Release\librerias.pdb

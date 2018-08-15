@@ -1,0 +1,8 @@
+D:\Documentos\Documentos S.C.J.J\Aplicaciones\C#\test\test\test\bin\Debug\test.exe.config
+D:\Documentos\Documentos S.C.J.J\Aplicaciones\C#\test\test\test\bin\Debug\test.exe
+D:\Documentos\Documentos S.C.J.J\Aplicaciones\C#\test\test\test\bin\Debug\test.pdb
+D:\Documentos\Documentos S.C.J.J\Aplicaciones\C#\test\test\test\obj\Debug\test.csprojResolveAssemblyReference.cache
+D:\Documentos\Documentos S.C.J.J\Aplicaciones\C#\test\test\test\obj\Debug\test.exe
+D:\Documentos\Documentos S.C.J.J\Aplicaciones\C#\test\test\test\obj\Debug\test.pdb
+D:\Documentos\Documentos S.C.J.J\Aplicaciones\C#\test\test\test\obj\Debug\test.MainForm.resources
+D:\Documentos\Documentos S.C.J.J\Aplicaciones\C#\test\test\test\obj\Debug\test.csproj.GenerateResource.Cache

@@ -1,0 +1,6 @@
+Cedula: 20534219 || Apellido: bougrat || Nombre: carolina || Carrera: enfermeria || Año de Ingreso: 2009
+Cedula: 1633621909 || Apellido: salazar || Nombre: jessica || Carrera: turismo || Año de Ingreso: 2001
+Cedula: 19665248 || Apellido: salas || Nombre: jose || Carrera: ingenieria || Año de Ingreso: 2010
+Cedula: 1784668909 || Apellido: salazar || Nombre: juan || Carrera: informatica || Año de Ingreso: 2005
+Cedula: 14678325 || Apellido: narvaez || Nombre: luis || Carrera: adm || Año de Ingreso: 1999
+Cedula: 10556234 || Apellido: lugo || Nombre: richard || Carrera: baloncesto || Año de Ingreso: 1996

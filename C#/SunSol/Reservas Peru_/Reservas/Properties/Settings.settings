@@ -1,0 +1,46 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Reservas.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ConexionPropia" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=DESKTOP-I6EEKAF\SUNSOLCARSQL03;Initial Catalog=CONTRATOS_RESERVAS;Persist Security Info=True;User ID=sa;Password=15422252&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=DESKTOP-I6EEKAF\SUNSOLCARSQL03;Initial Catalog=CONTRATOS_RESERVAS;Persist Security Info=True;User ID=sa;Password=15422252</Value>
+    </Setting>
+    <Setting Name="ConexionSunsol" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=SUNSOLCARSQL04;Initial Catalog=CONTRATOS;User ID=contratos_reservas;Password=reserv@s2016**&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=SUNSOLCARSQL04;Initial Catalog=CONTRATOS;User ID=contratos_reservas;Password=reserv@s2016**</Value>
+    </Setting>
+    <Setting Name="CONTRATOS_RESERVASConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=sunsolcarsql03;Initial Catalog=CONTRATOS_RESERVAS;User ID=contratos_reservas;Password=c0ntratos2016**&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=sunsolcarsql03;Initial Catalog=CONTRATOS_RESERVAS;User ID=contratos_reservas;Password=c0ntratos2016**</Value>
+    </Setting>
+    <Setting Name="CONTRATOS_PRUConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=SUNSOLCARSQL03;Initial Catalog=CONTRATOS_PRU;User ID=contratos_reservas;Password=c0ntratos2016**&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=SUNSOLCARSQL03;Initial Catalog=CONTRATOS_PRU;User ID=contratos_reservas;Password=c0ntratos2016**</Value>
+    </Setting>
+    <Setting Name="CONTRATOS_PRUEBA_PeruConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=192.168.138.29;Initial Catalog=CONTRATOS_PRUEBA;User ID=contratos2;Password=123456&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=192.168.138.29;Initial Catalog=CONTRATOS_PRUEBA;User ID=contratos2;Password=123456</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

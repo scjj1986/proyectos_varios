@@ -1,0 +1,125 @@
+﻿<Controls:MetroWindow
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"       
+       
+        xmlns:gl="clr-namespace:System.Globalization;assembly=mscorlib"
+        x:Name="frmTraspaso"  x:Class="Reservas.trasladaPagos"
+        Title="trasladaPagos" Height="320" Width="1117" WindowStartupLocation="CenterScreen" Loaded="frmTraspaso_Loaded">
+    <Grid RenderTransformOrigin="0.5,0.721" Margin="0,22,2,0">
+        <GroupBox Grid.Row="0" Header="Retales" Margin="10,-15,10,10">
+            <GroupBox.HeaderTemplate>
+                <DataTemplate>
+                    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="27">
+                        <Label Content="Traslado de pagos" Foreground="White" FontWeight="Bold" FontSize="16" Margin="5,0,0,-11"
+							HorizontalAlignment="Left" VerticalContentAlignment="Stretch"/>
+
+
+                    </Grid>
+
+                </DataTemplate>
+            </GroupBox.HeaderTemplate>
+            <DataGrid x:Name="dtgPagos" Margin="0,0,-2,134" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserResizeRows="False" CanUserSortColumns="False" SelectionMode="Single" MaxColumnWidth="200" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False">
+                <DataGrid.Columns>
+
+                    <DataGridTextColumn Binding="{Binding concepto, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="Concepto">
+                        <DataGridTextColumn.CellStyle>
+                            <Style>
+                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                            </Style>
+                        </DataGridTextColumn.CellStyle>
+
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Binding="{Binding monto, Mode=OneWay, StringFormat='{}{0:#,#.00}',ConverterCulture={x:Static gl:CultureInfo.InstalledUICulture}}"  CanUserResize="False" IsReadOnly="True" Header="Monto bs.">
+                        <DataGridTextColumn.CellStyle>
+                            <Style>
+                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                            </Style>
+                        </DataGridTextColumn.CellStyle>
+
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Binding="{Binding puntosA, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="Puntos">
+                        <DataGridTextColumn.CellStyle>
+                            <Style>
+                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                            </Style>
+                        </DataGridTextColumn.CellStyle>
+
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Binding="{Binding transaccion, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="transacción">
+                        <DataGridTextColumn.CellStyle>
+                            <Style>
+                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                            </Style>
+                        </DataGridTextColumn.CellStyle>
+
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Binding="{Binding documento, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="N° Documento">
+                        <DataGridTextColumn.CellStyle>
+                            <Style>
+                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                            </Style>
+                        </DataGridTextColumn.CellStyle>
+
+                    </DataGridTextColumn>
+
+                    <DataGridTextColumn Binding="{Binding fecha, Mode=OneWay, StringFormat=\{0:dd-MM-yyyy\}}"  CanUserResize="False" IsReadOnly="True" Header="fecha">
+                        <DataGridTextColumn.CellStyle>
+                            <Style>
+                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Center"/>
+                            </Style>
+                        </DataGridTextColumn.CellStyle>
+
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Binding="{Binding tipo, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="tipo">
+                        <DataGridTextColumn.CellStyle>
+                            <Style>
+                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                            </Style>
+                        </DataGridTextColumn.CellStyle>
+
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Binding="{Binding cuenta, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="Banco">
+                        <DataGridTextColumn.CellStyle>
+                            <Style>
+                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                            </Style>
+                        </DataGridTextColumn.CellStyle>
+
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Binding="{Binding hotel, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="hotel">
+                        <DataGridTextColumn.CellStyle>
+                            <Style>
+                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                            </Style>
+                        </DataGridTextColumn.CellStyle>
+
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Binding="{Binding observacion, Mode=OneWay}"  CanUserResize="False" IsReadOnly="True" Header="observación">
+                        <DataGridTextColumn.CellStyle>
+                            <Style>
+                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Left"/>
+                            </Style>
+                        </DataGridTextColumn.CellStyle>
+
+                    </DataGridTextColumn>
+
+                </DataGrid.Columns>
+            </DataGrid>
+        </GroupBox>
+        <TextBox x:Name="txtmonto1" HorizontalAlignment="Left" Height="23" Margin="102,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" KeyDown="txtmonto_KeyDown" KeyUp="txtmonto1_KeyUp"/>
+        <Label Content="Monto Bs.:" HorizontalAlignment="Left" Margin="31,146,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="Reserva Nº:" HorizontalAlignment="Left" Margin="381,146,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <ComboBox x:Name="lstReservas" HorizontalAlignment="Left" Margin="463,146,0,0" VerticalAlignment="Top" Width="354" SelectionChanged="lstReservas_SelectionChanged"/>
+        <Button x:Name="btnTraspasoPago" Content="" HorizontalAlignment="Right" Margin="0,0,73,46" VerticalAlignment="Bottom" Width="32" ToolTip="Trasladar pago" IsEnabled="False" RenderTransformOrigin="-0.734,0.04" Click="btnTraspasoPago_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="icono/next.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <Label Content="Concepto:" HorizontalAlignment="Left" Margin="31,172,0,0" VerticalAlignment="Top" FontWeight="Bold" RenderTransformOrigin="0.515,-0.077"/>
+        <ComboBox x:Name="lstCargos1" HorizontalAlignment="Left" Margin="102,172,0,0" VerticalAlignment="Top" Width="251"/>
+        <TextBox x:Name="txtobservacion" HorizontalAlignment="Left" Height="49" Margin="463,172,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="354"/>
+        <Label Content="Observación:" HorizontalAlignment="Left" Margin="381,172,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+
+    </Grid>
+</Controls:MetroWindow>
